@@ -61,6 +61,26 @@ h2{margin:0;font-weight:800;font-size:60px;line-height:1.1;letter-spacing:-0.3px
 .kick{font-weight:800;font-size:44px;letter-spacing:2px;text-transform:uppercase;color:var(--acc)}
 .me{font-family:'Libre Baskerville',serif;font-style:italic;font-size:40px;color:var(--fg2)}
 .pcta{align-self:flex-start;background:var(--acc);color:#000;font-weight:800;font-size:40px;line-height:1.2;padding:24px 36px;border-radius:14px}
+h1.sm{font-size:60px;line-height:1.12}
+/* Mail-Karten (echte Betrugsmails, anonymisiert) */
+.mails{display:flex;flex-direction:column;gap:22px}
+.mail{border:2px solid var(--line);border-radius:16px;padding:24px 30px;display:flex;flex-direction:column;gap:10px}
+.mfrom{font-weight:700;font-size:24px;line-height:1.3;color:var(--meta)}
+.mfrom b{color:var(--acc);font-weight:700}
+.mtext{font-family:'Libre Baskerville',serif;font-size:30px;line-height:1.42;color:var(--fg)}
+/* Chat-Blasen mit Einordnung */
+.chat{display:flex;flex-direction:column;gap:50px}
+.cblock{display:flex;flex-direction:column;gap:18px}
+.bub{align-self:flex-start;max-width:92%;background:#1C1C1A;border-radius:30px 30px 30px 8px;padding:26px 32px}
+.bfrom{font-weight:700;font-size:22px;color:var(--meta);margin-bottom:10px}
+.btext{font-family:'Libre Baskerville',serif;font-size:34px;line-height:1.42;color:var(--fg)}
+.tag{align-self:flex-start;background:var(--acc);color:#000;font-weight:800;font-size:24px;letter-spacing:2px;text-transform:uppercase;padding:8px 16px;border-radius:8px}
+.tnote{font-family:'Libre Baskerville',serif;font-size:30px;line-height:1.4;color:var(--fg2)}
+/* Nummerierte Liste */
+.list{display:flex;flex-direction:column;gap:24px}
+.li{display:grid;grid-template-columns:52px 1fr;column-gap:20px;align-items:baseline}
+.num{font-weight:800;font-size:52px;line-height:1;color:var(--acc)}
+.lt{font-family:'Libre Baskerville',serif;font-size:30px;line-height:1.38;color:var(--fg)}
 """
 
 def esc(t):
@@ -100,7 +120,7 @@ def s_vs(label, title, left_head, left, right_head, right, cta):
     lrows = ''.join('<div class="row a">%s<div>%s</div></div>' % (ICON_X, t) for t in left)
     rrows = ''.join('<div class="row b">%s<div>%s</div></div>' % (ICON_OK, t) for t in right)
     return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div class="vsw"><h2>%s</h2><div class="cols"><div class="col"><div class="pill a">%s</div>%s</div><div class="vline"></div><div class="col"><div class="pill b">%s</div>%s</div></div></div><div style="display:flex;flex-direction:column;gap:40px"><div class="cta">%s</div>%s</div></section>'
-                         % (label, title, left_head, lrows, right_head, rrows, cta, foot()))
+                         % (label, title, left_head, lrows, right_head, rrows, cta, foot(n, N)))
 
 def s_bingo(label, title, sub, cells, center_idx, cta):
     cs = ''.join('<div class="cell%s">%s</div>' % (' c' if i == center_idx else '', t) for i, t in enumerate(cells))
@@ -114,6 +134,26 @@ def s_question(label, kick, question, me, cta):
 def s_story(label, title, ps, cta):
     return lambda n, N: ('<section class="s story"><div class="hd">%s</div><div class="mid"><h1>%s</h1>%s</div><div class="pcta">%s &#8594;</div></section>'
                          % (label, title, paras(ps), cta))
+
+def s_mail(label, title, mails, src=None):
+    # mails: [(Absenderzeile, Kernsatz)] - Klarnamen und Adressen von Betroffenen nie zeigen
+    ms = ''.join('<div class="mail"><div class="mfrom">%s</div><div class="mtext">%s</div></div>' % (f, t) for f, t in mails)
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:34px"><h2>%s</h2><div class="mails">%s</div>%s</div>%s</section>'
+                         % (label, title, ms, srch, foot(n, N)))
+
+def s_chat(label, title, blocks, sender='Support'):
+    # blocks: [(Zitat des Betruegers, Schlagwort, Einordnung)]
+    bs = ''.join('<div class="cblock"><div class="bub"><div class="bfrom">%s</div><div class="btext">%s</div></div><div class="tag">%s</div><div class="tnote">%s</div></div>'
+                 % (sender, q, tg, nt) for q, tg, nt in blocks)
+    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:40px"><h2>%s</h2><div class="chat">%s</div></div>%s</section>'
+                         % (label, title, bs, foot(n, N)))
+
+def s_list(label, title, items, cta, sub=None):
+    li = ''.join('<div class="li"><div class="num">%d</div><div class="lt">%s</div></div>' % (i, t) for i, t in enumerate(items, 1))
+    subh = '<p class="sub">%s</p>' % sub if sub else ''
+    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:34px"><h2>%s</h2>%s<div class="list">%s</div></div><div style="display:flex;flex-direction:column;gap:36px"><div class="cta">%s</div>%s</div></section>'
+                         % (label, title, subh, li, cta, foot(n, N)))
 
 # ---------------- Pruefungen ----------------
 _B = 'WyJhYmVyIiwgImplZG9jaCIsICJub2NoIiwgIm5pY2h0IiwgImFsbGVyZGluZyIsICJkYW5lYmVuIiwgInZvcnd1cmYiLCAiZWhybGljaCIsICJkaXJla3QiLCAia2xhciIsICJmZWluanVzdCIsICJmZWluc2NobGlmZiIsICJkZW5rZmVobGVyIiwgImZlaGxlciIsICJwcm9ibGVtIiwgImxlcm4iLCAibGVpZGVyIiwgInRoZXJhcGkiLCAicHJvZmVzc2lvbmVsbGUgaGlsZmUiLCAia2FsaWJyIiwgInByw6R6aXMiLCAiamFqYSIsICJvZmZlbiBnZXNhZ3QiLCAidGlwcCIsICJleHBlcnRlIiwgImV4cGVydGluIiwgInByb2ZpIiwgImNvYWNoIiwgIm1lbnRvciJd'
@@ -170,7 +210,7 @@ def build(name, slides, w=1080, h=1350):
     N = len(slides)
     for i, sl in enumerate(slides, 1):
         sec = sl(i if N > 1 else None, N if N > 1 else None)
-        sec = re.sub(r'(\d) (\$|%|Wörter|Bitcoin|Tage|Schritte|Fehlgriffe)', lambda m: m.group(1) + '&nbsp;' + m.group(2), sec)
+        sec = re.sub(r'(\d) (\$|%|€|BTC|Uhr|Wörter|Bitcoin|Tage|Schritte|Fehlgriffe|Teilnehmer|Wallets)', lambda m: m.group(1) + '&nbsp;' + m.group(2), sec)
         check_text('%s Bild %d' % (name, i), sec)
         hp = os.path.join(d, '%s-%02d.html' % (name, i))
         open(hp, 'w', encoding='utf-8').write(page(sec, w, h))
