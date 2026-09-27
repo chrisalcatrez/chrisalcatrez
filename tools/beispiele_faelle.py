@@ -61,7 +61,7 @@ POSTS['beitrag-10'] = dict(
           'Drei Sätze, bei denen du auflegst. Schick das jemandem, der gerade mit Trading anfängt'],
     caption='''Auf dem Bildschirm standen 83.000 €. Ausgezahlt wurden 5 €.
 
-Ein echter Fall aus meiner Community. Den Namen habe ich geändert.
+Echter Fall aus meiner Community, Name geändert.
 
 Es fing mit einer Werbung auf Instagram an: gute Gewinne, ein Nebeneinkommen. Peter trug Name und Nummer ein. Kurz darauf rief eine freundliche Frau an. Für gut 250 € wurde sein Handelskonto „aktiviert“.
 
@@ -71,7 +71,7 @@ Für ein Sechs-Monats-Angebot fehlten ihm 10.000 €. Laura bot an, die Hälfte 
 
 Auszahlen ging nie. Stattdessen landete Geld von fremden Leuten auf seinem Girokonto, und er sollte es über eine Krypto-Börse an ein angebliches Sicherheitskonto weiterschicken. Vor jeder Überweisung kam ein Videoanruf, sein Bildschirm war geteilt. Drei seiner Girokonten wurden geschlossen.
 
-Zum Schluss meldeten sich ein angeblicher Vorgesetzter und die „Europäische Zentralbank“, mit Frist, Aktenzeichen und Geldwäsche-Paragrafen. Die echte EZB kontaktiert Bürgerinnen und Bürger nie, um Entschädigungen anzubieten oder persönliche Finanzdaten anzufordern (Quelle: Europäische Zentralbank).
+Zum Schluss meldeten sich ein angeblicher Vorgesetzter und die „Europäische Zentralbank“, mit Frist, Aktenzeichen und Geldwäsche-Paragrafen. Die echte EZB kontaktiert Bürger nie, um persönliche Finanzdaten anzufordern (Quelle: EZB).
 
 Bilanz laut seiner Anzeige: rund 62.000 € Schaden, Forderungen aus zurückgebuchten Zahlungen eingeschlossen. Die Polizei warnt: Wer fremdes Geld über sein Konto weiterleitet, riskiert ein Verfahren wegen Geldwäsche, die Kündigung seines Kontos und bleibt auf Rückbuchungen sitzen (Quelle: Polizeiliche Kriminalprävention, „Finanzagenten“).
 
