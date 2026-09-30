@@ -1,4 +1,4 @@
-# Erste Woche Pinterest (01.10.–07.10.2026), ein Pin pro Tag. Zeiten Europe/Berlin.
+# Erste Pins fuer Pinterest (ab 01.10.2026), ein Pin pro Tag. Zeiten Europe/Berlin.
 # Jeder Eintrag: d, t, board (exakter Name der Pinnwand), f (Format), titel (Pin-Titel, Keyword zuerst, bis 100 Zeichen),
 # text (Beschreibung, bis 500 Zeichen), alt (Alt-Text), bild (Dateiname unter pinterest/), build (Bildfunktion).
 # Bilder rendern: python3 tools/beispiele_pinterest.py  (OUT und NM als Umgebungsvariablen, siehe gen.py)
@@ -9,11 +9,17 @@ from pin_gen import *
 LINK = 'https://chrisalcatrez.de'
 IMG = 'https://raw.githubusercontent.com/chrisalcatrez/chrisalcatrez/main/pinterest/%s.png'
 
-# Pinnwände (exakte Namen; Beschreibungen in themen-pinterest.md)
+def pin_link(bild):
+    # Ziel jedes Pins: das kostenlose Training; UTM-Parameter, damit Pinterest-Klicks in der Auswertung erkennbar sind
+    return '%s/?utm_source=pinterest&utm_medium=pin&utm_content=%s' % (LINK, bild)
+
+# Pinnwände (exakte Namen; Beschreibungen in themen-pinterest.md). ALIASE: frühere Namensvorschläge, die der Nutzer
+# ebenfalls angelegt haben kann; beim Einplanen zuerst den Hauptnamen, dann die Aliase probieren.
 B_ANF = 'Krypto für Anfänger'
 B_BET = 'Krypto-Betrug erkennen'
-B_SIC = 'Bitcoin Wallet und Sicherheit'
-B_INF = 'Inflation und Geldentwertung'
+B_SIC = 'Bitcoin sicher aufbewahren'
+B_INF = 'Geld anlegen und Inflation'
+ALIASE = {B_SIC: ['Bitcoin Wallet und Sicherheit'], B_INF: ['Geld vor Inflation schützen', 'Inflation und Geldentwertung']}
 
 PINS = [
  dict(d='2026-10-01', t='20:17', board=B_BET, f='Checkliste', bild='p-1',
@@ -95,6 +101,27 @@ PINS = [
            'Sparplan statt Timing: feste Summe, fester Tag.',
            'Kleine Beträge, bis du verstehst, was du kaufst.'],
           cta='Kostenloses Training', size='sm')])),
+
+ dict(d='2026-10-08', t='20:26', board=B_ANF, f='Aussage mit Foto (Damals–Heute)', bild='p-8',
+      titel='Krypto für Anfänger: Was ich nach 70.000 $ Verlust anders mache (4 Schritte)',
+      text="""Krypto für Anfänger, erzählt von jemandem, der am Anfang alles falsch gemacht hat: gefälschte Wallet-App, Gebühr vor der Auszahlung, Panikverkauf. 70.000 $ Lehrgeld. Heute lebe ich in Venezuela, zahle digital mit Krypto und arbeite mit einem einfachen System aus vier Schritten. Ein fünfstelliger Gewinn im Jahr, meine Zahl, kein Versprechen für dich. Die 3 Fehlgriffe, an denen Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link. #KryptoFürAnfänger #Bitcoin #Krypto""",
+      alt='Chris Alcatrez im blauen Hemd, darüber die Aussage: 70.000 $ verloren, heute ein System mit vier Schritten.',
+      build=lambda: build_pin('p-8', [pin_photo('Krypto aus dem echten Leben · Venezuela',
+          '70.000 $ verloren. Heute ein System mit vier Schritten.',
+          sub='Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.',
+          cta='Kostenloses Training', size='')])),
+
+ dict(d='2026-10-09', t='11:37', board=B_BET, f='Checkliste (Akzent)', bild='p-9',
+      titel='Krypto-Betrug erkennen: 4 Sätze, nach denen ich jedes Gespräch sofort beende',
+      text="""Krypto-Betrug erkennen, bevor Geld fließt: Vier Sätze tauchen in fast jeder Masche auf, im Chat, am Telefon, per Mail. Jeden davon hab ich früher geglaubt. Die Gebühr vor der Auszahlung hab ich bezahlt, die Auszahlung kam nie. Am Telefon wollte mal einer meine 12 Wörter, ich hab ihm ausgedachte gegeben. Die vier Sätze stehen im Pin. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link. #Krypto #Betrug #Bitcoin""",
+      alt='Checkliste auf gelbem Grund: vier Sätze von Betrügern, nach denen Chris Alcatrez jedes Krypto-Gespräch beendet.',
+      build=lambda: build_pin('p-9', [pin_list('Krypto-Betrug erkennen',
+          '4 Sätze, nach denen ich jedes Gespräch beende',
+          ['<b>„Vor der Auszahlung fällt eine kleine Gebühr an.“</b> Echte Börsen ziehen Gebühren vom Guthaben ab.',
+           '<b>„Ich brauche kurz Ihre 12 Wörter zum Synchronisieren.“</b> Die Wörter sind das Geld. Niemand braucht sie außer dir.',
+           '<b>„Wir holen Ihr Geld zurück, gegen Vorkasse.“</b> Kommt nach dem ersten Verlust, als Kanzlei oder Behörde verkleidet.',
+           '<b>„Garantierte Rendite, jeden Monat.“</b> Feste Rendite heißt, jemand hat einen Plan mit deinem Geld.'],
+          sub='Jeder davon hat mich früher Geld gekostet. Heute ist das Gespräch danach vorbei.', dense=True, theme='acc')])),
 ]
 
 if __name__ == '__main__':
