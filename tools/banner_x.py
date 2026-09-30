@@ -10,14 +10,14 @@ import gen
 
 W, H = 1500, 500
 P = dict(S=0.92, head_top_o=93, chin_o=320, head_cx_o=410,     # Anker im Original (Anzug-Foto 880x1184)
-         head_top_c=38, head_cx_c=1280,                            # Anker auf der Leinwand
+         head_top_c=38, head_cx_c=1320,                            # Anker auf der Leinwand
          fade_b0=380, fade_b1=500,                                 # Verlauf nach unten
-         fade_l0=1000, fade_l1=1130,                                # Verlauf nach links (Textbereich)
+         fade_l0=1040, fade_l1=1170,                                # Verlauf nach links (Textbereich)
          glow=0.16, glow_r=330, contrast=1.08, sharpen=0.25, grain=0.012, denoise=3, burn=0.18,
-         kick='Krypto aus dem echten Leben', brand='Chris Alcatrez',
-         proof='<b>70.000&nbsp;$</b> Lehrgeld <i>·</i> <b>250+</b> Kunden <i>·</i> Alltag in Venezuela',
+         kick='Krypto aus dem echten Leben · Venezuela', brand='Chris Alcatrez',
+         proof='<b>70.000&nbsp;$</b> Lehrgeld <i>·</i> <b>Fünfstelliger</b> Jahresgewinn',
          cta='Kostenloses Krypto-Training: Link im Profil',
-         text_left=430, text_top=96, text_w=560, h1_size=76)
+         text_left=430, text_top=90, text_w=620, h1_size=76, kick_size=24, kick_ls=4, proof_size=26, cta_size=24)
 
 def smooth(a, b, x):
     t = np.clip((x - a) / (b - a), 0, 1)
@@ -70,21 +70,21 @@ def seite(bg):
 :root{--fg:#F5F5F0;--fg2:#C9C9C2;--meta:#9C9C96;--acc:#ffab00}
 .s{position:relative;width:1500px;height:500px;overflow:hidden;background:#000 url('file://%s') no-repeat 0 0/1500px 500px;font-family:'Montserrat',sans-serif;color:var(--fg)}
 .col{position:absolute;left:%dpx;top:%dpx;width:%dpx;display:flex;flex-direction:column;gap:22px}
-.kick{font-weight:700;font-size:22px;line-height:1;letter-spacing:5px;text-transform:uppercase;color:var(--acc)}
+.kick{font-weight:700;font-size:%dpx;line-height:1;letter-spacing:%dpx;text-transform:uppercase;color:var(--acc);white-space:nowrap}
 h1{margin:0;font-weight:900;font-size:%dpx;line-height:0.98;letter-spacing:-2px;text-transform:uppercase;white-space:nowrap}
 h1 span{color:var(--acc)}
-.proof{font-weight:600;font-size:23px;line-height:1.3;letter-spacing:0.3px;color:var(--fg2);white-space:nowrap}
+.proof{font-weight:600;font-size:%dpx;line-height:1.3;letter-spacing:0.3px;color:var(--fg2);white-space:nowrap}
 .proof b{font-weight:800;color:var(--fg)}
 .proof i{font-style:normal;color:var(--acc);padding:0 4px}
-.cta{display:flex;align-items:center;gap:14px;margin-top:6px;font-family:'Libre Baskerville',serif;font-style:italic;font-size:22px;color:var(--meta);white-space:nowrap}
-.cta:before{content:'';display:block;width:34px;height:2px;background:var(--acc)}
+.cta{display:flex;align-items:center;gap:14px;margin-top:6px;font-family:'Libre Baskerville',serif;font-style:italic;font-size:%dpx;color:var(--meta);white-space:nowrap}
+.cta:before{content:'';display:block;flex:0 0 34px;height:2px;background:var(--acc)}
 </style></head><body><section class="s"><div class="col"><div class="kick">%s</div><h1>%s<span>.</span></h1><div class="proof">%s</div><div class="cta">%s</div></div></section></body></html>""" % (
-        fonts, bg, P['text_left'], P['text_top'], P['text_w'], P['h1_size'], P['kick'], P['brand'], P['proof'], P['cta'])
+        fonts, bg, P['text_left'], P['text_top'], P['text_w'], P['kick_size'], P['kick_ls'], P['h1_size'], P['proof_size'], P['cta_size'], P['kick'], P['brand'], P['proof'], P['cta'])
 
 JS = r"""const {chromium}=require('%s/playwright');
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});const p=await b.newPage({viewport:{width:1500,height:500}});
 await p.goto('file://'+process.argv[2]);await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(150);
-const r=await p.evaluate(()=>{const box=s=>{const e=document.querySelector(s);if(!e)return null;const q=e.getBoundingClientRect();return [Math.round(q.left),Math.round(q.top),Math.round(q.right),Math.round(q.bottom)]};
+const r=await p.evaluate(()=>{const box=s=>{const e=document.querySelector(s);if(!e)return null;const q=e.getBoundingClientRect();return [Math.round(q.left),Math.round(q.top),Math.round(q.left+e.scrollWidth),Math.round(q.bottom)]};
  return {fonts:document.fonts.check('900 76px Montserrat')&&document.fonts.check('italic 23px "Libre Baskerville"'),kick:box('.kick'),h1:box('h1'),proof:box('.proof'),cta:box('.cta'),col:box('.col')}});
 console.log(JSON.stringify(r));
 await p.screenshot({path:process.argv[3]});await b.close()})();"""
