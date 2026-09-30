@@ -3,6 +3,7 @@
 Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Pin: Nummer | Datum Uhrzeit | Pinnwand | Format | Titel | Bild | Status (offen = in Metricool anzulegen, eingeplant = angelegt). Jeder Pin verlinkt auf https://chrisalcatrez.de (mit UTM-Parametern, siehe pin_link() in tools/beispiele_pinterest.py).
 
 ## Pinnwände (exakte Namen, Beschreibungen zum Kopieren)
+Vorhanden seit 30.09.2026: „Krypto“ (Pinterest-ID 1101693196287264156). Solange eine der vier Themen-Pinnwände unten fehlt, landen ihre Pins auf „Krypto“.
 - Krypto für Anfänger | Bitcoin und Kryptowährungen einfach erklärt: der erste Kauf, Sparplan statt Timing, wie viel Geld am Anfang, Börse oder eigene Wallet. Von Chris Alcatrez, der mit 70.000 $ Lehrgeld angefangen hat und heute mit einem einfachen System dabei ist.
 - Krypto-Betrug erkennen | Gefälschte Wallet-Apps, Gebühr vor der Auszahlung, falscher Support, feste Renditen, Cloud-Mining: die Maschen, an denen Krypto-Anfänger ihr Geld verlieren. Erklärt an echten Fällen, damit du sie beim ersten Satz erkennst.
 - Bitcoin sicher aufbewahren | Wallet, Seed-Phrase (die 12 Wörter), Hardware-Wallet, Börse gegen eigene Wallet: so bleibt dein Bitcoin bei dir. Aus eigener Erfahrung nach einer gefälschten Wallet-App. (Alias, falls so angelegt: Bitcoin Wallet und Sicherheit)

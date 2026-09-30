@@ -1,6 +1,6 @@
 # Erste Pins fuer Pinterest (ab 01.10.2026), ein Pin pro Tag. Zeiten Europe/Berlin.
 # Jeder Eintrag: d, t, board (exakter Name der Pinnwand), f (Format), titel (Pin-Titel, Keyword zuerst, bis 100 Zeichen),
-# text (Beschreibung, bis 500 Zeichen), alt (Alt-Text), bild (Dateiname unter pinterest/), build (Bildfunktion).
+# text (Beschreibung, bis 500 Zeichen, ohne Hashtags: Pinterest ordnet über Suchbegriffe ein), alt (Alt-Text), bild (Dateiname unter pinterest/), build (Bildfunktion).
 # Bilder rendern: python3 tools/beispiele_pinterest.py  (OUT und NM als Umgebungsvariablen, siehe gen.py)
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
@@ -20,11 +20,15 @@ B_BET = 'Krypto-Betrug erkennen'
 B_SIC = 'Bitcoin sicher aufbewahren'
 B_INF = 'Geld anlegen und Inflation'
 ALIASE = {B_SIC: ['Bitcoin Wallet und Sicherheit'], B_INF: ['Geld vor Inflation schützen', 'Inflation und Geldentwertung']}
+# Vorhandene Pinnwand (30.09.2026): 'Krypto', Pinterest-ID 1101693196287264156. Fehlt die Themen-Pinnwand eines Pins
+# in Pinterest (Metricool: 'could not be resolved'), wird der Pin auf diese Pinnwand gelegt.
+B_FALLBACK = 'Krypto'
+B_FALLBACK_ID = '1101693196287264156'
 
 PINS = [
  dict(d='2026-10-01', t='20:17', board=B_BET, f='Checkliste', bild='p-1',
       titel='Krypto-Betrug erkennen: 5 Zeichen, dass eine Wallet-App gefälscht ist',
-      text="""Gefälschte Krypto-Apps sehen aus wie das Original: gleiches Logo, gleicher Name, gute Bewertungen. Mich hat so eine Wallet-App 70.000 $ gekostet. Diese 5 Zeichen prüfe ich seitdem vor jedem Download, in einer Minute. Bitcoin und Krypto für Anfänger, ohne Fachchinesisch, aus eigener Erfahrung. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training (Link). #Krypto #Bitcoin #Betrug""",
+      text="""Gefälschte Krypto-Apps sehen aus wie das Original: gleiches Logo, gleicher Name, gute Bewertungen. Mich hat so eine Wallet-App 70.000 $ gekostet. Diese 5 Zeichen prüfe ich seitdem vor jedem Download, in einer Minute. Bitcoin und Krypto für Anfänger, ohne Fachchinesisch, aus eigener Erfahrung. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training (Link).""",
       alt='Checkliste auf schwarzem Grund: fünf Zeichen, an denen man eine gefälschte Krypto-Wallet-App erkennt.',
       build=lambda: build_pin('p-1', [pin_list('Krypto-Betrug erkennen',
           '5 Zeichen, dass eine Krypto-App gefälscht ist',
@@ -37,7 +41,7 @@ PINS = [
 
  dict(d='2026-10-02', t='20:41', board=B_ANF, f='Mythos', bild='p-2',
       titel='Krypto ist doch alles Betrug? Mythos und Wirklichkeit nach 70.000 $ Verlust',
-      text="""Krypto ist alles Betrug, den Satz hab ich früher selbst gesagt, nachdem mich zwei Betrüger erwischt hatten. Heute unterscheide ich: Betrogen haben mich Menschen mit gefälschten Apps, erfundenen Gebühren und falschem Support. Bitcoin selbst hat keinen Chef, der dich anruft. Was Anfänger schützt, ist ein einfaches System und Geduld. Krypto verständlich erklärt aus eigener Erfahrung, das kostenlose Training findest du über den Link. #Kryptowährung #Bitcoin #KryptoFürAnfänger""",
+      text="""Krypto ist alles Betrug, den Satz hab ich früher selbst gesagt, nachdem mich zwei Betrüger erwischt hatten. Heute unterscheide ich: Betrogen haben mich Menschen mit gefälschten Apps, erfundenen Gebühren und falschem Support. Bitcoin selbst hat keinen Chef, der dich anruft. Was Anfänger schützt, ist ein einfaches System und Geduld. Krypto verständlich erklärt aus eigener Erfahrung, das kostenlose Training findest du über den Link.""",
       alt='Gegenüberstellung: oben der Mythos, Krypto sei alles Betrug, unten, was Chris Alcatrez erlebt hat.',
       build=lambda: build_pin('p-2', [pin_vs('Mythos oder Wirklichkeit',
           '„Krypto ist doch alles Betrug.“',
@@ -48,7 +52,7 @@ PINS = [
 
  dict(d='2026-10-03', t='21:05', board=B_SIC, f='Begriff erklärt', bild='p-3',
       titel='Seed-Phrase erklärt: die 12 Wörter, die dein Bitcoin-Geld sind',
-      text="""Seed-Phrase einfach erklärt: 12 oder 24 Wörter stellen deine Krypto-Wallet wieder her. Wer sie kennt, kann alles abräumen, ohne Passwort. Am Telefon wollte mal ein angeblicher Support meine 12 Wörter zum „Synchronisieren“. Ich hab ihm zwölf ausgedachte gegeben, er ist ausgerastet. Drei Regeln, mit denen die Wörter bei dir bleiben, stehen im Pin. Bitcoin-Sicherheit für Anfänger aus eigener Erfahrung, kostenloses Training über den Link. #Bitcoin #Wallet #Krypto""",
+      text="""Seed-Phrase einfach erklärt: 12 oder 24 Wörter stellen deine Krypto-Wallet wieder her. Wer sie kennt, kann alles abräumen, ohne Passwort. Am Telefon wollte mal ein angeblicher Support meine 12 Wörter zum „Synchronisieren“. Ich hab ihm zwölf ausgedachte gegeben, er ist ausgerastet. Drei Regeln, mit denen die Wörter bei dir bleiben, stehen im Pin. Bitcoin-Sicherheit für Anfänger aus eigener Erfahrung, kostenloses Training über den Link.""",
       alt='Begriff erklärt: Seed-Phrase, die 12 Wörter einer Wallet, mit drei Regeln zum sicheren Aufbewahren.',
       build=lambda: build_pin('p-3', [pin_term('Begriff erklärt', 'Seed-Phrase',
           '12 oder 24 Wörter, die deine Wallet wiederherstellen. Wer sie hat, hat dein Geld. Ohne Passwort, ohne Nachfrage.',
@@ -58,7 +62,7 @@ PINS = [
 
  dict(d='2026-10-04', t='11:23', board=B_ANF, f='Schritte (System-Teaser)', bild='p-4',
       titel='Bitcoin für Anfänger: Wie ich heute mit 100 € starten würde (4 Schritte)',
-      text="""Bitcoin für Anfänger, ohne 10.000 € und ohne Fachchinesisch. Ich hab am Anfang 70.000 $ verloren, weil ich schnell sein wollte. Heute würde ich mit 100 € anfangen, bei einer Börse mit Sitz in der EU, mit einer Wallet von der Website des Anbieters und ohne Chats mit Fremden über mein Geld. Die vier Schritte stehen im Pin, das System dahinter zeige ich im kostenlosen Training über den Link. #Bitcoin #KryptoFürAnfänger #Sparplan""",
+      text="""Bitcoin für Anfänger, ohne 10.000 € und ohne Fachchinesisch. Ich hab am Anfang 70.000 $ verloren, weil ich schnell sein wollte. Heute würde ich mit 100 € anfangen, bei einer Börse mit Sitz in der EU, mit einer Wallet von der Website des Anbieters und ohne Chats mit Fremden über mein Geld. Die vier Schritte stehen im Pin, das System dahinter zeige ich im kostenlosen Training über den Link.""",
       alt='Vier nummerierte Schritte, wie Chris Alcatrez heute mit 100 Euro in Krypto starten würde.',
       build=lambda: build_pin('p-4', [pin_steps('Wenn ich heute bei null anfangen würde',
           'Mit 100 € in Krypto starten. Vier Schritte.',
@@ -70,7 +74,7 @@ PINS = [
 
  dict(d='2026-10-05', t='10:48', board=B_BET, f='Chat nachgestellt', bild='p-5',
       titel='Netzwerkgebühr vor der Auszahlung? So erkennst du den Krypto-Betrug im Chat',
-      text="""Krypto-Betrug im Chat erkennen: Ein angeblicher Support meldet eine Auszahlung, vorher soll eine „Netzwerkgebühr“ bezahlt werden. Bei mir kam die Nachricht damals über Instagram. Ich hab gezahlt, die Auszahlung kam nie. Eine echte Börse zieht Gebühren vom Guthaben ab, Vorkasse für die eigene Auszahlung verlangen nur Betrüger. Der Chat im Pin ist nachgestellt, meine Antwort darauf heute auch. Kostenloses Training über den Link. #Krypto #Betrug #Bitcoin""",
+      text="""Krypto-Betrug im Chat erkennen: Ein angeblicher Support meldet eine Auszahlung, vorher soll eine „Netzwerkgebühr“ bezahlt werden. Bei mir kam die Nachricht damals über Instagram. Ich hab gezahlt, die Auszahlung kam nie. Eine echte Börse zieht Gebühren vom Guthaben ab, Vorkasse für die eigene Auszahlung verlangen nur Betrüger. Der Chat im Pin ist nachgestellt, meine Antwort darauf heute auch. Kostenloses Training über den Link.""",
       alt='Nachgestellter Chat mit einem falschen Support, der vor der Auszahlung eine Netzwerkgebühr verlangt.',
       build=lambda: build_pin('p-5', [pin_chat('Betrugsmasche · Netzwerkgebühr',
           'Eine Auszahlung, für die du vorher zahlen sollst, gibt es nie.',
@@ -81,7 +85,7 @@ PINS = [
 
  dict(d='2026-10-06', t='20:33', board=B_INF, f='Venezuela-Beobachtung', bild='p-6',
       titel='Inflation verstehen: Was Venezuela mir über Erspartes zeigt',
-      text="""Inflation und Geldentwertung sind in Venezuela kein Schulbuchthema, sie stehen an jeder Kasse. Preise in Dollar, Krypto im Alltag, digital bezahlt. Ich lebe hier freiwillig und sehe jeden Tag, was mit Erspartem passiert, das nur auf dem Konto liegt. Genau deshalb bin ich bei Krypto gelandet, erst mit Verlusten, dann mit einem einfachen System. Wie ich heute Erspartes und Krypto zusammendenke, zeige ich im kostenlosen Training über den Link. #Inflation #Geldentwertung #Bitcoin""",
+      text="""Inflation und Geldentwertung sind in Venezuela kein Schulbuchthema, sie stehen an jeder Kasse. Preise in Dollar, Krypto im Alltag, digital bezahlt. Ich lebe hier freiwillig und sehe jeden Tag, was mit Erspartem passiert, das nur auf dem Konto liegt. Genau deshalb bin ich bei Krypto gelandet, erst mit Verlusten, dann mit einem einfachen System. Wie ich heute Erspartes und Krypto zusammendenke, zeige ich im kostenlosen Training über den Link.""",
       alt='Drei Beobachtungen aus Venezuela über Inflation, Erspartes und Krypto im Alltag.',
       build=lambda: build_pin('p-6', [pin_list('Ich lebe in Venezuela',
           '3 Dinge, die mir Venezuela über Erspartes zeigt',
@@ -92,11 +96,11 @@ PINS = [
 
  dict(d='2026-10-07', t='20:12', board=B_ANF, f='FAQ', bild='p-7',
       titel='Zu spät für Bitcoin? Was ich Anfängern 2026 antworte',
-      text="""Ist es zu spät für Bitcoin? Die Frage stellen mir Anfänger am häufigsten. Ich hab sie mir 2024 selbst gestellt und Ende 2024 in Panik alles verkauft. Zu spät war ich nie, zu hastig schon. Was ich heute anders mache: Sparplan statt Timing, kleine Beträge, bis ich verstehe, was ich kaufe. Keine Kursprognose, keine Gewinnzusage, nur meine Erfahrung. Das System mit vier Schritten zeige ich im kostenlosen Training über den Link. #Bitcoin #KryptoAnfänger #Sparplan""",
+      text="""Ist es zu spät für Bitcoin? Die Frage stellen mir Anfänger am häufigsten. Ich hab sie mir selbst gestellt. Ende 2024 hab ich dann in Panik alles verkauft. Zu spät war ich nie, zu hastig schon. Was ich heute anders mache: Sparplan statt Timing, kleine Beträge, bis ich verstehe, was ich kaufe. Keine Kursprognose, keine Gewinnzusage, nur meine Erfahrung. Das System mit vier Schritten zeige ich im kostenlosen Training über den Link.""",
       alt='Frage und Antwort: Ist es 2026 zu spät für Bitcoin? Drei Punkte aus der Erfahrung von Chris Alcatrez.',
       build=lambda: build_pin('p-7', [pin_faq('Die häufigste Anfängerfrage',
           'Ist es 2026 zu spät für Bitcoin?',
-          'Die Frage hab ich mir 2024 gestellt. Ende 2024 hab ich dann alles in Panik verkauft. Zu spät war ich nie. Zu hastig, ja.',
+          'Die Frage hab ich mir selbst gestellt. Ende 2024 hab ich alles in Panik verkauft. Zu spät war ich nie, zu hastig schon.',
           ['Zu spät gibt es nur für Leute, die den perfekten Einstieg suchen.',
            'Sparplan statt Timing: feste Summe, fester Tag.',
            'Kleine Beträge, bis du verstehst, was du kaufst.'],
@@ -104,7 +108,7 @@ PINS = [
 
  dict(d='2026-10-08', t='20:26', board=B_ANF, f='Aussage mit Foto (Damals–Heute)', bild='p-8',
       titel='Krypto für Anfänger: Was ich nach 70.000 $ Verlust anders mache (4 Schritte)',
-      text="""Krypto für Anfänger, erzählt von jemandem, der am Anfang alles falsch gemacht hat: gefälschte Wallet-App, Gebühr vor der Auszahlung, Panikverkauf. 70.000 $ Lehrgeld. Heute lebe ich in Venezuela, zahle digital mit Krypto und arbeite mit einem einfachen System aus vier Schritten. Ein fünfstelliger Gewinn im Jahr, meine Zahl, kein Versprechen für dich. Die 3 Fehlgriffe, an denen Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link. #KryptoFürAnfänger #Bitcoin #Krypto""",
+      text="""Krypto für Anfänger, erzählt von jemandem, der am Anfang alles falsch gemacht hat: gefälschte Wallet-App, Gebühr vor der Auszahlung, Panikverkauf. 70.000 $ Lehrgeld. Heute lebe ich in Venezuela, zahle digital mit Krypto und arbeite mit einem einfachen System aus vier Schritten. Ein fünfstelliger Gewinn im Jahr, meine Zahl, kein Versprechen für dich. Die 3 Fehlgriffe, an denen Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
       alt='Chris Alcatrez im blauen Hemd, darüber die Aussage: 70.000 $ verloren, heute ein System mit vier Schritten.',
       build=lambda: build_pin('p-8', [pin_photo('Krypto aus dem echten Leben · Venezuela',
           '70.000 $ verloren. Heute ein System mit vier Schritten.',
@@ -113,7 +117,7 @@ PINS = [
 
  dict(d='2026-10-09', t='11:37', board=B_BET, f='Checkliste (Akzent)', bild='p-9',
       titel='Krypto-Betrug erkennen: 4 Sätze, nach denen ich jedes Gespräch sofort beende',
-      text="""Krypto-Betrug erkennen, bevor Geld fließt: Vier Sätze tauchen in fast jeder Masche auf, im Chat, am Telefon, per Mail. Jeden davon hab ich früher geglaubt. Die Gebühr vor der Auszahlung hab ich bezahlt, die Auszahlung kam nie. Am Telefon wollte mal einer meine 12 Wörter, ich hab ihm ausgedachte gegeben. Die vier Sätze stehen im Pin. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link. #Krypto #Betrug #Bitcoin""",
+      text="""Krypto-Betrug erkennen, bevor Geld fließt: Vier Sätze tauchen in fast jeder Masche auf, im Chat, am Telefon, per Mail. Jeden davon hab ich früher geglaubt. Die Gebühr vor der Auszahlung hab ich bezahlt, die Auszahlung kam nie. Am Telefon wollte mal einer meine 12 Wörter, ich hab ihm ausgedachte gegeben. Die vier Sätze stehen im Pin. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
       alt='Checkliste auf gelbem Grund: vier Sätze von Betrügern, nach denen Chris Alcatrez jedes Krypto-Gespräch beendet.',
       build=lambda: build_pin('p-9', [pin_list('Krypto-Betrug erkennen',
           '4 Sätze, nach denen ich jedes Gespräch beende',
