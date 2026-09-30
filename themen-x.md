@@ -1,0 +1,14 @@
+# Veröffentlichte Tweets (X)
+
+Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Tweet: Nummer | Datum | Format | Thema | Bild (falls vorhanden).
+
+- 1 | 01.10.2026 08:12 | Statement | Gefälschte Wallet-App, 70.000 $ | 
+- 2 | 01.10.2026 18:41 | Frage an die Zielgruppe | Hand aufs Herz: Geld an Internet-Bekanntschaft geschickt? | 
+- 3 | 02.10.2026 08:07 | Thread (Aufzählung) | Drei Sätze, nach denen ich jedes Gespräch beende (Gebühr, 12 Wörter, Rückhol-Betrug) | 
+- 4 | 02.10.2026 18:52 | Meme (Bild) | Übersetzungshilfe: Netzwerkgebühr | x/x-04.png
+- 5 | 03.10.2026 09:33 | Geschichte | Ich lebe in Venezuela. Freiwillig. (Geldentwertung) | 
+- 6 | 03.10.2026 18:46 | Nischenmythos (Bild) | Mythos: Krypto ist alles Betrug | x/x-06.png
+- 7 | 04.10.2026 09:28 | Aufzählung | 5 Dinge vor dem ersten Bitcoin | 
+- 8 | 04.10.2026 18:49 | Schritt-für-Schritt (Teaser) | Wenn ich heute bei null anfangen würde (System-Teaser) | 
+- 9 | 05.10.2026 08:09 | Chat (Bild) | Nachgestellter Chat: Netzwerkgebühr | x/x-09.png
+- 10 | 05.10.2026 18:44 | Erfolgsgeschichte | Damals–Heute: von 70.000 $ Verlust zum System | 
