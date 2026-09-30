@@ -78,7 +78,7 @@ Bitcoin selbst hat keinen Chef, der dich anruft."""),
 
 100 € statt 10.000 €.
 Eine Börse mit Sitz in der EU.
-Die Wallet-App nur von der Website des Anbieters.
+Wallet-App nur von der Website des Anbieters.
 Kein Chat mit Fremden über mein Geld.
 
 Mein System hat vier Schritte. Der Rest steht im kostenlosen Training, Link im Profil."""),
