@@ -22,8 +22,9 @@ B_BET = 'Krypto-Betrug erkennen'
 B_SIC = 'Bitcoin sicher aufbewahren'
 B_INF = 'Geld anlegen und Inflation'
 ALIASE = {B_SIC: ['Bitcoin Wallet und Sicherheit'], B_INF: ['Geld vor Inflation schützen', 'Inflation und Geldentwertung']}
-# Vorhandene Pinnwand (30.09.2026): 'Krypto', Pinterest-ID 1101693196287264156. Fehlt die Themen-Pinnwand eines Pins
-# in Pinterest (Metricool: 'could not be resolved'), wird der Pin auf diese Pinnwand gelegt.
+# Pinterest-IDs der Pinnwände (seit 30.09.2026 angelegt); beim Einplanen die ID als boardId verwenden.
+BOARD_ID = {B_ANF: '1101693196287264183', B_BET: '1101693196287264186', B_SIC: '1101693196287264188', B_INF: '1101693196287264189'}
+# Erste Pinnwand des Kontos: 'Krypto', Pinterest-ID 1101693196287264156. Nur Rückfall, falls eine Themen-Pinnwand fehlt.
 B_FALLBACK = 'Krypto'
 B_FALLBACK_ID = '1101693196287264156'
 
