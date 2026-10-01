@@ -55,11 +55,11 @@ PINS = [
  dict(d='2026-10-03', t='21:05', board=B_SIC, f='Begriff erklärt', farbe='schwarz', bild='p-3',
       titel='Seed-Phrase erklärt: die 12 Wörter, die dein Bitcoin-Geld sind',
       text="""Seed-Phrase einfach erklärt: 12 oder 24 Wörter stellen deine Krypto-Wallet wieder her. Wer sie kennt, kann alles abräumen, ohne Passwort. Am Telefon wollte mal ein angeblicher Support meine 12 Wörter zum „Synchronisieren“. Ich hab ihm zwölf ausgedachte gegeben, er ist ausgerastet. Drei Regeln, mit denen die Wörter bei dir bleiben, stehen im Pin. Bitcoin-Sicherheit für Anfänger aus eigener Erfahrung, kostenloses Training über den Link.""",
-      alt='Begriff erklärt: Seed-Phrase, zwölf Wort-Kacheln und drei Regeln zum sicheren Aufbewahren.',
+      alt='Begriff erklärt: Seed-Phrase, zwölf Wort-Kacheln und drei Sätze, warum die Wörter dein Geld sind.',
       build=lambda: build_pin('p-3', [pin_term('Begriff erklärt', 'key', 'Seed-Phrase',
           '12 Wörter stellen deine Wallet wieder her. Wer sie hat, hat dein Geld.',
           [('shield', 'Niemand braucht sie außer dir'),
-           ('file', 'Auf Papier. Nie als Foto, nie in der Cloud'),
+           ('lock', 'Kein Support, keine Börse, keine App braucht sie'),
            ('call', 'Wer danach fragt, will dein Geld')])])),
 
  dict(d='2026-10-04', t='11:23', board=B_ANF, f='Schritte (System-Teaser)', farbe='hell', bild='p-4',
@@ -70,7 +70,7 @@ PINS = [
           'Mit 100 € in Krypto starten',
           ['Klein anfangen: 100 € statt 10.000 €',
            'Börse mit Sitz in der EU',
-           'Eigene Wallet, geladen von der Anbieter-Website',
+           'Eigene Wallet statt Börsen-Konto',
            'Kein Chat mit Fremden über dein Geld'],
           size='sm', theme='light')])),
 
