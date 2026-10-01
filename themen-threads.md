@@ -16,3 +16,11 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 12 | 06.10.2026 18:43 | Frage an die Zielgruppe | Frage: Gekauft, weil jemand mit vielen Followern es empfahl? (Influencer-Coin, 5.000 $) | 
 - 13 | 07.10.2026 08:52 | Thread (Schritt-für-Schritt) | Fall Peter (Name geändert): 5 € ausgezahlt, 83.000 € auf dem Handelskonto (Thread) | 
 - 14 | 07.10.2026 19:21 | Meme (Bild) | Erwartung und Realität: Cloud-Mining mit fester Rendite | x/x-14.png
+- 15 | 08.10.2026 09:12 | Geschichte | Seed-Phrase unter einem YouTube-Video: die Köder-Wallet (TRX-Gebühr weg) | 
+- 16 | 08.10.2026 18:48 | Nischenmythos | Mythos: Steht USDT drauf, ist USDT drin (USDTS, USDCF: selbstgebaute Token) | 
+- 17 | 09.10.2026 08:36 | Aufzählung | Vier Sätze des falschen Traders: dieselbe Gebühr zwei-, dreimal an eine Solana-Adresse | 
+- 18 | 09.10.2026 19:07 | Statement | „Erfunden“ und „selbst schuld“ unter dem ersten Beitrag: stimmt, deshalb schreibe ich | 
+- 19 | 10.10.2026 09:44 | Erfolgsgeschichte | Damals–Heute: drei Influencer-Coins, drei Rug Pulls (einer 5.000 $), heute nur, was ich erklären kann | 
+- 20 | 10.10.2026 18:53 | Thread (Schritt-für-Schritt) | Die Falle mit der öffentlichen Seed-Phrase, in vier Schritten erklärt (Thread) | 
+- 21 | 11.10.2026 09:23 | Chat (Bild) | Nachgestellt: der Anruf, bei dem ich zwölf ausgedachte Wörter vorgelesen hab | threads/t-21.png
+- 22 | 11.10.2026 19:14 | Frage an die Zielgruppe | Frage: Schon mal einen Coin gekauft, ohne zu wissen, wer ihn gemacht hat? | 
