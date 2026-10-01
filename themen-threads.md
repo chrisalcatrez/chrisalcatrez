@@ -12,3 +12,7 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 8 | 04.10.2026 18:58 | System-Teaser | Wenn ich heute bei null anfangen würde (System-Teaser) | 
 - 9 | 05.10.2026 08:27 | Chat (Bild) | Nachgestellter Chat: Netzwerkgebühr | x/x-09.png
 - 10 | 05.10.2026 19:06 | Erfolgsgeschichte | Damals–Heute: von 70.000 $ Verlust zum System | 
+- 11 | 06.10.2026 09:14 | Statement | Panikverkauf Ende 2024: selbst übers Ohr gehauen, Sparplan | 
+- 12 | 06.10.2026 18:43 | Frage an die Zielgruppe | Frage: Gekauft, weil jemand mit vielen Followern es empfahl? (Influencer-Coin, 5.000 $) | 
+- 13 | 07.10.2026 08:52 | Thread (Schritt-für-Schritt) | Fall Peter (Name geändert): 5 € ausgezahlt, 83.000 € auf dem Handelskonto (Thread) | 
+- 14 | 07.10.2026 19:21 | Meme (Bild) | Erwartung und Realität: Cloud-Mining mit fester Rendite | x/x-14.png
