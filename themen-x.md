@@ -12,3 +12,7 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Tweet: Nummer | Datum |
 - 8 | 04.10.2026 18:49 | Schritt-für-Schritt (Teaser) | Wenn ich heute bei null anfangen würde (System-Teaser) | 
 - 9 | 05.10.2026 08:09 | Chat (Bild) | Nachgestellter Chat: Netzwerkgebühr | x/x-09.png
 - 10 | 05.10.2026 18:44 | Erfolgsgeschichte | Damals–Heute: von 70.000 $ Verlust zum System | 
+- 11 | 06.10.2026 08:34 | Statement | Panikverkauf Ende 2024: der Verkaufsknopf | 
+- 12 | 06.10.2026 18:57 | Frage an die Zielgruppe | Hand aufs Herz: Wie oft gekauft, weil jemand mit vielen Followern es empfahl? (Influencer-Coin) | 
+- 13 | 07.10.2026 08:23 | Thread (Schritt-für-Schritt) | Fall Peter (Name geändert): 83.000 € auf dem Handelskonto, 5 € ausgezahlt | 
+- 14 | 07.10.2026 19:08 | Meme (Bild) | Erwartung und Realität: Cloud-Mining mit fester Rendite | x/x-14.png
