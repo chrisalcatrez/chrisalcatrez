@@ -16,3 +16,7 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Tweet: Nummer | Datum |
 - 12 | 06.10.2026 18:57 | Frage an die Zielgruppe | Hand aufs Herz: Wie oft gekauft, weil jemand mit vielen Followern es empfahl? (Influencer-Coin) | 
 - 13 | 07.10.2026 08:23 | Thread (Schritt-für-Schritt) | Fall Peter (Name geändert): 83.000 € auf dem Handelskonto, 5 € ausgezahlt | 
 - 14 | 07.10.2026 19:08 | Meme (Bild) | Erwartung und Realität: Cloud-Mining mit fester Rendite | x/x-14.png
+- 15 | 08.10.2026 08:47 | Geschichte | Telegram-Gruppe: Fake-Account mit meinem Namen räumt Wallets leer | 
+- 16 | 08.10.2026 18:33 | Nischenmythos (Bild) | Mythos: Mit dem richtigen Memecoin hast du ausgesorgt | x/x-16.png
+- 17 | 09.10.2026 09:16 | Aufzählung | Ein Abend als Krypto-Anfänger (Informationsflut, Bestätigungssuche) | 
+- 18 | 09.10.2026 19:02 | FAQ (System-Teaser) | Bin ich für Bitcoin zu spät dran? (Sparplan statt Timing) | 
