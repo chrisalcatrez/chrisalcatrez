@@ -10,3 +10,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 6 | 06.10.2026 19:38 | Nischenmythos | Mythos: Auf dem Konto ist mein Geld sicher (Geldentwertung, Statistisches Bundesamt, Venezuela) |  | nein
 - 7 | 07.10.2026 19:47 | FAQ | Drei Anfänger-Fragen: zu spät, wie viel Geld, als Anfänger richtig (Bestätigungssuche) |  | ja
 - 8 | 08.10.2026 19:19 | Fall aus der Community | Fall Thomas (Name geändert): Rückhol-Mails nach 40.000 $ Verlust |  | nein
+- 9 | 09.10.2026 19:41 | Geschichte | Zwölf Wörter unter meinem Video: die Köder-Wallet (rund 10 $ TRX-Gebühr weg, Quelle Kaspersky) |  | ja
