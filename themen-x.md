@@ -22,3 +22,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Tweet: Nummer | Datum |
 - 18 | 09.10.2026 19:02 | FAQ (System-Teaser) | Bin ich für Bitcoin zu spät dran? (Sparplan statt Timing) | 
 - 19 | 10.10.2026 10:04 | Chat (Bild) | Nachgestellter Chat: Phishing mit 24-Stunden-Frist und Link (Wallet-Sperre) | x/x-19.png
 - 20 | 10.10.2026 18:26 | Erfolgsgeschichte | Damals–Heute: von der gefälschten Wallet-App zum Bezahlen mit Krypto in Venezuela | 
+- 21 | 11.10.2026 09:51 | Statement | Gier: Jeden Betrüger hab ich selbst reingelassen | 
+- 22 | 11.10.2026 18:39 | Frage an die Zielgruppe | Hand aufs Herz: Ab welchem Betrag schaust du nachts auf den Kurs? (wie viel Geld) | 
