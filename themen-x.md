@@ -24,3 +24,7 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Tweet: Nummer | Datum |
 - 20 | 10.10.2026 18:26 | Erfolgsgeschichte | Damals–Heute: von der gefälschten Wallet-App zum Bezahlen mit Krypto in Venezuela | 
 - 21 | 11.10.2026 09:51 | Statement | Gier: Jeden Betrüger hab ich selbst reingelassen | 
 - 22 | 11.10.2026 18:39 | Frage an die Zielgruppe | Hand aufs Herz: Ab welchem Betrag schaust du nachts auf den Kurs? (wie viel Geld) | 
+- 23 | 12.10.2026 08:14 | Thread (FAQ) | Vier Fragen, die Krypto-Anfänger mit sich rumtragen (zu unerfahren, alles verlieren, ständig Kurs schauen, wer sagt mir, was ich kaufen soll) | 
+- 24 | 12.10.2026 18:51 | Meme (Bild) | Was der Chat sagt und was dein Konto sagt: kleine Coins gegen Bitcoin | x/x-24.png
+- 25 | 13.10.2026 09:03 | Geschichte | Falscher Support am Telefon: ausgedachte Seed-Phrase beim „Synchronisieren“ | 
+- 26 | 13.10.2026 19:13 | Nischenmythos (Bild) | Mythos: Krypto ist doch nur Zocken | x/x-26.png
