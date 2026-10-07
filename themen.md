@@ -19,3 +19,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 14 | 09.10.2026 | Erfolgsgeschichte | Eigene Geschichte: Seed-Phrase am Telefon verlangt, ausgedachte bekommen (Wallet synchronisieren)
 - 15 | 10.10.2026 | FAQ beantworten | „Chris hat mir geschrieben“: Fake-Account mit meinem Namen, woran man mich erkennt
 - 16 | 11.10.2026 | Frage an die Zielgruppe | Welche dieser sechs Maschen ist dir schon begegnet? (Rückblick auf die echten Fälle)
+- 17 | 12.10.2026 | Schritt-für-Schritt-Anleitung | Mein Vorgehen vor jedem Coin-Kauf: 4 Fragen (Influencer-Coin, 5.000 $, Rug Pull)
+- 18 | 13.10.2026 | FAQ beantworten | FAQ: „Zu spät für Bitcoin?“ (Panikverkauf Ende 2024, Sparplan statt Timing)
+- 19 | 14.10.2026 | Aufzählung | 4 Gebühren sind echt, die 5. ist immer Betrug (Netzwerkgebühr vor der Auszahlung)
