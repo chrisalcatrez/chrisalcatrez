@@ -2,7 +2,8 @@
 # Jeder Eintrag: d, t, board (exakter Name der Pinnwand), f (Format), farbe (schwarz/hell/akzent), titel (Pin-Titel,
 # Keyword zuerst, bis 100 Zeichen), text (Beschreibung, bis 500 Zeichen, ohne Hashtags: Pinterest ordnet ueber
 # Suchbegriffe ein; hier steht die Geschichte, das Bild traegt nur das Was), alt (Alt-Text), bild (Dateiname unter
-# pinterest/), build (Bildfunktion). Bilder rendern: python3 tools/beispiele_pinterest.py [p-N ...]
+# pinterest/), build (Bildfunktion); Karussell: folien=N und Dateien pinterest/p-N-1.png bis p-N-4.png, alts je Folie.
+# Bilder rendern: python3 tools/beispiele_pinterest.py [p-N ...]
 # (OUT und NM als Umgebungsvariablen, siehe gen.py)
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
@@ -152,6 +153,43 @@ PINS = [
           visual=vz_bubble('„Schicken Sie mir einen Screenshot … damit ich sehen kann.“', 'Echte Nachricht. Fall aus meiner Community, Name geändert.'),
           points=['Schreibt dich privat an', 'Will Screenshots deiner Wallet', 'Drängt: „Die Münze steigt jetzt“', 'Schickt einen Link zum Schützen', 'Verspricht dein Geld zurück'],
           cta='Speichern, bevor du in einer Gruppe um Hilfe bittest', size='sm', dense=True)])),
+
+ # Zweite Vorgabe vom 07.10.2026: Cheat-Sheet-Formate (Entscheidungsbaum, Echt gegen Fake, Karussell), Stempel-Optik,
+ # Warnzeichen als Punktmarken, Lesezeichen oben rechts, situative Speicher-CTAs.
+ dict(d='2026-10-13', t='11:46', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-13',
+      titel='Krypto-Betrug erkennen: 3 Fragen, die es in 10 Sekunden zeigen',
+      text="""Krypto-Betrug erkennen in 10 Sekunden: Drei Fragen stoppen die häufigsten Maschen, bevor Geld fließt. Jede davon hat mich früher Geld gekostet: feste Rendite beim Cloud-Mining (4.000 bis 5.000 $), die 12 Wörter am Telefon, die Gebühr vor der Auszahlung. Einmal Ja, und das Gespräch ist beendet. Speichern, dann hast du den Entscheidungsbaum vor der nächsten Überweisung parat. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto-Betrug erkennen: Entscheidungsbaum mit drei Fragen, Ja heißt Betrug, Nein führt weiter.',
+      build=lambda: build_pin('p-13', [pin2('light', 'Krypto-Betrug? <em>3 Fragen</em>, 10 Sekunden.',
+          visual=vz_flow(['Verspricht man dir feste Rendite?', 'Will jemand deine 12 Wörter?', 'Gebühr, bevor du Geld bekommst?'],
+                         'Kein Warnsignal. Trotzdem klein anfangen.'),
+          cta='Speichern, bevor du das nächste Mal Geld überweist', size='sm')])),
+
+ dict(d='2026-10-14', t='20:21', board=B_BET, f='Echt gegen Fake', farbe='schwarz', bild='p-14',
+      titel='Echter Support vs. Fake: 3 Unterschiede im Krypto-Chat, die du sofort siehst',
+      text="""Falscher Support im Krypto-Chat erkennen: Echter Support antwortet nur, wenn du fragst, will nie deine 12 Wörter und zieht Gebühren vom Guthaben ab. Der Fake schreibt dich zuerst privat an, will die 12 Wörter und verlangt Vorkasse. Zwei davon hab ich erlebt: Gebühr gezahlt, Auszahlung nie gekommen; am Telefon zwölf erfundene Wörter vorgelesen. Der Vergleich ist nachgestellt. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Echter Support gegen Fake im Krypto-Chat: links drei Haken, rechts drei Kreuze und ein Stempel Fake.',
+      build=lambda: build_pin('p-14', [pin2('', 'Echter Support vs. Fake: <em>3 Unterschiede</em>',
+          visual=vz_vs2('Echter Support', ['Antwortet nur, wenn du fragst', 'Fragt nie nach 12 Wörtern', 'Zieht Gebühren vom Guthaben ab'],
+                        'Fake', ['Schreibt dich zuerst privat an', 'Will deine 12 Wörter', 'Gebühr vor der Auszahlung'],
+                        note='Nachgestellt. Zwei der drei hab ich selbst erlebt.'),
+          cta='Speichern für den nächsten „Support“-Chat', size='sm')])),
+
+ dict(d='2026-10-15', t='11:03', board=B_BET, f='Karussell (4 Folien)', farbe='hell', bild='p-15', folien=4,
+      titel='Krypto-Betrug erkennen: 3 Maschen, jede einzeln erklärt (fast 80.000 $ Lehrgeld)',
+      text="""Krypto-Betrug erkennen an drei Maschen, jede auf einer eigenen Folie: die gefälschte Wallet-App (70.000 $, geladen, weil sie echt aussah), der Influencer-Coin (5.000 $, bekanntes Gesicht, unbekanntes Team, Rug Pull) und Cloud-Mining mit fester Rendite (4.000 bis 5.000 $). Zusammen fast 80.000 $ Lehrgeld. Jede Folie nennt zwei Zeichen, an denen ich die Masche heute erkenne. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Karussell: Stempel Betrug, dann drei Folien mit 70.000 $, 5.000 $ und 4.000 $ Verlust und je zwei Warnzeichen.',
+      alts=['Fast 80.000 $ weg, drei Maschen, Stempel Betrug.', 'Masche 1: gefälschte Wallet-App, 70.000 $, zwei Warnzeichen.', 'Masche 2: Influencer-Coin, 5.000 $, zwei Warnzeichen.', 'Masche 3: Cloud-Mining mit fester Rendite, 4.000 bis 5.000 $, zwei Warnzeichen.'],
+      build=lambda: build_pin('p-15', [
+          pin2('light', 'Fast 80.000 $ weg. <em>3 Maschen.</em>', visual=vz_stamp('Betrug', 'Drei Maschen, die mich als Anfänger erwischt haben. Eine pro Folie.'),
+               cta='Speichern. Jede Masche einzeln auf den nächsten Folien', size='', center=True),
+          pin2('light', 'Masche 1: Die gefälschte <em>Wallet-App</em>', visual=vz_num('70.000 $', 'Geladen, weil sie echt aussah. Den Anbieter gab es als App nie.'),
+               points=['App nur vom Anbieter selbst', 'Kein Link aus Chat oder Mail'], marks='warn', cta='Speichern, bevor du die nächste App lädst', size='sm'),
+          pin2('light', 'Masche 2: Der <em>Influencer-Coin</em>', visual=vz_num('5.000 $', 'Bekanntes Gesicht, unbekanntes Team. Rug Pull.'),
+               points=['Macher verkaufen auf einmal', 'Kurs senkrecht nach unten'], marks='warn', cta='Speichern, bevor du einem Gesicht Geld gibst', size='sm'),
+          pin2('light', 'Masche 3: <em>Cloud-Mining</em> mit fester Rendite', visual=vz_num('4.000 $', 'Bis 5.000 $. Feste Rendite, jeden Monat versprochen.'),
+               points=['Rendite fest, egal was passiert', 'Auszahlung bleibt aus'], marks='warn', cta='Speichern, bevor du Rendite garantiert bekommst', size='sm'),
+      ])),
 ]
 
 if __name__ == '__main__':

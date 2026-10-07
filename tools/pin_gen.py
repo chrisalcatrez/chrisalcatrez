@@ -18,6 +18,10 @@
 # Kurve mit Punkten in festem Abstand), vz_card (ein grosses Wort oder ein Begriff auf einer Karte) oder photo=True
 # (Person unten aus pinterest/foto-ebene.png, Punkte stehen ueber dem Foto). Punkte mit grossen Ziffern (marks='num')
 # oder grossen Haken (marks='check'). CTA-Zeile als Balken innerhalb der Raender, Wasserzeichen darin.
+# Ergaenzung (zweite Vorgabe vom 07.10.2026): Stempel-Optik (vz_stamp), grosse Warnzeichen als Punktmarken (marks='warn'
+# oder 'x'), Lesezeichen oben rechts als Speicher-Anker (bookmark=True, Standard), Headline-Groesse 'hero' fuer bis zu
+# vier Woerter, Entscheidungsbaum (vz_flow) und Echt-gegen-Fake (vz_vs2) als Cheat-Sheet-Formate, Karussell ueber mehrere
+# Folien in build_pin(). Alles in einer Akzentfarbe (Anchus Design-Regel), keine Emojis.
 import os
 import gen
 from gen import check_text, HANDLE, sheet
@@ -164,6 +168,41 @@ P_CSS = """
 .pin.v2 .pts.dense .pl{font-size:40px}
 .pin.v2 .pts.dense .pn{font-size:64px}
 .pin.v2 .pts.dense .pt{grid-template-columns:80px 1fr}
+
+/* Stil 2, Ergaenzungen: Stempel, Warnmarken, Lesezeichen, Entscheidungsbaum, Echt gegen Fake */
+.pin.v2 h1.hero{font-size:124px;line-height:.98;letter-spacing:-5px}
+.pin.v2 .bm{position:absolute;top:60px;right:96px;color:var(--pacc)}
+.pin.v2 .bm svg{display:block}
+.pin.light.v2 .bm,.pin.acc.v2 .bm{color:var(--pfg)}
+.pin.v2 .hasbm h1{max-width:740px}
+.pin.v2 .vz-stamp{display:inline-block;margin:10px 0 30px;transform:rotate(-7deg);border:9px solid var(--pacc);color:var(--pacc);border-radius:22px;padding:18px 40px;font-weight:800;font-size:132px;line-height:1;letter-spacing:6px;text-transform:uppercase}
+.pin.light.v2 .vz-stamp,.pin.acc.v2 .vz-stamp{border-color:var(--pfg);color:var(--pfg)}
+.pin.v2 .vz-stamp.sm{font-size:88px;padding:14px 30px;border-width:7px}
+.pin.v2 .pn svg.warn{color:var(--pacc)}
+.pin.v2 .ctabar .ci{display:flex;align-items:center;gap:16px}
+.pin.v2 .ctabar .ci svg{display:block;flex:none}
+/* Entscheidungsbaum */
+.pin.v2 .flow{display:flex;flex-direction:column;align-items:stretch;width:808px;gap:0}
+.pin.v2 .fq{background:var(--ptile);border:3px solid var(--pline);border-radius:30px;padding:26px 34px;font-weight:700;font-size:40px;line-height:1.18;text-align:center}
+.pin.v2 .fbr{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:14px 0}
+.pin.v2 .fja{background:var(--pacc);color:#000;border-radius:22px;padding:16px 20px;font-weight:800;font-size:32px;line-height:1.1;text-align:center;letter-spacing:1px}
+.pin.light.v2 .fja{background:#0B0B0B;color:#F5F5F0}
+.pin.acc.v2 .fja{background:#000;color:#ffab00}
+.pin.v2 .fne{display:flex;align-items:center;justify-content:center;gap:12px;font-weight:700;font-size:32px;color:var(--pfg2);letter-spacing:1px}
+.pin.v2 .fne svg{display:block}
+.pin.v2 .fend{border:3px solid var(--pacc);border-radius:30px;padding:24px 34px;font-weight:800;font-size:40px;line-height:1.15;text-align:center}
+.pin.light.v2 .fend{border-color:#0B0B0B}
+/* Echt gegen Fake */
+.pin.v2 .vs2{display:grid;grid-template-columns:1fr 1fr;gap:20px;width:808px}
+.pin.v2 .vc{background:var(--ptile);border:3px solid var(--pline);border-radius:30px;padding:30px 26px 90px;display:flex;flex-direction:column;gap:22px;position:relative;overflow:hidden}
+.pin.v2 .vc.fake{border-color:var(--pacc)}
+.pin.v2 .vh2{font-weight:800;font-size:34px;letter-spacing:2px;text-transform:uppercase}
+.pin.v2 .vc.fake .vh2{color:var(--pacc)}
+.pin.light.v2 .vc.fake .vh2,.pin.acc.v2 .vc.fake .vh2{color:var(--pfg)}
+.pin.v2 .vr2{display:grid;grid-template-columns:44px 1fr;column-gap:12px;align-items:start;font-weight:600;font-size:33px;line-height:1.22}
+.pin.v2 .vr2 svg{display:block;margin-top:4px;color:var(--pacc)}
+.pin.light.v2 .vr2 svg{color:var(--pfg)}
+.pin.v2 .vc .vz-stamp.mini{position:absolute;right:16px;bottom:16px;font-size:44px;padding:6px 16px;border-width:5px;letter-spacing:3px;transform:rotate(-12deg);opacity:.95}
 """
 if P_CSS not in gen.CSS:
     gen.CSS += P_CSS
@@ -213,6 +252,8 @@ ICONS = {
  'search': '<circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>',
  'home': '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>',
  'cart': '<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>',
+ 'warn': '<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="currentColor" stroke="none"/><line x1="12" y1="9" x2="12" y2="13.5" stroke="#000" stroke-width="2.6"/><line x1="12" y1="17" x2="12.01" y2="17" stroke="#000" stroke-width="3"/>',
+ 'bookmark': '<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" fill="currentColor"/>',
 }
 
 def ico(name, size=36, cls=''):
@@ -392,6 +433,28 @@ def vz_card(text, sub=None):
     s = ('<div class="vz-sub">%s</div>' % sub) if sub else ''
     return '<div class="vz-card">%s</div>%s' % (text, s)
 
+
+def vz_stamp(text, sub=None, small=False):
+    # Stempel-Optik: ein Wort gross, schraeg, mit Rahmen (BETRUG, FAKE, VORKASSE)
+    s = ('<div class="vz-sub">%s</div>' % sub) if sub else ''
+    return '<div class="vz-stamp%s">%s</div>%s' % (' sm' if small else '', text, s)
+
+def vz_flow(questions, end, ja='Betrug'):
+    # Entscheidungsbaum von oben nach unten: Frage -> JA (Stempel-Block) | NEIN (Pfeil nach unten) -> naechste Frage -> Ende
+    h = ''
+    for q in questions:
+        h += '<div class="fq">%s</div><div class="fbr"><div class="fja">JA = %s</div><div class="fne">NEIN %s</div></div>' % (q, ja, ico('arrow-down', 34))
+    h += '<div class="fend">%s</div>' % end
+    return '<div class="flow">%s</div>' % h
+
+def vz_vs2(left_head, left_rows, right_head, right_rows, stamp='FAKE', note=None):
+    # Echt gegen Fake nebeneinander: links Haken, rechts Kreuze und ein kleiner Stempel
+    l = ''.join('<div class="vr2">%s<div>%s</div></div>' % (ico('check', 38), r) for r in left_rows)
+    r = ''.join('<div class="vr2">%s<div>%s</div></div>' % (ico('x', 38), x) for x in right_rows)
+    st = ('<div class="vz-stamp mini">%s</div>' % stamp) if stamp else ''
+    n = ('<div class="vz-note">%s</div>' % note) if note else ''
+    return '<div class="vs2"><div class="vc"><div class="vh2">%s</div>%s</div><div class="vc fake"><div class="vh2">%s</div>%s%s</div></div>%s' % (left_head, l, right_head, r, st, n)
+
 def v2_points(points, marks='num', quote=False, start=1, dense=False):
     rows = ''
     for i, label in enumerate(points, start):
@@ -399,17 +462,20 @@ def v2_points(points, marks='num', quote=False, start=1, dense=False):
             mk = ico('check', 60, 'big')
         elif marks == 'x':
             mk = ico('x', 56, 'big')
+        elif marks == 'warn':
+            mk = ico('warn', 62, 'warn')
         else:
             mk = str(i)
         rows += '<div class="pt"><div class="pn">%s</div><div class="pl%s">%s</div></div>' % (mk, ' q' if quote else '', label)
     return '<div class="pts%s">%s</div>' % (' dense' if dense else '', rows)
 
 def v2_cta(text):
-    return '<div class="ctabar"><span>%s</span><span class="h">%s</span></div>' % (text, HANDLE)
+    return '<div class="ctabar"><span class="ci">%s<span>%s</span></span><span class="h">%s</span></div>' % (ico('bookmark', 40), text, HANDLE)
 
-def pin2(theme, title, visual=None, points=(), cta='Für später speichern', size='', marks='num', quote=False, photo=False, center=False, start=1, dense=False):
+def pin2(theme, title, visual=None, points=(), cta='Für später speichern', size='', marks='num', quote=False, photo=False, center=False, start=1, dense=False, bookmark=True):
     # Reihenfolge: Headline -> Visual -> Punkte -> CTA. Beim Foto-Pin: Headline -> Punkte -> Foto (unten) -> CTA.
-    head = '<h1 class="%s">%s</h1>' % (size, title)
+    bm = ('<div class="bm">%s</div>' % ico('bookmark', 64)) if bookmark else ''
+    head = '<div class="%s">%s<h1 class="%s">%s</h1></div>' % ('hasbm' if bookmark else 'hd', bm, size, title)
     pts = v2_points(points, marks, quote, start, dense) if points else ''
     if photo:
         eb = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pinterest', 'foto-ebene.png')

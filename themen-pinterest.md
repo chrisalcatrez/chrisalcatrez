@@ -1,6 +1,6 @@
 # Pinterest-Pins
 
-Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Pin: Nummer | Datum Uhrzeit | Pinnwand | Format (Farbe: schwarz, hell oder akzent) | Titel | Bild | Status (offen = in Metricool anzulegen, eingeplant = angelegt). Ab Pin 8 gilt Stil 2 (07.10.2026): eine Aussage, ein Visual, drei bis fünf Punkte, ein CTA; Formate heißen nach dem Visual (Foto, Beispielsatz, Balken, Kurve, Zahl, Karte). Jeder Pin verlinkt auf https://chrisalcatrez.de (mit UTM-Parametern, siehe pin_link() in tools/beispiele_pinterest.py).
+Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Pin: Nummer | Datum Uhrzeit | Pinnwand | Format (Farbe: schwarz, hell oder akzent) | Titel | Bild | Status (offen = in Metricool anzulegen, eingeplant = angelegt). Ab Pin 8 gilt Stil 2 (07.10.2026): eine Aussage, ein Visual, drei bis fünf Punkte, ein CTA; Formate heißen nach dem Visual (Foto, Beispielsatz, Balken, Kurve, Zahl, Karte, Stempel, Entscheidungsbaum, Echt gegen Fake, Karussell). Jeder Pin verlinkt auf https://chrisalcatrez.de (mit UTM-Parametern, siehe pin_link() in tools/beispiele_pinterest.py).
 
 ## Pinnwände (exakte Namen, Beschreibungen zum Kopieren)
 Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boardId in Metricool): Krypto für Anfänger 1101693196287264183, Krypto-Betrug erkennen 1101693196287264186, Bitcoin sicher aufbewahren 1101693196287264188, Geld anlegen und Inflation 1101693196287264189. Erste Pinnwand „Krypto“ 1101693196287264156 (nur Rückfall). Pins 1 bis 11 am 30.09.2026 auf ihre Themen-Pinnwände gelegt.
@@ -22,3 +22,6 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 10 | 10.10.2026 19:41 | Krypto-Betrug erkennen | Balken (Zahlen) (schwarz) | Krypto-Betrug erkennen: 3 Maschen, die mich fast 80.000 $ gekostet haben | pinterest/p-10.png | eingeplant
 - 11 | 11.10.2026 11:08 | Krypto für Anfänger | Kurve (Regeln) (hell) | Bitcoin Sparplan für Anfänger: 3 Regeln statt Timing | pinterest/p-11.png | eingeplant
 - 12 | 12.10.2026 20:04 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (schwarz) | Falscher Support in Krypto-Gruppen: 5 Warnsignale, bevor dein Geld weg ist | pinterest/p-12.png | eingeplant
+- 13 | 13.10.2026 11:46 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto-Betrug erkennen: 3 Fragen, die es in 10 Sekunden zeigen | pinterest/p-13.png | eingeplant
+- 14 | 14.10.2026 20:21 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Echter Support vs. Fake: 3 Unterschiede im Krypto-Chat, die du sofort siehst | pinterest/p-14.png | eingeplant
+- 15 | 15.10.2026 11:03 | Krypto-Betrug erkennen | Karussell (4 Folien) (hell) | Krypto-Betrug erkennen: 3 Maschen, jede einzeln erklärt (fast 80.000 $ Lehrgeld) | pinterest/p-15-1.png bis p-15-4.png | eingeplant
