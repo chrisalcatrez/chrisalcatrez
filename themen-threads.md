@@ -24,3 +24,7 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 20 | 10.10.2026 18:53 | Thread (Schritt-für-Schritt) | Die Falle mit der öffentlichen Seed-Phrase in vier Schritten (Thread, Link in der vorletzten Antwort, Frage am Ende) |  | Betrug | Fall
 - 21 | 11.10.2026 09:23 | Chat (Bild) | Nachgestellt: der Anruf, bei dem ich zwölf erfundene Wörter vorgelesen hab | threads/t-21.png | Sicherheit | Story
 - 22 | 11.10.2026 19:14 | Frage an die Zielgruppe | Admin bei einem Coin-Projekt, Entwicklerteam null Antwort. Frage: Coin gekauft, ohne zu wissen, wer ihn gemacht hat? |  | Einstieg | Frage
+- 23 | 12.10.2026 08:43 | Thread (Aufzählung) | Fall Thomas (Name geändert): rund 40.000 $ weg, danach vier „Helfer“ per Mail, echt davon null (Rückhol-Betrug, Thread, Link in der vorletzten Antwort, Frage am Ende) |  | Betrug | Fall
+- 24 | 12.10.2026 19:09 | Meme (Bild) | Chat gegen Konto: ein Memecoin hat mir gereicht, danach wollte ich die Langeweile zurück (kleine Coins, Memecoin-Verlust) | x/x-24.png | Einstieg | Story
+- 25 | 13.10.2026 08:31 | Geschichte | Bestätigungssuche: Fremde gefragt, wohin mit meinem Geld, eigene Ahnung null; Wendepunkt selbst verstanden, vier Schritte |  | Psychologie | Story
+- 26 | 13.10.2026 18:44 | Nischenmythos | Mythos: Auf dem Konto ist mein Geld sicher (10.000 € von 2020, Kaufkraft 2025 rund 8.200 €, Quelle Statistisches Bundesamt) |  | Geldentwertung | These

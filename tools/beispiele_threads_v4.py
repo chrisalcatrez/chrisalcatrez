@@ -269,4 +269,92 @@ Wer die Macher kennt, weiß, wen er fragt.
 
 Schreibt dich in Krypto-Gruppen öfter mal ein „Admin“ privat an?"""),
 
+ dict(thema='Rückhol-Betrug nach dem ersten Verlust (Fall Thomas, Name geändert)', feld='Betrug', var='These', frei_ab='2026-10-26', verwendet=None,
+      text="""Nach dem Verlust kommt der Retter. Er ist Betrüger Nummer zwei.
+
+Thomas (Name geändert) verlor nach eigener Aussage rund 40.000 $ beim Online-Trading. Seitdem schreiben ihm eine Londoner Kanzlei, ein „BaFin Team“ und ein „Blockchain Support“.
+
+Die echte BaFin holt kein verlorenes Geld zurück und beauftragt damit keine Dritten (Quelle: BaFin, 04.05.2026).
+
+Ungefragte Hilfe nach einem Verlust ist die nächste Rechnung.
+
+Würdest du einer Kanzlei antworten, die dich von sich aus anschreibt?"""),
+
+ dict(thema='Rückhol-Betrug nach dem ersten Verlust (Fall Thomas, Name geändert)', feld='Betrug', var='Story', frei_ab='2026-10-26', verwendet=None,
+      text="""Vier Absender, ein Postfach, unter jeder Mail ein Wort: echt?
+
+So leitet mir Thomas (Name geändert) seine Post weiter. Er verlor nach eigener Aussage rund 40.000 $ beim Online-Trading. Seitdem melden sich „Helfer“. Einer will Ausweis und Stromrechnung sehen.
+
+Die Antwort steht bei der BaFin selbst. Sie holt kein verlorenes Geld zurück (Quelle: BaFin, 04.05.2026).
+
+Nach einem Verlust greift man nach jeder Hand. Dort wartet die zweite Rechnung.
+
+Wem hättest du nach 40.000 $ Verlust geglaubt?"""),
+
+ dict(thema='Memecoin-Verlust (Chat gegen Konto, kleine Coins)', feld='Psychologie', var='These', frei_ab='2026-10-26', verwendet=None,
+      text="""Ein Chat hat mit deinem Coin nie Geld verloren. Du schon.
+
+In Krypto-Gruppen heißt es, Bitcoin sei langweilig und das große Geld liege in kleinen Coins. Mein Memecoin hat mich Geld gekostet. Die Gruppe schreibt am Tag danach über den nächsten.
+
+Das Minus steht am Ende nur auf einem Konto. Deinem.
+
+Wer einen Coin laut empfiehlt, trägt dein Minus nie mit.
+
+Zählt für dich, was eine Gruppe schreibt, oder was du selbst prüfen kannst?"""),
+
+ dict(thema='Memecoin-Verlust (Chat gegen Konto, kleine Coins)', feld='Einstieg', var='Fall', frei_ab='2026-10-26', verwendet=None,
+      text="""Ein Memecoin im Depot. Erklären konnte ich ihn keinem. Ergebnis: Minus.
+
+Was der Coin kann und wer ihn gemacht hat, wusste ich kaum. In der Wallet stand trotzdem eine schöne Zahl.
+
+Am Ende stand da ein Verlust. Die schöne Zahl war nie Geld, sie sah nur so aus.
+
+Was du keinem erklären kannst, gehört dir nur auf dem Papier.
+
+Könntest du deinen letzten Kauf in zwei Sätzen erklären?"""),
+
+ dict(thema='Bestätigungssuche (Fremde entscheiden über mein Geld)', feld='Psychologie', var='These', frei_ab='2026-10-27', verwendet=None,
+      text="""Wer fragt, was er kaufen soll, sucht einen Schuldigen für später.
+
+Ich hab das lange gemacht. Vor einem Kauf brauchte ich einen, der nickt. Genickt haben vor allem Leute, die mein Geld haben wollten. Gezahlt hab ich jedes Minus allein.
+
+Ruhig wurde es, als ich selbst verstand, was ich kaufe. Heute sind es vier Schritte.
+
+Eine Entscheidung, die du abgibst, bezahlst du trotzdem selbst.
+
+Hast du schon mal gekauft, nur weil ein anderer es für richtig hielt?"""),
+
+ dict(thema='Bestätigungssuche (Fremde entscheiden über mein Geld)', feld='Betrug', var='Fall', frei_ab='2026-10-27', verwendet=None,
+      text="""„Laura“ handelte für Peter. Schaden laut Anzeige: rund 62.000 €.
+
+Peter, Name geändert, kam über eine Werbung auf Instagram dorthin. „Laura“ hatte angeblich zehn Jahre Erfahrung. Sie rief mehrmals täglich an und handelte für ihn. Sein Handelskonto zeigte 83.000 €. Ausgezahlt wurden 5 €.
+
+Handeln lassen klingt bequem. Die 62.000 € stehen heute in seiner Anzeige.
+
+Wer für dich handelt, handelt zuerst für sich.
+
+Würdest du jemanden für dich handeln lassen, den du nur vom Telefon kennst?"""),
+
+ dict(thema='Mythos: Auf dem Konto ist mein Geld sicher (Kaufkraft seit 2020)', feld='Geldentwertung', var='Fall', frei_ab='2026-10-27', verwendet=None,
+      text="""100 € Einkauf von 2020 kosten 2025 rund 122 €.
+
+Das ist der Durchschnitt aller Verbraucherpreise in Deutschland. Nahrungsmittel und alkoholfreie Getränke: plus 36,2 %. Quelle: Statistisches Bundesamt, Verbraucherpreisindex.
+
+Wer 2020 seine 100 € aufs Konto legte, hat heute weiter 100 €. Der Einkaufswagen dafür ist leichter geworden.
+
+Dein Geld schrumpft leise, der Kontostand bleibt höflich.
+
+Bei welchem Preis ist dir die Inflation zum ersten Mal aufgefallen?"""),
+
+ dict(thema='Mythos: Auf dem Konto ist mein Geld sicher (Kaufkraft seit 2020)', feld='Geldentwertung', var='Story', frei_ab='2026-10-27', verwendet=None,
+      text="""Ich lebe in Venezuela. Preise stehen hier in Dollar.
+
+Die Landeswährung rechnet kaum einer um. Jeder Einkauf zeigt mir, was Inflation mit Erspartem macht. Krypto ist hier Alltag. Ich bezahle damit digital über das Internet.
+
+In Deutschland läuft dasselbe langsamer. Von 2020 bis 2025 stiegen die Preise um 21,9 % (Quelle: Statistisches Bundesamt).
+
+Inflation fragt nie, in welchem Land dein Konto liegt.
+
+Wie viel teurer ist dein Wocheneinkauf seit 2020 geworden?"""),
+
 ]
