@@ -1,3 +1,4 @@
+# Alte Ladung (01.10.–05.10.2026). Seit 08.10.2026 gilt der Bauplan v2 in tools/beispiele_x_v2.py; diese Texte nur als Ton-Muster.
 # Erste Ladung Tweets fuer X (01.10.–05.10.2026). Jeder Eintrag: datum, uhrzeit (Europe/Berlin), format, text,
 # optional thread (weitere Tweets), optional bild (Name der Bildfunktion in bilder.py), alt-Text.
 LINK = 'https://chrisalcatrez.de'
