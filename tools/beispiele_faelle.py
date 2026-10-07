@@ -225,36 +225,51 @@ Schick das in deine Krypto-Gruppe.''')
 # ---------- Beitrag 14: Erfolgsgeschichte (eigene Geschichte, Seed-Phrase am Telefon) ----------
 POSTS['beitrag-14'] = dict(
     date='2026-10-09', fmt='Erfolgsgeschichte', topic='Eigene Geschichte: Betrüger wollte am Telefon meine Seed-Phrase, bekam eine ausgedachte (Wallet synchronisieren)',
+    # Aufbau Hook -> Retain -> Reward (Vorgabe vom 07.10.): Zahl plus Konsequenz im Hook, Beleg auf Folie 2, Sog-Zeile je Folie, Merkzettel zum Speichern
     slides=[
-        s_hook('MEINE GESCHICHTE', 'Ein Betrüger wollte am Telefon meine Seed-Phrase. %s' % A('Ich habe ihm eine gegeben.'), size=''),
-        s_point('DIE SITUATION', 'Ich war in der Community eines Mining-Anbieters.',
-                ['Einer im Chat versuchte ständig, anderen ihre Zugänge abzunehmen.', D('Dann rief er mich an.')], size='m'),
-        s_point('SEINE BEGRÜNDUNG', 'Ich müsse meine Wallet %s' % A('synchronisieren.'),
-                ['Sonst hätte ich keinen Zugang mehr zur Plattform. Dafür brauche er meine Seed-Phrase.', D('Klingt technisch. Ist eine Lüge.')]),
-        s_point('MEINE ANTWORT', 'Ich habe ihm eine Seed-Phrase gegeben. %s' % A('Ausgedacht.'),
-                ['Wort für Wort erfunden.', D('Kurz darauf ist er ausgerastet.')]),
-        s_point('WAS DAHINTERSTECKT', 'Synchronisieren. Verifizieren. Aktualisieren.',
-                ['Die Wörter wechseln. Die Bitte bleibt dieselbe: deine Seed-Phrase.', D('Keine echte Plattform fragt danach. Nie.')], size='m'),
-        s_point('ZUM MERKEN', 'Deine Seed-Phrase gehört in %s' % A('keine Nachricht und kein Telefonat.'),
-                ['Wer danach fragt, hat sich damit verraten.'], meta=True, size='m'),
+        s_hook('MEINE GESCHICHTE', '12 Wörter entscheiden darüber, ob deine Bitcoin %s' % A('weg sind.'),
+               sub='Ein Betrüger wollte meine am Telefon. Ich hab ihm zwölf gegeben.', cue='Was dann passierte &#8594;', size=''),
+        s_proof('DER ANRUF', 'Ich war in der Community eines Mining-Anbieters. Dann klingelte das Telefon.',
+                quote='„Zum Synchronisieren Ihrer Wallet brauche ich kurz Ihre 12&nbsp;Wörter. Sonst verlieren Sie den Zugang zur Plattform.“',
+                quote_from='Nachgestellt, so lief es', cue='Klingt technisch. Hier wird es gefährlich &#8594;', size='sm'),
+        s_point('WARUM DAS FUNKTIONIERT', 'Die 12 Wörter sind kein Passwort. %s' % A('Sie sind die Wallet.'),
+                ['Wer sie hat, kann alles abräumen. Ohne dein Handy, ohne PIN, ohne dich.', D('Darum fragt kein echter Support jemals danach.')],
+                size='m', cue='Was ich ihm geantwortet hab &#8594;'),
+        s_point('MEINE ANTWORT', 'Ich hab ihm zwölf Wörter vorgelesen. %s' % A('Alle ausgedacht.'),
+                ['Wort für Wort erfunden.', D('Kurz darauf ist er ausgerastet. Ein echter Support hätte sie nie gebraucht.')],
+                cue='Der Satz, an dem du es erkennst &#8594;'),
+        s_point('DAS WARNSIGNAL', 'Synchronisieren. Verifizieren. %s' % A('Aktualisieren.'),
+                ['Drei Wörter, eine Bitte: deine 12 Wörter.', D('Egal ob Anruf, Chat oder Mail. Egal wie freundlich.')],
+                size='m', cue='Dein Test in 5 Sekunden &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Der 5-Sekunden-Test, %s' % A('bevor du antwortest.'), 'Dein Merkzettel', [
+            'Fragt jemand nach deinen 12 Wörtern? Betrug. Ohne Ausnahme.',
+            'Egal ob „Support“, „Admin“ oder „Sicherheitsteam“.',
+            'Egal ob zum Synchronisieren, Verifizieren oder Aktualisieren.',
+            'Die 12 Wörter stehen nur auf Papier. Nie im Handy, nie im Chat.',
+        ], None),
         s_point('KOSTENLOSES TRAINING', TRAINING, ['Link in meiner Bio.'], meta=True, size='m'),
     ],
-    alts=['Meine Geschichte: Ein Betrüger wollte am Telefon meine Seed-Phrase, ich habe ihm eine gegeben',
-          'Ich war in der Community eines Mining-Anbieters, einer im Chat versuchte ständig, anderen ihre Zugänge abzunehmen',
-          'Seine Begründung: Ich müsse meine Wallet synchronisieren',
-          'Meine Antwort: eine ausgedachte Seed-Phrase, kurz darauf ist er ausgerastet',
-          'Synchronisieren, verifizieren, aktualisieren: Die Wörter wechseln, die Bitte bleibt dieselbe',
-          'Deine Seed-Phrase gehört in keine Nachricht und kein Telefonat',
+    alts=['Meine Geschichte: 12 Wörter entscheiden darüber, ob deine Bitcoin weg sind. Ein Betrüger wollte meine am Telefon, ich hab ihm zwölf gegeben',
+          'Der Anruf, nachgestellt: Zum Synchronisieren Ihrer Wallet brauche ich kurz Ihre 12 Wörter, sonst verlieren Sie den Zugang zur Plattform',
+          'Warum das funktioniert: Die 12 Wörter sind kein Passwort, sie sind die Wallet. Darum fragt kein echter Support jemals danach',
+          'Meine Antwort: zwölf Wörter vorgelesen, alle ausgedacht. Kurz darauf ist er ausgerastet',
+          'Das Warnsignal: Synchronisieren, Verifizieren, Aktualisieren. Drei Wörter, eine Bitte: deine 12 Wörter',
+          'Merkzettel, der 5-Sekunden-Test: Fragt jemand nach deinen 12 Wörtern? Betrug, ohne Ausnahme. Die Wörter stehen nur auf Papier',
           'Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich dir im kostenlosen Training, Link in meiner Bio'],
     caption='''Ein Betrüger wollte am Telefon meine Seed-Phrase. Ich habe ihm eine gegeben.
 
-Ich war in der Community eines Mining-Anbieters. Einer im Chat versuchte ständig, anderen ihre Zugänge abzunehmen. Dann rief er mich an. Seine Begründung: Ich müsse meine Wallet synchronisieren, sonst hätte ich keinen Zugang mehr zur Plattform. Dafür brauche er meine Seed-Phrase.
+Ich war in der Community eines Mining-Anbieters. Einer im Chat versuchte ständig, anderen ihre Zugänge abzunehmen. Dann rief er mich an. Seine Begründung: Ich müsse meine Wallet synchronisieren, sonst hätte ich keinen Zugang mehr zur Plattform. Dafür brauche er meine 12 Wörter.
 
-Ich habe ihm eine gegeben. Ausgedacht, Wort für Wort. Kurz darauf ist er ausgerastet.
+Die 12 Wörter sind kein Passwort. Sie sind die Wallet. Wer sie hat, kann alles abräumen, ohne dein Handy, ohne PIN, ohne dich. Darum fragt kein echter Support jemals danach.
 
-Synchronisieren. Verifizieren. Aktualisieren. Die Wörter wechseln, die Bitte bleibt dieselbe: deine Seed-Phrase. Keine echte Plattform fragt danach. Nie.
+Ich habe ihm zwölf Wörter vorgelesen. Ausgedacht, Wort für Wort. Kurz darauf ist er ausgerastet.
 
-Deine Seed-Phrase gehört in keine Nachricht und kein Telefonat. Wer danach fragt, hat sich damit verraten.
+Synchronisieren. Verifizieren. Aktualisieren. Drei Wörter, eine Bitte: deine 12 Wörter. Egal ob Anruf, Chat oder Mail.
+
+Der 5-Sekunden-Test, bevor du antwortest:
+– Fragt jemand nach deinen 12 Wörtern? Betrug. Ohne Ausnahme.
+– Egal ob „Support“, „Admin“ oder „Sicherheitsteam“.
+– Die 12 Wörter stehen nur auf Papier. Nie im Handy, nie im Chat.
 
 Für alle, die mit Krypto und Bitcoin anfangen und ihre Wallet selbst verwahren.
 
@@ -264,43 +279,51 @@ Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich dir im
 POSTS['beitrag-15'] = dict(
     date='2026-10-10', fmt='FAQ beantworten', topic='FAQ: „Chris hat mir geschrieben“ – Fake-Account mit meinem Namen, woran man mich erkennt',
     slides=[
-        s_hook('FAQ', '„Chris hat mir geschrieben.“ %s' % A('Ist das wirklich Chris?'), size=''),
-        s_point('ECHTER FALL', 'Jemand hat sich als mich ausgegeben.',
-                ['Ich war Admin in der Telegram-Gruppe eines Coin-Projekts. Ein Fake-Account mit meinem Namen schrieb Mitglieder an.',
-                 D('Er räumte Wallets leer. Geschätzter Schaden: 4.000 bis 5.000 €.')], size='m'),
-        s_point('WIE ICH ES ERFAHREN HABE', '„Mir schreibt unter Deinem Namen jemand und bedrängt mich.“',
-                ['Diese Nachricht bekam ich von einer Teilnehmerin.', D('Sie hat es geahnt. Andere haben es zu spät gemerkt.')], size='sm'),
-        s_point('UND DAS PROJEKT?', 'Ich wollte wissen, wer dahintersteckt.',
-                ['Als Admin habe ich nach dem Entwicklerteam gefragt.', D('Antwort: keine. Heute weiß ich, warum.')], size='m'),
+        s_hook('FAQ', 'Mit meinem Namen wurden geschätzt %s gestohlen.' % A('4.000 bis 5.000 €'),
+               sub='„Chris hat mir geschrieben.“ So erkennst du in 10 Sekunden, ob ich das war.', cue='Zuerst, wie es passiert ist &#8594;', size=''),
+        s_proof('ECHTER FALL', 'Diese Nachricht kam von einer Teilnehmerin.',
+                quote='„Mir schreibt unter Deinem Namen jemand und bedrängt mich.“', quote_from='Nachricht an mich, wörtlich',
+                ps=[D('Sie hat es geahnt. Andere haben es zu spät gemerkt.')], cue='Wer dahintersteckte &#8594;', size='m'),
+        s_point('DER FAKE-ACCOUNT', 'Ich war Admin in der Telegram-Gruppe eines Coin-Projekts.',
+                ['Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an.', D('Danach waren Wallets leer. Geschätzt 4.000 bis 5.000 €.')],
+                size='m', cue='Und das Projekt selbst? &#8594;'),
+        s_point('UND DAS PROJEKT?', 'Ich hab als Admin nach dem Entwicklerteam gefragt.',
+                ['Antwort: keine.', D('Heute weiß ich, warum. Wer sein Team versteckt, hat einen Grund.')],
+                size='m', cue='Jetzt der Teil, der dich schützt &#8594;'),
         s_point('SO ERKENNST DU MICH', 'Drei Dinge mache ich nie.',
-                ['Ich frage nie nach deiner Seed-Phrase oder deinen Passwörtern.',
+                ['Ich frage nie nach deinen 12 Wörtern oder deinen Passwörtern.',
                  'Ich verlange nie eine Gebühr, damit du Geld zurückbekommst.',
-                 D('Ich schicke dir nie einen Link, um deine Wallet zu „sichern“.')]),
-        s_point('ZUM MERKEN', 'Namen und Bilder lassen sich kopieren. %s' % A('Prüf jedes Zeichen im Nutzernamen.'),
-                ['Mein Krypto-Account auf Instagram: @_chrisalcatrez_'], meta=True, size='m'),
-        s_point('SPEICHERN', 'Speichere den Beitrag. Dann weißt du im Ernstfall, %s' % A('woran du mich erkennst.'), None, meta=True, size='m'),
+                 D('Ich schicke dir nie einen Link, um deine Wallet zu „sichern“.')], cue='Dazu der 10-Sekunden-Check &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Der 10-Sekunden-Check, %s' % A('bevor du antwortest.'), 'Mein echter Account', [
+            'Instagram: @_chrisalcatrez_. Jedes Zeichen zählt. Ein Punkt oder Unterstrich mehr: Fake.',
+            'Ich schreibe Fremde nie zuerst privat an.',
+            'Ich frage nie nach 12 Wörtern, Passwörtern oder einer Gebühr.',
+            'Im Zweifel: Nachricht ignorieren und mich unter dem letzten Beitrag öffentlich fragen.',
+        ], 'Speichere den Beitrag. Dann weißt du im Ernstfall, woran du mich erkennst.'),
     ],
-    alts=['FAQ: Chris hat mir geschrieben, ist das wirklich Chris?',
-          'Echter Fall: Ein Fake-Account mit meinem Namen schrieb Mitglieder einer Telegram-Gruppe an, geschätzter Schaden 4.000 bis 5.000 Euro',
-          'Eine Teilnehmerin schrieb mir: Mir schreibt unter Deinem Namen jemand und bedrängt mich',
-          'Als Admin habe ich nach dem Entwicklerteam gefragt, Antwort: keine',
-          'Drei Dinge mache ich nie: nach Seed-Phrase oder Passwörtern fragen, Gebühren für Rückholung verlangen, Links zum Sichern der Wallet schicken',
-          'Namen und Bilder lassen sich kopieren, prüf jedes Zeichen im Nutzernamen, mein Krypto-Account auf Instagram ist @_chrisalcatrez_',
-          'Speichere den Beitrag, dann weißt du im Ernstfall, woran du mich erkennst'],
+    alts=['FAQ: Mit meinem Namen wurden geschätzt 4.000 bis 5.000 Euro gestohlen. Chris hat mir geschrieben, so erkennst du in 10 Sekunden, ob ich das war',
+          'Echter Fall, Nachricht einer Teilnehmerin wörtlich: Mir schreibt unter Deinem Namen jemand und bedrängt mich',
+          'Der Fake-Account: Ich war Admin in der Telegram-Gruppe eines Coin-Projekts, ein zweiter Account mit meinem Namen schrieb Mitglieder privat an, danach waren Wallets leer',
+          'Und das Projekt: Als Admin nach dem Entwicklerteam gefragt, Antwort keine',
+          'So erkennst du mich, drei Dinge mache ich nie: nach 12 Wörtern oder Passwörtern fragen, Gebühren für Rückholung verlangen, Links zum Sichern der Wallet schicken',
+          'Merkzettel, der 10-Sekunden-Check: mein echter Account ist @_chrisalcatrez_, jedes Zeichen zählt; ich schreibe Fremde nie zuerst privat an; im Zweifel öffentlich unter dem Beitrag fragen. Speichere den Beitrag'],
     caption='''„Chris hat mir geschrieben.“ Ist das wirklich Chris?
 
 Die Frage ist berechtigt. Denn jemand hat sich schon als mich ausgegeben.
 
-Ich war Admin in der Telegram-Gruppe eines Coin-Projekts. Ein Fake-Account mit meinem Namen schrieb Mitglieder an und räumte Wallets leer. Geschätzter Schaden: 4.000 bis 5.000 €. Erfahren habe ich es von einer Teilnehmerin: „Mir schreibt unter Deinem Namen jemand und bedrängt mich.“ Sie hat es geahnt. Andere haben es zu spät gemerkt.
+Eine Teilnehmerin schrieb mir: „Mir schreibt unter Deinem Namen jemand und bedrängt mich.“ Sie hat es geahnt. Andere haben es zu spät gemerkt.
 
-Ich wollte wissen, wer hinter dem Projekt steckt, und habe als Admin nach dem Entwicklerteam gefragt. Antwort: keine. Heute weiß ich, warum.
+Ich war Admin in der Telegram-Gruppe eines Coin-Projekts. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an. Danach waren Wallets leer, geschätzt 4.000 bis 5.000 €. Ich habe als Admin nach dem Entwicklerteam gefragt. Antwort: keine. Heute weiß ich, warum.
 
 Drei Dinge mache ich nie:
-– Ich frage nie nach deiner Seed-Phrase oder deinen Passwörtern.
+– Ich frage nie nach deinen 12 Wörtern oder deinen Passwörtern.
 – Ich verlange nie eine Gebühr, damit du Geld zurückbekommst.
 – Ich schicke dir nie einen Link, um deine Wallet zu „sichern“.
 
-Namen und Bilder lassen sich kopieren. Prüf jedes Zeichen im Nutzernamen. Mein Krypto-Account auf Instagram: @_chrisalcatrez_
+Der 10-Sekunden-Check, bevor du antwortest:
+– Mein echter Account auf Instagram: @_chrisalcatrez_. Jedes Zeichen zählt. Ein Punkt oder Unterstrich mehr: Fake.
+– Ich schreibe Fremde nie zuerst privat an.
+– Im Zweifel: Nachricht ignorieren und mich unter dem letzten Beitrag öffentlich fragen.
 
 Für alle, die in Krypto-Gruppen auf Telegram oder Instagram unterwegs sind.
 

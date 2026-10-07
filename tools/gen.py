@@ -1,4 +1,6 @@
 # Generator fuer Instagram-Beitraege im Design System "chrisalcatrez"
+# Vorlagen: s_hook, s_point, s_proof (Beleg: Zahl, Screenshot, Zitat), s_memo (Merkzettel zum Speichern), s_vs, s_bingo,
+# s_question, s_story, s_mail, s_chat, s_list. Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
 # Nutzung: im Arbeitsordner 'npm i @fontsource/montserrat @fontsource/libre-baskerville playwright',
 # dann in Python: sys.path.insert(0, '<repo>/tools'); from gen import *; build('beitrag-N', [s_hook(...), s_point(...), ...])
 # Schriften: Montserrat (Ueberschriften, Labels) + Libre Baskerville (Fliesstext) nach Anchus Schriftarten-1x1
@@ -81,6 +83,21 @@ h1.sm{font-size:60px;line-height:1.12}
 .li{display:grid;grid-template-columns:52px 1fr;column-gap:20px;align-items:baseline}
 .num{font-weight:800;font-size:52px;line-height:1;color:var(--acc)}
 .lt{font-family:'Libre Baskerville',serif;font-size:30px;line-height:1.38;color:var(--fg)}
+/* Beleg-Folie: grosse Zahl oder Screenshot-Karte, Zitat als Karte */
+.big{font-weight:800;font-size:150px;line-height:0.95;letter-spacing:-3px;color:var(--acc)}
+.big.sm{font-size:112px}
+.bigsub{font-family:'Libre Baskerville',serif;font-size:36px;line-height:1.4;color:var(--fg2)}
+.shot{border-radius:24px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.7),0 0 0 1px rgba(255,255,255,.08)}
+.shot img{display:block;width:100%}
+.quote{background:#F5F5F0;color:#141412;border-radius:26px;padding:36px 42px;display:flex;flex-direction:column;gap:18px}
+.quote .qf{font-weight:700;font-size:22px;letter-spacing:2px;text-transform:uppercase;color:#6B6B66}
+.quote .qt{font-family:'Libre Baskerville',serif;font-size:36px;line-height:1.42}
+.quote .qt mark{background:#FFD26A;color:inherit;padding:0 4px;margin:0 -4px}
+/* Merkzettel: Checkliste zum Speichern */
+.memo{border:2px solid var(--acc);border-radius:20px;padding:30px 34px;display:flex;flex-direction:column;gap:20px}
+.memo .mh{font-weight:800;font-size:26px;letter-spacing:3px;text-transform:uppercase;color:var(--acc)}
+.memo .mi{display:grid;grid-template-columns:44px 1fr;column-gap:16px;align-items:start;font-family:'Libre Baskerville',serif;font-size:30px;line-height:1.36;color:var(--fg)}
+.memo .mi svg{margin-top:4px}
 """
 
 def esc(t):
@@ -108,10 +125,37 @@ def s_hook(label, title, cue='Weiterwischen &#8594;', sub=None, size='hook'):
     return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div class="mid"><h1 class="%s">%s</h1>%s<div class="swipe">%s</div></div>%s</section>'
                          % (label, size, title, subh, cue, foot(n, N)))
 
-def s_point(label, title, ps=None, src=None, meta=False, size=''):
+def cue_div(cue):
+    # Sog-Zeile ans Folienende: nennt konkret, was die naechste Folie bringt (nie generisch "Weiterwischen")
+    return '<div class="swipe">%s</div>' % cue if cue else ''
+
+def s_point(label, title, ps=None, src=None, meta=False, size='', cue=None):
     srch = '<div class="src">%s</div>' % src if src else ''
-    return lambda n, N: ('<section class="s"><div class="hd%s">%s</div><div class="mid"><h1 class="%s">%s</h1>%s%s</div>%s</section>'
-                         % (' meta' if meta else '', label, size, title, paras(ps), srch, foot(n, N)))
+    return lambda n, N: ('<section class="s"><div class="hd%s">%s</div><div class="mid"><h1 class="%s">%s</h1>%s%s%s</div>%s</section>'
+                         % (' meta' if meta else '', label, size, title, paras(ps), srch, cue_div(cue), foot(n, N)))
+
+def s_proof(label, title, big=None, big_sub=None, img=None, quote=None, quote_from=None, ps=None, src=None, cue=None, size='m'):
+    # Beleg-Folie (Proof vor Promise): eine grosse Zahl (big + big_sub), ein Screenshot (img, Dateipfad, nur mit
+    # Einverstaendnis und anonymisiert) oder ein woertliches Zitat als Karte (quote, quote_from). Nachgestelltes
+    # immer als solches kennzeichnen (quote_from='Nachgestellt').
+    parts = []
+    if big:
+        parts.append('<div><div class="big%s">%s</div><div class="bigsub">%s</div></div>' % (' sm' if len(strip_tags(big)) > 9 else '', big, big_sub or ''))
+    if img:
+        parts.append('<div class="shot"><img src="file://%s"></div>' % img)
+    if quote:
+        parts.append('<div class="quote"><div class="qf">%s</div><div class="qt">%s</div></div>' % (quote_from or '', quote))
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div class="mid"><h1 class="%s">%s</h1>%s%s%s%s</div>%s</section>'
+                         % (label, size, title, ''.join(parts), paras(ps), srch, cue_div(cue), foot(n, N)))
+
+def s_memo(label, title, head, items, cta, sub=None):
+    # Merkzettel-Folie zum Speichern: Checkliste in einem Bild, darunter genau ein CTA
+    li = ''.join('<div class="mi">%s<div>%s</div></div>' % (ICON_OK, t) for t in items)
+    subh = '<p class="sub">%s</p>' % sub if sub else ''
+    ctah = '<div class="cta">%s</div>' % cta if cta else ''
+    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:30px"><h2>%s</h2>%s<div class="memo"><div class="mh">%s</div>%s</div></div><div style="display:flex;flex-direction:column;gap:36px">%s%s</div></section>'
+                         % (label, title, subh, head, li, ctah, foot(n, N)))
 
 ICON_X = '<svg width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#3A3A37"/><path d="M15 15 L29 29 M29 15 L15 29" stroke="#C9C9C2" stroke-width="3.5" stroke-linecap="round"/></svg>'
 ICON_OK = '<svg width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#ffab00"/><path d="M13 22.5 L19.5 29 L31 16" stroke="#000" stroke-width="3.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'
@@ -135,19 +179,19 @@ def s_story(label, title, ps, cta):
     return lambda n, N: ('<section class="s story"><div class="hd">%s</div><div class="mid"><h1>%s</h1>%s</div><div class="pcta">%s &#8594;</div></section>'
                          % (label, title, paras(ps), cta))
 
-def s_mail(label, title, mails, src=None):
+def s_mail(label, title, mails, src=None, cue=None):
     # mails: [(Absenderzeile, Kernsatz)] - Klarnamen und Adressen von Betroffenen nie zeigen
     ms = ''.join('<div class="mail"><div class="mfrom">%s</div><div class="mtext">%s</div></div>' % (f, t) for f, t in mails)
     srch = '<div class="src">%s</div>' % src if src else ''
-    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:34px"><h2>%s</h2><div class="mails">%s</div>%s</div>%s</section>'
-                         % (label, title, ms, srch, foot(n, N)))
+    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:34px"><h2>%s</h2><div class="mails">%s</div>%s%s</div>%s</section>'
+                         % (label, title, ms, srch, cue_div(cue), foot(n, N)))
 
-def s_chat(label, title, blocks, sender='Support'):
+def s_chat(label, title, blocks, sender='Support', cue=None):
     # blocks: [(Zitat des Betruegers, Schlagwort, Einordnung)]
     bs = ''.join('<div class="cblock"><div class="bub"><div class="bfrom">%s</div><div class="btext">%s</div></div><div class="tag">%s</div><div class="tnote">%s</div></div>'
                  % (sender, q, tg, nt) for q, tg, nt in blocks)
-    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:40px"><h2>%s</h2><div class="chat">%s</div></div>%s</section>'
-                         % (label, title, bs, foot(n, N)))
+    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:40px"><h2>%s</h2><div class="chat">%s</div>%s</div>%s</section>'
+                         % (label, title, bs, cue_div(cue), foot(n, N)))
 
 def s_list(label, title, items, cta, sub=None):
     li = ''.join('<div class="li"><div class="num">%d</div><div class="lt">%s</div></div>' % (i, t) for i, t in enumerate(items, 1))
