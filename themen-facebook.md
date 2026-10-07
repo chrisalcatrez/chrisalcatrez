@@ -14,3 +14,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 10 | 10.10.2026 19:23 | Meme (Bild) | Erwartung und Realität: Cloud-Mining mit fester Rendite (4.000 bis 5.000 $, Quelle BaFin) | x/x-14.png | nein
 - 11 | 11.10.2026 19:36 | Frage an die Zielgruppe | Anruf vom falschen Support: zwölf ausgedachte Wörter. Frage: am Telefon nach Passwort oder TAN gefragt? |  | nein
 - 12 | 12.10.2026 19:52 | Aufzählung | Drei Dinge aus der Telegram-Gruppe: Fake-Account mit meinem Namen (4.000 bis 5.000 €), Entwicklerteam ohne Antwort |  | ja
+- 13 | 13.10.2026 19:34 | Chat (Bild) + Damals–Heute | Nachgestellter Chat: Phishing mit 24-Stunden-Frist; damals Panikverkauf Ende 2024, heute vier Schritte (Quelle Verbraucherzentrale) | x/x-19.png | ja
+- 14 | 14.10.2026 19:49 | Nischenmythos | Mythos: Krypto ist doch alles Betrug (MiCAR seit 30.12.2024, Quelle BaFin) |  | nein
