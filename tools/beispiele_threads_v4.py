@@ -357,4 +357,50 @@ Inflation fragt nie, in welchem Land dein Konto liegt.
 
 Wie viel teurer ist dein Wocheneinkauf seit 2020 geworden?"""),
 
+ dict(thema='Phishing (Frist, Drohung, Link)', feld='Betrug', var='These', frei_ab='2026-10-28', verwendet=None,
+      text="""Jede Frist in einer Sicherheitsmail arbeitet für den Absender.
+
+„Ihre Wallet wird in 24 Stunden gesperrt.“ So fangen diese Mails an. Dann kommt ein Link, dann ein Feld für deine Daten.
+
+Angeblich dringender Handlungsbedarf plus Drohung: Daran erkennt man Phishing laut Verbraucherzentrale.
+
+Unter Zeitdruck prüft man weniger. Dafür ist die Frist da.
+
+Wer dir 24 Stunden gibt, hofft auf deine ersten fünf Minuten.
+
+Wie schnell klickst du, wenn eine Mail mit Sperre droht?"""),
+
+ dict(thema='Phishing (Frist, Drohung, Link)', feld='Sicherheit', var='Story', frei_ab='2026-10-28', verwendet=None,
+      text="""Die App sah echt aus. Geprüft hab ich null. Preis: 70.000 $.
+
+Sie hieß wie eine bekannte Wallet. Den Anbieter gab es als Handy-App nie. Ich hab sie trotzdem geladen und benutzt.
+
+Phishing arbeitet genauso. Etwas sieht vertraut aus, und der Finger ist schneller als der Kopf. Bei einer Mail kostet das ein Passwort. Bei mir kostete es eine Wallet.
+
+Echt aussehen kostet einen Betrüger fast null.
+
+Woran prüfst du, ob eine App oder eine Mail echt ist?"""),
+
+ dict(thema='FAQ: Wie viel Geld für den Anfang (kleine Beträge)', feld='Einstieg', var='These', frei_ab='2026-10-28', verwendet=None,
+      text="""Wer mit 10.000 € anfängt, zahlt für jeden Anfängerirrtum das Hundertfache.
+
+Verglichen mit 100 €. Der Irrtum ist derselbe, der Kurs fällt gleich tief. Nur die Rechnung wächst mit.
+
+Bei mir waren es 5.000 $ in einem einzigen Influencer-Coin. Er endete im Rug Pull.
+
+Die ersten Käufe sind Übung. Übung bezahlt man klein.
+
+Welcher Betrag wäre dir für einen Übungskauf zu viel?"""),
+
+ dict(thema='FAQ: Wie viel Geld für den Anfang (kleine Beträge)', feld='Einstieg', var='Story', frei_ab='2026-10-28', verwendet=None,
+      text="""5.000 $ in einem Coin. Gewusst hab ich über ihn fast null.
+
+Ein bekanntes Gesicht stand dahinter, das hat mir gereicht. Dann verkauften die Macher ihre Coins auf einmal. Der Kurs fiel senkrecht.
+
+Mit 100 $ wäre es dasselbe Ende gewesen, nur 4.900 $ billiger. Die Höhe des Einsatzes hat mir null zusätzliches Wissen gebracht.
+
+Der Einsatz bestimmt den Schaden, nie die Einsicht.
+
+Wie viel hat dich dein erster Krypto-Kauf gekostet?"""),
+
 ]

@@ -28,3 +28,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 24 | 12.10.2026 19:09 | Meme (Bild) | Chat gegen Konto: ein Memecoin hat mir gereicht, danach wollte ich die Langeweile zurück (kleine Coins, Memecoin-Verlust) | x/x-24.png | Einstieg | Story
 - 25 | 13.10.2026 08:31 | Geschichte | Bestätigungssuche: Fremde gefragt, wohin mit meinem Geld, eigene Ahnung null; Wendepunkt selbst verstanden, vier Schritte |  | Psychologie | Story
 - 26 | 13.10.2026 18:44 | Nischenmythos | Mythos: Auf dem Konto ist mein Geld sicher (10.000 € von 2020, Kaufkraft 2025 rund 8.200 €, Quelle Statistisches Bundesamt) |  | Geldentwertung | These
+- 27 | 14.10.2026 09:07 | Aufzählung | Phishing: 24 Stunden bis zur Sperre, vier Zeichen laut Verbraucherzentrale (Name fehlt, Eile mit Drohung, Link, Daten eingeben) |  | Betrug | Fall
+- 28 | 14.10.2026 19:18 | FAQ | FAQ: Wie viel Geld brauche ich für den Anfang? 5.000 $ in einem Coin, 100 hätten dasselbe gezeigt |  | Einstieg | Fall
