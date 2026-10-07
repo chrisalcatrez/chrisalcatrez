@@ -1,6 +1,6 @@
 # Pinterest-Pins
 
-Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Pin: Nummer | Datum Uhrzeit | Pinnwand | Format (Farbe: schwarz, hell oder akzent) | Titel | Bild | Status (offen = in Metricool anzulegen, eingeplant = angelegt). Jeder Pin verlinkt auf https://chrisalcatrez.de (mit UTM-Parametern, siehe pin_link() in tools/beispiele_pinterest.py).
+Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Pin: Nummer | Datum Uhrzeit | Pinnwand | Format (Farbe: schwarz, hell oder akzent) | Titel | Bild | Status (offen = in Metricool anzulegen, eingeplant = angelegt). Ab Pin 8 gilt Stil 2 (07.10.2026): eine Aussage, ein Visual, drei bis fünf Punkte, ein CTA; Formate heißen nach dem Visual (Foto, Beispielsatz, Balken, Kurve, Zahl, Karte). Jeder Pin verlinkt auf https://chrisalcatrez.de (mit UTM-Parametern, siehe pin_link() in tools/beispiele_pinterest.py).
 
 ## Pinnwände (exakte Namen, Beschreibungen zum Kopieren)
 Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boardId in Metricool): Krypto für Anfänger 1101693196287264183, Krypto-Betrug erkennen 1101693196287264186, Bitcoin sicher aufbewahren 1101693196287264188, Geld anlegen und Inflation 1101693196287264189. Erste Pinnwand „Krypto“ 1101693196287264156 (nur Rückfall). Pins 1 bis 11 am 30.09.2026 auf ihre Themen-Pinnwände gelegt.
@@ -17,7 +17,8 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 5 | 05.10.2026 10:48 | Krypto-Betrug erkennen | Chat nachgestellt (schwarz) | Netzwerkgebühr vor der Auszahlung? So erkennst du den Krypto-Betrug im Chat | pinterest/p-5.png | eingeplant
 - 6 | 06.10.2026 20:33 | Geld anlegen und Inflation | Venezuela-Beobachtung (hell) | Inflation verstehen: Was Venezuela mir über Erspartes zeigt | pinterest/p-6.png | eingeplant
 - 7 | 07.10.2026 20:12 | Krypto für Anfänger | FAQ (schwarz) | Zu spät für Bitcoin? Was ich Anfängern 2026 antworte | pinterest/p-7.png | eingeplant
-- 8 | 08.10.2026 20:26 | Krypto für Anfänger | Aussage mit Foto (Damals–Heute) (schwarz) | Krypto für Anfänger: Was ich nach 70.000 $ Verlust anders mache (4 Schritte) | pinterest/p-8.png | eingeplant
-- 9 | 09.10.2026 11:37 | Krypto-Betrug erkennen | Checkliste (akzent) | Krypto-Betrug erkennen: 4 Sätze, nach denen ich jedes Gespräch sofort beende | pinterest/p-9.png | eingeplant
-- 10 | 10.10.2026 19:41 | Krypto-Betrug erkennen | Chart (Balken) (schwarz) | Krypto-Betrug: Mein Lehrgeld in Zahlen (gefälschte Wallet-App, Influencer-Coin, Cloud-Mining) | pinterest/p-10.png | eingeplant
-- 11 | 11.10.2026 11:08 | Krypto für Anfänger | Chart (Kurven) (hell) | Bitcoin Sparplan statt Timing: Warum ich den richtigen Moment aufgegeben habe | pinterest/p-11.png | eingeplant
+- 8 | 08.10.2026 20:26 | Krypto für Anfänger | Foto (Regeln) (schwarz) | Krypto für Anfänger: 4 Regeln nach 70.000 $ Verlust | pinterest/p-8.png | eingeplant
+- 9 | 09.10.2026 11:37 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Krypto-Betrug erkennen: 4 Sätze, bei denen du sofort auflegst | pinterest/p-9.png | eingeplant
+- 10 | 10.10.2026 19:41 | Krypto-Betrug erkennen | Balken (Zahlen) (schwarz) | Krypto-Betrug erkennen: 3 Maschen, die mich fast 80.000 $ gekostet haben | pinterest/p-10.png | eingeplant
+- 11 | 11.10.2026 11:08 | Krypto für Anfänger | Kurve (Regeln) (hell) | Bitcoin Sparplan für Anfänger: 3 Regeln statt Timing | pinterest/p-11.png | eingeplant
+- 12 | 12.10.2026 20:04 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (schwarz) | Falscher Support in Krypto-Gruppen: 5 Warnsignale, bevor dein Geld weg ist | pinterest/p-12.png | eingeplant

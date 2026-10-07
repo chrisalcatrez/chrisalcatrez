@@ -9,6 +9,15 @@
 # kurze Antwort, Pills), pin_bars (Balkenchart im Handy-Rahmen), pin_compare_chart (zwei Kurven-Karten), pin_hero
 # (grosse Zahl), pin_photo (Person unten aus pinterest/foto-ebene.png). Farben: theme='' (schwarz), 'light' (hell),
 # 'acc' (Akzentfarbe als Grund). build_pin() rendert und prueft (over, overlap, bad, gestrichene Woerter).
+#
+# Stil 2 (Vorgabe des Nutzers vom 07.10.2026, gilt fuer alle neuen Pins): pro Pin eine dominante Aussage, ein visuelles
+# Element, hoechstens 3 bis 5 Informationseinheiten; keine Badges, keine kleinen Icons, keine Mini-Labels, keine
+# gestapelten Boxen. Hierarchie: grosse Headline oben -> grosses zentrales Visual -> 3 deutliche Punkte -> kurzer CTA unten.
+# Vorlage pin2(theme, title, visual, points, cta, size, marks, photo): visual aus vz_num (grosse Zahl), vz_bubble (ein
+# Beispielsatz in einer grossen Sprechblase), vz_bars (2 bis 3 dicke Balken mit grossen Zahlen), vz_curve (eine grosse
+# Kurve mit Punkten in festem Abstand), vz_card (ein grosses Wort oder ein Begriff auf einer Karte) oder photo=True
+# (Person unten aus pinterest/foto-ebene.png, Punkte stehen ueber dem Foto). Punkte mit grossen Ziffern (marks='num')
+# oder grossen Haken (marks='check'). CTA-Zeile als Balken innerhalb der Raender, Wasserzeichen darin.
 import os
 import gen
 from gen import check_text, HANDLE, sheet
@@ -112,6 +121,49 @@ P_CSS = """
 .pin.photo{background-color:#000;background-repeat:no-repeat;background-size:1000px 1500px;background-position:0 0}
 .pin.photo .vis{flex:1}
 .pin.photo .pft{border-top-color:rgba(255,255,255,0.14)}
+
+/* Stil 2: Headline, ein Visual, drei Punkte, CTA-Balken */
+.pin.v2{padding:92px 96px 40px;justify-content:flex-start}
+.pin.v2 h1{font-size:100px;line-height:1.02;letter-spacing:-3px;max-width:808px}
+.pin.v2 h1.sm{font-size:88px;line-height:1.04;letter-spacing:-2.5px}
+.pin.v2 h1.xs{font-size:78px;line-height:1.06;letter-spacing:-2px}
+.pin.v2 h1 em{font-style:normal;color:var(--pacc)}
+.pin.light.v2 h1 em,.pin.acc.v2 h1 em{color:var(--pfg);text-decoration:underline;text-decoration-thickness:8px;text-underline-offset:10px;text-decoration-color:var(--pacc)}
+.pin.light.v2 h1 em{text-decoration-color:#ffab00}
+.pin.v2 .viz{flex:1 0 auto;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:22px;margin:42px 0 34px}
+.pin.v2 .viz.center{align-items:center;text-align:center}
+.pin.v2 .vz-num{font-weight:800;font-size:190px;line-height:.95;letter-spacing:-8px;color:var(--pacc)}
+.pin.light.v2 .vz-num{color:var(--pfg)}
+.pin.v2 .vz-sub{font-family:'Libre Baskerville',serif;font-size:36px;line-height:1.38;color:var(--pfg2);max-width:800px}
+.pin.v2 .vz-bub{background:var(--ptile);border:2px solid var(--pline);border-radius:46px 46px 46px 10px;padding:40px 46px;font-family:'Libre Baskerville',serif;font-size:46px;line-height:1.3;max-width:808px}
+.pin.v2 .vz-note{font-weight:600;font-size:27px;color:var(--pmeta);letter-spacing:.5px}
+.pin.v2 .vz-bars{display:flex;flex-direction:column;gap:30px;width:808px}
+.pin.v2 .vzb .l{display:flex;justify-content:space-between;align-items:baseline;gap:20px;font-weight:600;font-size:36px;color:var(--pfg2);margin-bottom:12px}
+.pin.v2 .vzb .l b{font-weight:800;font-size:58px;color:var(--pfg);letter-spacing:-2px;white-space:nowrap}
+.pin.v2 .vzb .t{height:54px;border-radius:27px;background:var(--pline);overflow:hidden}
+.pin.v2 .vzb .f{height:100%;background:var(--pacc);border-radius:27px;min-width:54px}
+.pin.light.v2 .vzb .f{background:#0B0B0B}
+.pin.v2 svg.vz-curve{width:808px;height:auto;display:block}
+.pin.v2 .vz-card{background:var(--ptile);border:3px solid var(--pacc);border-radius:40px;padding:44px 52px;font-weight:800;font-size:96px;line-height:1;letter-spacing:-3px;color:var(--pfg)}
+.pin.light.v2 .vz-card{border-color:#0B0B0B}
+.pin.v2 .pts{display:flex;flex-direction:column;gap:26px;margin-bottom:42px}
+.pin.v2 .pt{display:grid;grid-template-columns:92px 1fr;column-gap:18px;align-items:center}
+.pin.v2 .pn{font-weight:800;font-size:72px;line-height:1;letter-spacing:-3px;color:var(--pacc)}
+.pin.light.v2 .pn{color:var(--pfg)}
+.pin.v2 .pn svg{display:block;color:var(--pacc)}
+.pin.light.v2 .pn svg{color:var(--pfg)}
+.pin.v2 .pl{font-weight:600;font-size:44px;line-height:1.18}
+.pin.v2 .pl.q{font-family:'Libre Baskerville',serif;font-weight:400;font-size:41px;line-height:1.28}
+.pin.v2 .ctabar{display:flex;justify-content:space-between;align-items:center;gap:24px;background:var(--pacc);color:#000;border-radius:24px;padding:28px 36px;font-weight:800;font-size:31px;line-height:1.15}
+.pin.v2 .ctabar .h{font-weight:600;font-size:25px;opacity:.75;white-space:nowrap}
+.pin.light.v2 .ctabar{background:#0B0B0B;color:#F5F5F0}
+.pin.acc.v2 .ctabar{background:#000;color:#ffab00}
+.pin.photo.v2 .viz{flex:1 1 auto;min-height:0;margin:12px 0 12px}
+.pin.photo.v2 .pts{margin:34px 0 0}
+.pin.v2 .pts.dense{gap:18px}
+.pin.v2 .pts.dense .pl{font-size:40px}
+.pin.v2 .pts.dense .pn{font-size:64px}
+.pin.v2 .pts.dense .pt{grid-template-columns:80px 1fr}
 """
 if P_CSS not in gen.CSS:
     gen.CSS += P_CSS
@@ -308,6 +360,64 @@ def pin_photo(label, icon, title, lead=None, cta='more', size='', ebene=None):
     eb = ebene or os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pinterest', 'foto-ebene.png')
     st = 'background-image:url(file://%s)' % eb
     return lambda n, N: wrap('photo', top(label, icon, title, size, lead) + vis('') + bot(cta), style=st, dots=False)
+
+
+# ---------------- Stil 2 (ab 07.10.2026): eine Aussage, ein Visual, drei Punkte, ein CTA ----------------
+def vz_num(big, sub=None):
+    s = ('<div class="vz-sub">%s</div>' % sub) if sub else ''
+    return '<div class="vz-num">%s</div>%s' % (big, s)
+
+def vz_bubble(text, note=None):
+    n = ('<div class="vz-note">%s</div>' % note) if note else ''
+    return '<div class="vz-bub">%s</div>%s' % (text, n)
+
+def vz_bars(rows, note=None):
+    # rows: [(Beschriftung, Wert als Text, Prozent der Balkenbreite)]
+    h = ''.join('<div class="vzb"><div class="l"><span>%s</span><b>%s</b></div><div class="t"><div class="f" style="width:%d%%"></div></div></div>' % (l, v, p) for l, v, p in rows)
+    n = ('<div class="vz-note">%s</div>' % note) if note else ''
+    return '<div class="vz-bars">%s</div>%s' % (h, n)
+
+def vz_curve(sub=None, marks='dots'):
+    # Eine grosse Kurve; marks='dots': Punkte in festem Abstand (Sparplan), 'x': ein Kreuz am Tiefpunkt (Panikverkauf)
+    base = '<polyline points="%s" fill="none" stroke="var(--pfg2)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>' % LINE
+    if marks == 'dots':
+        m = ''.join('<circle cx="%d" cy="%.1f" r="17" fill="var(--pacc)"/>' % (x, _y_at(x)) for x in (50, 170, 290, 410, 530, 650))
+    else:
+        x, y = 446, _y_at(446)
+        m = '<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" stroke="var(--pacc)" stroke-width="9" stroke-linecap="round"/><line x1="%d" y1="%.1f" x2="%d" y2="%.1f" stroke="var(--pacc)" stroke-width="9" stroke-linecap="round"/>' % (x-22, y-22, x+22, y+22, x-22, y+22, x+22, y-22)
+    s = ('<div class="vz-sub">%s</div>' % sub) if sub else ''
+    return '<svg class="vz-curve" viewBox="0 -30 676 200">%s%s</svg>%s' % (base, m, s)
+
+def vz_card(text, sub=None):
+    s = ('<div class="vz-sub">%s</div>' % sub) if sub else ''
+    return '<div class="vz-card">%s</div>%s' % (text, s)
+
+def v2_points(points, marks='num', quote=False, start=1, dense=False):
+    rows = ''
+    for i, label in enumerate(points, start):
+        if marks == 'check':
+            mk = ico('check', 60, 'big')
+        elif marks == 'x':
+            mk = ico('x', 56, 'big')
+        else:
+            mk = str(i)
+        rows += '<div class="pt"><div class="pn">%s</div><div class="pl%s">%s</div></div>' % (mk, ' q' if quote else '', label)
+    return '<div class="pts%s">%s</div>' % (' dense' if dense else '', rows)
+
+def v2_cta(text):
+    return '<div class="ctabar"><span>%s</span><span class="h">%s</span></div>' % (text, HANDLE)
+
+def pin2(theme, title, visual=None, points=(), cta='Für später speichern', size='', marks='num', quote=False, photo=False, center=False, start=1, dense=False):
+    # Reihenfolge: Headline -> Visual -> Punkte -> CTA. Beim Foto-Pin: Headline -> Punkte -> Foto (unten) -> CTA.
+    head = '<h1 class="%s">%s</h1>' % (size, title)
+    pts = v2_points(points, marks, quote, start, dense) if points else ''
+    if photo:
+        eb = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pinterest', 'foto-ebene.png')
+        inner = head + pts + '<div class="viz"></div>' + v2_cta(cta)
+        return lambda n, N: '<section class="s pin photo v2" style="background-image:url(file://%s)">%s</section>' % (eb, inner)
+    inner = head + '<div class="viz%s">%s</div>' % (' center' if center else '', visual or '') + pts + v2_cta(cta)
+    cls = ' '.join(c for c in ('s', 'pin', theme, 'v2') if c)
+    return lambda n, N: '<section class="%s">%s</section>' % (cls, inner)
 
 def build_pin(name, slides):
     return gen.build(name, slides, PW, PH)
