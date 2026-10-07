@@ -11,3 +11,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 7 | 07.10.2026 19:47 | FAQ | Drei Anfänger-Fragen: zu spät, wie viel Geld, als Anfänger richtig (Bestätigungssuche) |  | ja
 - 8 | 08.10.2026 19:19 | Fall aus der Community | Fall Thomas (Name geändert): Rückhol-Mails nach 40.000 $ Verlust |  | nein
 - 9 | 09.10.2026 19:41 | Geschichte | Zwölf Wörter unter meinem Video: die Köder-Wallet (rund 10 $ TRX-Gebühr weg, Quelle Kaspersky) |  | ja
+- 10 | 10.10.2026 19:23 | Meme (Bild) | Erwartung und Realität: Cloud-Mining mit fester Rendite (4.000 bis 5.000 $, Quelle BaFin) | x/x-14.png | nein
+- 11 | 11.10.2026 19:36 | Frage an die Zielgruppe | Anruf vom falschen Support: zwölf ausgedachte Wörter. Frage: am Telefon nach Passwort oder TAN gefragt? |  | nein
+- 12 | 12.10.2026 19:52 | Aufzählung | Drei Dinge aus der Telegram-Gruppe: Fake-Account mit meinem Namen (4.000 bis 5.000 €), Entwicklerteam ohne Antwort |  | ja
