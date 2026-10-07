@@ -175,7 +175,7 @@ if __name__ == '__main__':
         p = POSTS[name]
         ok = check_text(name + ' Caption', p['caption']) and all(check_text(name + ' Alt', a) for a in p['alts'])
         ok_all = ok_all and ok
-        assert len(p['alts']) == len(p['slides']), name + ': Alt-Texte passen nicht'
+        assert len(p['alts']) == len(p['slides']), name + ': Zahl der Alt-Texte weicht ab'
         allpng[name] = build(name, p['slides'])
     json.dump(allpng, open(os.path.join(OUT, 'pngs.json'), 'w'), indent=1)
     print('Texte sauber:', ok_all)
