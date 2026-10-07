@@ -102,7 +102,7 @@ POSTS['beitrag-18'] = dict(
 
 Ich wollte den perfekten Moment treffen. Stattdessen hab ich in Panik verkauft, zum schlechtesten Zeitpunkt, den ich mir hätte aussuchen können.
 
-Zu spät war ich nie. Zu hastig schon. Die Frage „zu spät?“ sucht einen Moment, den der Markt gar kennt. Wer auf den richtigen Tag wartet, handelt irgendwann aus dem Bauch.
+Zu spät war ich nie. Zu hastig schon. Die Frage „zu spät?“ sucht einen Moment. Der Markt kennt keinen. Wer auf den richtigen Tag wartet, handelt irgendwann aus dem Bauch.
 
 Was ich heute anders mache:
 – Sparplan statt Timing: ein fester Tag, eine feste Summe. Der Kurs entscheidet nie.
