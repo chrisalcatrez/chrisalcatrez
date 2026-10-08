@@ -179,6 +179,7 @@ P_CSS = """
 .pin.light.v2 .vz-stamp,.pin.acc.v2 .vz-stamp{border-color:var(--pfg);color:var(--pfg)}
 .pin.v2 .vz-stamp.sm{font-size:88px;padding:14px 30px;border-width:7px}
 .pin.v2 .pn svg.warn{color:var(--pacc)}
+.pin.acc.v2 .pn svg.warn line{stroke:#ffab00}
 .pin.v2 .ctabar .ci{display:flex;align-items:center;gap:16px}
 .pin.v2 .ctabar .ci svg{display:block;flex:none}
 /* Entscheidungsbaum */

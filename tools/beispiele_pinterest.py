@@ -190,6 +190,15 @@ PINS = [
           pin2('light', 'Masche 3: <em>Cloud-Mining</em> mit fester Rendite', visual=vz_num('4.000 $', 'Bis 5.000 $. Feste Rendite, jeden Monat versprochen.'),
                points=['Rendite fest, egal was passiert', 'Auszahlung bleibt aus'], marks='warn', cta='Speichern, bevor du Rendite garantiert bekommst', size='sm'),
       ])),
+
+ dict(d='2026-10-15', t='20:47', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-16',
+      titel='Phishing Krypto erkennen: 3 Warnsignale in der Mail, die deine Wallet sperren will',
+      text="""Phishing Krypto kommt oft als Mail mit Frist. Angeblich wird deine Wallet gesperrt, nur der Link soll helfen. Dahinter fragt eine gefälschte Seite deine 12 Wörter ab (Quellen: Verbraucherzentrale, „Phishing-Mails: Woran Sie sie erkennen“; Kantonspolizei Zürich). Druck kenn ich auch ohne Betrüger. Ende 2024 hab ich alle Bitcoin in Panik verkauft. In meinem System kommt Eile nie vor. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Phishing Krypto: nachgestellte Mail droht mit Wallet-Sperre in 24 Stunden, darunter drei Warnsignale vor dem Klick.',
+      build=lambda: build_pin('p-16', [pin2('acc', 'Phishing bei Krypto: <em>3&nbsp;Warnsignale</em> vor dem Klick',
+          visual=vz_bubble('„Ihre Wallet wird in 24 Stunden gesperrt. Jetzt bestätigen.“', 'Nachgestellt. Die Frist soll dich hetzen.'),
+          points=['Anrede ohne deinen Namen', 'Kurze Frist plus Drohung', 'Link will deine 12 Wörter'],
+          marks='warn', cta='Speichern für die nächste Mail mit Frist', size='sm')])),
 ]
 
 if __name__ == '__main__':
