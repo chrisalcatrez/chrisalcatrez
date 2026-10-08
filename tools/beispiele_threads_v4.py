@@ -403,4 +403,52 @@ Der Einsatz bestimmt den Schaden, nie die Einsicht.
 
 Wie viel hat dich dein erster Krypto-Kauf gekostet?"""),
 
+ dict(thema='Anlagebetrug in WhatsApp-Gruppen (ungefragt hinzugefügt, Chatbots als Mitglieder)', feld='Betrug', var='These', frei_ab='2026-10-29', verwendet=None,
+      text="""19,6 Mio. € Schaden. In der WhatsApp-Gruppe gewinnt trotzdem jeder.
+
+Die Zahl meldet Österreichs Finanzaufsicht FMA für 2025, bei 843 Betrugsmeldungen. Als neue Masche nennt sie WhatsApp-Gruppen. Die jubelnde „Community“ spielen laut FMA oft Chatbots.
+
+Manchmal zeigt die Plattform anfangs kleine Gewinne, schreibt die Verbraucherzentrale. Danach steigt der Druck, mehr einzuzahlen.
+
+Lauter Gewinner in einem Chat sind ein Warnsignal.
+
+Würdest du einer Gruppe trauen, in der nie jemand verliert?"""),
+
+ dict(thema='Anlagebetrug in WhatsApp-Gruppen (ungefragt hinzugefügt, Chatbots als Mitglieder)', feld='Betrug', var='Story', frei_ab='2026-10-29', verwendet=None,
+      text="""Aus der Gruppe ans Telefon. Dort wollte er meine 12 Wörter.
+
+Ich war in der Community eines Mining-Anbieters. Einer von dort rief mich an, meine Wallet müsse „synchronisiert“ werden. Er bekam zwölf ausgedachte. Dann ist er ausgerastet.
+
+In der Gruppe lesen alle mit. Am Telefon war ich mit ihm allein. So läuft es laut Finanzaufsicht FMA auch in WhatsApp-Gruppen.
+
+Betrüger suchen dich in der Gruppe und kassieren unter vier Augen.
+
+Wann hat dich zuletzt jemand aus einer Gruppe privat angeschrieben?"""),
+
+ dict(thema='Zu spät für Bitcoin? (fester Kauftag statt richtigem Moment)', feld='Einstieg', var='These', frei_ab='2026-10-29', verwendet=None,
+      text="""Timing ist Glücksspiel mit Kalender. Meins endete Ende 2024 bei null Bitcoin.
+
+Ich hab damals alles in Panik verkauft. Einen richtigen Tag dafür gab es nie.
+
+„Zu spät für Bitcoin?“ ist dieselbe Wette, nur andersherum. Wer so fragt, will den perfekten Tag erraten.
+
+Heute läuft ein Sparplan mit festem Tag und fester Summe. Raten muss ich seitdem nie.
+
+Wer den perfekten Einstieg sucht, findet meistens gar keinen.
+
+Was hält dich eher ab, der Kurs oder die Angst vor dem falschen Tag?"""),
+
+ dict(thema='Zu spät für Bitcoin? (fester Kauftag statt richtigem Moment)', feld='Einstieg', var='Fall', frei_ab='2026-10-29', verwendet=None,
+      text="""1 Verkauf, 100 % meiner Bitcoin, 0 Plan. Ende 2024.
+
+So sah mein Timing aus. Verkauft hat die Panik, einen Plan hatte ich keinen.
+
+Heute hat der Kauf einen festen Tag und eine feste Summe. Ob der Kurs hoch oder tief steht, ändert daran null.
+
+„Zu spät?“ fragt nach dem richtigen Tag. Ein Sparplan braucht keinen.
+
+Ein fester Kauftag nimmt der Angst die Entscheidung ab.
+
+Kaufst du nach Gefühl oder nach Kalender?"""),
+
 ]
