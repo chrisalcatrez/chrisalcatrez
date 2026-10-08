@@ -31,3 +31,5 @@ Ab Tweet 15 gilt der Bauplan v2 (Hook → Beweis → Erkenntnis → eine Frage; 
 - 26 | 13.10.2026 19:13 | Mythos → Realität | Mythos: Krypto ist nur Zocken (Bild) | x/x-26.png
 - 27 | 14.10.2026 08:58 | 1 Begriff in 60 Sekunden | Rug Pull, erklärt am Squid-Token (2.861 $ auf null, laut BBC rund 3,4 Mio. $) | 
 - 28 | 14.10.2026 18:37 | Datenpunkt → Bedeutung | FTX: 25 Jahre Haft im Juni 2026 bestätigt (Bloomberg Law), Börse gegen eigene Wallet | 
+- 29 | 15.10.2026 08:27 | Contrarian Take + Beweis | Manche Betrüger verschenken ihre 12 Wörter (Köder-Wallet unter alten YouTube-Videos, zweimal rund 10 $ Gebühr) | 
+- 30 | 15.10.2026 18:58 | 1 Begriff in 60 Sekunden | Stablecoin, erklärt an TerraUSD (rund 40 Mrd. $, 15 Jahre Haft, laut Reuters) | 
