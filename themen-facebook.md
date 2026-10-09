@@ -17,3 +17,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 13 | 13.10.2026 19:34 | Chat (Bild) + Damals–Heute | Nachgestellter Chat: Phishing mit 24-Stunden-Frist; damals Panikverkauf Ende 2024, heute vier Schritte (Quelle Verbraucherzentrale) | x/x-19.png | ja
 - 14 | 14.10.2026 19:49 | Nischenmythos | Mythos: Krypto ist doch alles Betrug (MiCAR seit 30.12.2024, Quelle BaFin) |  | nein
 - 15 | 15.10.2026 19:28 | System-Teaser | Mein Krypto-System passt auf einen Zettel: vier Schritte nach 70.000 $ Verlust (gefälschte Wallet-App), was im System fehlt |  | ja
+- 16 | 16.10.2026 19:44 | Fall aus der Community | Fall Peter (Name geändert): mit gut 250 € angefangen, 83.000 € auf dem Handelskonto, 5 € ausgezahlt, Schaden laut Anzeige rund 62.000 € |  | nein

@@ -32,3 +32,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 28 | 14.10.2026 19:18 | FAQ | FAQ: Wie viel Geld brauche ich für den Anfang? 5.000 $ in einem Coin, 100 hätten dasselbe gezeigt |  | Einstieg | Fall
 - 29 | 15.10.2026 08:54 | Chat (Bild) | Nachgestellt: Anlagebetrug in WhatsApp-Gruppen, ungefragt hinzugefügt, Mitglieder oft Chatbots (843 Betrugsmeldungen, 19,6 Mio. € Schaden 2025, Quelle FMA Österreich) | threads/t-29.png | Betrug | Fall
 - 30 | 15.10.2026 18:39 | Erfolgsgeschichte | Damals–Heute: Ende 2024 alle Bitcoin in Panik verkauft, heute fester Tag und feste Summe („Zu spät für Bitcoin?“) |  | Einstieg | Story
+- 31 | 16.10.2026 09:18 | Statement | Börse gegen eigene Wallet: Börsen gelten als Risiko, meine 70.000 $ kostete die gefälschte Wallet-App; eine eigene Wallet tauscht das Risiko der Börse gegen das eigene |  | Sicherheit | These
+- 32 | 16.10.2026 18:56 | Frage an die Zielgruppe | BaFin-Erhebung zum Krypto-Wissen: Besitzer beantworten 57 % der 16 Wissensfragen richtig (Quelle BaFin, 25.08.2026). Frage: Könntest du einem Freund erklären, was ein Bitcoin ist? |  | Einstieg | Frage

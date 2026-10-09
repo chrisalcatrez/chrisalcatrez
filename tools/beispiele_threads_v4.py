@@ -370,7 +370,7 @@ Wer dir 24 Stunden gibt, hofft auf deine ersten fünf Minuten.
 
 Wie schnell klickst du, wenn eine Mail mit Sperre droht?"""),
 
- dict(thema='Phishing (Frist, Drohung, Link)', feld='Sicherheit', var='Story', frei_ab='2026-10-28', verwendet=None,
+ dict(thema='Phishing (Frist, Drohung, Link)', feld='Sicherheit', var='Story', frei_ab='2026-10-30', verwendet=None,
       text="""Die App sah echt aus. Geprüft hab ich null. Preis: 70.000 $.
 
 Sie hieß wie eine bekannte Wallet. Den Anbieter gab es als Handy-App nie. Ich hab sie trotzdem geladen und benutzt.
@@ -450,5 +450,49 @@ Heute hat der Kauf einen festen Tag und eine feste Summe. Ob der Kurs hoch oder 
 Ein fester Kauftag nimmt der Angst die Entscheidung ab.
 
 Kaufst du nach Gefühl oder nach Kalender?"""),
+
+ dict(thema='Börse gegen eigene Wallet (FTX; Zahlen vor Verwendung per Websuche bestätigen)', feld='Sicherheit', var='Fall', frei_ab='2026-10-30', verwendet=None,
+      text="""Über 8 Mrd. $ Kundengeld gestohlen. Die Schlüssel hatte nie ein Kunde.
+
+FTX brach im November 2022 zusammen. Der Gründer bekam 25 Jahre Haft (Quelle: US-Justizministerium, 28.03.2024).
+
+Auf einer Börse liegen deine Coins in der Wallet der Börse. Du siehst einen Kontostand. Ausgezahlt wird, solange die Börse zahlen kann.
+
+Wer den Schlüssel hält, entscheidet über die Auszahlung.
+
+Hast du schon mal getestet, ob deine Börse eine Auszahlung in deine eigene Wallet durchlässt?"""),
+
+ dict(thema='Börse gegen eigene Wallet (gefälschte Wallet-App, 70.000 $)', feld='Sicherheit', var='Story', frei_ab='2026-10-30', verwendet=None,
+      text="""Ich wollte eine Wallet aufs Handy. Bekommen hab ich 70.000 $ Verlust.
+
+Die App sah echt aus, also hab ich sie geladen. Herausgebracht hatte der Anbieter nie eine. Gemerkt hab ich es, als das Geld weg war.
+
+Bei einer Börse vertraust du der Börse. Bei der eigenen Wallet vertraust du dir. Geprüft hatte ich vorher nur das Aussehen.
+
+Eigene Wallet heißt eigene Prüfung, vor dem ersten Cent.
+
+Wie prüfst du eine App, bevor du ihr Geld anvertraust?"""),
+
+ dict(thema='BaFin-Erhebung zum Krypto-Wissen (Besitzer 57 % richtig)', feld='Einstieg', var='These', frei_ab='2026-10-30', verwendet=None,
+      text="""57 % richtige Antworten. Mit so viel Wissen besitzen Deutsche Krypto.
+
+Die BaFin stellte 1.000 Leuten 16 Wissensfragen zu Kryptowerten. Wer selbst welche besitzt, beantwortete 57 % richtig (Quelle: BaFin, 25.08.2026).
+
+Bei der Führerscheinprüfung reicht das kaum. Beim Geld reicht ein Klick auf Kaufen.
+
+Wer kauft, bevor er versteht, zahlt das Verstehen später mit.
+
+Sollte man vor dem ersten Kauf erklären können, was man da kauft?"""),
+
+ dict(thema='BaFin-Erhebung zum Krypto-Wissen (Besitzer 57 % richtig)', feld='Einstieg', var='Fall', frei_ab='2026-10-30', verwendet=None,
+      text="""1.000 Befragte, 16 Fragen zu Krypto. Richtig waren 36 % der Antworten.
+
+So lief eine Erhebung der BaFin im April 2026. Bei 45 % der Fragen mussten die Befragten passen. Dabei besitzen rund 13 % der Erwachsenen Kryptowerte (Quelle: BaFin, 25.08.2026).
+
+Ich hab früher gekauft, bevor ich verstand, was. Das Verstehen kam Schritt für Schritt danach.
+
+Eine Wissenslücke kostet erst Geld, wenn man mit ihr kauft.
+
+Welche Frage zu Krypto traust du dich kaum zu stellen?"""),
 
 ]
