@@ -33,3 +33,5 @@ Ab Tweet 15 gilt der Bauplan v2 (Hook → Beweis → Erkenntnis → eine Frage; 
 - 28 | 14.10.2026 18:37 | Datenpunkt → Bedeutung | FTX: 25 Jahre Haft im Juni 2026 bestätigt (Bloomberg Law), Börse gegen eigene Wallet | 
 - 29 | 15.10.2026 08:27 | Contrarian Take + Beweis | Manche Betrüger verschenken ihre 12 Wörter (Köder-Wallet unter alten YouTube-Videos, zweimal rund 10 $ Gebühr) | 
 - 30 | 15.10.2026 18:58 | 1 Begriff in 60 Sekunden | Stablecoin, erklärt an TerraUSD (rund 40 Mrd. $, 15 Jahre Haft, laut Reuters) | 
+- 31 | 16.10.2026 08:41 | Scam-Teardown kurz | Fall Lena (Name geändert): falscher „Community Support“ in der Krypto-Gruppe, rund 1.000 € weg, echte Chat-Sätze (Bild) | x/x-31.png
+- 32 | 16.10.2026 19:06 | Red Flags | OneCoin: Kurs fiel nie, über 4 Mrd. $ laut US-Justiz; Warnzeichen keine öffentliche Blockchain, Kurs selbst festgelegt, Provision fürs Anwerben | 
