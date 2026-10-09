@@ -199,6 +199,23 @@ PINS = [
           visual=vz_bubble('„Ihre Wallet wird in 24 Stunden gesperrt. Jetzt bestätigen.“', 'Nachgestellt. Die Frist soll dich hetzen.'),
           points=['Anrede ohne deinen Namen', 'Kurze Frist plus Drohung', 'Link will deine 12 Wörter'],
           marks='warn', cta='Speichern für die nächste Mail mit Frist', size='sm')])),
+ dict(d='2026-10-16', t='10:34', board=B_INF, f='Balken (Zahlen)', farbe='schwarz', bild='p-17',
+      titel='Inflation frisst Erspartes: 10.000 € auf dem Konto, nur 8.200 € Kaufkraft (3 Schritte)',
+      text="""Inflation frisst Erspartes leise. Von 2020 bis 2025 stiegen die Verbraucherpreise in Deutschland um 21,9 % (Quelle: Statistisches Bundesamt, Verbraucherpreisindex). 10.000 € ohne Zinsen kaufen danach nur so viel wie vorher rund 8.200 €. Auf dem Konto steht die alte Zahl. Ich lebe in Venezuela, Preise stehen hier in Dollar. Was Entwertung mit Erspartem macht, sieht man hier jeden Tag. Wie ich nach 70.000 $ Lehrgeld heute mit Krypto umgehe, zeige ich im kostenlosen Training über den Link.""",
+      alt='Inflation und Erspartes: zwei Balken, Kontostand 10.000 €, Kaufkraft nach 5 Jahren 8.200 €, darunter drei Rechenschritte.',
+      build=lambda: build_pin('p-17', [pin2('', 'Inflation: 10.000&nbsp;€ Erspartes, nur <em>8.200&nbsp;€</em> Kaufkraft',
+          visual=vz_bars([('Kontostand', '10.000 €', 100), ('Kaufkraft nach 5 Jahren', '8.200 €', 82)], 'Deutschland: Preise plus 21,9 % in fünf Jahren.'),
+          points=['Zins minus Inflation rechnen', 'Unter null: Kaufkraft sinkt', 'Einmal im Jahr prüfen'],
+          cta='Speichern für den nächsten Kontoauszug', size='xs')])),
+
+ dict(d='2026-10-16', t='20:58', board=B_ANF, f='Kurve (Regeln)', farbe='hell', bild='p-18',
+      titel='Bitcoin für Anfänger: Kurs fällt? 3 Regeln gegen den Panikverkauf',
+      text="""Bitcoin für Anfänger hat einen Moment, den fast jeder erlebt. Der Kurs fällt, und der Finger liegt schon auf Verkaufen. Ende 2024 hab ich in so einem Moment alle Bitcoin verkauft. Entschieden hat damals meine Angst, einen Plan gab es keinen. Danach hab ich Schritt für Schritt verstanden, was ich kaufe. Die drei Regeln im Pin hätten mich gebremst. Wohin der Kurs läuft, weiß ich so wenig wie du. Mein System mit vier Schritten zeige ich im kostenlosen Training über den Link.""",
+      alt='Bitcoin für Anfänger: Kurve mit einem Kreuz am Tiefpunkt für den Panikverkauf, darunter drei Regeln.',
+      build=lambda: build_pin('p-18', [pin2('light', 'Bitcoin fällt? <em>3&nbsp;Regeln</em> gegen den&nbsp;Panikverkauf',
+          visual=vz_curve('Hier hab ich alles verkauft. In Panik.', marks='x'),
+          points=['Plan steht vor dem Kauf', 'Nur kaufen, was du verstehst', 'Eine Nacht drüber schlafen'],
+          cta='Speichern für den nächsten Kurssturz', size='sm')])),
 ]
 
 if __name__ == '__main__':

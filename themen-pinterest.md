@@ -26,3 +26,5 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 14 | 14.10.2026 20:21 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Echter Support vs. Fake: 3 Unterschiede im Krypto-Chat, die du sofort siehst | pinterest/p-14.png | eingeplant
 - 15 | 15.10.2026 11:03 | Krypto-Betrug erkennen | Karussell (4 Folien) (hell) | Krypto-Betrug erkennen: 3 Maschen, jede einzeln erklärt (fast 80.000 $ Lehrgeld) | pinterest/p-15-1.png bis p-15-4.png | eingeplant
 - 16 | 15.10.2026 20:47 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Phishing Krypto erkennen: 3 Warnsignale in der Mail, die deine Wallet sperren will | pinterest/p-16.png | eingeplant
+- 17 | 16.10.2026 10:34 | Geld anlegen und Inflation | Balken (Zahlen) (schwarz) | Inflation frisst Erspartes: 10.000 € auf dem Konto, nur 8.200 € Kaufkraft (3 Schritte) | pinterest/p-17.png | eingeplant
+- 18 | 16.10.2026 20:58 | Krypto für Anfänger | Kurve (Regeln) (hell) | Bitcoin für Anfänger: Kurs fällt? 3 Regeln gegen den Panikverkauf | pinterest/p-18.png | eingeplant
