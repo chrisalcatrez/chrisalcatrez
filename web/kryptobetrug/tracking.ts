@@ -1,7 +1,7 @@
 // Einwilligung, Meta-Pixel und Microsoft Clarity für die Verkaufsseite /kryptobetrug.
 // Beide Dienste laden erst nach Zustimmung. Ohne Zustimmung verlässt kein Tracking-Aufruf die Seite.
 
-export const META_PIXEL_ID = '1927196884927557';
+export const META_PIXEL_ID = '1854932922531363';
 export const CLARITY_ID = 'ythsao0s8j';
 export const CONSENT_STORAGE_KEY = 'ca-consent-v1';
 
