@@ -1,4 +1,7 @@
-import { useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import type { MouseEvent } from 'react';
+import ConsentBanner from './ConsentBanner';
+import { readConsent, revokeTracking, saveConsent, startTracking, trackInitiateCheckout, trackingIsRunning } from './tracking';
 import './kryptobetrug.css';
 
 // Verkaufsseite „Echt oder Fake? Der 5-Minuten-Check“ unter chrisalcatrez.de/kryptobetrug.
@@ -8,7 +11,6 @@ const CHECKOUT_URL = 'https://www.checkout-ds24.com/product/741539?ds24tr=a-ads'
 const PAGE_TITLE = 'Echt oder Fake? Der 5-Minuten-Check';
 const PAGE_DESCRIPTION =
   'Erkenne Betrugs-Mails, SMS und Chat-Nachrichten in 5 Minuten. Ohne Technikwissen. E-Book für Krypto-Anfänger.';
-const CLARITY_ID = 'ythsao0s8j';
 
 const CONTENTS = [
   'Den 5-Minuten-Check: fünf feste Schritte für jede Mail, SMS und Chat-Nachricht',
@@ -88,9 +90,20 @@ function PriceNote() {
   );
 }
 
+// Mit Zustimmung meldet der Klick „InitiateCheckout“ an Meta; die Kasse öffnet sich 250 ms später.
+function handlePurchaseClick(event: MouseEvent<HTMLAnchorElement>) {
+  if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+    return;
+  }
+  if (!trackInitiateCheckout()) return;
+  event.preventDefault();
+  const target = event.currentTarget.href;
+  window.setTimeout(() => window.location.assign(target), 250);
+}
+
 function PurchaseLink({ children = 'Jetzt den 5-Minuten-Check holen' }: { children?: string }) {
   return (
-    <a className="eof-cta" href={CHECKOUT_URL}>
+    <a className="eof-cta" href={CHECKOUT_URL} onClick={handlePurchaseClick}>
       {children}
     </a>
   );
@@ -112,28 +125,43 @@ function usePageMeta() {
   }, []);
 }
 
-// Microsoft Clarity lief schon auf der bisherigen Verkaufsseite. Es wird nur auf dieser Seite geladen.
-function useClarity() {
+// Meta-Pixel und Microsoft Clarity laden erst nach Zustimmung im Banner und nur auf dieser Seite.
+function useConsent() {
+  const [bannerOpen, setBannerOpen] = useState(false);
+  const [focusBanner, setFocusBanner] = useState(false);
+
   useEffect(() => {
-    if (document.getElementById('eof-clarity')) return;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const w = window as any;
-    w.clarity =
-      w.clarity ||
-      function (...args: unknown[]) {
-        (w.clarity.q = w.clarity.q || []).push(args);
-      };
-    const script = document.createElement('script');
-    script.id = 'eof-clarity';
-    script.async = true;
-    script.src = `https://www.clarity.ms/tag/${CLARITY_ID}`;
-    document.head.appendChild(script);
+    const choice = readConsent();
+    if (choice === 'granted') startTracking();
+    if (choice === null) setBannerOpen(true);
   }, []);
+
+  const accept = useCallback(() => {
+    saveConsent('granted');
+    setBannerOpen(false);
+    startTracking();
+  }, []);
+
+  const reject = useCallback(() => {
+    saveConsent('denied');
+    setBannerOpen(false);
+    if (trackingIsRunning()) {
+      revokeTracking();
+      window.location.reload();
+    }
+  }, []);
+
+  const openSettings = useCallback(() => {
+    setFocusBanner(true);
+    setBannerOpen(true);
+  }, []);
+
+  return { bannerOpen, focusBanner, accept, reject, openSettings };
 }
 
 export default function KryptobetrugPage() {
   usePageMeta();
-  useClarity();
+  const consent = useConsent();
 
   return (
     <div className="eof">
@@ -420,8 +448,18 @@ export default function KryptobetrugPage() {
         <nav className="eof-footer-links" aria-label="Rechtliches">
           <a href="/impressum">Impressum</a>
           <a href="/datenschutz">Datenschutz</a>
+          <button type="button" className="eof-footer-button" onClick={consent.openSettings}>
+            Cookie-Einstellungen
+          </button>
         </nav>
       </footer>
+
+      <ConsentBanner
+        open={consent.bannerOpen}
+        focusOnOpen={consent.focusBanner}
+        onAccept={consent.accept}
+        onReject={consent.reject}
+      />
     </div>
   );
 }
