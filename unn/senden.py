@@ -2,17 +2,23 @@ import json, os, time, urllib.request, urllib.parse
 from datetime import datetime, timezone
 TOKEN = os.environ["TELEGRAM_TOKEN"]; KANAL = "@unabhaengig_neutral"; MAX_MIN = 60; ABSTAND_MIN = 12
 liste = json.load(open("unn/warteschlange.json", encoding="utf-8"))
-CSV_URL = "https://docs.google.com/spreadsheets/d/1GBJfpnFGLtwwbRJSmxKzm72LH9s6X7klRX3CP2rGOlY/export?format=csv"
+ORDNER = "1L_JVRuklII5GqEo4XGpJCcsAzbk6X6sL"  # Google-Drive-Ordner "UNN"
 try:
-    import csv, io
-    roh = urllib.request.urlopen(urllib.request.Request(CSV_URL, headers={"User-Agent": "UNN-Bot/1.0"}), timeout=20).read().decode("utf-8")
-    for z in csv.DictReader(io.StringIO(roh)):
-        if z.get("id") and z.get("zeit") and z.get("text"):
-            liste.append({"id": z["id"].strip(), "zeit": z["zeit"].strip(), "text": z["text"],
-                          "personen": [t.strip() for t in (z.get("personen") or "").split(";") if t.strip()],
-                          "bilder": [t.strip() for t in (z.get("bilder") or "").split(";") if t.strip()]})
+    import re
+    def holen(url):
+        return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 UNN-Bot"}), timeout=20).read().decode("utf-8", "replace")
+    seite = holen("https://drive.google.com/embeddedfolderview?id=" + ORDNER)
+    dateien = re.findall(r'id="entry-([\w-]+)".*?flip-entry-title">([^<]+)<', seite, re.S)
+    dateien = sorted([d for d in dateien if d[1].startswith("unn-")], key=lambda d: d[1])[-12:]
+    for fid, name in dateien:
+        try:
+            for p in json.loads(holen("https://drive.google.com/uc?export=download&id=" + fid)):
+                if p.get("id") and p.get("zeit") and p.get("text"): liste.append(p)
+        except Exception as e:
+            print("Datei nicht lesbar:", name, e)
+    print("Drive-Dateien gelesen:", len(dateien))
 except Exception as e:
-    print("Tabelle nicht lesbar:", e)
+    print("Drive-Ordner nicht lesbar:", e)
 pfad = "unn/gesendet.json"
 gesendet = set(json.load(open(pfad)) if os.path.exists(pfad) else [])
 zpfad = "unn/letzter_versand.txt"
