@@ -1,9 +1,11 @@
 import json, os, time, urllib.request, urllib.parse
 from datetime import datetime, timezone
-TOKEN = os.environ["TELEGRAM_TOKEN"]; KANAL = "@unabhaengig_neutral"; MAX_MIN = 180
+TOKEN = os.environ["TELEGRAM_TOKEN"]; KANAL = "@unabhaengig_neutral"; MAX_MIN = 240; ABSTAND_MIN = 12
 liste = json.load(open("unn/warteschlange.json", encoding="utf-8"))
 pfad = "unn/gesendet.json"
 gesendet = set(json.load(open(pfad)) if os.path.exists(pfad) else [])
+zpfad = "unn/letzter_versand.txt"
+letzter = datetime.fromisoformat(open(zpfad).read().strip()) if os.path.exists(zpfad) else None
 def tg(methode, daten):
     req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{methode}", json.dumps(daten).encode(), {"Content-Type": "application/json"})
     try:
@@ -19,6 +21,7 @@ def wiki_bild(titel):
     except Exception as e:
         print("Bild nicht gefunden:", titel, e); return None
 jetzt = datetime.now(timezone.utc)
+if letzter and (jetzt - letzter).total_seconds() < ABSTAND_MIN * 60: liste = []
 for p in liste:
     if p["id"] in gesendet: continue
     alter = (jetzt - datetime.fromisoformat(p["zeit"].replace("Z", "+00:00"))).total_seconds() / 60
@@ -38,6 +41,6 @@ for p in liste:
     else:
         r = tg("sendMessage", {"chat_id": KANAL, "text": text, "parse_mode": "HTML", "link_preview_options": {"is_disabled": True}})
     print(p["id"], "gesendet" if r.get("ok") else r)
-    if r.get("ok"): gesendet.add(p["id"])
-    time.sleep(4)
+    if r.get("ok"):
+        gesendet.add(p["id"]); open(zpfad, "w").write(jetzt.isoformat()); break
 json.dump(sorted(gesendet)[-1000:], open(pfad, "w"))
