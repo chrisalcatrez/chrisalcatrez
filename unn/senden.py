@@ -1,6 +1,6 @@
 import json, os, time, urllib.request, urllib.parse
 from datetime import datetime, timezone
-TOKEN = os.environ["TELEGRAM_TOKEN"]; KANAL = "@unabhaengig_neutral"; MAX_MIN = 240; ABSTAND_MIN = 12
+TOKEN = os.environ["TELEGRAM_TOKEN"]; KANAL = "@unabhaengig_neutral"; MAX_MIN = 60; ABSTAND_MIN = 12
 liste = json.load(open("unn/warteschlange.json", encoding="utf-8"))
 pfad = "unn/gesendet.json"
 gesendet = set(json.load(open(pfad)) if os.path.exists(pfad) else [])
