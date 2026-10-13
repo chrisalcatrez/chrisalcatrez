@@ -15,6 +15,7 @@ for p in liste:
     if p["id"] in gesendet: continue
     alter = (jetzt - datetime.fromisoformat(p["zeit"].replace("Z", "+00:00"))).total_seconds() / 60
     if alter > MAX_MIN: gesendet.add(p["id"]); continue
+    if alter < 0: continue
     text = p["text"] + "\n\n@unabhaengig_neutral"
     bilder = p.get("bilder") or ([p["bild"]] if p.get("bild") else [])
     if len(bilder) > 1:
