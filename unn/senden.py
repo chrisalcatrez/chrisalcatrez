@@ -2,6 +2,17 @@ import json, os, time, urllib.request, urllib.parse
 from datetime import datetime, timezone
 TOKEN = os.environ["TELEGRAM_TOKEN"]; KANAL = "@unabhaengig_neutral"; MAX_MIN = 60; ABSTAND_MIN = 12
 liste = json.load(open("unn/warteschlange.json", encoding="utf-8"))
+CSV_URL = "https://docs.google.com/spreadsheets/d/1GBJfpnFGLtwwbRJSmxKzm72LH9s6X7klRX3CP2rGOlY/export?format=csv"
+try:
+    import csv, io
+    roh = urllib.request.urlopen(urllib.request.Request(CSV_URL, headers={"User-Agent": "UNN-Bot/1.0"}), timeout=20).read().decode("utf-8")
+    for z in csv.DictReader(io.StringIO(roh)):
+        if z.get("id") and z.get("zeit") and z.get("text"):
+            liste.append({"id": z["id"].strip(), "zeit": z["zeit"].strip(), "text": z["text"],
+                          "personen": [t.strip() for t in (z.get("personen") or "").split(";") if t.strip()],
+                          "bilder": [t.strip() for t in (z.get("bilder") or "").split(";") if t.strip()]})
+except Exception as e:
+    print("Tabelle nicht lesbar:", e)
 pfad = "unn/gesendet.json"
 gesendet = set(json.load(open(pfad)) if os.path.exists(pfad) else [])
 zpfad = "unn/letzter_versand.txt"
