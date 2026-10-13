@@ -1,0 +1,17 @@
+name: UNN senden
+on:
+  schedule: [{cron: "*/5 * * * *"}]
+  workflow_dispatch:
+  push: {paths: ["unn/warteschlange.json"]}
+permissions: {contents: write}
+concurrency: {group: unn, cancel-in-progress: false}
+jobs:
+  senden:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 unn/senden.py
+        env: {TELEGRAM_TOKEN: "${{ secrets.TELEGRAM_TOKEN }}"}
+      - run: |
+          git config user.name "UNN Bot"; git config user.email "unn@users.noreply.github.com"
+          git add unn/gesendet.json; git diff --cached --quiet || (git commit -m "UNN: gesendet" && git pull --rebase && git push)
