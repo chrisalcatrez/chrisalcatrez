@@ -28,3 +28,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 16 | 15.10.2026 20:47 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Phishing Krypto erkennen: 3 Warnsignale in der Mail, die deine Wallet sperren will | pinterest/p-16.png | eingeplant
 - 17 | 16.10.2026 10:34 | Geld anlegen und Inflation | Balken (Zahlen) (schwarz) | Inflation frisst Erspartes: 10.000 € auf dem Konto, nur 8.200 € Kaufkraft (3 Schritte) | pinterest/p-17.png | eingeplant
 - 18 | 16.10.2026 20:58 | Krypto für Anfänger | Kurve (Regeln) (hell) | Bitcoin für Anfänger: Kurs fällt? 3 Regeln gegen den Panikverkauf | pinterest/p-18.png | eingeplant
+- 19 | 17.10.2026 11:14 | Krypto für Anfänger | Zahl (schwarz) | Bitcoin oder Altcoins? 4 Fragen vor jedem Coin-Kauf (mein 5.000 $ Influencer-Coin) | pinterest/p-19.png | eingeplant
+- 20 | 17.10.2026 20:22 | Krypto-Betrug erkennen | Stempel (hell) | Cloud-Mining Betrug erkennen: 3 Warnsignale, bevor du einzahlst (4.000 $ Lehrgeld) | pinterest/p-20.png | eingeplant
+- 21 | 18.10.2026 10:41 | Bitcoin sicher aufbewahren | Foto (schwarz) | Krypto Wallet für Anfänger: 4 Regeln, bevor Geld reingeht (nach 70.000 $ in einer falschen App) | pinterest/p-21.png | eingeplant
+- 22 | 18.10.2026 19:53 | Krypto für Anfänger | Entscheidungsbaum (hell) | Bitcoin kaufen für Anfänger: 3 Fragen vor dem ersten Kauf, einmal Ja heißt warten | pinterest/p-22.png | eingeplant

@@ -216,6 +216,42 @@ PINS = [
           visual=vz_curve('Hier hab ich alles verkauft. In Panik.', marks='x'),
           points=['Plan steht vor dem Kauf', 'Nur kaufen, was du verstehst', 'Eine Nacht drüber schlafen'],
           cta='Speichern für den nächsten Kurssturz', size='sm')])),
+
+ # Ab 17.10.2026 zwei Pins pro Tag (Vormittag und Abend, am Wochenende 10 bis 13 und 19 bis 21 Uhr).
+ dict(d='2026-10-17', t='11:14', board=B_ANF, f='Zahl', farbe='schwarz', bild='p-19',
+      titel='Bitcoin oder Altcoins? 4 Fragen vor jedem Coin-Kauf (mein 5.000 $ Influencer-Coin)',
+      text="""Bitcoin oder Altcoins? Einer meiner Altcoins kam mit bekanntem Gesicht. Gewusst hab ich nur, wer ihn empfahl. Die Macher verkauften auf einmal, der Kurs fiel senkrecht, 5.000 $ weg. Heute stelle ich vor jedem Kauf vier Fragen, sie stehen im Pin. Fehlt mir eine Antwort, bleibt das Geld, wo es ist. Keine Coin-Empfehlung, nur mein Lehrgeld. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Bitcoin oder Altcoins: große Zahl 5.000 $ für einen Influencer-Coin, darunter vier Fragen vor jedem Kauf.',
+      build=lambda: build_pin('p-19', [pin2('', 'Bitcoin oder Altcoin? <em>4&nbsp;Fragen</em> vor jedem Kauf',
+          visual=vz_num('5.000 $', 'Ein Coin mit bekanntem Gesicht. Die Macher verkauften auf einmal.'),
+          points=['Wer hat den Coin gemacht?', 'Wer hält den Großteil?', 'Warum kenne ich ihn?', 'Wofür gibt es ihn?'],
+          cta='Speichern, bevor du den nächsten Coin kaufst', size='sm')])),
+
+ dict(d='2026-10-17', t='20:22', board=B_BET, f='Stempel', farbe='hell', bild='p-20',
+      titel='Cloud-Mining Betrug erkennen: 3 Warnsignale, bevor du einzahlst (4.000 $ Lehrgeld)',
+      text="""Cloud-Mining Betrug fängt mit einem Versprechen an. Feste Rendite, jeden Monat. Ich hab 4.000 bis 5.000 $ in so ein Angebot gesteckt. Rechner hab ich nie gesehen, das Geld auch nie wieder. Krypto-Kurse schwanken jeden Tag. Wer dir trotzdem eine feste Rendite verspricht, verspricht etwas, das er selbst nie wissen kann. Die drei Warnsignale im Pin hätten mir damals gereicht. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Cloud-Mining Betrug: Stempel Garantie schräg im Rahmen, darunter drei Warnsignale mit Warnzeichen.',
+      build=lambda: build_pin('p-20', [pin2('light', 'Cloud-Mining Betrug: <em>3&nbsp;Warnsignale</em> vor der Einzahlung',
+          visual=vz_stamp('Garantie', 'Das Wort hat mich beim Cloud-Mining 4.000 bis 5.000 $ gekostet.', small=True),
+          points=['Feste Rendite, jeden Monat', 'Rechner, die du nie siehst', 'Vom Risiko kein Wort'],
+          marks='warn', cta='Speichern für die nächste Rendite-Werbung', size='sm', center=True)])),
+
+ dict(d='2026-10-18', t='10:41', board=B_SIC, f='Foto', farbe='schwarz', bild='p-21',
+      titel='Krypto Wallet für Anfänger: 4 Regeln, bevor Geld reingeht (nach 70.000 $ in einer falschen App)',
+      text="""Krypto Wallet statt Börse, der Satz fällt in jeder Anfängergruppe. Bei mir hat die eigene Wallet 70.000 $ gekostet. Eine gefälschte App, geladen, weil sie echt aussah. Eine Handy-App hatte der Anbieter nie. Seitdem kommt eine Wallet bei mir nur über die Website des Anbieters aufs Handy, und bevor Geld reingeht, geht erst ein kleiner Betrag rein. Die vier Regeln im Pin sind mein Mindestmaß. Wie die Wallet in mein System mit vier Schritten passt, zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto Wallet für Anfänger: vier Regeln, bevor Geld in die Wallet geht, darunter Chris Alcatrez im blauen Hemd.',
+      build=lambda: build_pin('p-21', [pin2('', 'Krypto Wallet: <em>4&nbsp;Regeln</em>, bevor Geld reingeht',
+          points=['Download nur beim Anbieter', 'Erst ein kleiner Testbetrag', 'Die 12 Wörter bleiben bei dir', 'Keine App aus einem Chat'],
+          cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
+
+ dict(d='2026-10-18', t='19:53', board=B_ANF, f='Entscheidungsbaum', farbe='hell', bild='p-22',
+      titel='Bitcoin kaufen für Anfänger: 3 Fragen vor dem ersten Kauf, einmal Ja heißt warten',
+      text="""Bitcoin kaufen als Anfänger, bei mir lief das anders herum. Erst gekauft, dann verstanden. Ende 2024 hab ich alle Bitcoin in Panik verkauft, weil ich vorher nie gefragt hatte, warum ich überhaupt kaufe. Die drei Fragen im Pin stelle ich mir seitdem vor jedem Kauf. Einmal Ja, und ich warte. Dreimal Nein, dann klein, an einem festen Tag, mit fester Summe. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Bitcoin kaufen für Anfänger: Entscheidungsbaum mit drei Fragen, Ja heißt warten, Nein führt zum nächsten Schritt.',
+      build=lambda: build_pin('p-22', [pin2('light', 'Bitcoin kaufen? <em>3 Fragen</em>, bevor du klickst',
+          visual=vz_flow(['Brauchst du das Geld bald wieder?', 'Kaufst du, weil der Kurs läuft?', 'Kaufst du, weil alle drin sind?'],
+                         'Dann klein anfangen. Fester Tag, feste Summe.', ja='Warten'),
+          cta='Speichern, bevor du auf Kaufen drückst', size='sm')])),
 ]
 
 if __name__ == '__main__':
