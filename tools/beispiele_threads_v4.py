@@ -495,4 +495,96 @@ Eine Wissenslücke kostet erst Geld, wenn man mit ihr kauft.
 
 Welche Frage zu Krypto traust du dich kaum zu stellen?"""),
 
+ dict(thema='„Krypto ist doch alles Betrug“ (vier Menschen, null Netzwerk)', feld='Betrug', var='These', frei_ab='2026-10-31', verwendet=None,
+      text="""„Alles Betrug“ stimmt zur Hälfte. Betrogen haben Menschen, nie das Netzwerk.
+
+Vier Mal hab ich Geld verloren: gefälschte Wallet-App, „Netzwerkgebühr“ vor der Auszahlung, Cloud-Mining mit fester Rendite, Coin mit bekanntem Gesicht. Zusammen weit über 70.000 $.
+
+Jedes Mal saß am anderen Ende ein Mensch mit einer Geschichte. Bitcoin hat mir nie geschrieben.
+
+Ein Netzwerk macht keine Versprechen. Versprechen machen Menschen.
+
+Was hat dich bisher mehr Geld gekostet, ein Mensch oder eine Technik?"""),
+
+ dict(thema='„Krypto ist doch alles Betrug“ (vier Menschen, null Netzwerk)', feld='Betrug', var='Story', frei_ab='2026-10-31', verwendet=None,
+      text="""Der Mann, der mich betrog, hatte einen Namen. Den eines anderen.
+
+Auf Instagram schrieb mir der Account eines bekannten Traders. Vor der Auszahlung seines „Trading-Bots“ kam eine „Netzwerkgebühr“ an eine Solana-Adresse. Zwei-, dreimal hab ich gezahlt. Ausgezahlt wurde nie.
+
+Das Netzwerk hat die Gebühr nur transportiert. Verlangt hat sie ein Mensch, unter falschem Namen.
+
+Betrug braucht ein Gesicht. Technik hat keins.
+
+Hat dich schon mal jemand unter dem Namen eines anderen angeschrieben?"""),
+
+ dict(thema='Informationsflut (voller Feed gegen festen Kauftag)', feld='Psychologie', var='Fall', frei_ab='2026-10-31', verwendet=None,
+      text="""1.000 Befragte, 16 Krypto-Fragen, 45 % der Antworten: weiß ich nie.
+
+So lief eine Erhebung der BaFin im April 2026 (Quelle: BaFin, 25.08.2026). Dabei war Krypto nie so laut wie heute. Jeder Feed ist voll davon.
+
+Bei mir war es damals genauso. Viel gelesen, wenig verstanden, gekauft nach der lautesten Stimme. Preis: 5.000 $ in einem Coin, der im Rug Pull endete.
+
+Lautstärke im Feed ersetzt kein Verstehen.
+
+Was weißt du über den letzten Coin, den dir jemand empfohlen hat?"""),
+
+ dict(thema='Informationsflut (voller Feed gegen festen Kauftag)', feld='Psychologie', var='These', frei_ab='2026-10-31', verwendet=None,
+      text="""Zehn Krypto-Kanäle im Feed sind zehn Verkäufer im Wohnzimmer.
+
+Jeder verdient, wenn du handelst. Keiner, wenn du wartest. Darum jeden Tag ein neuer Coin, jeden Abend eine neue Meinung.
+
+Ich hab damals nach der lautesten gekauft. 5.000 $ in einen Coin, von dem ich null verstand. Die Macher verkauften auf einmal.
+
+Heute entscheidet ein fester Kauftag. Der Feed läuft weiter, ohne Stimmrecht.
+
+Wer vom Handeln lebt, rät dir nie zum Warten.
+
+Welcher Kanal hat dich zuletzt zu einem Kauf gebracht?"""),
+
+ dict(thema='Venezuela: 468 % Inflation, Preisschilder in Dollar', feld='Geldentwertung', var='Fall', frei_ab='2026-11-01', verwendet=None,
+      text="""468 % Inflation. Höchster Wert in Lateinamerika, laut IWF.
+
+Das ist die Prognose für Venezuela 2026 (Quelle: IWF, Oktober 2026). Ich lebe hier.
+
+Im Alltag heißt das: Preise in Dollar, die Landeswährung rechnet kaum einer um. Krypto ist Alltag.
+
+Deutschland 2020 bis 2025: plus 21,9 % (Quelle: Statistisches Bundesamt). Gleicher Weg, anderes Tempo.
+
+Inflation ändert zuerst die Preisschilder, dann die Gewohnheiten.
+
+Ab welcher Zahl würdest du anfangen, in einer anderen Währung zu rechnen?"""),
+
+ dict(thema='Venezuela: 468 % Inflation, Preisschilder in Dollar', feld='Geldentwertung', var='These', frei_ab='2026-11-01', verwendet=None,
+      text="""Inflation ist kein Prozentsatz. Sie ist ein neues Preisschild.
+
+In Venezuela, wo ich lebe, rechnet der IWF für 2026 mit 468 % (Quelle: IWF, World Economic Outlook, Oktober 2026). Im Laden merkt man die Zahl kaum. Man merkt, dass alle Preise in Dollar stehen.
+
+Die Leute haben das nie beschlossen. Sie haben gezählt, was ihr Geld nach einem Monat kauft.
+
+Geld, das schrumpft, wird zuerst im Einkaufswagen sichtbar.
+
+Welches Produkt hat dir zuletzt gezeigt, dass dein Geld weniger wert ist?"""),
+
+ dict(thema='Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi)', feld='Einstieg', var='Fall', frei_ab='2026-11-01', verwendet=None,
+      text="""100.000.000 Satoshi sind ein Bitcoin. Kaufen kannst du jede Menge dazwischen.
+
+Ein Bitcoin teilt sich in 100 Millionen Satoshi. Bruchteile kaufst du bei jeder Börse (Quelle: Bitpanda Academy). Für den Einstieg braucht keiner einen ganzen.
+
+Ich hab damals das Gegenteil gemacht: einen Memecoin gekauft, weil er pro Stück nach fast null aussah. Am Ende stand ein Minus.
+
+Die Stückzahl in der Wallet sagt null über den Wert.
+
+Zählst du beim Kauf Stücke oder Euro?"""),
+
+ dict(thema='Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi)', feld='Einstieg', var='Story', frei_ab='2026-11-01', verwendet=None,
+      text="""Memecoin pro Stück fast null. Mein Verlust: echt.
+
+Die Stückzahl in der Wallet sah nach viel aus. Bitcoin kam mir damals zu teuer vor, ein ganzer war außer Reichweite.
+
+Dabei teilt sich ein Bitcoin in 100 Millionen Satoshi, Bruchteile gibt es bei jeder Börse (Quelle: Bitpanda Academy). Die große Stückzahl beim Memecoin war nur eine große Zahl.
+
+Ein niedriger Stückpreis ist kein Schnäppchen, nur eine kleine Einheit.
+
+Hast du schon mal gekauft, weil ein Coin pro Stück billig aussah?"""),
+
 ]

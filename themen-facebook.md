@@ -18,3 +18,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 14 | 14.10.2026 19:49 | Nischenmythos | Mythos: Krypto ist doch alles Betrug (MiCAR seit 30.12.2024, Quelle BaFin) |  | nein
 - 15 | 15.10.2026 19:28 | System-Teaser | Mein Krypto-System passt auf einen Zettel: vier Schritte nach 70.000 $ Verlust (gefälschte Wallet-App), was im System fehlt |  | ja
 - 16 | 16.10.2026 19:44 | Fall aus der Community | Fall Peter (Name geändert): mit gut 250 € angefangen, 83.000 € auf dem Handelskonto, 5 € ausgezahlt, Schaden laut Anzeige rund 62.000 € |  | nein
+- 17 | 17.10.2026 19:38 | Geschichte | Ein bekanntes Gesicht hat mich 5.000 $ gekostet (Influencer-Coin, Rug Pull, Drei-Ebenen-Modell) |  | ja
+- 18 | 18.10.2026 19:27 | Meme (Bild) | Damals und heute: voller Krypto-Feed gegen festen Kauftag (Informationsflut, Bild von Threads 34) | threads/t-34.png | nein
+- 19 | 19.10.2026 19:46 | Frage an die Zielgruppe | Hand aufs Herz: App geladen, die aussah wie das Original? Ich fange an: Ja, 70.000 $ (gefälschte Wallet-App) |  | nein
