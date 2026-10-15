@@ -35,3 +35,7 @@ Ab Tweet 15 gilt der Bauplan v2 (Hook → Beweis → Erkenntnis → eine Frage; 
 - 30 | 15.10.2026 18:58 | 1 Begriff in 60 Sekunden | Stablecoin, erklärt an TerraUSD (rund 40 Mrd. $, 15 Jahre Haft, laut Reuters) | 
 - 31 | 16.10.2026 08:41 | Scam-Teardown kurz | Fall Lena (Name geändert): falscher „Community Support“ in der Krypto-Gruppe, rund 1.000 € weg, echte Chat-Sätze (Bild) | x/x-31.png
 - 32 | 16.10.2026 19:06 | Red Flags | OneCoin: Kurs fiel nie, über 4 Mrd. $ laut US-Justiz; Warnzeichen keine öffentliche Blockchain, Kurs selbst festgelegt, Provision fürs Anwerben | 
+- 33 | 17.10.2026 09:37 | Thread (Entscheidungs-Fragen) | Bevor du einen Coin kaufst, 4 Fragen (Telegram-Gruppe ohne Antwort zum Team, TRUMP-Coin laut Chainalysis/CNBC, Influencer-Coin 5.000 $, feste Rendite Cloud-Mining); Link im vorletzten Tweet | 
+- 34 | 17.10.2026 18:47 | A gegen B | Fragen oder verstehen: Bestätigung bei anderen gesucht, bestätigt haben Verkäufer; heute Schritt für Schritt selbst verstehen | 
+- 35 | 18.10.2026 09:52 | Was ich heute anders machen würde | Wenn ich heute anfangen würde, wäre mein erster Kauf langweilig (Memecoin als Gegenbild, 3 Dinge anders) | 
+- 36 | 18.10.2026 18:34 | Damals–Heute | Geld bezahlt, um mein eigenes Geld zu bekommen (Instagram, Netzwerkgebühr, ausgezahlt 0), heute Venezuela und System mit vier Schritten; einziger CTA der Woche mit Link im Profil | 
