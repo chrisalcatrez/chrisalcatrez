@@ -587,4 +587,92 @@ Ein niedriger Stückpreis ist kein Schnäppchen, nur eine kleine Einheit.
 
 Hast du schon mal gekauft, weil ein Coin pro Stück billig aussah?"""),
 
+ dict(thema='BaFin-Warnung: 23 fast gleiche Finanz- und Krypto-Seiten ohne Erlaubnis', feld='Betrug', var='These', frei_ab='2026-11-02', verwendet=None,
+      text="""Eine Erlaubnis sieht man keiner Webseite an. Man schlägt sie nach.
+
+Die BaFin warnt seit dem 14.10.2026 vor 23 fast gleich gebauten Seiten für Finanz- und Kryptodienste. Andere Namen, derselbe Werbesatz, keine Erlaubnis (Quelle: BaFin).
+
+Mein Cloud-Mining sah auch seriös aus. Gefragt hab ich Fremde, keine Behörde. 4.000 bis 5.000 $ weg.
+
+Wer ohne Erlaubnis arbeitet, hat keinen, der ihm auf die Finger schaut.
+
+Prüfst du einen Anbieter, bevor du ihm Geld schickst, oder danach?"""),
+
+ dict(thema='BaFin-Warnung: 23 fast gleiche Finanz- und Krypto-Seiten ohne Erlaubnis', feld='Betrug', var='Story', frei_ab='2026-11-02', verwendet=None,
+      text="""4.000 bis 5.000 $ in ein Angebot, das ich nie nachgeschlagen hab.
+
+Cloud-Mining mit fester Rendite. Ich hab Fremde gefragt, ob das seriös ist. Die BaFin hab ich nie gefragt.
+
+Seit dem 14.10.2026 warnt sie vor 23 fast gleichen Seiten ohne Erlaubnis (Quelle: BaFin). Mein Anbieter hätte in die Liste gepasst.
+
+Eine Nachfrage bei der Aufsicht kostet Minuten, ein Anbieter ohne Erlaubnis alles.
+
+Wen fragst du, bevor du irgendwo Geld einzahlst?"""),
+
+ dict(thema='Falscher „Community Support“ nach Hilferuf in einer Gruppe (Fall Lena, Name geändert)', feld='Betrug', var='These', frei_ab='2026-11-03', verwendet=None,
+      text="""Wer in einer Krypto-Gruppe um Hilfe bittet, ruft zuerst die Betrüger.
+
+Lena (Name geändert) hat es so erlebt. Nach ihrem Hilferuf meldete sich ein „Community Support“. Sie folgte seinen Anweisungen, währenddessen wurde ihre Wallet leergeräumt. Rund 1.000 € aus zwei Wallets.
+
+Der echte Support schreibt dich nie zuerst an. Der falsche wartet darauf, dass du fragst.
+
+Wer sich als Erster meldet, hat das größte Interesse an deinem Geld.
+
+Wem hast du in einer Krypto-Gruppe zuletzt vertraut?"""),
+
+ dict(thema='Falscher „Community Support“ nach Hilferuf in einer Gruppe (Fall Lena, Name geändert)', feld='Betrug', var='Story', frei_ab='2026-11-03', verwendet=None,
+      text="""„Sie werden sicherlich Ihr gesamtes Geld zurückbekommen.“ Zurück kam null.
+
+So beruhigte ein „Community Support“ Lena (Name geändert). Sie hatte in einer Gruppe um Hilfe gebeten. Er wollte einen Screenshot, „damit ich sehen kann“. Während sie seinen Anweisungen folgte, leerte sich ihre Wallet. Rund 1.000 € aus zwei Wallets.
+
+Jede Nachricht klang nach Hilfe, jede kostete Geld.
+
+Je beruhigender der Ton, desto schneller verschwindet das Geld.
+
+Welcher Satz hätte dich stutzig gemacht?"""),
+
+ dict(thema='FAQ: Bin ich als Anfänger bei Krypto überhaupt richtig? (vier Schritte, kein Genie)', feld='Einstieg', var='Fall', frei_ab='2026-11-02', verwendet=None,
+      text="""1.000 Befragte, 16 Fragen zu Krypto. Wer besitzt, weiß 57 %.
+
+So lief eine Erhebung der BaFin (Quelle: BaFin, 25.08.2026). Die meisten kaufen also, ohne alles zu verstehen. Ich hab das auch so gemacht, mit weit über 70.000 $ Lehrgeld.
+
+Mein System hat heute vier Schritte, und der erste heißt verstehen, was ich kaufe. Erst danach kommt Geld ins Spiel.
+
+Anfänger sein ist kein Hindernis. Kaufen ohne Verstehen ist eins.
+
+Was würdest du über Bitcoin gern verstehen, bevor du den ersten Euro einsetzt?"""),
+
+ dict(thema='FAQ: Bin ich als Anfänger bei Krypto überhaupt richtig? (vier Schritte, kein Genie)', feld='Psychologie', var='Story', frei_ab='2026-11-02', verwendet=None,
+      text="""Ich bin kein Genie. Mein Lehrgeld: weit über 70.000 $.
+
+Ich hab lange geglaubt, die anderen wüssten mehr. Also hab ich Fremde gefragt, wohin mit meinem Geld. Bestätigung gab es reichlich, Verstehen null.
+
+Verstanden hab ich erst allein, Schritt für Schritt. Daraus wurden vier Schritte, die ich jedem erklären kann.
+
+Ein Anfänger, der versteht, schlägt jeden Fortgeschrittenen, der rät.
+
+Was war dein erster Krypto-Moment, in dem du dich dumm gefühlt hast?"""),
+
+ dict(thema='Fake-Account mit meinem Namen in der Telegram-Gruppe (Damals–Heute)', feld='Betrug', var='Fall', frei_ab='2026-11-03', verwendet=None,
+      text="""Zwei Accounts mit meinem Namen. Einer davon räumte Wallets leer.
+
+In der Telegram-Gruppe eines Coin-Projekts war ich Admin. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an. Danach fehlten geschätzt 4.000 bis 5.000 €. Entwicklerteam: keine Antwort.
+
+Ein Fake-Account braucht nur einen bekannten Namen und ein Projekt, in dem keiner nachfragt.
+
+Der Admin, der dir privat schreibt, ist selten der Admin.
+
+Prüfst du, ob ein „Admin“ echt ist, bevor du ihm antwortest?"""),
+
+ dict(thema='Fake-Account mit meinem Namen in der Telegram-Gruppe (Damals–Heute)', feld='Sicherheit', var='These', frei_ab='2026-11-03', verwendet=None,
+      text="""Ein Name beweist null. Meiner hat andere 4.000 bis 5.000 € gekostet.
+
+Als Admin in der Telegram-Gruppe eines Coin-Projekts gab es mich plötzlich zweimal. Der zweite schrieb Mitglieder privat an. Danach waren Wallets leer.
+
+Niemand hat nachgefragt, ob ich das bin. Der Name reichte.
+
+Vertrauen in einen Namen ist Vertrauen in jeden, der ihn benutzt.
+
+Hast du schon mal einem Account geglaubt, nur weil der Name vertraut war?"""),
+
 ]
