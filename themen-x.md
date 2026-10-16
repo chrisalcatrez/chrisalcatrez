@@ -43,3 +43,7 @@ Ab Tweet 15 gilt der Bauplan v2 (Hook → Beweis → Erkenntnis → eine Frage; 
 - 38 | 19.10.2026 18:43 | Freigegebener Fall / Live-Reaktion | Live-Reaktion: BaFin warnt seit 14.10. vor 23 fast gleich gebauten Webseiten ohne Erlaubnis; keine Erlaubnis heißt keine Aufsicht | 
 - 39 | 20.10.2026 08:52 | Thread (Scam-Teardown) | Fall Thomas (Name geändert): Rückhol-Betrug nach 40.000 $ Verlust (Londoner Kanzlei, „BaFin Team“, „Blockchain Support“ mit 2,08 BTC gegen Ausweis und Stromrechnung), 241 Seiten abgeschaltet laut CoinDesk; Link im vorletzten Tweet | 
 - 40 | 20.10.2026 19:04 | Frage an die Zielgruppe | Hand aufs Herz: Cloud-Mining mit fester Rendite, 4.000 bis 5.000 $; ab wie viel Prozent im Monat wirst du misstrauisch? | 
+- 41 | 21.10.2026 08:31 | Mythos → Realität | Mythos: Bitcoin ist anonym; Bitfinex-Hack 2016, fast 120.000 Bitcoin gestohlen, 2022 über 94.000 beschlagnahmt (laut NBC); verstecken kann sich der Dieb, die Coins nie (Bild) | x/x-41.png
+- 42 | 21.10.2026 18:56 | Persönliche Case Study | Panikverkauf Ende 2024: mein teuerster Verkauf hatte keinen Grund, nur Puls; wer blind kauft, verkauft blind | 
+- 43 | 22.10.2026 09:14 | Datenpunkt → Bedeutung | FBI IC3-Bericht 2025: 7,2 Mrd. $ Krypto-Anlagebetrug, alle Maschen 11,4 Mrd. $; der teuerste Betrug fragt vorher um Erlaubnis | 
+- 44 | 22.10.2026 18:29 | Contrarian Take + Beweis | Ein Admin ist kein Schutz: Fake-Account mit Chris' Namen in der Telegram-Gruppe, rund 4.000 bis 5.000 € leergeräumt; der Name im Chat gehört dem, der ihn benutzt | 
