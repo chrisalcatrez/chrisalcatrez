@@ -160,11 +160,13 @@ def s_memo(label, title, head, items, cta, sub=None):
 ICON_X = '<svg width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#3A3A37"/><path d="M15 15 L29 29 M29 15 L15 29" stroke="#C9C9C2" stroke-width="3.5" stroke-linecap="round"/></svg>'
 ICON_OK = '<svg width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#ffab00"/><path d="M13 22.5 L19.5 29 L31 16" stroke="#000" stroke-width="3.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 
-def s_vs(label, title, left_head, left, right_head, right, cta):
+def s_vs(label, title, left_head, left, right_head, right, cta, src=None):
+    # src: optionale Quellenzeile klein unter den Spalten
     lrows = ''.join('<div class="row a">%s<div>%s</div></div>' % (ICON_X, t) for t in left)
     rrows = ''.join('<div class="row b">%s<div>%s</div></div>' % (ICON_OK, t) for t in right)
-    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div class="vsw"><h2>%s</h2><div class="cols"><div class="col"><div class="pill a">%s</div>%s</div><div class="vline"></div><div class="col"><div class="pill b">%s</div>%s</div></div></div><div style="display:flex;flex-direction:column;gap:40px"><div class="cta">%s</div>%s</div></section>'
-                         % (label, title, left_head, lrows, right_head, rrows, cta, foot(n, N)))
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div class="vsw"><h2>%s</h2><div class="cols"><div class="col"><div class="pill a">%s</div>%s</div><div class="vline"></div><div class="col"><div class="pill b">%s</div>%s</div></div>%s</div><div style="display:flex;flex-direction:column;gap:40px"><div class="cta">%s</div>%s</div></section>'
+                         % (label, title, left_head, lrows, right_head, rrows, srch, cta, foot(n, N)))
 
 def s_bingo(label, title, sub, cells, center_idx, cta):
     cs = ''.join('<div class="cell%s">%s</div>' % (' c' if i == center_idx else '', t) for i, t in enumerate(cells))
