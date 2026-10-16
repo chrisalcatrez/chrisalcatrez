@@ -39,3 +39,7 @@ Ab Tweet 15 gilt der Bauplan v2 (Hook → Beweis → Erkenntnis → eine Frage; 
 - 34 | 17.10.2026 18:47 | A gegen B | Fragen oder verstehen: Bestätigung bei anderen gesucht, bestätigt haben Verkäufer; heute Schritt für Schritt selbst verstehen | 
 - 35 | 18.10.2026 09:52 | Was ich heute anders machen würde | Wenn ich heute anfangen würde, wäre mein erster Kauf langweilig (Memecoin als Gegenbild, 3 Dinge anders) | 
 - 36 | 18.10.2026 18:34 | Damals–Heute | Geld bezahlt, um mein eigenes Geld zu bekommen (Instagram, Netzwerkgebühr, ausgezahlt 0), heute Venezuela und System mit vier Schritten; einziger CTA der Woche mit Link im Profil | 
+- 37 | 19.10.2026 08:19 | Meme | Erwartung und Realität: 3,3 % Inflation laut Statistischem Bundesamt (September 2026), Heizöl +74,9 %, Sprit +37,1 %; ein Durchschnitt heizt keine Wohnung (Bild) | x/x-37.png
+- 38 | 19.10.2026 18:43 | Freigegebener Fall / Live-Reaktion | Live-Reaktion: BaFin warnt seit 14.10. vor 23 fast gleich gebauten Webseiten ohne Erlaubnis; keine Erlaubnis heißt keine Aufsicht | 
+- 39 | 20.10.2026 08:52 | Thread (Scam-Teardown) | Fall Thomas (Name geändert): Rückhol-Betrug nach 40.000 $ Verlust (Londoner Kanzlei, „BaFin Team“, „Blockchain Support“ mit 2,08 BTC gegen Ausweis und Stromrechnung), 241 Seiten abgeschaltet laut CoinDesk; Link im vorletzten Tweet | 
+- 40 | 20.10.2026 19:04 | Frage an die Zielgruppe | Hand aufs Herz: Cloud-Mining mit fester Rendite, 4.000 bis 5.000 $; ab wie viel Prozent im Monat wirst du misstrauisch? | 
