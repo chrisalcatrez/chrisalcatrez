@@ -21,3 +21,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 17 | 17.10.2026 19:38 | Geschichte | Ein bekanntes Gesicht hat mich 5.000 $ gekostet (Influencer-Coin, Rug Pull, Drei-Ebenen-Modell) |  | ja
 - 18 | 18.10.2026 19:27 | Meme (Bild) | Damals und heute: voller Krypto-Feed gegen festen Kauftag (Informationsflut, Bild von Threads 34) | threads/t-34.png | nein
 - 19 | 19.10.2026 19:46 | Frage an die Zielgruppe | Hand aufs Herz: App geladen, die aussah wie das Original? Ich fange an: Ja, 70.000 $ (gefälschte Wallet-App) |  | nein
+- 20 | 20.10.2026 19:33 | Aufzählung | Fünf Dinge, die mir Venezuela über Erspartes gezeigt hat (468 % Inflation laut IWF, Oktober 2026; Deutschland 2020 bis 2025 plus 21,9 %, Statistisches Bundesamt; Preise in Dollar, Krypto im Alltag) |  | ja
+- 21 | 21.10.2026 19:48 | Chat (Bild) + Damals–Heute | Nachgestellt: dieselbe „Netzwerkgebühr“ dreimal an eine Solana-Adresse (Fake-Account eines Traders auf Instagram), „Dann trade ich eben nie wieder für dich“; damals Geld gezahlt, um an Geld zu kommen, heute vier Schritte | facebook/f-21.png | ja
+- 22 | 22.10.2026 19:22 | Nischenmythos | Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi, Bruchteile bei jeder Börse, Quelle Bitpanda Academy; Memecoin pro Stück fast null, trotzdem Verlust) |  | nein
