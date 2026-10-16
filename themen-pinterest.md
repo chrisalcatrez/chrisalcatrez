@@ -32,3 +32,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 20 | 17.10.2026 20:22 | Krypto-Betrug erkennen | Stempel (hell) | Cloud-Mining Betrug erkennen: 3 Warnsignale, bevor du einzahlst (4.000 $ Lehrgeld) | pinterest/p-20.png | eingeplant
 - 21 | 18.10.2026 10:41 | Bitcoin sicher aufbewahren | Foto (schwarz) | Krypto Wallet für Anfänger: 4 Regeln, bevor Geld reingeht (nach 70.000 $ in einer falschen App) | pinterest/p-21.png | eingeplant
 - 22 | 18.10.2026 19:53 | Krypto für Anfänger | Entscheidungsbaum (hell) | Bitcoin kaufen für Anfänger: 3 Fragen vor dem ersten Kauf, einmal Ja heißt warten | pinterest/p-22.png | eingeplant
+- 23 | 19.10.2026 11:27 | Krypto-Betrug erkennen | Echt gegen Fake (akzent) | Rückhol-Betrug erkennen: 3 Unterschiede zwischen echter Hilfe und Fake (nach 40.000 $ Verlust) | pinterest/p-23.png | eingeplant
+- 24 | 19.10.2026 20:38 | Krypto für Anfänger | Karussell (4 Folien) (schwarz) | Krypto für Anfänger: 3 Gefühle, die mich Geld gekostet haben, und je eine Regel dagegen | pinterest/p-24-1.png bis p-24-4.png | eingeplant
+- 25 | 20.10.2026 10:49 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (hell) | Krypto-Betrug in Telegram-Gruppen: 3 Regeln, seit ein Fake mit meinem Namen Wallets leerte | pinterest/p-25.png | eingeplant
+- 26 | 20.10.2026 20:16 | Krypto für Anfänger | Balken (Zahlen) (schwarz) | Memecoin kaufen? 764.000 Wallets verloren, 58 gewannen Millionen (Chainalysis) und 3 Regeln | pinterest/p-26.png | eingeplant

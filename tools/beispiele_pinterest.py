@@ -252,6 +252,56 @@ PINS = [
           visual=vz_flow(['Brauchst du das Geld bald wieder?', 'Kaufst du, weil der Kurs läuft?', 'Kaufst du, weil alle drin sind?'],
                          'Dann klein anfangen. Fester Tag, feste Summe.', ja='Warten'),
           cta='Speichern, bevor du auf Kaufen drückst', size='sm')])),
+
+ # Woche ab 19.10.2026: Fall der Woche Thomas (Rückhol-Betrug, p-23); p-24 bis p-26 nur eigene Fakten und belegte Zahlen.
+
+ dict(d='2026-10-19', t='11:27', board=B_BET, f='Echt gegen Fake', farbe='akzent', bild='p-23',
+      titel='Rückhol-Betrug erkennen: 3 Unterschiede zwischen echter Hilfe und Fake (nach 40.000 $ Verlust)',
+      text="""Rückhol-Betrug kommt nach dem Verlust. Thomas (Name geändert) aus meiner Community verlor rund 40.000 $. Seitdem schreiben ihm ein „BaFin Team“ und ein „Blockchain Support“, der vor der Auszahlung Ausweis und Stromrechnung will. Jede Mail leitet er mir weiter. Echt war keine. Wer ungefragt anbietet, verlorenes Geld zurückzuholen, ist höchst verdächtig (Verbraucherzentrale Hessen). Mehr zu den 3 Fehlgriffen der Krypto-Anfänger im kostenlosen Training über den Link.""",
+      alt='Rückhol-Betrug: links echte Hilfe mit drei Haken, rechts der Fake mit drei Kreuzen und einem Stempel Fake.',
+      build=lambda: build_pin('p-23', [pin2('acc', 'Rückhol-Betrug: <em>3&nbsp;Unterschiede</em> zu echter Hilfe',
+          visual=vz_vs2('Echte Hilfe', ['Du suchst sie selbst', 'Will kein Geld vorab', 'Kein Ausweis per Mail'],
+                        'Fake', ['Schreibt dir ungefragt', 'Gebühr vor der Rückzahlung', 'Will deinen Ausweis'],
+                        note='Nachgestellt nach echten Mails. Name geändert.'),
+          cta='Speichern für die nächste Mail nach einem Verlust', size='sm')])),
+
+ dict(d='2026-10-19', t='20:38', board=B_ANF, f='Karussell (4 Folien)', farbe='schwarz', bild='p-24', folien=4,
+      titel='Krypto für Anfänger: 3 Gefühle, die mich Geld gekostet haben, und je eine Regel dagegen',
+      text="""Krypto für Anfänger, drei Gefühle haben mich mehr gekostet als jede Zahl. Eile: einen Coin am Tag der Empfehlung gekauft, 5.000 $ weg. Panik: Ende 2024 alle Bitcoin verkauft. Zweifel: lange Fremde um Bestätigung gebeten, statt selbst zu verstehen, was ich kaufe. Jede Folie zeigt ein Gefühl, zwei Warnzeichen und die Regel, die ich seitdem halte. Keine Kursprognose, mein Lehrgeld. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Karussell: 5.000 $ für einen Coin aus dem Gefühl, dann drei Folien zu Eile, Panik und Zweifel mit je zwei Warnzeichen.',
+      alts=['Krypto für Anfänger: große Zahl 5.000 $, ein Coin aus einem Gefühl gekauft, drei Gefühle folgen.',
+            'Gefühl 1, Eile: 5.000 $ für einen Coin am Tag der Empfehlung, zwei Warnzeichen.',
+            'Gefühl 2, Panik: 100 Prozent, alle Bitcoin Ende 2024 verkauft, zwei Warnzeichen.',
+            'Gefühl 3, Zweifel: eine Frage statt Bestätigung von Fremden, zwei Warnzeichen.'],
+      build=lambda: build_pin('p-24', [
+          pin2('', 'Krypto für Anfänger: <em>3&nbsp;Gefühle</em>, die Geld kosten',
+               visual=vz_num('5.000 $', 'Ein Coin, gekauft aus einem Gefühl. Drei davon haben mich Geld gekostet, eins pro Folie.'),
+               cta='Speichern. Ein Gefühl pro Folie', size='sm', center=True),
+          pin2('', 'Gefühl 1: <em>Eile</em>', visual=vz_num('5.000 $', 'Ein Coin mit bekanntem Gesicht, gekauft am Tag der Empfehlung. Regel seitdem: kein Kauf am selben Tag.'),
+               points=['Kauf am Tag der Empfehlung', 'Coin, den du keinem erklärst'], marks='warn', cta='Speichern, bevor du auf eine Empfehlung kaufst', size='hero'),
+          pin2('', 'Gefühl 2: <em>Panik</em>', visual=vz_num('100 %', 'Ende 2024 hab ich alle Bitcoin verkauft. Regel seitdem: Verkauf nur nach Plan, nie aus dem Bauch.'),
+               points=['Verkaufen, weil der Kurs fällt', 'Entscheidung in Minuten'], marks='warn', cta='Speichern, bevor du im Minus verkaufst', size='hero'),
+          pin2('', 'Gefühl 3: <em>Zweifel</em>', visual=vz_num('1 Frage', 'Verstehe ich, was ich kaufe? Lange hab ich stattdessen Fremde um Bestätigung gebeten.'),
+               points=['Kauf, weil andere nicken', 'Fragen statt verstehen'], marks='warn', cta='Speichern, bevor du in der Gruppe nachfragst', size='hero'),
+      ])),
+
+ dict(d='2026-10-20', t='10:49', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='hell', bild='p-25',
+      titel='Krypto-Betrug in Telegram-Gruppen: 3 Regeln, seit ein Fake mit meinem Namen Wallets leerte',
+      text="""Krypto-Betrug in Telegram-Gruppen hab ich von innen gesehen. Ich war Admin in der Gruppe eines Coin-Projekts. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an. Danach waren Wallets leer, geschätzt 4.000 bis 5.000 €. Meine Fragen nach dem Entwicklerteam blieben ohne Antwort. Seitdem gilt für mich: Hilfe nur offen in der Gruppe, Nutzername statt Anzeigename prüfen, schweigt das Team, kein Geld. Das kostenlose Training für Krypto-Anfänger findest du über den Link.""",
+      alt='Krypto-Betrug in Telegram-Gruppen: nachgestellte Nachricht eines Fake-Admins in einer Sprechblase, darunter drei Regeln.',
+      build=lambda: build_pin('p-25', [pin2('light', 'Fake-Admin mit meinem Namen: <em>3&nbsp;Regeln</em> für Krypto-Gruppen',
+          visual=vz_bubble('„Hallo, hier Chris vom Team. Ich helfe dir kurz mit deiner Wallet.“', 'Nachgestellt. Der Account trug meinen Namen.'),
+          points=['Kein Admin schreibt privat', 'Nutzername prüfen', 'Schweigt das Team, raus'],
+          cta='Speichern, bevor du in einer Gruppe antwortest', size='xs')])),
+
+ dict(d='2026-10-20', t='20:16', board=B_ANF, f='Balken (Zahlen)', farbe='schwarz', bild='p-26',
+      titel='Memecoin kaufen? 764.000 Wallets verloren, 58 gewannen Millionen (Chainalysis) und 3 Regeln',
+      text="""Memecoin kaufen klingt nach schnellem Geld. Bei einem der größten Memecoins 2025 verloren laut Chainalysis rund 764.000 Wallets Geld, 58 Wallets gewannen je über 10 Mio. $ (Quelle: CNBC, Mai 2025). Mein eigener Memecoin endete mit Verlust. Die drei Regeln im Pin sind das, was ich seitdem vor jedem Coin prüfe. Keine Coin-Empfehlung, keine Prognose, nur Zahlen und mein Lehrgeld. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Memecoin: zwei Balken, 764.000 Wallets mit Verlust gegen 58 Wallets mit Millionengewinn, darunter drei Regeln.',
+      build=lambda: build_pin('p-26', [pin2('', 'Memecoin: <em>764.000</em> verloren, 58&nbsp;wurden reich',
+          visual=vz_bars([('Wallets mit Verlust', '764.000', 100), ('Wallets mit über 10 Mio. $ Gewinn', '58', 1)], 'Zahlen: Chainalysis, ein großer Memecoin.'),
+          points=['Nur Hype hält den Kurs', 'Billig pro Stück, nie günstig', 'Erklären, sonst kein Kauf'],
+          cta='Speichern für den nächsten Hype-Coin', size='sm')])),
 ]
 
 if __name__ == '__main__':
