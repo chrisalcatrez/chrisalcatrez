@@ -167,6 +167,143 @@ Für alle, die mit Krypto und Bitcoin anfangen und die erste Auszahlung vor sich
 
 Speichere dir das, bevor die nächste „Auszahlung“ auf dich wartet.''')
 
+# ---------- Beitrag 20: Statement-Karussell (Geldentwertung: Sparkonto verliert ohne Kurssturz) ----------
+Q_DESTATIS = 'Quelle: Statistisches Bundesamt, Verbraucherpreisindex 2020 = 100, Jahresdurchschnitt 2025'
+Q_IWF = 'Quelle: IWF, World Economic Outlook, Oktober 2026'
+POSTS['beitrag-20'] = dict(
+    date='2026-10-17', fmt='Statement-Karussell', topic='Geldentwertung: 100 € von 2020 kaufen heute für 82 €, das Sparkonto verliert ohne Kurssturz (Blick aus Venezuela)',
+    slides=[
+        s_hook('STATEMENT', '100 € von 2020 kaufen heute Waren für 82 €. %s' % A('Ohne einen einzigen Kurssturz.'),
+               sub='Das Sparkonto ist die einzige Anlage, bei der der Verlust feststeht. Meine Sicht aus Venezuela.',
+               cue='Was ich hier jeden Tag sehe &#8594;', size=''),
+        s_proof('WO ICH LEBE', 'Ich lebe in Venezuela.',
+                big='468 %', big_sub='Inflation rechnet der IWF hier für 2026. Die höchste in Lateinamerika.',
+                src=Q_IWF, cue='Was das mit Erspartem macht &#8594;'),
+        s_point('WAS ICH HIER SEHE', 'Die Zahl auf dem Konto bleibt. Was sie kauft, geht.',
+                ['Keiner hat beschlossen, dass Erspartes weniger wert wird. Es kam Preis für Preis.',
+                 D('Krypto ist hier Alltag. Aus Not, aus keinem Hype.')],
+                cue='Deutschland in Zeitlupe &#8594;'),
+        s_point('DEUTSCHLAND IN ZEITLUPE', 'Rund 22 % teurer seit 2020.',
+                ['Der Verbraucherpreisindex stieg von 100 im Jahr 2020 auf rund 122 im Jahr 2025.',
+                 D('Für 100 € von damals bekommst du heute Waren für rund 82 €. Ohne Kurssturz, ohne Betrug, ohne Schlagzeile.')],
+                src=Q_DESTATIS, cue='Heißt das: alles in Krypto? &#8594;'),
+        s_point('HEISST DAS: ALLES IN KRYPTO?', 'Nein. Es heißt: %s' % A('Stillstand ist auch eine Entscheidung.'),
+                ['Krypto schwankt, jeden Tag. Wer das aushält, braucht einen Plan, Verständnis und kleine Beträge.',
+                 D('Das Sparkonto schwankt nie. Es verliert nur leise. Welche Seite du wählst, entscheidest du.')],
+                size='m', cue='Dein Merkzettel &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Vier Sätze %s' % A('über Erspartes.'), 'Dein Merkzettel', [
+            'Null Schwankung heißt null Risiko? Nein. Es heißt Verlust ohne Kurve.',
+            'Rund 22 % teurer seit 2020: 100 € von damals kaufen heute für 82 €.',
+            'Niemand beschließt Geldentwertung. Sie kommt Preis für Preis.',
+            'Krypto schwankt. Wer einsteigt, braucht Plan, Verständnis und kleine Beträge.',
+        ], 'Schick das jemandem, der sein Erspartes seit Jahren auf dem Sparkonto parkt.'),
+    ],
+    alts=['Statement: 100 Euro von 2020 kaufen heute Waren für 82 Euro, ohne einen einzigen Kurssturz. Das Sparkonto ist die einzige Anlage, bei der der Verlust feststeht. Meine Sicht aus Venezuela',
+          'Wo ich lebe: Ich lebe in Venezuela. 468 Prozent Inflation rechnet der IWF hier für 2026, die höchste in Lateinamerika. Quelle: IWF, World Economic Outlook, Oktober 2026',
+          'Was ich hier sehe: Die Zahl auf dem Konto bleibt, was sie kauft, geht. Keiner hat beschlossen, dass Erspartes weniger wert wird, es kam Preis für Preis. Krypto ist hier Alltag, aus Not',
+          'Deutschland in Zeitlupe: Rund 22 Prozent teurer seit 2020. Der Verbraucherpreisindex stieg von 100 im Jahr 2020 auf rund 122 im Jahr 2025. Für 100 Euro von damals bekommst du heute Waren für rund 82 Euro. Quelle: Statistisches Bundesamt',
+          'Heißt das, alles in Krypto? Nein. Es heißt: Stillstand ist auch eine Entscheidung. Krypto schwankt, wer das aushält, braucht Plan, Verständnis und kleine Beträge. Das Sparkonto schwankt nie, es verliert nur leise',
+          'Merkzettel, vier Sätze über Erspartes: Null Schwankung heißt Verlust ohne Kurve; rund 22 Prozent teurer seit 2020; niemand beschließt Geldentwertung, sie kommt Preis für Preis; Krypto schwankt, wer einsteigt, braucht Plan und kleine Beträge. Schick das jemandem, der sein Erspartes seit Jahren auf dem Sparkonto parkt'],
+    caption='''Ich wohne in dem Land mit der höchsten Inflation Lateinamerikas. Dein Sparkonto macht dasselbe, nur leiser.
+
+Der IWF rechnet für Venezuela 2026 mit rund 468 % Inflation (Quelle: IWF, World Economic Outlook, Oktober 2026). Ich lebe hier. Was ich jeden Tag sehe: Die Zahl auf dem Konto bleibt gleich. Was sie kauft, wird weniger. Keiner hat das beschlossen. Es kam Preis für Preis. Krypto ist hier Alltag, aus Not, aus keinem Hype.
+
+Deutschland läuft dieselbe Strecke, nur in Zeitlupe:
+– Der Verbraucherpreisindex stieg von 100 im Jahr 2020 auf rund 122 im Jahr 2025 (Quelle: Statistisches Bundesamt, Jahresdurchschnitt 2025).
+– Für 100 € von 2020 bekommst du heute Waren für rund 82 €.
+– Ohne Kurssturz, ohne Betrug, ohne Schlagzeile.
+
+Heißt das, alles in Krypto? Nein. Krypto schwankt, jeden Tag. Wer das aushält, braucht einen Plan, Verständnis für das, was er kauft, und kleine Beträge. Das Sparkonto schwankt nie. Es verliert nur leise. Welche Seite du wählst, entscheidest du. Keine Kursprognose, keine Gewinnzusage, nur das, was ich hier sehe.
+
+Für alle, die als Anfänger über Bitcoin und Krypto nachdenken und sich um ihr Erspartes sorgen.
+
+Wie viele Jahre liegt dein Erspartes schon auf dem Sparkonto? Schreib die Zahl in die Kommentare.
+
+Schick das jemandem, der sein Erspartes seit Jahren auf dem Sparkonto parkt.''')
+
+# ---------- Beitrag 21: Gegenueberstellung (Vorurteil vs. Wahrheit: Bezahlen mit Bitcoin im Alltag) ----------
+POSTS['beitrag-21'] = dict(
+    date='2026-10-18', fmt='Gegenüberstellung', topic='Vorurteil vs. Wahrheit: „Bitcoin kannst du nirgends ausgeben“ (BTC Map, Krypto-Karte, Alltag in Venezuela)',
+    slides=[
+        s_vs('VORURTEIL VS. WAHRHEIT', '„Bitcoin kannst du nirgends ausgeben.“ %s' % A('Über 26.000 Läden sagen Nein.'),
+             'VORURTEIL', ['Nur zum Spekulieren da', 'Kein Laden nimmt ihn an', 'Bezahlen braucht Technik-Wissen', 'Spielgeld für Nerds'],
+             'WAHRHEIT', ['Über 26.000 Händler nehmen ihn an', 'BTC Map zeigt sie dir in deiner Nähe', 'Krypto-Karte zahlt überall mit Kartenzahlung', 'In Venezuela, wo ich lebe, ist Krypto Alltag'],
+             'Schick das jemandem, der sagt, mit Bitcoin kann man nirgends bezahlen.', src='Quelle: BTC Map, Stand August 2026'),
+    ],
+    alts=['Gegenüberstellung Vorurteil und Wahrheit: Bitcoin kannst du nirgends ausgeben, über 26.000 Läden sagen Nein. Vorurteil: nur zum Spekulieren da, kein Laden nimmt ihn an, Bezahlen braucht Technik-Wissen, Spielgeld für Nerds. Wahrheit: Über 26.000 Händler nehmen ihn an, BTC Map zeigt sie dir in deiner Nähe, Krypto-Karte zahlt überall mit Kartenzahlung, in Venezuela, wo ich lebe, ist Krypto Alltag. Quelle: BTC Map, Stand August 2026. Schick das jemandem, der sagt, mit Bitcoin kann man nirgends bezahlen'],
+    caption='''Ich wohne in einem Land, in dem Krypto Alltag ist. In Deutschland höre ich: Damit kann man nirgends bezahlen.
+
+Das Vorurteil:
+– Bitcoin ist nur zum Spekulieren da.
+– Kein Laden nimmt ihn an.
+– Zum Bezahlen brauchst du Technik-Wissen.
+– Krypto ist Spielgeld für Nerds.
+
+Die Wahrheit:
+– Über 26.000 Händler weltweit nehmen Bitcoin an, Tendenz steigend (Quelle: BTC Map, Stand August 2026).
+– BTC Map ist eine kostenlose Karte. Sie zeigt dir jeden Laden in deiner Nähe, der Bitcoin nimmt: Café, Friseur, Werkstatt.
+– Mit einer Krypto-Karte zahlst du überall, wo Kartenzahlung geht. Die Karte wechselt im Hintergrund in Euro, der Laden sieht nur eine Kartenzahlung.
+– Wo ich lebe, in Venezuela, ist Krypto Alltag. Aus Not, aus keinem Hype.
+
+Keine Coin-Empfehlung, keine Kursprognose. Nur die Antwort auf einen Satz, den jeder Krypto-Anfänger zu hören bekommt.
+
+Hast du schon mal mit Bitcoin oder einer Krypto-Karte bezahlt? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der sagt, mit Bitcoin kann man nirgends bezahlen.''')
+
+# ---------- Beitrag 22: Nischenmythos (feste Rendite ist sicherer als Schwankung, Cloud-Mining) ----------
+Q_ESMA = 'Quelle: ESMA, Faktenblatt zu Krypto-Betrug, Januar 2026'
+POSTS['beitrag-22'] = dict(
+    date='2026-10-19', fmt='Nischenmythos entlarven', topic='Mythos: Eine feste Rendite ist sicherer als Schwankung (Cloud-Mining, 4.000 bis 5.000 $, ESMA-Warnzeichen)',
+    slides=[
+        s_hook('MYTHOS', '„Eine feste Rendite ist sicherer als %s“' % A('Schwankung.'),
+               sub='Dieser Glaube hat mich 4.000 bis 5.000 $ gekostet. Woran du ihn in 5 Sekunden erkennst.',
+               cue='Zuerst das Angebot, auf das ich reingefallen bin &#8594;', size=''),
+        s_proof('MEIN FALL', 'Cloud-Mining mit festem Ertrag, jeden Monat.',
+                big='4.000 $', big_sub='und mehr: 4.000 bis 5.000 $ hab ich eingezahlt. Wiedergesehen hab ich das Geld nie.',
+                cue='Warum die Zahl nie stimmen konnte &#8594;'),
+        s_point('DIE WAHRHEIT', 'Aus schwankenden Kursen gibt es keinen festen Ertrag.',
+                ['Mining bringt Bitcoin. Was der wert ist, entscheidet der Kurs, jeden Tag neu.',
+                 D('Eine feste Zahl kann dir nur versprechen, wer sie aus dem Geld der nächsten Einzahler nimmt. Oder aus gar keinem.')],
+                cue='Die Aufsicht sagt dasselbe &#8594;'),
+        s_point('WAS DIE AUFSICHT SAGT', '„Garantiert schnelle und hohe Rendite“ steht auf der Warnliste.',
+                ['Die EU-Wertpapieraufsicht ESMA nennt das als Warnzeichen für Krypto-Betrug. Dazu: unaufgefordertes Angebot, Zeitdruck, Zahlung nur in Krypto.',
+                 D('Bei meinem Angebot war die feste Rendite das Verkaufsargument.')],
+                src=Q_ESMA, size='m', cue='Dein Test in 5 Sekunden &#8594;'),
+        s_point('DER 5-SEKUNDEN-TEST', 'Steht eine Zahl pro Monat im Angebot, %s' % A('ist es keins.'),
+                ['Echtes Mining und echte Börsen nennen dir Gebühren. Erträge nennt dir keiner im Voraus.',
+                 D('Frag nach der Quelle des Ertrags. Kommt ein Prozentsatz statt einer Erklärung, bleibt dein Geld, wo es ist.')],
+                size='m', cue='Dein Merkzettel &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Feste Rendite: %s' % A('die 4 Warnzeichen.'), 'Dein Merkzettel', [
+            'Eine feste Zahl pro Monat aus schwankenden Kursen gibt es nie.',
+            '„Garantiert“ steht bei der ESMA auf der Warnliste.',
+            'Der Ertrag kommt aus dem Geld der Nächsten oder aus keinem.',
+            'Frag nach der Quelle des Ertrags. Prozent statt Erklärung: raus.',
+        ], 'Speichere dir das, bevor dir das nächste Angebot eine feste Rendite verspricht.'),
+    ],
+    alts=['Mythos: Eine feste Rendite ist sicherer als Schwankung. Dieser Glaube hat mich 4.000 bis 5.000 Dollar gekostet. Woran du ihn in 5 Sekunden erkennst',
+          'Mein Fall: Cloud-Mining mit festem Ertrag jeden Monat. 4.000 bis 5.000 Dollar eingezahlt, wiedergesehen hab ich das Geld nie',
+          'Die Wahrheit: Aus schwankenden Kursen gibt es keinen festen Ertrag. Mining bringt Bitcoin, was der wert ist, entscheidet der Kurs jeden Tag neu. Eine feste Zahl kann nur versprechen, wer sie aus dem Geld der nächsten Einzahler nimmt',
+          'Was die Aufsicht sagt: Garantiert schnelle und hohe Rendite steht auf der Warnliste. Die ESMA nennt das als Warnzeichen für Krypto-Betrug, dazu unaufgefordertes Angebot, Zeitdruck, Zahlung nur in Krypto. Quelle: ESMA, Faktenblatt zu Krypto-Betrug, Januar 2026',
+          'Der 5-Sekunden-Test: Steht eine Zahl pro Monat im Angebot, ist es keins. Echte Börsen nennen Gebühren, Erträge nennt keiner im Voraus. Frag nach der Quelle des Ertrags',
+          'Merkzettel, feste Rendite, die vier Warnzeichen: eine feste Zahl pro Monat aus schwankenden Kursen gibt es nie; garantiert steht bei der ESMA auf der Warnliste; der Ertrag kommt aus dem Geld der Nächsten oder aus keinem; frag nach der Quelle des Ertrags. Speichere dir das, bevor dir das nächste Angebot eine feste Rendite verspricht'],
+    caption='''Die sicherste Zahl in meinem Mining-Vertrag war die gefährlichste. Sie hat mich 4.000 bis 5.000 $ gekostet.
+
+Der Mythos: „Eine feste Rendite ist sicherer als Schwankung.“ Genau das wollte ich damals als Krypto-Anfänger hören. Ein Cloud-Mining-Anbieter versprach einen festen Ertrag jeden Monat. Ich hab 4.000 bis 5.000 $ eingezahlt. Wiedergesehen hab ich das Geld nie.
+
+Die Wahrheit:
+– Mining bringt Bitcoin. Was der wert ist, entscheidet der Kurs, jeden Tag neu. Aus schwankenden Kursen gibt es keinen festen Ertrag.
+– Eine feste Zahl kann dir nur versprechen, wer sie aus dem Geld der nächsten Einzahler nimmt. Oder aus gar keinem.
+– Die EU-Wertpapieraufsicht ESMA führt „garantiert schnelle und hohe Rendite“ als Warnzeichen für Krypto-Betrug, dazu unaufgeforderte Angebote, Zeitdruck und Zahlung nur in Krypto (Quelle: ESMA, Faktenblatt zu Krypto-Betrug, Januar 2026).
+
+Der 5-Sekunden-Test: Steht eine Zahl pro Monat im Angebot, ist es keins. Echtes Mining und echte Börsen nennen dir Gebühren. Erträge nennt dir keiner im Voraus. Frag nach der Quelle des Ertrags. Kommt ein Prozentsatz statt einer Erklärung, bleibt dein Geld, wo es ist.
+
+Keine Kursprognose, keine Anbieter-Empfehlung. Nur mein Lehrgeld und die Warnliste der Aufsicht.
+
+Welche feste Rendite wurde dir schon mal versprochen? Schreib die Zahl in Prozent in die Kommentare.
+
+Speichere dir das, bevor dir das nächste Angebot eine feste Rendite verspricht.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

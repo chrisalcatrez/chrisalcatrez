@@ -22,3 +22,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 17 | 12.10.2026 | Schritt-für-Schritt-Anleitung | Mein Vorgehen vor jedem Coin-Kauf: 4 Fragen (Influencer-Coin, 5.000 $, Rug Pull)
 - 18 | 13.10.2026 | FAQ beantworten | FAQ: „Zu spät für Bitcoin?“ (Panikverkauf Ende 2024, Sparplan statt Timing)
 - 19 | 14.10.2026 | Aufzählung | 4 Gebühren sind echt, die 5. ist immer Betrug (Netzwerkgebühr vor der Auszahlung)
+- 20 | 17.10.2026 | Statement-Karussell | Geldentwertung: 100 € von 2020 kaufen heute für 82 €, das Sparkonto verliert ohne Kurssturz (Blick aus Venezuela, IWF, Destatis)
+- 21 | 18.10.2026 | Gegenüberstellung | Vorurteil vs. Wahrheit: „Bitcoin kannst du nirgends ausgeben“ (BTC Map, Krypto-Karte, Alltag in Venezuela)
+- 22 | 19.10.2026 | Nischenmythos entlarven | Mythos: Eine feste Rendite ist sicherer als Schwankung (Cloud-Mining, 4.000 bis 5.000 $, ESMA-Warnzeichen)
