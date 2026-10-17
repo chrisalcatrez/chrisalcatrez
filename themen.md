@@ -25,3 +25,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 20 | 17.10.2026 | Statement-Karussell | Geldentwertung: 100 € von 2020 kaufen heute für 82 €, das Sparkonto verliert ohne Kurssturz (Blick aus Venezuela, IWF, Destatis)
 - 21 | 18.10.2026 | Gegenüberstellung | Vorurteil vs. Wahrheit: „Bitcoin kannst du nirgends ausgeben“ (BTC Map, Krypto-Karte, Alltag in Venezuela)
 - 22 | 19.10.2026 | Nischenmythos entlarven | Mythos: Eine feste Rendite ist sicherer als Schwankung (Cloud-Mining, 4.000 bis 5.000 $, ESMA-Warnzeichen)
+- 23 | 20.10.2026 | Erfolgsgeschichte | Damals Bestätigung von Fremden gesucht, heute über 250 Kunden (selbst verstehen, einfaches System)
+- 24 | 21.10.2026 | Visueller Post | Raster: 3 Orte für deine Bitcoin, wer den Schlüssel hält und wo die Falle liegt (Börse, Wallet-App, Hardware-Wallet; gefälschte App 70.000 $)
+- 25 | 22.10.2026 | Frage an die Zielgruppe | Hand aufs Herz: Geld mit einem Memecoin verloren? (764.000 Wallets im Minus laut Chainalysis, eigener Memecoin-Verlust)

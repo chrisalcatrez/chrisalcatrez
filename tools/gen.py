@@ -1,6 +1,6 @@
 # Generator fuer Instagram-Beitraege im Design System "chrisalcatrez"
 # Vorlagen: s_hook, s_point, s_proof (Beleg: Zahl, Screenshot, Zitat), s_memo (Merkzettel zum Speichern), s_vs, s_bingo,
-# s_question, s_story, s_mail, s_chat, s_list. Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
+# s_question, s_story, s_mail, s_chat, s_list, s_raster. Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
 # Nutzung: im Arbeitsordner 'npm i @fontsource/montserrat @fontsource/libre-baskerville playwright',
 # dann in Python: sys.path.insert(0, '<repo>/tools'); from gen import *; build('beitrag-N', [s_hook(...), s_point(...), ...])
 # Schriften: Montserrat (Ueberschriften, Labels) + Libre Baskerville (Fliesstext) nach Anchus Schriftarten-1x1
@@ -93,6 +93,16 @@ h1.sm{font-size:60px;line-height:1.12}
 .quote .qf{font-weight:700;font-size:22px;letter-spacing:2px;text-transform:uppercase;color:#6B6B66}
 .quote .qt{font-family:'Libre Baskerville',serif;font-size:36px;line-height:1.42}
 .quote .qt mark{background:#FFD26A;color:inherit;padding:0 4px;margin:0 -4px}
+.qpre{font-weight:700;font-size:40px;line-height:1.25;color:var(--fg)}
+/* Raster (Visueller Post) */
+.cards{display:flex;flex-direction:column;gap:14px}
+.card{border:2px solid var(--line);border-radius:16px;padding:18px 26px;display:flex;flex-direction:column;gap:6px}
+.card.hi{border-color:var(--acc)}
+.chd{font-weight:800;font-size:26px;letter-spacing:2px;text-transform:uppercase;color:var(--fg)}
+.card.hi .chd{color:var(--acc)}
+.crow{display:grid;grid-template-columns:150px 1fr;column-gap:18px;align-items:baseline}
+.ck{font-weight:700;font-size:22px;letter-spacing:1px;text-transform:uppercase;color:var(--meta)}
+.cv{font-family:'Libre Baskerville',serif;font-size:26px;line-height:1.34;color:var(--fg)}
 /* Merkzettel: Checkliste zum Speichern */
 .memo{border:2px solid var(--acc);border-radius:20px;padding:30px 34px;display:flex;flex-direction:column;gap:20px}
 .memo .mh{font-weight:800;font-size:26px;letter-spacing:3px;text-transform:uppercase;color:var(--acc)}
@@ -173,9 +183,21 @@ def s_bingo(label, title, sub, cells, center_idx, cta):
     return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:32px"><h2>%s</h2><p class="sub">%s</p><div class="grid">%s</div></div><div style="display:flex;flex-direction:column;gap:36px"><div class="cta">%s</div>%s</div></section>'
                          % (label, title, sub, cs, cta, foot()))
 
-def s_question(label, kick, question, me, cta):
-    return lambda n, N: ('<section class="s q"><div class="hd meta">%s</div><div class="qmid"><div class="kick">%s</div><h1 class="m">%s</h1><div class="me">%s</div><div class="cta" style="color:var(--fg2)">%s</div></div>%s</section>'
-                         % (label, kick, question, me, cta, foot()))
+def s_question(label, kick, question, me, cta, pre=None, src=None):
+    # pre: optionale Zeile ueber der Frage (Zahl als Aufhaenger), src: Quellenzeile klein unter dem CTA
+    preh = '<div class="qpre">%s</div>' % pre if pre else ''
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s q"><div class="hd meta">%s</div><div class="qmid">%s<div class="kick">%s</div><h1 class="m">%s</h1><div class="me">%s</div><div class="cta" style="color:var(--fg2)">%s</div>%s</div>%s</section>'
+                         % (label, preh, kick, question, me, cta, srch, foot()))
+
+def s_raster(label, title, cards, cta, sub=None, src=None, hi=None):
+    # Raster fuer Visuelle Posts: Karten untereinander, je Karte ein Kopf und Zeilen (Schluessel, Wert); hi = Index der Akzentkarte
+    cs = ''.join('<div class="card%s"><div class="chd">%s</div>%s</div>' % (' hi' if i == hi else '', h, ''.join('<div class="crow"><div class="ck">%s</div><div class="cv">%s</div></div>' % kv for kv in rows))
+                 for i, (h, rows) in enumerate(cards))
+    subh = '<p class="sub">%s</p>' % sub if sub else ''
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:26px"><h2>%s</h2>%s<div class="cards">%s</div>%s</div><div style="display:flex;flex-direction:column;gap:30px"><div class="cta">%s</div>%s</div></section>'
+                         % (label, title, subh, cs, srch, cta, foot()))
 
 def s_story(label, title, ps, cta):
     return lambda n, N: ('<section class="s story"><div class="hd">%s</div><div class="mid"><h1>%s</h1>%s</div><div class="pcta">%s &#8594;</div></section>'

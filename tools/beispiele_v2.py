@@ -304,6 +304,117 @@ Welche feste Rendite wurde dir schon mal versprochen? Schreib die Zahl in Prozen
 
 Speichere dir das, bevor dir das nächste Angebot eine feste Rendite verspricht.''')
 
+# ---------- Beitrag 23: Erfolgsgeschichte (Bestaetigung von Fremden gesucht, heute ein System) ----------
+POSTS['beitrag-23'] = dict(
+    date='2026-10-20', fmt='Erfolgsgeschichte', topic='Damals Bestätigung von Fremden gesucht, heute über 250 Kunden (selbst verstehen, einfaches System)',
+    slides=[
+        s_hook('ERFOLGSGESCHICHTE', 'Früher hab ich Fremde gefragt, ob mein Kauf richtig ist. Heute fragen mich %s' % A('über 250 Kunden.'),
+               sub='Was sich dazwischen geändert hat. Eine Episode aus meiner Geschichte.', cue='Zuerst die Zahl, um die es geht &#8594;', size=''),
+        s_proof('HEUTE', 'Meine Zahl, kein Versprechen für dich.',
+                big='5-stellig', big_sub='Krypto-Gewinn, jedes Jahr. Dazu über 250 Kunden.',
+                cue='Und so sah es davor aus &#8594;'),
+        s_point('DAMALS', 'Ich hab Bestätigung gesucht. %s' % A('Lange.'),
+                ['Ich wollte, dass mir jemand anderes sagt: So ist es richtig.', D('Jedes Ja von anderen fühlte sich sicher an. Verstanden hatte ich dadurch null.')],
+                cue='Der Moment, an dem sich das drehte &#8594;'),
+        s_point('DER WENDEPUNKT', 'Ich hab angefangen, selbst zu verstehen, was ich kaufe.',
+                ['Schritt für Schritt. Eine Frage nach der anderen, bis ich sie selbst beantworten konnte.', D('Kein weiteres Ja von Fremden. Nur meine eigene Antwort.')],
+                size='m', cue='Was daraus geworden ist &#8594;'),
+        s_point('HEUTE', 'Ein einfaches System. %s' % A('Langfristig.'),
+                ['Ich kaufe nach Plan, statt auf eine Meinung zu warten.', D('Jeder Schritt darin ist einer, den ich selbst erklären kann.')],
+                cue='Was das für dich heißt &#8594;'),
+        s_point('FÜR DICH', 'Ich bin kein Genie.',
+                ['Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.', D('Dafür brauchst du kein Ja von anderen. Du brauchst Verständnis für das, was du kaufst.')],
+                cue='Dein Merkzettel für den nächsten Kauf &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Bevor du wieder %s' % A('nach einem Ja fragst.'), 'Dein Merkzettel', [
+            'Ein Ja von Fremden ersetzt kein eigenes Verstehen.',
+            'Kannst du den Kauf in zwei Sätzen erklären? Erst dann kaufen.',
+            'Eine Meinung ist kein Plan.',
+            'Du entscheidest. Auch dann, wenn du andere fragst.',
+        ], 'Speichere dir das für den Moment, in dem du wieder fragen willst.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Erfolgsgeschichte: Früher hab ich Fremde gefragt, ob mein Kauf richtig ist. Heute fragen mich über 250 Kunden',
+          'Heute: jedes Jahr ein fünfstelliger Krypto-Gewinn, dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich',
+          'Damals: Ich hab lange Bestätigung gesucht. Jedes Ja von anderen fühlte sich sicher an, verstanden hatte ich dadurch null',
+          'Der Wendepunkt: Ich hab angefangen, selbst zu verstehen, was ich kaufe. Schritt für Schritt',
+          'Heute: ein einfaches, langfristiges System. Ich kaufe nach Plan, statt auf eine Meinung zu warten',
+          'Für dich: Ich bin kein Genie. Wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch',
+          'Merkzettel, bevor du wieder nach einem Ja fragst: Ein Ja von Fremden ersetzt kein eigenes Verstehen; erst kaufen, wenn du es in zwei Sätzen erklären kannst; eine Meinung ist kein Plan; du entscheidest. Speichere dir das',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Lange hab ich andere gefragt, ob mein Kauf passt. Heute hab ich über 250 Kunden.
+
+Am Anfang wollte ich vor jedem Schritt ein Ja hören. Von Fremden, von anderen, die angeblich mehr wussten. Jedes Ja fühlte sich sicher an. Verstanden hatte ich dadurch null.
+
+Der Wendepunkt:
+– Ich hab angefangen, selbst zu verstehen, was ich kaufe. Schritt für Schritt.
+– Daraus wurde ein einfaches, langfristiges System.
+– Heute mache ich laut meiner eigenen Rechnung jedes Jahr einen fünfstelligen Krypto-Gewinn. Meine Zahl, kein Versprechen für dich.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch. Dafür brauchst du kein Ja von anderen. Du brauchst Verständnis für das, was du kaufst.
+
+Für alle Krypto-Anfänger, die vor dem ersten Bitcoin-Kauf erst ein Ja von anderen hören wollen.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 24: Visueller Post (Raster: 3 Orte fuer deine Bitcoin, wer den Schluessel haelt) ----------
+Q_BAFIN = 'Quelle: BaFin, Verbraucherinformation zu Kryptowerten (Einlagensicherung, Private Key)'
+POSTS['beitrag-24'] = dict(
+    date='2026-10-21', fmt='Visueller Post', topic='Raster: 3 Orte für deine Bitcoin, wer den Schlüssel hält und wo die Falle liegt (Börse, Wallet-App, Hardware-Wallet; gefälschte App 70.000 $)',
+    slides=[
+        s_raster('WO DEINE BITCOIN LIEGEN', '3 Orte für deine Bitcoin. %s' % A('3 Arten, sie zu verlieren.'), [
+            ('1 &nbsp;Börse', [('Schlüssel', 'hat die Börse'), ('Falle', 'Hack: keine Einlagensicherung wie beim Sparkonto')]),
+            ('2 &nbsp;Wallet-App auf dem Handy', [('Schlüssel', 'hast du, auf dem Handy'), ('Falle', 'gefälschte App, die echt aussieht. Meine 70.000 $')]),
+            ('3 &nbsp;Hardware-Wallet', [('Schlüssel', 'hast du, auf einem eigenen Gerät'), ('Falle', 'Wörter herausgegeben, oder Gerät und Wörter weg')]),
+        ], 'Speichere dir das für den Tag, an dem du entscheidest, wo deine Bitcoin liegen.',
+            src=Q_BAFIN, hi=1),
+    ],
+    alts=['Raster, 3 Orte für deine Bitcoin, 3 Arten, sie zu verlieren. 1 Börse: den Schlüssel hat die Börse, Falle: Hack, keine Einlagensicherung wie beim Sparkonto. 2 Wallet-App auf dem Handy: den Schlüssel hast du, Falle: gefälschte App, die echt aussieht, so verlor ich 70.000 Dollar. 3 Hardware-Wallet: den Schlüssel hast du auf einem eigenen Gerät, Falle: Wörter herausgegeben, oder Gerät und Wörter weg. Quelle: BaFin. Speichere dir das für den Tag, an dem du entscheidest, wo deine Bitcoin liegen'],
+    caption='''Jeder Ort für deine Bitcoin hat seine eigene Falle. Meine war eine App, die echt aussah.
+
+Wo Krypto liegen kann und wer den Schlüssel hält:
+
+1. Börse: Den Schlüssel hat die Börse. Wird sie gehackt, gibt es keine Einlagensicherung wie beim Sparkonto (Quelle: BaFin).
+
+2. Wallet-App auf dem Handy: Den Schlüssel hast du. Die Falle ist eine gefälschte App, die aussieht wie das Original. Genau so hab ich 70.000 $ verloren.
+
+3. Hardware-Wallet: Den Schlüssel hast du, auf einem eigenen Gerät. Gibst du deine Wörter heraus, ist das Guthaben weg. Sind Gerät und Wörter weg, stellt es keiner wieder her (Quelle: BaFin).
+
+Kein Ort ist ohne Risiko. Wer weiß, welches Risiko er trägt, wird seltener überrascht.
+
+Keine Anbieter-Empfehlung, keine Kursprognose. Nur die drei Orte und meine teuerste Erfahrung als Krypto-Anfänger.
+
+Wo liegen deine Bitcoin gerade? Schreib 1, 2 oder 3 in die Kommentare.
+
+Speichere dir das für den Tag, an dem du entscheidest, wo deine Bitcoin liegen.''')
+
+# ---------- Beitrag 25: Frage an die Zielgruppe (Memecoin-Verlust, Chainalysis-Zahlen) ----------
+POSTS['beitrag-25'] = dict(
+    date='2026-10-22', fmt='Frage an die Zielgruppe', topic='Hand aufs Herz: Geld mit einem Memecoin verloren? (764.000 Wallets im Minus laut Chainalysis, eigener Memecoin-Verlust)',
+    slides=[
+        s_question('FRAGE AN DICH', 'Hand aufs Herz', 'Hast du schon mal Geld mit einem %s verloren?' % A('Memecoin'), 'Ich fange an: Ja.',
+                   'Schreib Ja oder Nein in die Kommentare.',
+                   pre='764.000 Wallets im Minus. 58 mit je über 10 Mio. $ Gewinn. Ein einziger Memecoin.',
+                   src='Quelle: Chainalysis via CNBC, 06.05.2025'),
+    ],
+    alts=['Hand aufs Herz: 764.000 Wallets im Minus, 58 mit je über 10 Millionen Dollar Gewinn, ein einziger Memecoin. Hast du schon mal Geld mit einem Memecoin verloren? Ich fange an: Ja. Schreib Ja oder Nein in die Kommentare. Quelle: Chainalysis via CNBC, 06.05.2025'],
+    caption='''58 Wallets haben mit einem Memecoin Millionen gemacht. Rund 764.000 haben Geld verloren.
+
+Die Zahlen stammen von Chainalysis zu einem der bekanntesten Memecoins 2025:
+– Rund 2 Millionen Wallets haben gekauft.
+– 58 davon machten je über 10 Mio. $ Gewinn, zusammen rund 1,1 Mrd. $.
+– Rund 764.000 lagen im Minus, die meisten mit kleinen Beträgen.
+(Quelle: Chainalysis via CNBC, 06.05.2025)
+
+Ich fange an: Ja. Ich hab selbst Geld mit einem Memecoin verloren.
+
+Jetzt du:
+– Hast du schon mal einen Memecoin gekauft?
+– Lag er am Ende im Plus oder im Minus?
+
+Keine Coin-Empfehlung, keine Kursprognose. Ich will wissen, wie es Krypto-Anfängern hier mit Memecoins geht.
+
+Schreib Ja oder Nein in die Kommentare.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
