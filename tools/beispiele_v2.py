@@ -415,6 +415,166 @@ Keine Coin-Empfehlung, keine Kursprognose. Ich will wissen, wie es Krypto-Anfän
 
 Schreib Ja oder Nein in die Kommentare.''')
 
+# ---------- Beitrag 26: Schritt-fuer-Schritt (rote Tage: Plan statt Panik) ----------
+Q_KURS = 'Quelle: Schwäbische Zeitung, Kursverlauf Oktober 2025 bis Februar 2026'
+POSTS['beitrag-26'] = dict(
+    date='2026-10-23', fmt='Schritt-für-Schritt-Anleitung', topic='Rote Tage: Ende 2024 alle Bitcoin in Panik verkauft, heute 3 Schritte, bevor der Kurs fällt (Schwankungen aushalten, Plan statt Puls)',
+    slides=[
+        s_hook('SCHRITT FÜR SCHRITT', 'Ende 2024 hab ich %s meiner Bitcoin in Panik verkauft. Heute gehen rote Tage nach 3 Schritten.' % A('100 %'),
+               sub='Mein Vorgehen, wenn der Kurs fällt. Grob, die Tiefe im Training.', cue='Zuerst, wie es damals lief &#8594;', size=''),
+        s_proof('MEIN LEHRGELD', 'Der Kurs fiel. Ich hatte keinen Plan, nur Puls.',
+                big='100 %', big_sub='meiner Bitcoin verkauft, Ende 2024. In Panik, an einem einzigen Tag der Angst.',
+                cue='Schritt 1 hätte das verhindert &#8594;'),
+        s_point('SCHRITT 1 VON 3', 'Verstehen, %s' % A('bevor ich kaufe.'),
+                ['Ich kaufe nur, was ich in zwei Sätzen erklären kann.', D('Wer weiß, was er hält, verkauft seltener aus Angst.')],
+                cue='Schritt 2 passiert Wochen vor dem roten Tag &#8594;'),
+        s_point('SCHRITT 2 VON 3', 'Der Plan steht, %s' % A('bevor der Kurs fällt.'),
+                ['Fester Tag, feste Summe. Festgelegt an einem ruhigen Tag.', D('Am roten Tag gibt es keine neue Entscheidung. Der Plan hat sie schon getroffen.')],
+                cue='Schritt 3 nimmt dem Absturz den Schreck &#8594;'),
+        s_point('SCHRITT 3 VON 3', 'Kursrutsche %s statt fürchten.' % A('einplanen'),
+                ['Anfang Oktober 2025 zeitweise über 126.000 $. Anfang Februar 2026 unter 63.000 $.', D('Halbiert in vier Monaten. Wer so etwas vorher einplant, erschrickt seltener.')],
+                src=Q_KURS + '. Rückblick, keine Kursprognose.', cue='Dein Merkzettel für den nächsten roten Tag &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Rote Tage, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Nur kaufen, was du in zwei Sätzen erklären kannst.',
+            'Den Plan an einem ruhigen Tag festlegen.',
+            'Kursrutsche vorher einplanen statt fürchten.',
+            'Panik verkauft zum schlechtesten Zeitpunkt.',
+        ], 'Speichere dir das für den nächsten roten Tag.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Schritt für Schritt: Ende 2024 hab ich 100 Prozent meiner Bitcoin in Panik verkauft. Heute gehen rote Tage nach 3 Schritten',
+          'Mein Lehrgeld: 100 Prozent meiner Bitcoin verkauft, Ende 2024, in Panik. Der Kurs fiel, ich hatte keinen Plan, nur Puls',
+          'Schritt 1 von 3: Verstehen, bevor ich kaufe. Ich kaufe nur, was ich in zwei Sätzen erklären kann',
+          'Schritt 2 von 3: Der Plan steht, bevor der Kurs fällt. Fester Tag, feste Summe, festgelegt an einem ruhigen Tag',
+          'Schritt 3 von 3: Kursrutsche einplanen statt fürchten. Anfang Oktober 2025 zeitweise über 126.000 Dollar, Anfang Februar 2026 unter 63.000 Dollar. Quelle: Schwäbische Zeitung',
+          'Merkzettel, rote Tage in 4 Zeilen: nur kaufen, was du erklären kannst; den Plan an einem ruhigen Tag festlegen; Kursrutsche einplanen; Panik verkauft zum schlechtesten Zeitpunkt. Speichere dir das für den nächsten roten Tag',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Mein teuerster Verkauf hatte keinen Grund. Nur Angst.
+
+Ende 2024 hab ich alle meine Bitcoin verkauft. In Panik. Der Kurs fiel, und ich hatte keinen Plan, nur Puls.
+
+Heute laufen rote Tage bei mir nach drei groben Schritten:
+1. Verstehen, bevor ich kaufe: Ich kaufe nur, was ich in zwei Sätzen erklären kann. Wer weiß, was er hält, verkauft seltener aus Angst.
+2. Der Plan steht, bevor der Kurs fällt: fester Tag, feste Summe, festgelegt an einem ruhigen Tag. Am roten Tag gibt es keine neue Entscheidung.
+3. Kursrutsche einplanen statt fürchten: Anfang Oktober 2025 kostete ein Bitcoin zeitweise über 126.000 $, Anfang Februar 2026 unter 63.000 $ (Quelle: Schwäbische Zeitung). Halbiert in vier Monaten. Wer so etwas vorher einplant, erschrickt seltener.
+
+Keine Kursprognose, keine Gewinnzusage. Nur mein Lehrgeld als Krypto-Anfänger und der Blick zurück.
+
+Für alle, die Bitcoin halten und bei jedem roten Tag aufs Handy starren.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 27: FAQ (Wie viel Geld brauche ich fuer den Einstieg?) ----------
+Q_SAT = 'Quelle: BTC-Echo Academy, Stichwort Satoshi'
+POSTS['beitrag-27'] = dict(
+    date='2026-10-24', fmt='FAQ beantworten', topic='FAQ: „Wie viel Geld brauche ich für den Einstieg?“ (100 Millionen Satoshi, 70.000 $ Verlust trotz großem Betrag)',
+    slides=[
+        s_hook('FAQ', '„Wie viel Geld brauche ich?“ Ein Bitcoin hat %s Die Antwort ist kleiner, als du denkst.' % A('100 Millionen Teile.'),
+               sub='Was ich Anfängern darauf antworte.', cue='Zuerst die Zahl, die alles ändert &#8594;', size=''),
+        s_proof('DER BELEG', 'Du musst nie einen ganzen Bitcoin kaufen.',
+                big='100 Mio.', big_sub='Satoshi stecken in einem Bitcoin. Börsen verkaufen dir Bruchteile, schon für kleine Beträge.',
+                src=Q_SAT, cue='Warum der Betrag am Anfang zweitrangig ist &#8594;'),
+        s_point('MEIN FALL', '70.000 $ waren kein kleiner Betrag. %s' % A('Weg waren sie trotzdem.'),
+                ['Ich hab eine gefälschte Wallet-App geladen, weil sie echt aussah.', D('Mehr Geld hat mich nie sicherer gemacht. Verstehen schon.')],
+                size='m', cue='Was am Anfang wirklich zählt &#8594;'),
+        s_point('MEINE ANTWORT', 'Fang mit einem Betrag an, %s' % A('dessen Verlust du aushältst.'),
+                ['Damit siehst du denselben Kurs, dieselbe App, dieselben Schwankungen.', D('Nur billiger, falls du dich vertust.')],
+                size='m', cue='Und so wächst er danach &#8594;'),
+        s_point('DANACH', 'Fester Tag, feste Summe.',
+                ['Ein Sparplan kauft eine Summe, kein Stück. Der Kurs entscheidet nie.', D('Keine Gewinnzusage, keine Kursprognose. Mein Weg nach 70.000 $ Lehrgeld.')],
+                cue='Die Antwort in 4 Zeilen zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Wie viel Geld? %s' % A('Die Antwort in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Ein Bitcoin hat 100 Millionen Teile. Du kaufst Bruchteile.',
+            'Mehr Geld macht dich nie sicherer. Verstehen schon.',
+            'Starte mit einem Betrag, dessen Verlust du aushältst.',
+            'Fester Tag, feste Summe. Der Kurs entscheidet nie.',
+        ], 'Speichere dir das für deinen ersten Kauf.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['FAQ: Wie viel Geld brauche ich? Ein Bitcoin hat 100 Millionen Teile. Die Antwort ist kleiner, als du denkst',
+          'Der Beleg: 100 Millionen Satoshi stecken in einem Bitcoin. Börsen verkaufen Bruchteile, schon für kleine Beträge. Quelle: BTC-Echo Academy',
+          'Mein Fall: 70.000 Dollar waren kein kleiner Betrag, weg waren sie trotzdem. Eine gefälschte Wallet-App, die echt aussah',
+          'Meine Antwort: Fang mit einem Betrag an, dessen Verlust du aushältst. Derselbe Kurs, dieselbe App, nur billiger',
+          'Danach: fester Tag, feste Summe. Ein Sparplan kauft eine Summe, kein Stück. Keine Gewinnzusage, keine Kursprognose',
+          'Merkzettel, wie viel Geld in 4 Zeilen: Bruchteile kaufen; mehr Geld macht dich nie sicherer; mit einem Betrag starten, dessen Verlust du aushältst; fester Tag, feste Summe. Speichere dir das für deinen ersten Kauf',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Die häufigste Frage von Krypto-Anfängern: Wie viel Geld brauche ich für den Einstieg? Meine Antwort beginnt mit 70.000 $, die trotzdem weg waren.
+
+Zuerst die Zahl: Ein Bitcoin hat 100 Millionen Teile. Die kleinste Einheit heißt Satoshi (Quelle: BTC-Echo Academy). Du musst nie einen ganzen Bitcoin kaufen. Börsen verkaufen dir Bruchteile, schon für kleine Beträge.
+
+Dann mein Fall: 70.000 $ waren kein kleiner Betrag. Ich hab eine gefälschte Wallet-App geladen, weil sie echt aussah. Das Geld war weg. Mehr Geld hat mich nie sicherer gemacht. Verstehen schon.
+
+Was ich heute darauf antworte:
+– Fang mit einem Betrag an, dessen Verlust du aushältst. Du siehst denselben Kurs, dieselbe App, dieselben Schwankungen. Nur billiger, falls du dich vertust.
+– Danach: fester Tag, feste Summe. Ein Sparplan kauft eine Summe, kein Stück. Der Kurs entscheidet nie.
+
+Keine Gewinnzusage, keine Kursprognose, keine Anbieter-Empfehlung. Mein Weg nach 70.000 $ Lehrgeld.
+
+Für alle, die Bitcoin kaufen wollen und glauben, dafür fehle ihnen das Geld.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 28: Aufzaehlung (7 Saetze, die du sofort als Warnsignal erkennst) ----------
+Q_ESAS = 'Quelle: ESMA, EBA, EIOPA, Faktenblatt zu Krypto-Betrug (Dezember 2025)'
+NACH = 'Nachgestellt'
+POSTS['beitrag-28'] = dict(
+    date='2026-10-25', fmt='Aufzählung', topic='7 Sätze, die du sofort als Warnsignal erkennst (12 Wörter am Telefon, Warnzeichen der EU-Aufsicht, 5-Sekunden-Test)',
+    slides=[
+        s_hook('AUFZÄHLUNG', '„Nenn mir deine 12 Wörter.“ Ein Satz, und deine Wallet ist leer. %s' % A('Diese 7 Sätze erkennst du sofort.'),
+               sub='Typische Sätze von Betrügern, dazu die Einordnung der EU-Aufsicht.', cue='Satz 1 hab ich selbst am Telefon gehört &#8594;', size=''),
+        s_proof('SATZ 1', 'Am Telefon, in der Community eines Mining-Anbieters.',
+                quote='„Nenn mir kurz deine 12 Wörter, dann synchronisiere ich deine Wallet.“', quote_from='Nachgestellt, so lief es bei mir',
+                ps=[D('Ich hab ihm ausgedachte Wörter gegeben. Er ist ausgerastet.')], cue='Satz 2 und 3 kommen meist zuerst &#8594;'),
+        s_chat('SATZ 2 UND 3', 'Der Einstieg.', [
+            ('„Hey, ich hab dein Profil gesehen. Ich hätte da was für dich.“', 'Unaufgefordert', 'Ein Angebot, um das du nie gebeten hast.'),
+            ('„Garantiert 3 % im Monat, ganz ohne Risiko.“', 'Garantierte Rendite', 'Bei Krypto garantiert dir keiner einen Ertrag.'),
+        ], sender=NACH, cue='Satz 4 und 5 machen Druck &#8594;'),
+        s_chat('SATZ 4 UND 5', 'Der Druck.', [
+            ('„Das geht nur bis heute Abend, danach ist der Platz weg.“', 'Zeitdruck', 'Du sollst handeln, bevor du nachdenkst.'),
+            ('„Am schnellsten zahlst du in Krypto oder mit einer Geschenkkarte.“', 'Zahlungsweg', 'Wege, die sich kaum zurückverfolgen lassen.'),
+        ], sender=NACH, cue='Die letzten zwei führen in deine Wallet &#8594;'),
+        s_chat('SATZ 6 UND 7', 'Der Zugriff.', [
+            ('„Klick kurz auf den Link und bestätige deine Wallet.“', 'Link oder QR-Code', 'Ein Klick, und du landest auf einer nachgebauten Seite.'),
+            ('„Lade dir diese App, dann kann ich dir helfen.“', 'App von Fremden', 'Hilfe, die eine App braucht, will Zugang.'),
+        ], sender=NACH, src=Q_ESAS, cue='Dein 5-Sekunden-Test zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Der 5-Sekunden-Test, %s' % A('bevor du antwortest.'), 'Dein Merkzettel', [
+            'Hat er zuerst geschrieben? Warnsignal.',
+            'Garantiert, nur heute, deine 12 Wörter? Gespräch beenden.',
+            'Klicken, scannen, App laden? Nein.',
+            'Zahlung nur in Krypto oder per Geschenkkarte? Nein.',
+        ], 'Schick das jemandem, der in Krypto-Gruppen unterwegs ist.'),
+    ],
+    alts=['Aufzählung: Nenn mir deine 12 Wörter. Ein Satz, und deine Wallet ist leer. Diese 7 Sätze erkennst du sofort',
+          'Satz 1, nachgestellt, so lief es bei mir am Telefon: Nenn mir kurz deine 12 Wörter, dann synchronisiere ich deine Wallet. Ich hab ihm ausgedachte Wörter gegeben, er ist ausgerastet',
+          'Satz 2 und 3, nachgestellt: Hey, ich hab dein Profil gesehen, ich hätte da was für dich, unaufgefordert. Garantiert 3 Prozent im Monat, ganz ohne Risiko, garantierte Rendite',
+          'Satz 4 und 5, nachgestellt: Das geht nur bis heute Abend, Zeitdruck. Am schnellsten zahlst du in Krypto oder mit einer Geschenkkarte, Zahlungsweg',
+          'Satz 6 und 7, nachgestellt: Klick kurz auf den Link und bestätige deine Wallet. Lade dir diese App, dann kann ich dir helfen. Quelle: ESMA, EBA, EIOPA, Faktenblatt zu Krypto-Betrug',
+          'Merkzettel, der 5-Sekunden-Test, bevor du antwortest: Hat er zuerst geschrieben; garantiert, nur heute, 12 Wörter; klicken, scannen, App laden; Zahlung nur in Krypto oder Geschenkkarte. Schick das jemandem, der in Krypto-Gruppen unterwegs ist'],
+    caption='''Ein Anrufer wollte meine 12 Wörter. Er bekam ausgedachte und ist ausgerastet.
+
+Das war in der Community eines Mining-Anbieters. Am Telefon hieß es, er müsse meine Wallet „synchronisieren“. Dafür bräuchte er nur meine Seed-Phrase. Mit den echten Wörtern wäre meine Wallet leer gewesen.
+
+Diese 7 Sätze erkennst du ab heute sofort als Warnsignal für Krypto-Betrug (nachgestellt):
+1. „Nenn mir kurz deine 12 Wörter.“ Seed-Phrase: Die verlangt kein echter Support.
+2. „Ich hab dein Profil gesehen, ich hätte da was für dich.“ Unaufgefordert.
+3. „Garantiert 3 % im Monat.“ Garantierte Rendite.
+4. „Das geht nur bis heute Abend.“ Zeitdruck.
+5. „Zahl in Krypto oder mit einer Geschenkkarte.“ Ein Weg, der sich kaum zurückverfolgen lässt.
+6. „Klick auf den Link und bestätige deine Wallet.“ Link oder QR-Code.
+7. „Lade dir diese App, dann helfe ich dir.“ App von Fremden.
+
+Genau diese Warnzeichen nennen die EU-Aufsichtsbehörden ESMA, EBA und EIOPA in ihrem Faktenblatt zu Krypto-Betrug (Dezember 2025).
+
+Der 5-Sekunden-Test, bevor du antwortest:
+– Hat er zuerst geschrieben? Warnsignal.
+– Fallen Wörter wie garantiert, nur heute oder 12 Wörter? Gespräch beenden.
+– Sollst du klicken, scannen oder eine App laden? Nein.
+– Zahlung nur in Krypto oder per Geschenkkarte? Nein.
+
+Welchen dieser 7 Sätze hast du schon gehört? Schreib die Zahl in die Kommentare.
+
+Schick das jemandem, der in Krypto-Gruppen unterwegs ist.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

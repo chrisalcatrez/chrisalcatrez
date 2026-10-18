@@ -210,12 +210,13 @@ def s_mail(label, title, mails, src=None, cue=None):
     return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:34px"><h2>%s</h2><div class="mails">%s</div>%s%s</div>%s</section>'
                          % (label, title, ms, srch, cue_div(cue), foot(n, N)))
 
-def s_chat(label, title, blocks, sender='Support', cue=None):
-    # blocks: [(Zitat des Betruegers, Schlagwort, Einordnung)]
+def s_chat(label, title, blocks, sender='Support', cue=None, src=None):
+    # blocks: [(Zitat des Betruegers, Schlagwort, Einordnung)]; src: optionale Quellenzeile klein unter den Blasen
     bs = ''.join('<div class="cblock"><div class="bub"><div class="bfrom">%s</div><div class="btext">%s</div></div><div class="tag">%s</div><div class="tnote">%s</div></div>'
                  % (sender, q, tg, nt) for q, tg, nt in blocks)
-    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:40px"><h2>%s</h2><div class="chat">%s</div>%s</div>%s</section>'
-                         % (label, title, bs, cue_div(cue), foot(n, N)))
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd">%s</div><div style="display:flex;flex-direction:column;gap:40px"><h2>%s</h2><div class="chat">%s</div>%s%s</div>%s</section>'
+                         % (label, title, bs, srch, cue_div(cue), foot(n, N)))
 
 def s_list(label, title, items, cta, sub=None):
     li = ''.join('<div class="li"><div class="num">%d</div><div class="lt">%s</div></div>' % (i, t) for i, t in enumerate(items, 1))

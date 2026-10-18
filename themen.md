@@ -28,3 +28,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 23 | 20.10.2026 | Erfolgsgeschichte | Damals Bestätigung von Fremden gesucht, heute über 250 Kunden (selbst verstehen, einfaches System)
 - 24 | 21.10.2026 | Visueller Post | Raster: 3 Orte für deine Bitcoin, wer den Schlüssel hält und wo die Falle liegt (Börse, Wallet-App, Hardware-Wallet; gefälschte App 70.000 $)
 - 25 | 22.10.2026 | Frage an die Zielgruppe | Hand aufs Herz: Geld mit einem Memecoin verloren? (764.000 Wallets im Minus laut Chainalysis, eigener Memecoin-Verlust)
+- 26 | 23.10.2026 | Schritt-für-Schritt-Anleitung | Rote Tage: Ende 2024 alle Bitcoin in Panik verkauft, heute 3 Schritte, bevor der Kurs fällt (Schwankungen aushalten, Plan statt Puls)
+- 27 | 24.10.2026 | FAQ beantworten | FAQ: „Wie viel Geld brauche ich für den Einstieg?“ (100 Millionen Satoshi, 70.000 $ Verlust trotz großem Betrag)
+- 28 | 25.10.2026 | Aufzählung | 7 Sätze, die du sofort als Warnsignal erkennst (12 Wörter am Telefon, Warnzeichen der EU-Aufsicht, 5-Sekunden-Test)
