@@ -575,6 +575,73 @@ Welchen dieser 7 Sätze hast du schon gehört? Schreib die Zahl in die Kommentar
 
 Schick das jemandem, der in Krypto-Gruppen unterwegs ist.''')
 
+# ---------- Beitrag 29: Statement-Karussell (Der Kurs ist dein kleinstes Risiko: gefaelschte Wallet-Apps) ----------
+Q_KASP = 'Quelle: Kaspersky, Pressemitteilung vom 20.04.2026'
+POSTS['beitrag-29'] = dict(
+    date='2026-10-26', fmt='Statement-Karussell', topic='Der Kurs ist dein kleinstes Risiko: 70.000 $ durch eine gefälschte Wallet-App, 26 Fake-Wallets im App Store (Kaspersky), 3 Prüfungen vor dem Download',
+    slides=[
+        s_hook('STATEMENT', 'Der Kurs ist dein kleinstes Risiko. %s' % A('Mich hat ein Download 70.000 $ gekostet.'),
+               sub='Alle starren auf den Chart. Mein teuerster Verlust kam von woanders.',
+               cue='Wie das passiert ist &#8594;', size=''),
+        s_proof('MEIN BELEG', 'Ich hab eine Wallet-App geladen, weil sie echt aussah.',
+                big='70.000 $', big_sub='waren danach weg. Ohne Kurssturz, ohne Crash, ohne Warnung.',
+                cue='Und genau das läuft gerade wieder &#8594;'),
+        s_proof('KEIN EINZELFALL', 'Echt aussehen ist ihr Geschäft.',
+                big='26', big_sub='gefälschte Wallet-Apps fand Kaspersky im App Store von Apple. Mit Namen und Logos bekannter Wallets.',
+                src=Q_KASP, cue='Warum der Chart dich davon ablenkt &#8594;'),
+        s_point('UND DER KURS?', 'Der Kurs schwankt. Das stimmt.',
+                ['Das siehst du jeden Tag. Mit Plan und kleinen Beträgen hältst du das aus.',
+                 D('Eine gefälschte App siehst du erst, wenn das Guthaben weg ist. Dann holt es dir keiner zurück.')],
+                cue='Prüfung 1 vor jedem Download &#8594;'),
+        s_point('PRÜFUNG 1', 'Der Link kommt vom Anbieter. %s' % A('Von sonst keinem.'),
+                ['Ich lade eine Wallet-App nur über den Link auf der offiziellen Seite des Anbieters.',
+                 D('Nie über Werbung, Suchtreffer oder einen Link aus einem Chat.')],
+                cue='Prüfung 2 dauert 5 Sekunden &#8594;'),
+        s_point('PRÜFUNG 2', 'Schau, wer die App gemacht hat.',
+                ['Im Store steht unter dem Namen der Entwickler. Passt er zum Anbieter?',
+                 D('Die Fälschungen bei Kaspersky tarnten sich als Spiel oder Taschenrechner. Öffnet so eine App eine Seite, die wie der App Store aussieht: sofort schließen.')],
+                cue='Prüfung 3 rettet deine Wallet &#8594;'),
+        s_point('PRÜFUNG 3', 'Fragt die App nach deinen 12 Wörtern? %s' % A('Stopp.'),
+                ['Laut Kaspersky fragt die echte Ledger-App nie nach den Wörtern. Die gefälschte schon.',
+                 D('Wer deine Wörter hat, hat deine Bitcoin.')],
+                src=Q_KASP, cue='Dein Merkzettel zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Vor jedem Download, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Wallet-App nur über den Link auf der Seite des Anbieters.',
+            'Entwickler im Store prüfen, bevor du lädst.',
+            'Spiel oder Rechner öffnet einen Store? Schließen.',
+            'Eine App fragt nach deinen 12 Wörtern? Stopp.',
+        ], 'Speichere dir das, bevor du deine nächste Wallet-App lädst.'),
+    ],
+    alts=['Statement: Der Kurs ist dein kleinstes Risiko. Mich hat ein Download 70.000 Dollar gekostet. Alle starren auf den Chart, mein teuerster Verlust kam von woanders',
+          'Mein Beleg: Ich hab eine Wallet-App geladen, weil sie echt aussah. 70.000 Dollar waren danach weg, ohne Kurssturz, ohne Crash, ohne Warnung',
+          'Kein Einzelfall: 26 gefälschte Wallet-Apps fand Kaspersky im App Store von Apple, mit Namen und Logos bekannter Wallets. Quelle: Kaspersky, Pressemitteilung vom 20.04.2026',
+          'Und der Kurs? Der Kurs schwankt, das stimmt. Mit Plan und kleinen Beträgen hältst du das aus. Eine gefälschte App siehst du erst, wenn das Guthaben weg ist',
+          'Prüfung 1: Der Link kommt vom Anbieter. Wallet-App nur über den Link auf der offiziellen Seite des Anbieters laden, nie über Werbung, Suchtreffer oder Links aus Chats',
+          'Prüfung 2: Schau, wer die App gemacht hat. Passt der Entwickler im Store zum Anbieter? Öffnet ein Spiel oder Taschenrechner eine Seite, die wie der App Store aussieht, sofort schließen',
+          'Prüfung 3: Fragt die App nach deinen 12 Wörtern? Stopp. Laut Kaspersky fragt die echte Ledger-App nie nach den Wörtern, die gefälschte schon. Wer deine Wörter hat, hat deine Bitcoin',
+          'Merkzettel vor jedem Download: Wallet-App nur über den Link des Anbieters; Entwickler im Store prüfen; Spiel oder Rechner öffnet einen Store, schließen; App fragt nach 12 Wörtern, Stopp. Speichere dir das, bevor du deine nächste Wallet-App lädst'],
+    caption='''Mein teuerster Verlust hatte mit dem Bitcoin-Kurs null zu tun.
+
+Als Krypto-Anfänger hab ich jeden Tag auf den Chart geschaut. Verloren hab ich mein Geld woanders: Ich hab eine Wallet-App geladen, weil sie echt aussah. Danach waren 70.000 $ weg. Ohne Kurssturz, ohne Crash, ohne Warnung.
+
+Das ist kein Einzelfall:
+– Kaspersky fand 26 gefälschte Wallet-Apps im App Store von Apple, mit Namen und Logos bekannter Wallets (Quelle: Kaspersky, Pressemitteilung vom 20.04.2026).
+– Viele tarnten sich als Spiel oder Taschenrechner und öffneten dann eine Seite, die wie der App Store aussah.
+– Laut Kaspersky fragt die echte Ledger-App nie nach den Wörtern der Wallet. Die gefälschte schon.
+
+Der Kurs schwankt, das stimmt. Das siehst du jeden Tag und hältst es mit Plan und kleinen Beträgen aus. Eine gefälschte App siehst du erst, wenn das Guthaben weg ist.
+
+Meine 3 Prüfungen vor jedem Download:
+1. Die Wallet-App nur über den Link auf der offiziellen Seite des Anbieters. Nie über Werbung, Suchtreffer oder Links aus Chats.
+2. Den Entwickler im Store prüfen. Passt er zum Anbieter?
+3. Fragt eine App nach deinen 12 Wörtern: Stopp. Wer deine Wörter hat, hat deine Bitcoin.
+
+Keine Anbieter-Empfehlung, keine Kursprognose. Nur mein Lehrgeld gegen Betrug mit Wallet-Apps, für alle, die gerade ihre erste Wallet oder Börse einrichten.
+
+Hast du deine Wallet-App über den Link auf der Seite des Anbieters geladen? Schreib Ja oder Nein in die Kommentare.
+
+Speichere dir das, bevor du deine nächste Wallet-App lädst.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

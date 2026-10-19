@@ -31,3 +31,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 26 | 23.10.2026 | Schritt-für-Schritt-Anleitung | Rote Tage: Ende 2024 alle Bitcoin in Panik verkauft, heute 3 Schritte, bevor der Kurs fällt (Schwankungen aushalten, Plan statt Puls)
 - 27 | 24.10.2026 | FAQ beantworten | FAQ: „Wie viel Geld brauche ich für den Einstieg?“ (100 Millionen Satoshi, 70.000 $ Verlust trotz großem Betrag)
 - 28 | 25.10.2026 | Aufzählung | 7 Sätze, die du sofort als Warnsignal erkennst (12 Wörter am Telefon, Warnzeichen der EU-Aufsicht, 5-Sekunden-Test)
+- 29 | 26.10.2026 | Statement-Karussell | Der Kurs ist dein kleinstes Risiko: 70.000 $ durch eine gefälschte Wallet-App, 26 Fake-Wallets im App Store (Kaspersky), 3 Prüfungen vor dem Download
