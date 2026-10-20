@@ -642,6 +642,39 @@ Hast du deine Wallet-App über den Link auf der Seite des Anbieters geladen? Sch
 
 Speichere dir das, bevor du deine nächste Wallet-App lädst.''')
 
+# ---------- Beitrag 30: Gegenueberstellung (Fall Thomas: Rueckhol-Mails nach dem Verlust, Falsch vs. so pruefe ich) ----------
+Q_BAFIN_NAME = 'Quelle: BaFin, „Betrug mit dem Namen der BaFin“'
+POSTS['beitrag-30'] = dict(
+    date='2026-10-27', fmt='Gegenüberstellung', topic='Fall Thomas: 40.000 $ verloren, dann kamen die Rückhol-Mails („BaFin Team“, Kanzlei, 2,08 BTC); die Mail vs. so prüfe ich (Absender @bafin.de)',
+    slides=[
+        s_vs('ECHTER FALL · NAME GEÄNDERT', 'Thomas verlor 40.000 $. Dann schrieb das „BaFin Team“. %s' % A('Echt?'),
+             'DIE MAILS', ['Kanzlei „im Auftrag der Finanzaufsicht“', '„BaFin Team“ mit echtem BaFin-Link', '2,08 BTC ausgesetzt, Ausweis bitte', '„Coinbase Wallet“ von fremder Adresse'],
+             'SO PRÜFE ICH', ['Wer zuerst schreibt, will etwas', 'BaFin schreibt nur von @bafin.de', 'Ausweis nie per Mail', 'Echter Link, falsche Mail'],
+             'Schick das jemandem, der schon Geld an Betrüger verloren hat.', src=Q_BAFIN_NAME),
+    ],
+    alts=['Gegenüberstellung, echter Fall, Name geändert: Thomas verlor 40.000 Dollar, dann schrieb das BaFin Team. Echt? Die Mails: eine Kanzlei im Auftrag der Finanzaufsicht; ein BaFin Team mit echtem BaFin-Link; 2,08 BTC ausgesetzt, Ausweis bitte; eine Coinbase Wallet von fremder Adresse. So prüfe ich: Wer zuerst schreibt, will etwas; die BaFin schreibt nur von @bafin.de; Ausweis nie per Mail; echter Link, falsche Mail. Quelle: BaFin, Betrug mit dem Namen der BaFin. Schick das jemandem, der schon Geld an Betrüger verloren hat'],
+    caption='''Nach dem ersten Betrug kommt die zweite Welle. Sie verspricht, das Geld zurückzuholen.
+
+Echter Fall, Name geändert, veröffentlicht mit Zustimmung: Thomas hat beim Online-Trading nach eigener Aussage rund 40.000 $ verloren. Seitdem bekommt er Mails. Jede leitet er mir weiter und fragt: echt?
+
+Die Mails an Thomas:
+– Eine angebliche Londoner Kanzlei schreibt „im Auftrag der britischen Finanzaufsicht“. Zahlung nur bei Erfolg.
+– Ein „BaFin Team“ schreibt, die BaFin sei ein „legitimes und seriöses Unternehmen“, und verlinkt die echte BaFin-Seite.
+– Ein „Blockchain Support“ meldet 2,08 BTC, die angeblich ausgesetzt sind. Dafür will er Ausweis und Stromrechnung.
+– Eine „Coinbase Wallet“ schreibt von einer fremden Adresse.
+
+So prüfe ich jede dieser Mails:
+– Wer nach einem Verlust zuerst schreibt, will etwas von dir. Geld, Daten oder beides.
+– Die BaFin verwendet nur E-Mail-Adressen mit @bafin.de, einzige Ausnahme ist ihr Newsletter (Quelle: BaFin, „Betrug mit dem Namen der BaFin“).
+– Ausweis und Stromrechnung schicke ich auf keine Mail hin. Prüfungen laufen bei mir nur im eigenen Konto der Börse, nie über einen Link aus einer Mail.
+– Ein echter Link in einer Mail macht die Mail nie echt. Kopieren kann ihn jeder.
+
+Keine Anbieter-Empfehlung, keine Rückhol-Versprechen. Nur das, was ich bei Betrug mit Krypto, Bitcoin und Börsen-Namen immer wieder sehe, für jeden Anfänger, der schon einmal Geld verloren hat.
+
+Hast du nach einem Verlust schon mal so eine Mail bekommen? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der schon Geld an Betrüger verloren hat.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

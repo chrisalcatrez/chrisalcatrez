@@ -32,3 +32,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 27 | 24.10.2026 | FAQ beantworten | FAQ: „Wie viel Geld brauche ich für den Einstieg?“ (100 Millionen Satoshi, 70.000 $ Verlust trotz großem Betrag)
 - 28 | 25.10.2026 | Aufzählung | 7 Sätze, die du sofort als Warnsignal erkennst (12 Wörter am Telefon, Warnzeichen der EU-Aufsicht, 5-Sekunden-Test)
 - 29 | 26.10.2026 | Statement-Karussell | Der Kurs ist dein kleinstes Risiko: 70.000 $ durch eine gefälschte Wallet-App, 26 Fake-Wallets im App Store (Kaspersky), 3 Prüfungen vor dem Download
+- 30 | 27.10.2026 | Gegenüberstellung | Fall Thomas: 40.000 $ verloren, dann kamen die Rückhol-Mails („BaFin Team“, Kanzlei, 2,08 BTC); die Mails vs. so prüfe ich (Absender @bafin.de)
