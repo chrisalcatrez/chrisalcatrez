@@ -675,6 +675,68 @@ Hast du nach einem Verlust schon mal so eine Mail bekommen? Schreib Ja oder Nein
 
 Schick das jemandem, der schon Geld an Betrüger verloren hat.''')
 
+# ---------- Beitrag 31: Nischenmythos (Krypto ist nur Betrug; 70.000 $ verloren, Betrug sass vor Bitcoin, TRM Labs 1,2 %) ----------
+Q_TRM = 'Quelle: TRM Labs, Crypto Crime Report 2026'
+POSTS['beitrag-31'] = dict(
+    date='2026-10-28', fmt='Nischenmythos entlarven', topic='Mythos: „Krypto ist nur Betrug“ (70.000 $ an eine gefälschte Wallet-App, der Betrug saß vor Bitcoin, 1,2 % laut TRM Labs)',
+    slides=[
+        s_hook('MYTHOS', '„Krypto ist %s“' % A('nur Betrug.'),
+               sub='Ich hab 70.000 $ an Betrüger verloren. Bitcoin selbst hat mir keinen Cent davon genommen. Wo der Betrug wirklich saß.',
+               cue='Zuerst, wohin meine 70.000 $ gingen &#8594;'),
+        s_proof('MEIN FALL', 'Mein teuerster Betrug sah aus wie eine echte App.',
+                big='70.000 $', big_sub='weg durch eine gefälschte Wallet-App. Geladen, weil sie echt aussah.',
+                cue='Das Muster hinter jedem meiner Verluste &#8594;'),
+        s_point('DIE WAHRHEIT', 'Der Betrug saß nie in Bitcoin. %s' % A('Er saß davor.'),
+                ['Eine falsche App. Eine „Netzwerkgebühr“ vor der Auszahlung. Ein Coin mit bekanntem Gesicht. Ein Anrufer, der meine 12 Wörter wollte.',
+                 D('Jedes Mal ein Mensch mit einer Geschichte. Kein einziges Mal Bitcoin selbst.')],
+                size='m', cue='Was die Zahlen dazu sagen &#8594;'),
+        s_proof('DIE ZAHLEN', 'Der Betrug ist echt. Er ist nur %s' % A('ein kleiner Teil.'),
+                big='1,2 %', big_sub='des zugeordneten Krypto-Volumens floss 2025 an Kriminelle. In Summe 158 Mrd. $.',
+                src=Q_TRM, cue='Der Unterschied, den du in Sekunden siehst &#8594;'),
+        s_point('DER UNTERSCHIED', 'Betrug will dein Geld. %s' % A('Bitcoin fragt nie danach.'),
+                ['Bitcoin schreibt dir nie. Ruft nie an. Verspricht nie eine Rendite.',
+                 D('Wer schreibt, verspricht oder drängt, ist ein Mensch. Den prüfst du, bevor Geld fließt.')],
+                size='m', cue='Dein Merkzettel &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Krypto oder Betrug: %s' % A('der Unterschied.'), 'Dein Merkzettel', [
+            'Bitcoin schreibt dir nie. Wer schreibt, ist ein Mensch.',
+            'Bitcoin verspricht keine Rendite. Wer verspricht, will Geld.',
+            'Eine App will deine 12 Wörter? Löschen.',
+            'Gebühr vor der Auszahlung? Betrug, jedes Mal.',
+        ], 'Schick das jemandem, der sagt, Krypto sei nur Betrug.'),
+    ],
+    alts=['Mythos: Krypto ist nur Betrug. Ich hab 70.000 Dollar an Betrüger verloren. Bitcoin selbst hat mir keinen Cent davon genommen. Wo der Betrug wirklich saß',
+          'Mein Fall: Mein teuerster Betrug sah aus wie eine echte App. 70.000 Dollar weg durch eine gefälschte Wallet-App, geladen, weil sie echt aussah',
+          'Die Wahrheit: Der Betrug saß nie in Bitcoin, er saß davor. Eine falsche App, eine Netzwerkgebühr vor der Auszahlung, ein Coin mit bekanntem Gesicht, ein Anrufer, der meine 12 Wörter wollte. Jedes Mal ein Mensch mit einer Geschichte',
+          'Die Zahlen: Der Betrug ist echt, er ist nur ein kleiner Teil. 1,2 Prozent des zugeordneten Krypto-Volumens floss 2025 an Kriminelle, in Summe 158 Milliarden Dollar. Quelle: TRM Labs, Crypto Crime Report 2026',
+          'Der Unterschied: Betrug will dein Geld, Bitcoin fragt nie danach. Bitcoin schreibt dir nie, ruft nie an, verspricht nie eine Rendite. Wer schreibt, verspricht oder drängt, ist ein Mensch',
+          'Merkzettel, Krypto oder Betrug: Bitcoin schreibt dir nie; Bitcoin verspricht keine Rendite; eine App will deine 12 Wörter, löschen; Gebühr vor der Auszahlung, Betrug, jedes Mal. Schick das jemandem, der sagt, Krypto sei nur Betrug'],
+    caption='''Ich hab 70.000 $ an Betrüger verloren. Krypto ist heute trotzdem Teil meines Systems.
+
+Der Mythos: „Krypto ist nur Betrug.“ Den Satz hören Krypto-Anfänger ständig. Ich verstehe ihn. Nach meinen Verlusten hätte ich ihn selbst sagen können.
+
+Mein Fall: Ich hab eine Wallet-App geladen, weil sie echt aussah. Sie war gefälscht. Danach waren 70.000 $ weg.
+
+Wo der Betrug bei mir saß:
+– Eine gefälschte Wallet-App.
+– Eine „Netzwerkgebühr“, die ein Instagram-Kontakt vor der Auszahlung wollte. Die Auszahlung kam nie.
+– Ein Influencer-Coin mit bekanntem Gesicht.
+– Ein Anrufer, der meine 12 Wörter wollte, um meine Wallet zu „synchronisieren“.
+Jedes Mal ein Mensch mit einer Geschichte. Kein einziges Mal Bitcoin selbst.
+
+Die Zahlen: Der Betrug ist echt. 2025 flossen 158 Mrd. $ an Kriminelle, rund 1,2 % des zugeordneten Krypto-Volumens (Quelle: TRM Labs, Crypto Crime Report 2026). Viel Geld. Und trotzdem ein kleiner Teil.
+
+Der Unterschied, den du in Sekunden siehst:
+– Bitcoin schreibt dir nie. Wer schreibt, ist ein Mensch.
+– Bitcoin verspricht keine Rendite. Wer verspricht, will Geld.
+– Eine App will deine 12 Wörter? Löschen.
+– Gebühr vor der Auszahlung? Betrug, jedes Mal.
+
+Keine Kursprognose, keine Coin-Empfehlung. Nur mein Lehrgeld gegen Betrug rund um Krypto, Wallet und Börse.
+
+Hältst du Krypto für Betrug? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der sagt, Krypto sei nur Betrug.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

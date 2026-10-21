@@ -33,3 +33,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 28 | 25.10.2026 | Aufzählung | 7 Sätze, die du sofort als Warnsignal erkennst (12 Wörter am Telefon, Warnzeichen der EU-Aufsicht, 5-Sekunden-Test)
 - 29 | 26.10.2026 | Statement-Karussell | Der Kurs ist dein kleinstes Risiko: 70.000 $ durch eine gefälschte Wallet-App, 26 Fake-Wallets im App Store (Kaspersky), 3 Prüfungen vor dem Download
 - 30 | 27.10.2026 | Gegenüberstellung | Fall Thomas: 40.000 $ verloren, dann kamen die Rückhol-Mails („BaFin Team“, Kanzlei, 2,08 BTC); die Mails vs. so prüfe ich (Absender @bafin.de)
+- 31 | 28.10.2026 | Nischenmythos entlarven | Mythos: „Krypto ist nur Betrug“ (70.000 $ an eine gefälschte Wallet-App, der Betrug saß vor Bitcoin, 1,2 % laut TRM Labs)
