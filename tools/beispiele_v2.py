@@ -737,6 +737,64 @@ Hältst du Krypto für Betrug? Schreib Ja oder Nein in die Kommentare.
 
 Schick das jemandem, der sagt, Krypto sei nur Betrug.''')
 
+# ---------- Beitrag 32: Erfolgsgeschichte (70.000 $ an eine App, die echt aussah; damals vertraut, heute verstanden) ----------
+POSTS['beitrag-32'] = dict(
+    date='2026-10-29', fmt='Erfolgsgeschichte', topic='Damals 70.000 $ an eine App verloren, die echt aussah, heute jedes Jahr fünfstellig (vertrauen statt verstehen, Wendepunkt)',
+    slides=[
+        s_hook('ERFOLGSGESCHICHTE', '70.000 $ an eine App verloren, die echt aussah. Heute bringt mir Krypto %s' % A('jedes Jahr fünfstellig.'),
+               sub='Was dazwischen lag. Eine Episode aus meiner Geschichte.', cue='Zuerst, wie die 70.000 $ verschwanden &#8594;', size=''),
+        s_proof('DAMALS', 'Ich hab eine Wallet-App geladen, weil sie echt aussah.',
+                big='70.000 $', big_sub='weg. Kein Kurssturz, kein Crash. Eine gefälschte App.',
+                cue='Warum mich das so viel gekostet hat &#8594;'),
+        s_point('DIE ERKENNTNIS', 'Ich hab vertraut, %s' % A('statt zu verstehen.'),
+                ['Mein einziger Grund für den Download: Sie sah echt aus.', D('Aussehen ist kein Beleg. Ein Logo kann jeder kopieren.')],
+                size='m', cue='Was ich danach anders gemacht habe &#8594;'),
+        s_point('DER WENDEPUNKT', 'Ich hab angefangen, selbst zu verstehen, was ich kaufe.',
+                ['Wo liegen meine Bitcoin? Wer hält den Schlüssel? Woher kommt die App?', D('Eine Frage nach der anderen, bis ich sie selbst beantworten konnte.')],
+                size='m', cue='Was daraus geworden ist &#8594;'),
+        s_point('HEUTE', 'Ein einfaches System. %s' % A('Langfristig.'),
+                ['Jedes Jahr ein fünfstelliger Krypto-Gewinn. Dazu über 250 Kunden.', D('Meine Zahl, kein Versprechen für dich.')],
+                cue='Was das für dich heißt &#8594;'),
+        s_point('FÜR DICH', 'Ich bin kein Genie.',
+                ['Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.', D('Und du musst dafür nie so viel Lehrgeld zahlen wie ich.')],
+                cue='Dein Merkzettel für deine erste Wallet &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Damals vertraut. %s' % A('Heute verstanden.'), 'Dein Merkzettel', [
+            '„Sieht echt aus“ ist kein Beleg.',
+            'Wallet-App nur über die Seite des Anbieters laden.',
+            'Wer deine 12 Wörter hat, hat deine Bitcoin.',
+            'Kauf nur, was du selbst erklären kannst.',
+        ], 'Speichere dir das, bevor du deine erste Wallet einrichtest.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Erfolgsgeschichte: 70.000 Dollar an eine App verloren, die echt aussah. Heute bringt mir Krypto jedes Jahr einen fünfstelligen Gewinn. Was dazwischen lag',
+          'Damals: Ich hab eine Wallet-App geladen, weil sie echt aussah. 70.000 Dollar weg, ohne Kurssturz, ohne Crash, durch eine gefälschte App',
+          'Die Erkenntnis: Ich hab vertraut, statt zu verstehen. Mein einziger Grund für den Download: Sie sah echt aus. Aussehen ist kein Beleg',
+          'Der Wendepunkt: Ich hab angefangen, selbst zu verstehen, was ich kaufe. Wo liegen meine Bitcoin, wer hält den Schlüssel, woher kommt die App',
+          'Heute: ein einfaches, langfristiges System. Jedes Jahr ein fünfstelliger Krypto-Gewinn, dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich',
+          'Für dich: Ich bin kein Genie. Wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch',
+          'Merkzettel, damals vertraut, heute verstanden: Sieht echt aus ist kein Beleg; Wallet-App nur über die Seite des Anbieters laden; wer deine 12 Wörter hat, hat deine Bitcoin; kauf nur, was du selbst erklären kannst. Speichere dir das',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Mein teuerster Download war eine Wallet-App. Preis: 70.000 $.
+
+Damals hab ich eine Wallet-App geladen, weil sie echt aussah. Sie war gefälscht. Danach waren 70.000 $ weg. Kein Kurssturz, kein Crash. Nur eine App.
+
+Die Erkenntnis danach:
+– Ich hab vertraut, statt zu verstehen. Mein einziger Grund für den Download: Sie sah echt aus.
+– Aussehen ist kein Beleg. Ein Logo kann jeder kopieren.
+
+Der Wendepunkt:
+– Ich hab angefangen, Schritt für Schritt selbst zu verstehen, was ich kaufe.
+– Wo liegen meine Bitcoin? Wer hält den Schlüssel? Woher kommt die App?
+– Daraus wurde ein einfaches, langfristiges System.
+
+Heute mache ich laut meiner eigenen Rechnung jedes Jahr einen fünfstelligen Krypto-Gewinn. Dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Keine Kursprognose, keine Anbieter-Empfehlung. Für alle Krypto-Anfänger, die gerade ihre erste Wallet oder Börse einrichten und Betrug vermeiden wollen.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
