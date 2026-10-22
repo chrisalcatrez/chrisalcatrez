@@ -157,7 +157,7 @@ Ein Guthaben ist erst Geld, wenn jemand es dir abkauft.
 
 Hast du schon mal etwas gehalten, das sich nirgends verkaufen ließ?"""),
 
- dict(thema='Gebühr vor der Auszahlung (falscher Trader, Solana-Adresse)', feld='Betrug', var='These', frei_ab='2026-10-23', verwendet=None,
+ dict(thema='Gebühr vor der Auszahlung (falscher Trader, Solana-Adresse)', feld='Betrug', var='These', frei_ab='2026-10-23', verwendet='23.10.2026',
       text="""Eine Gebühr vor der Auszahlung ist die Auszahlung. Für ihn.
 
 Fake-Account eines bekannten Traders, Gebühr für den „Trading-Bot“ an eine Solana-Adresse. Zwei-, dreimal gezahlt, jedes Mal mit neuer Begründung: Netzwerkschwankungen, Internetstörung, der Bot verlangt es. Ausgezahlt wurde nie.
@@ -212,7 +212,7 @@ Wer den Coin gemacht hat und wie viel er selbst hält, zählt mehr als jede Foll
 
 Würdest du 5.000 € in einen Coin stecken, nur weil jemand mit 100.000 Followern ihn empfiehlt?"""),
 
- dict(thema='Influencer-Coins, Rug Pull (einer 5.000 $)', feld='Einstieg', var='Fall', frei_ab='2026-10-24', verwendet=None,
+ dict(thema='Influencer-Coins, Rug Pull (einer 5.000 $)', feld='Einstieg', var='Fall', frei_ab='2026-10-24', verwendet='24.10.2026',
       text="""5.000 $ rein, Kurs senkrecht runter, Käufer halten den Rest.
 
 So läuft ein Rug Pull: Ein bekanntes Gesicht bringt einen Coin raus. Die Macher halten den Großteil. Fans kaufen, der Kurs steigt. Dann verkaufen die Macher alles auf einmal. Der Kurs fällt senkrecht, die Fans sitzen auf Coins ohne Käufer.
@@ -674,5 +674,49 @@ Niemand hat nachgefragt, ob ich das bin. Der Name reichte.
 Vertrauen in einen Namen ist Vertrauen in jeden, der ihn benutzt.
 
 Hast du schon mal einem Account geglaubt, nur weil der Name vertraut war?"""),
+
+ dict(thema='Gefälschte Wallet-App (26 Apps im App Store laut Kaspersky, April 2026; meine 70.000 $)', feld='Betrug', var='These', frei_ab='2026-11-06', verwendet=None,
+      text="""Eine App, die echt aussieht, ist kein Beleg. Sie ist die Masche.
+
+Kaspersky fand im April 2026 bei Apple 26 gefälschte Wallet-Apps, mit Namen und Logos bekannter Wallets. Meine sah genauso aus. Geld rein, Geld weg, 70.000 $. Den Anbieter gab es als Handy-App nie.
+
+Je echter eine Fälschung aussieht, desto mehr Arbeit steckt drin. Die Arbeit gilt dir.
+
+Ein Logo kopiert jeder. Einen Link gibt nur der Anbieter.
+
+Prüfst du vor dem Download, wer die App gemacht hat?"""),
+
+ dict(thema='Gefälschte Wallet-App (26 Apps im App Store laut Kaspersky, April 2026; meine 70.000 $)', feld='Sicherheit', var='Story', frei_ab='2026-11-06', verwendet=None,
+      text="""Ein Download, 70.000 $. Mehr brauchte es bei mir nie.
+
+Ich hab eine Wallet-App geladen, weil sie echt aussah. Geprüft hab ich sonst null. Geld rein, Geld weg. Den Anbieter gab es als Handy-App nie.
+
+Kaspersky fand im April 2026 allein bei Apple 26 solcher Apps. Die Masche lebt von Leuten wie mir damals. Leuten, die Aussehen für Sicherheit halten.
+
+Wer eine App am Logo erkennt, erkennt auch jede Kopie.
+
+Wie oft hast du eine App geladen, ohne zu wissen, wer dahintersteht?"""),
+
+ dict(thema='Cloud-Mining mit fester Rendite (4.000 bis 5.000 $)', feld='Betrug', var='These', frei_ab='2026-11-07', verwendet=None,
+      text="""Eine feste Rendite ist kein Angebot. Sie ist ein Preisschild.
+
+Cloud-Mining, fester Betrag pro Monat, so stand es da. Ich hab 4.000 bis 5.000 $ eingezahlt. Das Geld war weg. Die Rechner hab ich nie gesehen.
+
+Der Kurs schwankt, der Strom schwankt, das Schürfen schwankt. Fest bleibt nur, was der Verkäufer von dir will.
+
+Je fester die Zahl, desto sicherer ist nur der Verkäufer.
+
+Welche Rendite hat dir zuletzt jemand fest versprochen?"""),
+
+ dict(thema='Cloud-Mining mit fester Rendite (4.000 bis 5.000 $)', feld='Psychologie', var='Story', frei_ab='2026-11-07', verwendet=None,
+      text="""Ich wollte ein Mal keine Schwankung. Das kostete 4.000 bis 5.000 $.
+
+Cloud-Mining versprach einen festen Betrag im Monat. Keine roten Tage, kein Chart. Ich hab eingezahlt, weil ich Ruhe kaufen wollte. Bekommen hab ich keine Ruhe und keinen Cent zurück.
+
+Die Ruhe kam später, ohne feste Zahl. Fester Tag, feste Summe, mehr Plan steckt heute dahinter.
+
+Ruhe kauft man sich mit einem Plan, nie mit einem Versprechen.
+
+Was hat dich der Wunsch nach Sicherheit schon gekostet?"""),
 
 ]
