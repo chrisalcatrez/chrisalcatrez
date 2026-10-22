@@ -302,6 +302,42 @@ PINS = [
           visual=vz_bars([('Wallets mit Verlust', '764.000', 100), ('Wallets mit über 10 Mio. $ Gewinn', '58', 1)], 'Zahlen: Chainalysis, ein großer Memecoin.'),
           points=['Nur Hype hält den Kurs', 'Billig pro Stück, nie günstig', 'Erklären, sonst kein Kauf'],
           cta='Speichern für den nächsten Hype-Coin', size='sm')])),
+
+ # 23. und 24.10.2026: kein Fall der Woche (Thomas lief am 19.10.), nur eigene Fakten und belegte Zahlen.
+ dict(d='2026-10-23', t='11:19', board=B_ANF, f='Kurve', farbe='hell', bild='p-27',
+      titel='Kryptowährung erklärt: Warum Bitcoin schwankt, 3 Fakten und 1 Regel für Anfänger',
+      text="""Kryptowährung erklärt an der Frage, die jeder Anfänger kennt: Warum schwankt Bitcoin so stark? Es wird nie mehr als 21 Millionen geben (Quelle: Decrypt), und jeder Kurs entsteht aus Käufen und Verkäufen, ohne Bank in der Mitte. Ende 2024 hab ich alle Bitcoin in Panik verkauft, weil ich die Schwankung für Gefahr hielt. Heute gilt bei mir: nur Geld, das fehlen darf, fester Tag, feste Summe. Keine Kursprognose. Die 3 Fehlgriffe der Krypto-Anfänger zeige ich im kostenlosen Training über den Link.""",
+      alt='Kryptowährung erklärt: eine schwankende Kurve mit Punkten in festem Abstand, darunter drei Fakten und eine Regel.',
+      build=lambda: build_pin('p-27', [pin2('light', 'Warum Bitcoin schwankt: <em>3&nbsp;Fakten</em>, kein Alarm',
+          visual=vz_curve('Sechs Tage, sechs Kurse. Normal.'),
+          points=['Menge fest: 21 Millionen', 'Kein fester Kurs', 'Schwankung ist normal', 'Nur Geld, das fehlen darf'],
+          cta='Speichern für den roten Tag', size='xs')])),
+
+ dict(d='2026-10-23', t='20:37', board=B_SIC, f='Zahl', farbe='akzent', bild='p-28',
+      titel='Hardware-Wallet oder Börse? 850.000 Bitcoin weg bei Mt. Gox, 4 Regeln, wer den Schlüssel hält',
+      text="""Hardware-Wallet oder Börse, die Frage stellt sich jeder Anfänger. Bei Mt. Gox verschwanden 2014 rund 850.000 Bitcoin. Sie lagen auf der Börse, samt Schlüsseln (Quelle: CoinMarketCap Academy). Meine 70.000 $ lagen in einer Wallet-App, die nur echt aussah. Beide Male hielt ein Fremder den Schlüssel. Seitdem zählt für mich eine Frage: Wer hat den Schlüssel? Eine Hardware-Wallet ist ein Gerät, auf dem er bei dir liegt. Wie ich aufbewahre, zeige ich im kostenlosen Training über den Link.""",
+      alt='Hardware-Wallet oder Börse: große Zahl 850.000 Bitcoin, die bei Mt. Gox verschwanden, darunter vier Regeln zum Schlüssel.',
+      build=lambda: build_pin('p-28', [pin2('acc', 'Hardware-Wallet oder Börse? <em>850.000</em> Bitcoin weg',
+          visual=vz_num('850.000', 'Bitcoin, verschwunden bei Mt. Gox. Sie lagen auf der Börse, mit den Schlüsseln.'),
+          points=['Börse hält den Schlüssel', 'Hardware-Wallet: bei dir', 'Halten? Dann bei dir', 'Die 12 Wörter nie online'],
+          cta='Speichern, bevor du Bitcoin lagerst', size='xs')])),
+
+ dict(d='2026-10-24', t='11:52', board=B_ANF, f='Karte', farbe='schwarz', bild='p-29',
+      titel='Krypto für Anfänger: 4 Dinge, die ich nach 70.000 $ Verlust anders mache (damals gegen heute)',
+      text="""Krypto für Anfänger, damals bei mir: Ich hab einer Wallet-App vertraut, weil sie echt aussah. 70.000 $ weg. Der Wendepunkt war ein Wort. Verstehen. Schritt für Schritt hab ich mir angesehen, was ich kaufe, und daraus ein einfaches System mit vier Schritten gebaut. Die vier Wechsel im Pin sind der Kern davon. Ich bin kein Genie. Wenn ich das nach so viel Lehrgeld geschafft hab, schaffst du den sicheren Einstieg auch. Die 3 Fehlgriffe zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto für Anfänger: Karte mit dem Wort Verstehen, darunter vier Wechsel von damals zu heute mit Pfeilen.',
+      build=lambda: build_pin('p-29', [pin2('', 'Damals vs. heute: <em>4&nbsp;Dinge</em>, die ich anders mache',
+          visual=vz_card('Verstehen', 'Mein Wendepunkt nach 70.000 $ Verlust.'),
+          points=['Glauben → prüfen', 'Chat-Link → Anbieter-Seite', 'Timing → fester Tag', 'Panik → Plan'],
+          cta='Speichern vor dem ersten Kauf', size='xs')])),
+
+ dict(d='2026-10-24', t='20:23', board=B_ANF, f='Foto', farbe='schwarz', bild='p-30',
+      titel='Krypto Börse EU: 4 Prüfungen vor der Anmeldung, von der Zulassung bis zur ersten Auszahlung',
+      text="""Krypto Börse in der EU, so prüfe ich sie heute: Seit Juli 2026 brauchen Anbieter in der EU eine MiCA-Zulassung. Das ESMA-Register listet sie, für Deutschland führt die BaFin eine Unternehmensdatenbank (Quelle: ESMA, BaFin). Damals hab ich einem Instagram-Kontakt Geld anvertraut. Vor der Auszahlung verlangte er eine Netzwerkgebühr. Ich hab gezahlt, die Auszahlung kam nie. Eine geprüfte Börse war das nie. Keine Anbieter-Empfehlung. Den ersten Kauf zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto Börse EU: vier Prüfungen vor der Anmeldung, darunter Chris Alcatrez im blauen Hemd.',
+      build=lambda: build_pin('p-30', [pin2('', 'Krypto Börse: <em>4&nbsp;Prüfungen</em>, bevor Geld fließt',
+          points=['Zulassung im EU-Register', 'Sie schreibt dich nie an', 'Klein kaufen, klein auszahlen', 'Keine feste Rendite, nirgends'],
+          cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
 ]
 
 if __name__ == '__main__':

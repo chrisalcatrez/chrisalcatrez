@@ -36,3 +36,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 24 | 19.10.2026 20:38 | Krypto für Anfänger | Karussell (4 Folien) (schwarz) | Krypto für Anfänger: 3 Gefühle, die mich Geld gekostet haben, und je eine Regel dagegen | pinterest/p-24-1.png bis p-24-4.png | eingeplant
 - 25 | 20.10.2026 10:49 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (hell) | Krypto-Betrug in Telegram-Gruppen: 3 Regeln, seit ein Fake mit meinem Namen Wallets leerte | pinterest/p-25.png | eingeplant
 - 26 | 20.10.2026 20:16 | Krypto für Anfänger | Balken (Zahlen) (schwarz) | Memecoin kaufen? 764.000 Wallets verloren, 58 gewannen Millionen (Chainalysis) und 3 Regeln | pinterest/p-26.png | eingeplant
+- 27 | 23.10.2026 11:19 | Krypto für Anfänger | Kurve (hell) | Kryptowährung erklärt: Warum Bitcoin schwankt, 3 Fakten und 1 Regel für Anfänger | pinterest/p-27.png | eingeplant
+- 28 | 23.10.2026 20:37 | Bitcoin sicher aufbewahren | Zahl (akzent) | Hardware-Wallet oder Börse? 850.000 Bitcoin weg bei Mt. Gox, 4 Regeln, wer den Schlüssel hält | pinterest/p-28.png | eingeplant
+- 29 | 24.10.2026 11:52 | Krypto für Anfänger | Karte (schwarz) | Krypto für Anfänger: 4 Dinge, die ich nach 70.000 $ Verlust anders mache (damals gegen heute) | pinterest/p-29.png | eingeplant
+- 30 | 24.10.2026 20:23 | Krypto für Anfänger | Foto (schwarz) | Krypto Börse EU: 4 Prüfungen vor der Anmeldung, von der Zulassung bis zur ersten Auszahlung | pinterest/p-30.png | eingeplant
