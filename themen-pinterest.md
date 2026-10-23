@@ -40,3 +40,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 28 | 23.10.2026 20:37 | Bitcoin sicher aufbewahren | Zahl (akzent) | Hardware-Wallet oder Börse? 850.000 Bitcoin weg bei Mt. Gox, 4 Regeln, wer den Schlüssel hält | pinterest/p-28.png | eingeplant
 - 29 | 24.10.2026 11:52 | Krypto für Anfänger | Karte (schwarz) | Krypto für Anfänger: 4 Dinge, die ich nach 70.000 $ Verlust anders mache (damals gegen heute) | pinterest/p-29.png | eingeplant
 - 30 | 24.10.2026 20:23 | Krypto für Anfänger | Foto (schwarz) | Krypto Börse EU: 4 Prüfungen vor der Anmeldung, von der Zulassung bis zur ersten Auszahlung | pinterest/p-30.png | eingeplant
+- 31 | 25.10.2026 11:34 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Sicherheit am Telefon: 3 Fragen, bevor du dem Anrufer antwortest (er wollte meine 12 Wörter) | pinterest/p-31.png | eingeplant
+- 32 | 25.10.2026 20:19 | Bitcoin sicher aufbewahren | Echt gegen Fake (schwarz) | Krypto Wallet echt oder Fake? 3 Unterschiede, die ich vor dem 70.000 $ Download nie geprüft hab | pinterest/p-32.png | eingeplant
+- 33 | 26.10.2026 10:58 | Krypto-Betrug erkennen | Karussell (4 Folien) (hell) | Krypto-Betrug erkennen: 3 Stufen einer Trading-Masche, von 250 € Start bis 62.000 € Schaden | pinterest/p-33-1.png bis p-33-4.png | eingeplant
+- 34 | 26.10.2026 20:43 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Krypto-Betrug auf Instagram erkennen: 3 Warnsignale in der ersten Nachricht (ich hab damals gezahlt) | pinterest/p-34.png | eingeplant

@@ -338,6 +338,56 @@ PINS = [
       build=lambda: build_pin('p-30', [pin2('', 'Krypto Börse: <em>4&nbsp;Prüfungen</em>, bevor Geld fließt',
           points=['Zulassung im EU-Register', 'Sie schreibt dich nie an', 'Klein kaufen, klein auszahlen', 'Keine feste Rendite, nirgends'],
           cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
+
+ # 25.10.2026 (Sonntag, Winterzeit ab 03:00): nur eigene Fakten, kein Fall (Thomas lief in dieser Woche am 19.10.).
+ dict(d='2026-10-25', t='11:34', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-31',
+      titel='Krypto Sicherheit am Telefon: 3 Fragen, bevor du dem Anrufer antwortest (er wollte meine 12 Wörter)',
+      text="""Krypto Sicherheit fängt am Telefon an. In der Community eines Mining-Anbieters rief mich jemand an. Er müsse meine Wallet synchronisieren und brauche dafür meine 12 Wörter. Ich hab ihm zwölf ausgedachte vorgelesen. Er rastete aus. Mit den echten wäre meine Wallet leer gewesen. Die drei Fragen im Pin stelle ich seitdem, bevor ich am Telefon ein Wort über Krypto sage. Einmal Ja, und ich lege auf. Die 3 Fehlgriffe der Krypto-Anfänger zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto Sicherheit am Telefon: Entscheidungsbaum mit drei Fragen, Ja heißt auflegen, Nein führt zur nächsten Frage.',
+      build=lambda: build_pin('p-31', [pin2('light', 'Anruf wegen deiner Wallet? <em>3&nbsp;Fragen</em>, dann auflegen',
+          visual=vz_flow(['Kam der Anruf ungefragt?', 'Will er Wörter, PIN oder Code?', 'Soll etwas sofort passieren?'],
+                         'Kein Warnsignal. Trotzdem: Auflegen, selbst zurückrufen.', ja='Auflegen'),
+          cta='Speichern für den nächsten Anruf', size='sm')])),
+
+ dict(d='2026-10-25', t='20:19', board=B_SIC, f='Echt gegen Fake', farbe='schwarz', bild='p-32',
+      titel='Krypto Wallet echt oder Fake? 3 Unterschiede, die ich vor dem 70.000 $ Download nie geprüft hab',
+      text="""Krypto Wallet echt oder Fake, den Unterschied hab ich erst nach 70.000 $ gesehen. Ich hab eine Wallet-App geladen, weil sie echt aussah. Logo, Name, alles passte. Den Anbieter gab es als Handy-App nie. Das Geld war weg. Heute kommt eine App bei mir nur über die Website des Anbieters aufs Handy. Eine echte App erzeugt neue 12 Wörter für dich, die gefälschte fragt deine ab. Der Vergleich im Pin ist nachgestellt. Wie die Wallet in mein System passt, zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto Wallet echt oder Fake: links die echte App mit drei Haken, rechts die gefälschte mit drei Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-32', [pin2('', 'Echte Wallet-App vs. Fake: <em>3&nbsp;Unterschiede</em>',
+          visual=vz_vs2('Echte App', ['Link von der Anbieter-Seite', 'Entwickler: der Anbieter selbst', 'Erzeugt deine 12 Wörter'],
+                        'Fake', ['Link aus Chat oder Werbung', 'Anbieter hat keine App', 'Will 12 Wörter'],
+                        note='Nachgestellt. Rechts: meine 70.000 $.'),
+          cta='Speichern vor dem nächsten Download', size='sm')])),
+
+ # Woche ab 26.10.2026: Fall der Woche Peter (Trading-Masche, p-33); p-34 eigene Fakten plus Quelle.
+ dict(d='2026-10-26', t='10:58', board=B_BET, f='Karussell (4 Folien)', farbe='hell', bild='p-33', folien=4,
+      titel='Krypto-Betrug erkennen: 3 Stufen einer Trading-Masche, von 250 € Start bis 62.000 € Schaden',
+      text="""Krypto-Betrug erkennen an einem echten Ablauf. Peter (Name geändert) kam über eine Werbung auf Instagram zu einem Trading-Angebot. Für gut 250 € wurde sein Konto „aktiviert“. „Laura“ rief täglich an und handelte für ihn. Das Konto zeigte 83.000 €, ausgezahlt wurden 5 €. Dann kam Geld von Fremden auf sein Girokonto, er sollte es über eine Krypto-Börse weiterschicken. Drei Konten geschlossen, Schaden laut Anzeige rund 62.000 €. Mit Zustimmung veröffentlicht. Kostenloses Training über den Link.""",
+      alt='Karussell: 62.000 € Schaden nach 250 € Start, dann drei Folien mit je einer Stufe der Trading-Masche und zwei Warnzeichen.',
+      alts=['Trading-Betrug: große Zahl 62.000 € Schaden laut Anzeige, angefangen mit 250 €. Fall aus meiner Community, Name geändert.',
+            'Stufe 1: 250 €, damit das Handelskonto aktiviert wird. Zwei Warnzeichen: Werbung auf Instagram, Gebühr zum Start.',
+            'Stufe 2: 83.000 € auf dem Bildschirm, 5 € ausgezahlt. Zwei Warnzeichen: Fremde handeln für dich, Zahl ist kein Geld.',
+            'Stufe 3: drei Girokonten geschlossen. Zwei Warnzeichen: fremdes Geld weiterschicken, Videoanruf bei jeder Überweisung.'],
+      build=lambda: build_pin('p-33', [
+          pin2('light', 'Trading-Betrug: 250&nbsp;€ Start, <em>62.000&nbsp;€</em> Schaden',
+               visual=vz_num('<span style="font-size:150px">62.000 €</span>', 'Schaden laut Anzeige. Fall aus meiner Community, Name geändert. Eine Stufe pro Folie.'),
+               cta='Speichern. Eine Stufe pro Folie', size='sm', center=True),
+          pin2('light', 'Stufe 1: Das <em>aktivierte</em> Konto', visual=vz_num('250 €', 'Peter kam über eine Werbung auf Instagram. Für gut 250 € wurde sein Handelskonto „aktiviert“.'),
+               points=['Werbung auf Instagram', 'Gebühr, um zu starten'], marks='warn', cta='Speichern vor der nächsten Werbung', size='sm'),
+          pin2('light', 'Stufe 2: <em>Jemand handelt</em> für dich', visual=vz_num('<span style="font-size:150px">83.000 €</span>', '„Laura“ rief mehrmals täglich an und handelte für ihn. Das Konto zeigte 83.000 €. Ausgezahlt wurden 5 €.'),
+               points=['Fremde handeln für dich', 'Bildschirm-Zahl, kein Geld'], marks='warn', cta='Speichern, bevor jemand für dich handelt', size='sm'),
+          pin2('light', 'Stufe 3: Fremdes Geld <em>weiterleiten</em>', visual=vz_num('3 Konten', 'geschlossen. Statt Auszahlung kam Geld von Fremden auf sein Girokonto. Er sollte es über eine Krypto-Börse weiterschicken.'),
+               points=['Fremdes Geld weiterschicken', 'Videoanruf bei Überweisung'], marks='warn', cta='Speichern, bevor du etwas weiterleitest', size='sm'),
+      ])),
+
+ dict(d='2026-10-26', t='20:43', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-34',
+      titel='Krypto-Betrug auf Instagram erkennen: 3 Warnsignale in der ersten Nachricht (ich hab damals gezahlt)',
+      text="""Krypto-Betrug auf Instagram beginnt mit einer freundlichen Nachricht. Bei mir meldete ein Instagram-Kontakt eine Auszahlung. Vorher sollte ich eine „Netzwerkgebühr“ zahlen. Ich hab gezahlt, die Auszahlung kam nie. Die EU-Aufsichtsbehörden ESMA, EBA und EIOPA nennen in ihrem Faktenblatt zu Krypto-Betrug (Dezember 2025) dieselben Zeichen: ungefragter Kontakt, garantierte Gewinne. Der Satz im Pin ist nachgestellt. Die 3 Fehlgriffe der Krypto-Anfänger zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto-Betrug auf Instagram: nachgestellte erste Nachricht eines Betrügers in einer Sprechblase, darunter drei Warnsignale.',
+      build=lambda: build_pin('p-34', [pin2('acc', 'Instagram-Nachricht über Krypto? <em>3&nbsp;Warnsignale</em>',
+          visual=vz_bubble('„Hallo, ich hab dein Profil gesehen. Ich hätte da etwas für dich.“', 'Nachgestellt. Mein Betrüger kam über Instagram.'),
+          points=['Schreibt dich zuerst an', 'Garantierte Gewinne', 'Gebühr vor der Auszahlung'],
+          marks='warn', cta='Speichern, bevor du Fremden antwortest', size='sm')])),
 ]
 
 if __name__ == '__main__':
