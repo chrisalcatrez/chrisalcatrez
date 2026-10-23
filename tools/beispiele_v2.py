@@ -830,9 +830,9 @@ Was ich in diesem Ablauf sehe:
 – Eine Zahl auf dem Bildschirm ist kein Geld. Geld ist, was auf deinem Konto ankommt.
 – Wer für dich handelt und dafür Geld will, will dein Geld.
 – Fremdes Geld weiterschicken ist nie eine Auszahlung.
-– Eine Behörde schreibt dir keine Frist für dein Krypto-Konto.
+– Frist und Paragrafen in einer Mail machen sie nie zu einer Behörde.
 
-Keine Anbieter-Empfehlung, keine Gewinnzusage. Nur ein Betrug, den ich so oder ähnlich immer wieder von Krypto-Anfängern höre.
+Keine Anbieter-Empfehlung, keine Gewinnzusage. Nur ein echter Fall, damit du die Stufen erkennst, bevor du selbst auf einer stehst.
 
 An welcher Stufe wärst du ausgestiegen? Schreib die Zahl in die Kommentare.
 
