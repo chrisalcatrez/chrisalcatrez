@@ -795,6 +795,49 @@ Keine Kursprognose, keine Anbieter-Empfehlung. Für alle Krypto-Anfänger, die g
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 33: Visueller Post (Ablauf mit Pfeilen, Fall Peter) ----------
+POSTS['beitrag-33'] = dict(
+    date='2026-10-30', fmt='Visueller Post', topic='Ablauf mit Pfeilen, Fall Peter: 250 € Einstieg, 62.000 € Schaden, 7 Stufen von der Instagram-Werbung bis zur falschen EZB',
+    slides=[
+        s_flow('ECHTER FALL · NAME GEÄNDERT', '250 € Einstieg. %s' % A('62.000 € Schaden.'), [
+            ('Werbung auf Instagram', 'Gute Gewinne, Nebeneinkommen.'),
+            ('250 € zum Start', 'Dafür wird sein Handelskonto „aktiviert“.'),
+            ('„Laura“ ruft an', 'Mehrmals täglich. Sie handelt für ihn.'),
+            ('5.000 € in bar', 'Von der Kreditkarte. „Laura“ will 5.000 € privat dazulegen.'),
+            ('83.000 € auf dem Konto', 'Ausgezahlt: 5 €.'),
+            ('Fremdes Geld auf seinem Girokonto', 'Weiterleiten an ein „Sicherheitskonto“. 3 Konten geschlossen.'),
+            ('Mails einer falschen „EZB“', 'Mit Frist und Geldwäsche-Paragrafen.'),
+        ], 'Speichere dir das, bevor dich die nächste Trading-Werbung anspricht.',
+            sub='Peters Schaden laut seiner Anzeige. So lief es, Stufe für Stufe.', hi=4),
+    ],
+    alts=['Ablauf mit Pfeilen, echter Fall, Name geändert: 250 Euro Einstieg, 62.000 Euro Schaden. Peters Schaden laut seiner Anzeige, so lief es Stufe für Stufe. 1 Werbung auf Instagram: gute Gewinne, Nebeneinkommen. 2 250 Euro zum Start, dafür wird sein Handelskonto aktiviert. 3 Laura ruft an, mehrmals täglich, sie handelt für ihn. 4 5.000 Euro in bar von der Kreditkarte, Laura will 5.000 Euro privat dazulegen. 5 83.000 Euro auf dem Konto, ausgezahlt 5 Euro. 6 Fremdes Geld auf seinem Girokonto, weiterleiten an ein Sicherheitskonto, 3 Konten geschlossen. 7 Mails einer falschen EZB mit Frist und Geldwäsche-Paragrafen. Speichere dir das, bevor dich die nächste Trading-Werbung anspricht'],
+    caption='''Es fing mit 250 € an. Am Ende standen rund 62.000 € Schaden in der Anzeige.
+
+Echter Fall aus meiner Community, Name geändert, veröffentlicht mit Zustimmung. Peter kam über eine Werbung auf Instagram zu einem Trading-Angebot. Keine Stufe sah für sich allein nach Betrug aus. Zusammen schon.
+
+Die 7 Stufen:
+1. Werbung auf Instagram: gute Gewinne, Nebeneinkommen.
+2. Für gut 250 € wird sein Handelskonto „aktiviert“.
+3. „Laura“, angeblich Abteilungsleiterin mit zehn Jahren Erfahrung, ruft mehrmals täglich an und handelt für ihn.
+4. Für ein Sechs-Monats-Angebot über 10.000 € will sie 5.000 € privat dazulegen. Peter holt 5.000 € als Bargeld von der Kreditkarte.
+5. Sein Handelskonto zeigt 83.000 €. Ausgezahlt werden 5 €.
+6. Statt Auszahlung landet Geld von Fremden auf seinem Girokonto. Er soll es über eine Krypto-Börse an ein „Sicherheitskonto“ weiterschicken. Vor jeder Überweisung ein Videoanruf mit geteiltem Bildschirm. Drei seiner Girokonten werden geschlossen.
+7. Am Ende ein angeblicher Vorgesetzter und Mails einer falschen „Europäischen Zentralbank“ mit Frist und Geldwäsche-Paragrafen.
+
+Schaden laut seiner Anzeige: rund 62.000 €, einschließlich Forderungen aus zurückgebuchten Zahlungen.
+
+Was ich in diesem Ablauf sehe:
+– Eine Zahl auf dem Bildschirm ist kein Geld. Geld ist, was auf deinem Konto ankommt.
+– Wer für dich handelt und dafür Geld will, will dein Geld.
+– Fremdes Geld weiterschicken ist nie eine Auszahlung.
+– Eine Behörde schreibt dir keine Frist für dein Krypto-Konto.
+
+Keine Anbieter-Empfehlung, keine Gewinnzusage. Nur ein Betrug, den ich so oder ähnlich immer wieder von Krypto-Anfängern höre.
+
+An welcher Stufe wärst du ausgestiegen? Schreib die Zahl in die Kommentare.
+
+Speichere dir das, bevor dich die nächste Trading-Werbung anspricht.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

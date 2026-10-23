@@ -1,6 +1,6 @@
 # Generator fuer Instagram-Beitraege im Design System "chrisalcatrez"
 # Vorlagen: s_hook, s_point, s_proof (Beleg: Zahl, Screenshot, Zitat), s_memo (Merkzettel zum Speichern), s_vs, s_bingo,
-# s_question, s_story, s_mail, s_chat, s_list, s_raster. Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
+# s_question, s_story, s_mail, s_chat, s_list, s_raster, s_flow (Ablauf mit Pfeilen). Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
 # Nutzung: im Arbeitsordner 'npm i @fontsource/montserrat @fontsource/libre-baskerville playwright',
 # dann in Python: sys.path.insert(0, '<repo>/tools'); from gen import *; build('beitrag-N', [s_hook(...), s_point(...), ...])
 # Schriften: Montserrat (Ueberschriften, Labels) + Libre Baskerville (Fliesstext) nach Anchus Schriftarten-1x1
@@ -103,6 +103,19 @@ h1.sm{font-size:60px;line-height:1.12}
 .crow{display:grid;grid-template-columns:150px 1fr;column-gap:18px;align-items:baseline}
 .ck{font-weight:700;font-size:22px;letter-spacing:1px;text-transform:uppercase;color:var(--meta)}
 .cv{font-family:'Libre Baskerville',serif;font-size:26px;line-height:1.34;color:var(--fg)}
+/* Ablauf mit Pfeilen (Visueller Post) */
+.flow{display:flex;flex-direction:column}
+.fs{display:grid;grid-template-columns:58px 1fr;column-gap:24px}
+.frail{display:flex;flex-direction:column;align-items:center}
+.fnum{width:52px;height:52px;border-radius:26px;border:2px solid var(--meta);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px;color:var(--fg2);flex:none}
+.fs.hi .fnum{border-color:var(--acc);background:var(--acc);color:#000}
+.farr{flex:1;display:flex;flex-direction:column;align-items:center;min-height:22px;padding:4px 0}
+.farr i{flex:1;width:2px;background:var(--line)}
+.farr b{width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:11px solid var(--meta)}
+.ftx{padding:6px 0 14px;display:flex;flex-direction:column;gap:4px}
+.fh{font-weight:700;font-size:29px;line-height:1.25;color:var(--fg)}
+.fs.hi .fh{color:var(--acc)}
+.fd{font-family:'Libre Baskerville',serif;font-size:24px;line-height:1.36;color:var(--fg2)}
 /* Merkzettel: Checkliste zum Speichern */
 .memo{border:2px solid var(--acc);border-radius:20px;padding:30px 34px;display:flex;flex-direction:column;gap:20px}
 .memo .mh{font-weight:800;font-size:26px;letter-spacing:3px;text-transform:uppercase;color:var(--acc)}
@@ -198,6 +211,17 @@ def s_raster(label, title, cards, cta, sub=None, src=None, hi=None):
     srch = '<div class="src">%s</div>' % src if src else ''
     return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:26px"><h2>%s</h2>%s<div class="cards">%s</div>%s</div><div style="display:flex;flex-direction:column;gap:30px"><div class="cta">%s</div>%s</div></section>'
                          % (label, title, subh, cs, srch, cta, foot()))
+
+def s_flow(label, title, steps, cta, sub=None, src=None, hi=None, end=None):
+    # Ablauf mit Pfeilen fuer Visuelle Posts: steps = [(Kopf, Erlaeuterung)], hi = Index der Akzentstufe, end = Schlusszeile unter der letzten Stufe
+    fs = ''.join('<div class="fs%s"><div class="frail"><div class="fnum">%d</div>%s</div><div class="ftx"><div class="fh">%s</div><div class="fd">%s</div></div></div>'
+                 % (' hi' if i == hi else '', i + 1, '<div class="farr"><i></i><b></b></div>' if i < len(steps) - 1 else '', h, d)
+                 for i, (h, d) in enumerate(steps))
+    subh = '<p class="sub">%s</p>' % sub if sub else ''
+    endh = '<div class="qpre">%s</div>' % end if end else ''
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:24px"><h2>%s</h2>%s<div class="flow">%s</div>%s%s</div><div style="display:flex;flex-direction:column;gap:30px"><div class="cta">%s</div>%s</div></section>'
+                         % (label, title, subh, fs, endh, srch, cta, foot()))
 
 def s_story(label, title, ps, cta):
     return lambda n, N: ('<section class="s story"><div class="hd">%s</div><div class="mid"><h1>%s</h1>%s</div><div class="pcta">%s &#8594;</div></section>'
