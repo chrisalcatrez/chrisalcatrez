@@ -179,7 +179,7 @@ Wer dich nach einer Gebühr bedroht, hatte nie vor zu zahlen.
 
 Bei welcher Begründung hättest du aufgehört zu überweisen?"""),
 
- dict(thema='„Erfunden“ und „selbst schuld“ unter dem ersten Beitrag', feld='Psychologie', var='Fall', frei_ab='2026-10-23', verwendet=None,
+ dict(thema='„Erfunden“ und „selbst schuld“ unter dem ersten Beitrag', feld='Psychologie', var='Fall', frei_ab='2026-10-23', verwendet='25.10.2026',
       text="""Mein erster Beitrag hier: 1.657 Aufrufe, 21 Antworten, 2 Likes.
 
 Die häufigsten Antworten: erfunden. Und: selbst schuld. Thema war die gefälschte Wallet-App, die mich 70.000 $ gekostet hat.
@@ -269,7 +269,7 @@ Wer die Macher kennt, weiß, wen er fragt.
 
 Schreibt dich in Krypto-Gruppen öfter mal ein „Admin“ privat an?"""),
 
- dict(thema='Rückhol-Betrug nach dem ersten Verlust (Fall Thomas, Name geändert)', feld='Betrug', var='These', frei_ab='2026-10-26', verwendet=None,
+ dict(thema='Rückhol-Betrug nach dem ersten Verlust (Fall Thomas, Name geändert)', feld='Betrug', var='These', frei_ab='2026-10-26', verwendet='26.10.2026',
       text="""Nach dem Verlust kommt der Retter. Er ist Betrüger Nummer zwei.
 
 Thomas (Name geändert) verlor nach eigener Aussage rund 40.000 $ beim Online-Trading. Seitdem schreiben ihm eine Londoner Kanzlei, ein „BaFin Team“ und ein „Blockchain Support“.
