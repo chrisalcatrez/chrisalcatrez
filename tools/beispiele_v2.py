@@ -838,6 +838,34 @@ An welcher Stufe wärst du ausgestiegen? Schreib die Zahl in die Kommentare.
 
 Speichere dir das, bevor dich die nächste Trading-Werbung anspricht.''')
 
+# ---------- Beitrag 34: Frage an die Zielgruppe (Fake-Account mit meinem Namen in der Telegram-Gruppe) ----------
+POSTS['beitrag-34'] = dict(
+    date='2026-10-31', fmt='Frage an die Zielgruppe', topic='Hand aufs Herz: In einer Krypto-Gruppe zuerst privat angeschrieben worden? (Fake-Account mit meinem Namen, geschätzt 4.000 bis 5.000 € aus fremden Wallets)',
+    slides=[
+        s_question('FRAGE AN DICH', 'Hand aufs Herz', 'Hat dich in einer Krypto-Gruppe schon mal jemand %s angeschrieben?' % A('zuerst privat'),
+                   'Ich fange an: In meiner eigenen Gruppe ist es passiert.',
+                   'Schick das jemandem, der in Krypto-Gruppen unterwegs ist.',
+                   pre='Ein Fake-Account mit meinem Namen. Geschätzt 4.000 bis 5.000 € aus fremden Wallets.'),
+    ],
+    alts=['Hand aufs Herz: Ein Fake-Account mit meinem Namen, geschätzt 4.000 bis 5.000 Euro aus fremden Wallets. Hat dich in einer Krypto-Gruppe schon mal jemand zuerst privat angeschrieben? Ich fange an: In meiner eigenen Gruppe ist es passiert. Schick das jemandem, der in Krypto-Gruppen unterwegs ist'],
+    caption='''Ich war Admin der Gruppe. Der Betrüger hat sich trotzdem als ich ausgegeben.
+
+Das war in der Telegram-Gruppe eines Coin-Projekts. Ein Fake-Account mit meinem Namen hat Mitglieder privat angeschrieben. Danach waren Wallets leer. Geschätzt 4.000 bis 5.000 €.
+
+Meine Fragen nach dem Entwicklerteam hat damals keiner beantwortet.
+
+Was ich daraus mitgenommen habe:
+– Ein Name im Profil ist kein Beweis. Kopieren kann ihn jeder.
+– Wer dich in einer Krypto-Gruppe zuerst privat anschreibt, will etwas von dir.
+– Fragt jemand nach Wallet, Wörtern oder Geld: Gespräch beenden und in der Gruppe selbst nachfragen.
+– Ein Team, das auf Fragen schweigt, ist eine Antwort.
+
+Keine Coin-Empfehlung, keine Kursprognose. Nur ein Erlebnis aus meiner Zeit als Admin, damit du Betrug in Krypto-Gruppen erkennst, bevor deine Wallet leer ist. Für jeden Anfänger, der Bitcoin oder eine Börse gerade erst entdeckt.
+
+Hat dich in einer Krypto-Gruppe schon mal jemand zuerst privat angeschrieben? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der in Krypto-Gruppen unterwegs ist.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
