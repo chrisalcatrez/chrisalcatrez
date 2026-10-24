@@ -388,6 +388,43 @@ PINS = [
           visual=vz_bubble('„Hallo, ich hab dein Profil gesehen. Ich hätte da etwas für dich.“', 'Nachgestellt. Mein Betrüger kam über Instagram.'),
           points=['Schreibt dich zuerst an', 'Garantierte Gewinne', 'Gebühr vor der Auszahlung'],
           marks='warn', cta='Speichern, bevor du Fremden antwortest', size='sm')])),
+
+ # 27. und 28.10.2026: Fall der Woche (Peter) lief am 26.10., darum nur eigene Fakten und belegte Zahlen.
+ dict(d='2026-10-27', t='11:16', board=B_INF, f='Balken', farbe='schwarz', bild='p-35',
+      titel='Geldentwertung: 100 € heute, 49 € in 35 Jahren bei 2 % Inflation, 3 Regeln für dein Erspartes',
+      text="""Geldentwertung rechnet leise. Bei 2 % im Jahr, dem Ziel der EZB, kaufen 100 € in 35 Jahren so viel wie heute 49 € (Quelle: Bundesbank, Inflationsziel der EZB). Auf dem Konto steht die alte Zahl. Ich lebe in Venezuela. Preise stehen hier in Dollar, Krypto ist Alltag, bezahlt wird digital. Was Entwertung mit Erspartem macht, sieht man hier an jeder Kasse. Wie ich nach 70.000 $ Lehrgeld heute Erspartes und Krypto zusammendenke, zeige ich im kostenlosen Training über den Link.""",
+      alt='Geldentwertung: drei Balken, 100 € heute, 67 € in 20 Jahren, 49 € in 35 Jahren bei 2 % Inflation, darunter drei Regeln.',
+      build=lambda: build_pin('p-35', [pin2('', 'Geldentwertung: 100&nbsp;€ heute, <em>49&nbsp;€</em> in 35&nbsp;Jahren',
+          visual=vz_bars([('Heute', '100 €', 100), ('In 20 Jahren', '67 €', 67), ('In 35 Jahren', '49 €', 49)], 'Kaufkraft bei 2 % im Jahr, dem Ziel der EZB.'),
+          points=['Konto zeigt Betrag, nie Wert', 'Zins unter Inflation: Minus', 'Jedes Jahr neu rechnen'],
+          cta='Speichern, bevor Erspartes liegen bleibt', size='xs')])),
+
+ dict(d='2026-10-27', t='20:52', board=B_ANF, f='Kurve', farbe='hell', bild='p-36',
+      titel='Krypto für Anfänger: Informationsflut, 3 Regeln, wann du auf den Kurs schaust (nach meinem Lehrgeld)',
+      text="""Krypto für Anfänger heißt oft: jeden Tag neue Kurse und neue Meinungen. Ich kenne das. Lange hab ich vor jedem Kauf Fremde gefragt, in Gruppen und bei Leuten mit vielen Followern. Jede Nachricht war ein Grund, etwas zu tun. Verstanden hab ich dabei wenig. Der Wendepunkt kam, als ich Schritt für Schritt selbst verstanden hab, was ich kaufe. Die drei Regeln im Pin sind das Gegenteil von damals. Keine Kursprognose, mein Lehrgeld. Das kostenlose Training für Krypto-Anfänger findest du über den Link.""",
+      alt='Krypto für Anfänger: Kurve mit sechs Punkten in festem Abstand, darunter drei Regeln, wann du auf den Kurs schaust.',
+      build=lambda: build_pin('p-36', [pin2('light', 'Zu viele Krypto-News? <em>3&nbsp;Regeln</em>, wann du hinschaust',
+          visual=vz_curve('Sechs feste Blicke. Dazwischen läuft der Kurs ohne dich.'),
+          points=['Ein fester Tag, ein Blick', 'Keine Kurs-App auf Seite 1', 'Kein Kauf aus dem Chat'],
+          cta='Speichern, bevor du die Kurs-App öffnest', size='xs')])),
+
+ dict(d='2026-10-28', t='10:47', board=B_ANF, f='Zahl', farbe='schwarz', bild='p-37',
+      titel='Bitcoin kaufen für Anfänger: Zu teuer? Ein Bitcoin hat 100 Millionen Teile, 3 Regeln für den Betrag',
+      text="""Bitcoin kaufen als Anfänger, da stoppt viele der Preis für einen ganzen Coin. Dabei besteht ein Bitcoin aus 100 Millionen Satoshi (Quelle: BTC-ECHO Academy), gekauft wird ein Bruchteil. Mein erster großer Kauf war das Gegenteil davon. 5.000 $ in einen Coin mit bekanntem Gesicht. Die Macher verkauften auf einmal, das Geld war weg. Mit 100 $ hätte ich dasselbe gesehen. Keine Coin-Empfehlung. Die 3 Fehlgriffe der Krypto-Anfänger zeige ich im kostenlosen Training über den Link.""",
+      alt='Bitcoin kaufen für Anfänger: große Zahl 100 Mio., so viele Satoshi stecken in einem Bitcoin, darunter drei Regeln.',
+      build=lambda: build_pin('p-37', [pin2('', 'Bitcoin zu teuer? Ein Bitcoin hat <em>100&nbsp;Mio.</em> Teile',
+          visual=vz_num('100 Mio.', 'Satoshi stecken in einem Bitcoin. Ein ganzer war nie nötig.'),
+          points=['Bruchteil statt ganzer Coin', 'Miete zuerst, dann Bitcoin', 'Klein, bis du es verstehst'],
+          cta='Speichern, bevor du sagst: zu teuer', size='xs')])),
+
+ dict(d='2026-10-28', t='20:08', board=B_SIC, f='Karte', farbe='hell', bild='p-38',
+      titel='Krypto Zinsen: 4,7 Mrd. $ Kundengeld saßen bei Celsius fest, 3 Fragen, bevor du Coins verleihst',
+      text="""Krypto Zinsen klingen nach Sparbuch. Celsius hat das versprochen, sicherer als eine Bank. 2022 stoppte die Plattform alle Auszahlungen, 4,7 Mrd. $ Kundengeld saßen fest, der Gründer bekam zwölf Jahre Haft (Quelle: US-Justizministerium, 08.05.2025). Hinter dem Sparbuch steht eine Einlagensicherung, hinter Krypto-Zinsen nur der Anbieter. Ein Cloud-Mining mit fester Rendite hat mich 4.000 bis 5.000 $ gekostet. Die drei Fragen im Pin hätten mir gereicht. Kostenloses Training über den Link.""",
+      alt='Krypto Zinsen: Karte mit dem Wort Verliehen, darunter drei Fragen, bevor du Coins für Zinsen aus der Hand gibst.',
+      build=lambda: build_pin('p-38', [pin2('light', 'Krypto-Zinsen? <em>3&nbsp;Fragen</em>, bevor du Coins verleihst',
+          visual=vz_card('Verliehen', 'Zinsen gibt es nur gegen deine Coins. Celsius: 4,7 Mrd. $ saßen fest.'),
+          points=['Womit zahlt er die Zinsen?', 'Wer hält meine Coins?', 'Was passiert bei Pleite?'],
+          cta='Speichern für das nächste Zins-Angebot', size='xs')])),
 ]
 
 if __name__ == '__main__':

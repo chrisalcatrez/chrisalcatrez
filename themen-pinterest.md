@@ -44,3 +44,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 32 | 25.10.2026 20:19 | Bitcoin sicher aufbewahren | Echt gegen Fake (schwarz) | Krypto Wallet echt oder Fake? 3 Unterschiede, die ich vor dem 70.000 $ Download nie geprüft hab | pinterest/p-32.png | eingeplant
 - 33 | 26.10.2026 10:58 | Krypto-Betrug erkennen | Karussell (4 Folien) (hell) | Krypto-Betrug erkennen: 3 Stufen einer Trading-Masche, von 250 € Start bis 62.000 € Schaden | pinterest/p-33-1.png bis p-33-4.png | eingeplant
 - 34 | 26.10.2026 20:43 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Krypto-Betrug auf Instagram erkennen: 3 Warnsignale in der ersten Nachricht (ich hab damals gezahlt) | pinterest/p-34.png | eingeplant
+- 35 | 27.10.2026 11:16 | Geld anlegen und Inflation | Balken (schwarz) | Geldentwertung: 100 € heute, 49 € in 35 Jahren bei 2 % Inflation, 3 Regeln für dein Erspartes | pinterest/p-35.png | eingeplant
+- 36 | 27.10.2026 20:52 | Krypto für Anfänger | Kurve (hell) | Krypto für Anfänger: Informationsflut, 3 Regeln, wann du auf den Kurs schaust (nach meinem Lehrgeld) | pinterest/p-36.png | eingeplant
+- 37 | 28.10.2026 10:47 | Krypto für Anfänger | Zahl (schwarz) | Bitcoin kaufen für Anfänger: Zu teuer? Ein Bitcoin hat 100 Millionen Teile, 3 Regeln für den Betrag | pinterest/p-37.png | eingeplant
+- 38 | 28.10.2026 20:08 | Bitcoin sicher aufbewahren | Karte (hell) | Krypto Zinsen: 4,7 Mrd. $ Kundengeld saßen bei Celsius fest, 3 Fragen, bevor du Coins verleihst | pinterest/p-38.png | eingeplant
