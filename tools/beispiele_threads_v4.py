@@ -146,7 +146,7 @@ Was sich nirgends verkaufen lässt, war nie Geld.
 
 Prüfst du vor dem Kauf, auf welcher Börse du den Coin wieder loswirst?"""),
 
- dict(thema='Selbstgebaute Token mit Stablecoin-Namen (USDTS, USDCF)', feld='Betrug', var='Story', frei_ab='2026-10-22', verwendet=None,
+ dict(thema='Selbstgebaute Token mit Stablecoin-Namen (USDTS, USDCF)', feld='Betrug', var='Story', frei_ab='2026-10-22', verwendet='27.10.2026',
       text="""Ich wollte beim Verkaufen helfen. Käufer auf der Welt: null.
 
 Die Wallet eines Teilnehmers zeigte „USDT“. Keine Börse nahm die Coins. Sie hießen USDTS und USDCF, zwei selbstgebaute Token mit Stablecoin-Namen. Wert: 0 €.
@@ -357,7 +357,7 @@ Inflation fragt nie, in welchem Land dein Konto liegt.
 
 Wie viel teurer ist dein Wocheneinkauf seit 2020 geworden?"""),
 
- dict(thema='Phishing (Frist, Drohung, Link)', feld='Betrug', var='These', frei_ab='2026-10-28', verwendet=None,
+ dict(thema='Phishing (Frist, Drohung, Link)', feld='Betrug', var='These', frei_ab='2026-10-28', verwendet='28.10.2026',
       text="""Jede Frist in einer Sicherheitsmail arbeitet für den Absender.
 
 „Ihre Wallet wird in 24 Stunden gesperrt.“ So fangen diese Mails an. Dann kommt ein Link, dann ein Feld für deine Daten.
@@ -718,5 +718,29 @@ Die Ruhe kam später, ohne feste Zahl. Fester Tag, feste Summe, mehr Plan steckt
 Ruhe kauft man sich mit einem Plan, nie mit einem Versprechen.
 
 Was hat dich der Wunsch nach Sicherheit schon gekostet?"""),
+
+ dict(thema='Bitcoin oder Altcoins? (3,7 Mio. tote Coins laut CoinGecko, Memecoin)', feld='Einstieg', var='These', frei_ab='2026-11-10', verwendet=None,
+      text="""Der lauteste Coin im Chat hat die kürzeste Lebenserwartung.
+
+Seit 2021 haben 3,7 Millionen Coins den Handel eingestellt, über die Hälfte aller gelisteten. Allein im ersten Quartal 2025 waren es 1,8 Millionen (Quelle: CoinGecko, 30.04.2025).
+
+Mein Memecoin kam aus so einem Chat. Was er konnte, wusste keiner dort. Gekostet hat er trotzdem, nur mich.
+
+Ein Coin muss zuerst überleben, bevor er steigen kann.
+
+Was zählt für dich mehr, die Kurschance oder dass es den Coin in fünf Jahren gibt?"""),
+
+ dict(thema='Bitcoin oder Altcoins? (3,7 Mio. tote Coins laut CoinGecko, Memecoin)', feld='Einstieg', var='Story', frei_ab='2026-11-10', verwendet=None,
+      text="""Ein Memecoin, null Erklärung, ein Minus. Mein ganzer Altcoin-Ausflug.
+
+Gekauft hab ich ihn aus dem Chat heraus. Bitcoin konnte ich wenigstens in zwei Sätzen erklären. Den Memecoin nie, beim Kauf so wenig wie beim Absturz.
+
+Seit 2021 haben 3,7 Millionen Coins den Handel eingestellt (Quelle: CoinGecko, 30.04.2025). Meiner gehörte zu den vielen, die ich nie verstanden hab.
+
+Heute kaufe ich zuerst das Verstehen, dann den Coin.
+
+Verstehen kostet Zeit, Raten kostet Geld.
+
+Welchen Coin hast du gekauft, ohne ihn erklären zu können?"""),
 
 ]
