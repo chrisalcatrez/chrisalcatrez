@@ -335,7 +335,7 @@ Wer für dich handelt, handelt zuerst für sich.
 
 Würdest du jemanden für dich handeln lassen, den du nur vom Telefon kennst?"""),
 
- dict(thema='Mythos: Auf dem Konto ist mein Geld sicher (Kaufkraft seit 2020)', feld='Geldentwertung', var='Fall', frei_ab='2026-10-27', verwendet=None,
+ dict(thema='Mythos: Auf dem Konto ist mein Geld sicher (Kaufkraft seit 2020)', feld='Geldentwertung', var='Fall', frei_ab='2026-10-27', verwendet='30.10.2026',
       text="""100 € Einkauf von 2020 kosten 2025 rund 122 €.
 
 Das ist der Durchschnitt aller Verbraucherpreise in Deutschland. Nahrungsmittel und alkoholfreie Getränke: plus 36,2 %. Quelle: Statistisches Bundesamt, Verbraucherpreisindex.
