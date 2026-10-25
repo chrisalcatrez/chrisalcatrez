@@ -866,6 +866,57 @@ Hat dich in einer Krypto-Gruppe schon mal jemand zuerst privat angeschrieben? Sc
 
 Schick das jemandem, der in Krypto-Gruppen unterwegs ist.''')
 
+# ---------- Beitrag 35: Schritt-fuer-Schritt (Phishing-Mail mit Frist, 3 Schritte ohne Klick) ----------
+Q_VZ = 'Quelle: Verbraucherzentrale, „Phishing-Mails: Woran Sie sie erkennen“'
+POSTS['beitrag-35'] = dict(
+    date='2026-11-01', fmt='Schritt-für-Schritt-Anleitung', topic='Phishing: „Ihre Wallet wird in 24 Stunden gesperrt“, mein Check in 3 Schritten ohne Klick (Netzwerkgebühr an Instagram-Kontakt, Verbraucherzentrale)',
+    slides=[
+        s_hook('SCHRITT FÜR SCHRITT', '„Ihre Wallet wird in %s gesperrt.“ Ein Klick, und deine Bitcoin sind weg. %s' % ('24 Stunden', A('Der Check in 3 Schritten.')),
+               sub='Nachgestellte Mail. Drei Schritte, bevor du klickst. Grob, die Tiefe im Training.', cue='Zuerst mein eigenes Lehrgeld &#8594;', size=''),
+        s_proof('MEIN LEHRGELD', 'Ich hab selbst schon auf eine Nachricht hin gezahlt.',
+                big='0 $', big_sub='ausgezahlt. Ein Instagram-Kontakt wollte vorher eine „Netzwerkgebühr“. Ich hab gezahlt, die Auszahlung kam nie.',
+                cue='Schritt 1 dauert 5 Sekunden &#8594;'),
+        s_point('SCHRITT 1 VON 3', 'Der Link in der Mail %s' % A('bleibt zu.'),
+                ['Öffne die App oder die Seite selbst. Nie über den Link aus der Mail.', D('Ist am Konto wirklich etwas, siehst du es dort auch.')],
+                cue='Schritt 2 entlarvt die Frist &#8594;'),
+        s_point('SCHRITT 2 VON 3', 'Je kürzer die Frist, %s' % A('desto langsamer du.'),
+                ['Druck mit Frist und Sperre ist ein Warnzeichen für Phishing.', D('Die Frist soll dich schneller machen als dein Kopf.')],
+                src=Q_VZ, cue='Schritt 3 beendet jede Diskussion &#8594;'),
+        s_point('SCHRITT 3 VON 3', 'Will ein Feld deine 12 Wörter? %s' % A('Stopp.'),
+                ['Wer deine Wörter hat, hat deine Bitcoin. Ohne Handy, ohne PIN, ohne dich.', D('Kein echter Anbieter fragt per Mail danach. Egal, wie echt das Logo aussieht.')],
+                cue='Dein Merkzettel für die nächste Sperr-Mail &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Sperr-Mail, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Den Link in der Mail nie öffnen.',
+            'App oder Seite selbst aufrufen und dort nachsehen.',
+            'Frist und Sperre heißen: langsamer werden.',
+            'Ein Feld will deine 12 Wörter? Stopp.',
+        ], 'Speichere dir das, bevor die nächste Sperr-Mail kommt.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Schritt für Schritt, nachgestellte Mail: Ihre Wallet wird in 24 Stunden gesperrt. Ein Klick, und deine Bitcoin sind weg. Der Check in 3 Schritten',
+          'Mein Lehrgeld: 0 Dollar ausgezahlt. Ein Instagram-Kontakt wollte vorher eine Netzwerkgebühr, ich hab gezahlt, die Auszahlung kam nie',
+          'Schritt 1 von 3: Der Link in der Mail bleibt zu. Öffne die App oder die Seite selbst, nie über den Link aus der Mail',
+          'Schritt 2 von 3: Je kürzer die Frist, desto langsamer du. Druck mit Frist und Sperre ist ein Warnzeichen für Phishing. Quelle: Verbraucherzentrale',
+          'Schritt 3 von 3: Will ein Feld deine 12 Wörter? Stopp. Wer deine Wörter hat, hat deine Bitcoin. Kein echter Anbieter fragt per Mail danach',
+          'Merkzettel, Sperr-Mail in 4 Zeilen: den Link nie öffnen; App oder Seite selbst aufrufen; Frist und Sperre heißen langsamer werden; ein Feld will deine 12 Wörter, Stopp. Speichere dir das, bevor die nächste Sperr-Mail kommt',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Die gefährlichste Mail in deinem Postfach droht mit einer Sperre.
+
+„Ihre Wallet wird in 24 Stunden gesperrt.“ So oder so ähnlich beginnen Phishing-Mails rund um Krypto (nachgestellt). Darunter ein Link. Dahinter eine Seite, die wie deine Börse oder Wallet aussieht.
+
+Ich weiß, wie sich so eine Mail anfühlt. Ich hab selbst schon auf eine Nachricht hin gezahlt: Ein Instagram-Kontakt wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie.
+
+Seitdem weiß ich: Eine Nachricht, die Geld, einen Klick oder deine Wörter will, verdient Misstrauen. Drei grobe Schritte bei jeder Sperr-Mail:
+1. Der Link bleibt zu: Öffne die App oder die Seite selbst, nie über den Link aus der Mail. Ist am Konto wirklich etwas, siehst du es dort auch.
+2. Je kürzer die Frist, desto langsamer du: Druck mit kurzer Frist, dazu die Drohung mit einer Sperre, ist ein Warnzeichen für Phishing (Quelle: Verbraucherzentrale, „Phishing-Mails: Woran Sie sie erkennen“).
+3. Will ein Feld deine 12 Wörter, ist Schluss: Wer deine Wörter hat, hat deine Bitcoin. Kein echter Anbieter fragt per Mail danach.
+
+Keine Anbieter-Empfehlung. Nur mein Lehrgeld gegen Betrug mit Mails, für jeden Anfänger mit Wallet oder Konto bei einer Börse.
+
+Wie viele Sperr-Mails hast du dieses Jahr bekommen? Schreib die Zahl in die Kommentare.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

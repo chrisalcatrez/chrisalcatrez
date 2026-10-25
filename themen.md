@@ -37,3 +37,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 32 | 29.10.2026 | Erfolgsgeschichte | Damals 70.000 $ an eine App verloren, die echt aussah, heute jedes Jahr fünfstellig (vertrauen statt verstehen, Wendepunkt)
 - 33 | 30.10.2026 | Visueller Post | Ablauf mit Pfeilen, Fall Peter: 250 € Einstieg, 62.000 € Schaden, 7 Stufen von der Instagram-Werbung bis zur falschen EZB
 - 34 | 31.10.2026 | Frage an die Zielgruppe | Hand aufs Herz: In einer Krypto-Gruppe zuerst privat angeschrieben worden? (Fake-Account mit meinem Namen als Admin der Telegram-Gruppe, geschätzt 4.000 bis 5.000 € aus fremden Wallets)
+- 35 | 01.11.2026 | Schritt-für-Schritt-Anleitung | Phishing: „Ihre Wallet wird in 24 Stunden gesperrt“, der Check in 3 Schritten ohne Klick (Netzwerkgebühr an Instagram-Kontakt, Verbraucherzentrale)
