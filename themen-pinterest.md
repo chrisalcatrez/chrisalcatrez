@@ -48,3 +48,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 36 | 27.10.2026 20:52 | Krypto für Anfänger | Kurve (hell) | Krypto für Anfänger: Informationsflut, 3 Regeln, wann du auf den Kurs schaust (nach meinem Lehrgeld) | pinterest/p-36.png | eingeplant
 - 37 | 28.10.2026 10:47 | Krypto für Anfänger | Zahl (schwarz) | Bitcoin kaufen für Anfänger: Zu teuer? Ein Bitcoin hat 100 Millionen Teile, 3 Regeln für den Betrag | pinterest/p-37.png | eingeplant
 - 38 | 28.10.2026 20:08 | Bitcoin sicher aufbewahren | Karte (hell) | Krypto Zinsen: 4,7 Mrd. $ Kundengeld saßen bei Celsius fest, 3 Fragen, bevor du Coins verleihst | pinterest/p-38.png | eingeplant
+- 39 | 29.10.2026 11:09 | Krypto für Anfänger | Foto (schwarz) | Krypto für Anfänger: 4 Fragen an dich selbst, bevor du andere fragst, ob du kaufen sollst | pinterest/p-39.png | eingeplant
+- 40 | 29.10.2026 20:31 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Auszahlung nur gegen Gebühr? 3 Fragen, die Betrug zeigen (ich hab gezahlt, das Geld kam nie) | pinterest/p-40.png | eingeplant
+- 41 | 30.10.2026 10:44 | Krypto-Betrug erkennen | Echt gegen Fake (akzent) | Krypto-Betrug erkennen: Echtes Coin-Projekt oder Influencer-Coin? 3 Unterschiede (5.000 $ Lehrgeld) | pinterest/p-41.png | eingeplant
+- 42 | 30.10.2026 20:27 | Krypto-Betrug erkennen | Beispielsatz (schwarz) | Krypto Betrug erkennen am Wort „garantiert“: 3 Warnsignale bei fester Rendite (4.000 $ Lehrgeld) | pinterest/p-42.png | eingeplant

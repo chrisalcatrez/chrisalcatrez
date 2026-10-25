@@ -425,6 +425,44 @@ PINS = [
           visual=vz_card('Verliehen', 'Zinsen gibt es nur gegen deine Coins. Celsius: 4,7 Mrd. $ saßen fest.'),
           points=['Womit zahlt er die Zinsen?', 'Wer hält meine Coins?', 'Was passiert bei Pleite?'],
           cta='Speichern für das nächste Zins-Angebot', size='xs')])),
+
+ # 29. und 30.10.2026 (Winterzeit): Fall der Woche (Peter) lief am 26.10., darum nur eigene Fakten und belegte Quellen.
+ # Karussell aus der Rotation ausgelassen (eines pro Woche, p-33 war am 26.10.), danach wieder Beispielsatz.
+ dict(d='2026-10-29', t='11:09', board=B_ANF, f='Foto', farbe='schwarz', bild='p-39',
+      titel='Krypto für Anfänger: 4 Fragen an dich selbst, bevor du andere fragst, ob du kaufen sollst',
+      text="""Krypto für Anfänger fängt bei vielen mit einer Frage an andere an. Ich hab das lange gemacht. Jeden gefragt, nur mich selbst nie. Jedes Ja war mir Beleg genug, und das Minus blieb bei mir. Der Wendepunkt kam, als ich Schritt für Schritt selbst verstanden hab, was ich kaufe. Die vier Fragen im Pin stelle ich mir seitdem vor jedem Kauf. Kommt einmal ein Nein, warte ich. Keine Coin-Empfehlung, mein Lehrgeld. Das kostenlose Training für den sicheren Einstieg findest du über den Link.""",
+      alt='Krypto für Anfänger: vier Fragen an dich selbst vor dem Kauf, darunter Chris Alcatrez im blauen Hemd.',
+      build=lambda: build_pin('p-39', [pin2('', 'Krypto-Kauf: <em>4&nbsp;Fragen</em> an dich, bevor du andere fragst',
+          points=['Kann ich es erklären?', 'Wer verdient an meinem Ja?', 'Brauche ich das Geld bald?', 'Würde ich allein kaufen?'],
+          cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
+
+ dict(d='2026-10-29', t='20:31', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-40',
+      titel='Krypto Auszahlung nur gegen Gebühr? 3 Fragen, die Betrug zeigen (ich hab gezahlt, das Geld kam nie)',
+      text="""Krypto Auszahlung nur gegen Gebühr, so lief es bei mir. Ein Instagram-Kontakt meldete meine Auszahlung, vorher sollte ich eine „Netzwerkgebühr“ überweisen. Ich hab gezahlt. Das Geld kam nie. Trading-Plattformen verlangen vor der Auszahlung „Gewinnsteuern“ und Gebühren und drängen auf Nachzahlungen (Quelle: Verbraucherzentrale Hamburg, Vorsicht vor Trading-Plattformen, 17.01.2025). Die drei Fragen im Pin stelle ich seitdem, bevor ein Cent fließt. Kostenloses Training über den Link.""",
+      alt='Krypto Auszahlung gegen Gebühr: Entscheidungsbaum mit drei Fragen, Ja heißt Betrug, Nein führt zur nächsten Frage.',
+      build=lambda: build_pin('p-40', [pin2('light', 'Auszahlung stockt? <em>3&nbsp;Fragen</em>, bevor du zahlst',
+          visual=vz_flow(['Gebühr, bevor Geld bei dir ist?', 'Erst „Gewinnsteuer“ zahlen?', 'Nachzahlen, damit es weitergeht?'],
+                         'Kein Warnsignal. Trotzdem: erst klein auszahlen.'),
+          cta='Speichern, bevor du eine Gebühr überweist', size='xs')])),
+
+ dict(d='2026-10-30', t='10:44', board=B_BET, f='Echt gegen Fake', farbe='akzent', bild='p-41',
+      titel='Krypto-Betrug erkennen: Echtes Coin-Projekt oder Influencer-Coin? 3 Unterschiede (5.000 $ Lehrgeld)',
+      text="""Krypto-Betrug erkennen, bevor der Coin im Depot liegt. Mein Fall: 5.000 $ in einen Coin mit bekanntem Gesicht. Wer ihn gebaut hatte, wusste ich kaum. Wofür es ihn gab, auch kaum. Die Macher verkauften auf einmal, der Kurs fiel senkrecht. Seitdem schaue ich vor jedem Kauf auf das Team statt auf das Gesicht. Der Vergleich im Pin ist nachgestellt, Namen nenne ich keine. Keine Coin-Empfehlung, mein Lehrgeld. Die 3 Fehlgriffe der Krypto-Anfänger zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto-Betrug erkennen: links echtes Coin-Projekt mit drei Haken, rechts Influencer-Coin mit drei Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-41', [pin2('acc', 'Echtes Coin-Projekt vs. Influencer-Coin: <em>3&nbsp;Unterschiede</em>',
+          visual=vz_vs2('Echtes Projekt', ['Team mit Namen', 'Antwortet auf Fragen', 'Zweck vor Kurs'],
+                        'Fake', ['Nur ein bekanntes Gesicht', 'Schweigt, wenn du fragst', 'Nur der Kurs zählt'],
+                        note='Nachgestellt. Rechts: mein 5.000 $ Coin.'),
+          cta='Speichern für die nächste Coin-Empfehlung', size='sm')])),
+
+ dict(d='2026-10-30', t='20:27', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='schwarz', bild='p-42',
+      titel='Krypto Betrug erkennen am Wort „garantiert“: 3 Warnsignale bei fester Rendite (4.000 $ Lehrgeld)',
+      text="""Krypto Betrug erkennen geht oft an einem Wort: garantiert. Mir hat ein Cloud-Mining mit fester Rendite 4.000 bis 5.000 $ gekostet. Die Rechner hab ich nie gesehen. Das Geld auch nie wieder. Bitcoin schwankt, das weiß jeder. Wer dir trotzdem eine feste Zahl zusagt, verspricht etwas, das er selbst steuert. Der Satz im Pin ist nachgestellt, den Anbieter nenne ich nie. Die 3 Fehlgriffe, an denen Krypto-Anfänger ihr Geld verlieren, zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto Betrug erkennen: nachgestellter Satz mit garantierter Rendite in einer Sprechblase, darunter drei Warnsignale.',
+      build=lambda: build_pin('p-42', [pin2('', 'Krypto „garantiert“? <em>3&nbsp;Warnsignale</em> bei fester Rendite',
+          visual=vz_bubble('„Feste Rendite, jeden Monat. Garantiert. Die Rechner laufen schon für Sie.“', 'Nachgestellt. Mich kostete der Satz 4.000 $.'),
+          points=['Garantie gibt es bei Krypto nie', 'Rendite fest, Markt schwankt', 'Gewinn nur am Bildschirm'],
+          marks='warn', cta='Speichern für das nächste Rendite-Versprechen', size='xs')])),
 ]
 
 if __name__ == '__main__':
