@@ -917,6 +917,61 @@ Wie viele Sperr-Mails hast du dieses Jahr bekommen? Schreib die Zahl in die Komm
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 36: FAQ (Kann ich mit wenig Zeit einsteigen?) ----------
+Q_BO = 'Quelle: Barber & Odean, „Trading Is Hazardous to Your Wealth“, Journal of Finance 2000'
+POSTS['beitrag-36'] = dict(
+    date='2026-11-02', fmt='FAQ beantworten', topic='FAQ: „Kann ich mit wenig Zeit einsteigen?“ (aktivste Anleger 11,4 % statt 17,9 % laut Barber & Odean, lange Bestätigungssuche, Zeit einmal zum Verstehen)',
+    slides=[
+        s_hook('FAQ', '„Ich hab kaum Zeit für Krypto.“ Wer am meisten handelte, bekam %s Warum wenig Zeit dich schützen kann.' % A('11,4 % statt 17,9 %.'),
+               sub='Was ich Anfängern darauf antworte.', cue='Zuerst die Studie hinter der Zahl &#8594;', size=''),
+        s_proof('DER BELEG', 'Die fleißigsten Anleger bekamen am wenigsten.',
+                big='11,4 %', big_sub='im Jahr für die Haushalte, die am meisten handelten. Der Markt brachte 17,9 %. Untersucht: 66.465 Haushalte mit Aktien, 1991 bis 1996.',
+                src=Q_BO, cue='Mir ging es genauso, nur mit Krypto &#8594;'),
+        s_point('MEIN FALL', 'Ich hab viel Zeit investiert. %s' % A('In Fragen an Fremde.'),
+                ['Lange hab ich vor jedem Kauf andere gefragt, ob er richtig ist.', D('Viel Zeit, wenig Verstehen. Das Minus blieb bei mir.')],
+                size='m', cue='Wofür du Zeit wirklich brauchst &#8594;'),
+        s_point('MEINE ANTWORT', 'Zeit brauchst du einmal: %s' % A('zum Verstehen.'),
+                ['Was kaufe ich? Wo liegt es? Wer hält den Schlüssel?', D('Das klärst du einmal am Anfang, statt jeden Tag aufs Neue.')],
+                size='m', cue='Und danach läuft es fast ohne dich &#8594;'),
+        s_point('DANACH', 'Fester Tag, feste Summe. %s' % A('Kein tägliches Kurs-Gucken.'),
+                ['Mein System ist einfach und langfristig gebaut. Es braucht keinen Bildschirm am Abend.', D('Keine Gewinnzusage, keine Kursprognose. Meine Erfahrung, kein Versprechen für dich.')],
+                size='m', cue='Der eine Moment, in dem du Zeit brauchst &#8594;'),
+        s_point('DIE AUSNAHME', 'Zeit nimmst du dir immer dann, %s' % A('wenn jemand drängt.'),
+                ['Eine Frist, ein Anruf, eine Gebühr vor der Auszahlung.', D('Wer dir keine Zeit lässt, will dein Geld.')],
+                size='m', cue='Die Antwort in 4 Zeilen zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Wenig Zeit? %s' % A('Die Antwort in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Die aktivsten Anleger bekamen am wenigsten: 11,4 % statt 17,9 %.',
+            'Zeit brauchst du einmal: zum Verstehen.',
+            'Fester Tag, feste Summe. Kein tägliches Kurs-Gucken.',
+            'Wer drängt, bekommt deine Zeit, nie dein Geld.',
+        ], 'Speichere dir das für deinen ersten Kauf.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['FAQ: Ich hab kaum Zeit für Krypto. Wer am meisten handelte, bekam 11,4 Prozent statt 17,9 Prozent. Warum wenig Zeit dich schützen kann',
+          'Der Beleg: Die fleißigsten Anleger bekamen am wenigsten. 11,4 Prozent im Jahr für die Haushalte, die am meisten handelten, der Markt brachte 17,9 Prozent. 66.465 Haushalte mit Aktien, 1991 bis 1996. Quelle: Barber und Odean, Journal of Finance 2000',
+          'Mein Fall: Ich hab viel Zeit investiert, in Fragen an Fremde. Lange hab ich vor jedem Kauf andere gefragt. Viel Zeit, wenig Verstehen',
+          'Meine Antwort: Zeit brauchst du einmal, zum Verstehen. Was kaufe ich, wo liegt es, wer hält den Schlüssel',
+          'Danach: fester Tag, feste Summe, kein tägliches Kurs-Gucken. Mein System ist einfach und langfristig gebaut. Keine Gewinnzusage, keine Kursprognose',
+          'Die Ausnahme: Zeit nimmst du dir immer dann, wenn jemand drängt. Eine Frist, ein Anruf, eine Gebühr vor der Auszahlung. Wer dir keine Zeit lässt, will dein Geld',
+          'Merkzettel, wenig Zeit in 4 Zeilen: die aktivsten Anleger bekamen am wenigsten; Zeit brauchst du einmal zum Verstehen; fester Tag, feste Summe; wer drängt, bekommt deine Zeit, nie dein Geld. Speichere dir das für deinen ersten Kauf',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''„Dafür hab ich keine Zeit.“ Den Satz höre ich von Krypto-Anfängern oft. Bei mir hat viel Zeit mehr gekostet als wenig.
+
+Zuerst die Zahl: Forscher haben 66.465 Haushalte mit Aktien-Depots untersucht, 1991 bis 1996. Die Haushalte, die am meisten handelten, kamen auf 11,4 % im Jahr. Der Markt brachte 17,9 % (Quelle: Barber & Odean, „Trading Is Hazardous to Your Wealth“, Journal of Finance 2000). Mehr Aktivität, weniger Ergebnis.
+
+Dann mein Fall: Ich hab viel Zeit in Krypto gesteckt. Vor allem in Fragen an Fremde. Lange hab ich vor jedem Kauf andere gefragt, ob er richtig ist. Viel Zeit, wenig Verstehen.
+
+Was ich heute darauf antworte:
+– Zeit brauchst du einmal: zum Verstehen. Was kaufe ich? Wo liegt es? Wer hält den Schlüssel der Wallet?
+– Danach: fester Tag, feste Summe. Kein tägliches Kurs-Gucken bei Bitcoin oder an der Börse.
+– Die Ausnahme: Drängt dich jemand mit Frist, Anruf oder Gebühr vor der Auszahlung, nimmst du dir Zeit. Wer dir keine Zeit lässt, will dein Geld.
+
+Keine Gewinnzusage, keine Kursprognose, keine Anbieter-Empfehlung. Meine Erfahrung, kein Versprechen für dich.
+
+Für alle, die Krypto verstehen wollen und dafür nur wenig Zeit haben.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

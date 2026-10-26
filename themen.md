@@ -38,3 +38,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 33 | 30.10.2026 | Visueller Post | Ablauf mit Pfeilen, Fall Peter: 250 € Einstieg, 62.000 € Schaden, 7 Stufen von der Instagram-Werbung bis zur falschen EZB
 - 34 | 31.10.2026 | Frage an die Zielgruppe | Hand aufs Herz: In einer Krypto-Gruppe zuerst privat angeschrieben worden? (Fake-Account mit meinem Namen als Admin der Telegram-Gruppe, geschätzt 4.000 bis 5.000 € aus fremden Wallets)
 - 35 | 01.11.2026 | Schritt-für-Schritt-Anleitung | Phishing: „Ihre Wallet wird in 24 Stunden gesperrt“, der Check in 3 Schritten ohne Klick (Netzwerkgebühr an Instagram-Kontakt, Verbraucherzentrale)
+- 36 | 02.11.2026 | FAQ beantworten | FAQ: „Kann ich mit wenig Zeit einsteigen?“ (aktivste Anleger 11,4 % statt 17,9 % laut Barber & Odean, lange Bestätigungssuche, Zeit einmal zum Verstehen)
