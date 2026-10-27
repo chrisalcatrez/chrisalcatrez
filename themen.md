@@ -39,3 +39,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 34 | 31.10.2026 | Frage an die Zielgruppe | Hand aufs Herz: In einer Krypto-Gruppe zuerst privat angeschrieben worden? (Fake-Account mit meinem Namen als Admin der Telegram-Gruppe, geschätzt 4.000 bis 5.000 € aus fremden Wallets)
 - 35 | 01.11.2026 | Schritt-für-Schritt-Anleitung | Phishing: „Ihre Wallet wird in 24 Stunden gesperrt“, der Check in 3 Schritten ohne Klick (Netzwerkgebühr an Instagram-Kontakt, Verbraucherzentrale)
 - 36 | 02.11.2026 | FAQ beantworten | FAQ: „Kann ich mit wenig Zeit einsteigen?“ (aktivste Anleger 11,4 % statt 17,9 % laut Barber & Odean, lange Bestätigungssuche, Zeit einmal zum Verstehen)
+- 37 | 03.11.2026 | Aufzählung | Liebesbetrug mit Krypto: die 5 Phasen vom Chat bis zur Gebühr vor der Auszahlung (fast 1.000 Fälle 2025 in Baden-Württemberg laut LKA, eigene Netzwerkgebühr)

@@ -972,6 +972,73 @@ Für alle, die Krypto verstehen wollen und dafür nur wenig Zeit haben.
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 37: Aufzaehlung (Liebesbetrug mit Krypto: die 5 Phasen) ----------
+Q_LKA = 'Quelle: LKA Baden-Württemberg laut dpa (Stuttgarter Zeitung); Verbraucherzentrale Hessen'
+POSTS['beitrag-37'] = dict(
+    date='2026-11-03', fmt='Aufzählung', topic='Liebesbetrug mit Krypto: die 5 Phasen vom Chat bis zur Gebühr vor der Auszahlung (fast 1.000 Fälle 2025 in Baden-Württemberg laut LKA, eigene Netzwerkgebühr)',
+    slides=[
+        s_hook('AUFZÄHLUNG', 'Fast 1.000 Fälle Liebesbetrug in einem Jahr, allein in Baden-Württemberg. %s' % A('Die 5 Phasen, in denen aus einem Chat Krypto-Betrug wird.'),
+               sub='Wenn du sie kennst, steigst du in Phase 1 aus.', cue='Zuerst die Zahl hinter dem Satz &#8594;', size=''),
+        s_proof('DER BELEG', 'Liebesbetrug ist kein Einzelfall.',
+                big='Fast 1.000', big_sub='Fälle von Love Scamming 2025, allein in Baden-Württemberg. Oft geht es dabei um eine angebliche Geldanlage.',
+                src=Q_LKA, cue='Phase 1 beginnt mit einer netten Nachricht &#8594;'),
+        s_point('PHASE 1', 'Eine fremde Person %s' % A('schreibt dich zuerst an.'),
+                ['Auf Instagram, in einer Dating-App, per Messenger.', D('Kontakt über soziale Medien und Messenger nennt auch die EU-Aufsicht als Warnzeichen für Krypto-Betrug.')],
+                src=Q_ESAS, size='m', cue='Phase 2 fühlt sich gut an, genau das ist der Plan &#8594;'),
+        s_point('PHASE 2', 'Jeden Tag Nachrichten. %s' % A('Viel Gefühl, nie ein Treffen.'),
+                ['Komplimente, schnelle Liebeserklärungen, lange Geschichten aus dem Leben.', D('Vertrauen ist hier das Produkt. Dein Geld kommt später.')],
+                size='m', cue='Phase 3: das erste Wort über Geld &#8594;'),
+        s_point('PHASE 3', 'Plötzlich geht es %s' % A('um Krypto.'),
+                ['Eine Trading-Plattform, eine App, ein Investment, mit dem die Person angeblich selbst verdient.', D('Liebesmasche plus Anlagebetrug: Das nennt man Pig Butchering.')],
+                src='Quelle: BTC-ECHO Academy, Love Scamming', size='m', cue='Phase 4 sieht aus wie Erfolg &#8594;'),
+        s_point('PHASE 4', 'Auf dem Bildschirm %s' % A('wächst dein Geld.'),
+                ['Die Plattform zeigt Gewinne. Du zahlst nach, weil es läuft.', D('Eine Zahl auf dem Bildschirm ist kein Geld. Geld ist, was auf deinem Konto ankommt.')],
+                src='Quelle: FBI, Internet Crime Report 2025', size='m', cue='Phase 5 kenne ich aus eigener Tasche &#8594;'),
+        s_point('PHASE 5', 'Auszahlen? %s' % A('Erst eine Gebühr.'),
+                ['Steuern, Gebühren, eine neue Einzahlung. Das Geld kommt nie.', D('Bei mir war es ein Instagram-Kontakt, ganz ohne Liebe. Er wollte vor der Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie.')],
+                src='Quelle: Verbraucherzentrale Hamburg, Vorsicht vor Trading-Plattformen', size='m', cue='Die 5 Phasen als Test zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Gefühl oder Falle? %s' % A('Dein Test in 5 Zeilen.'), 'Dein Merkzettel', [
+            'Eine fremde Person schreibt zuerst? Wachsam bleiben.',
+            'Viel Gefühl, nie ein Treffen? Warnsignal.',
+            'Erstes Wort über Krypto oder eine Plattform? Gespräch beenden.',
+            'Gewinne auf dem Bildschirm? Es zählt nur, was ankommt.',
+            'Gebühr vor der Auszahlung? Betrug, jedes Mal.',
+        ], 'Schick das jemandem, der gerade auf Dating-Apps unterwegs ist.'),
+    ],
+    alts=['Aufzählung: Fast 1.000 Fälle Liebesbetrug in einem Jahr, allein in Baden-Württemberg. Die 5 Phasen, in denen aus einem Chat Krypto-Betrug wird',
+          'Der Beleg: Fast 1.000 Fälle von Love Scamming 2025, allein in Baden-Württemberg, oft geht es um eine angebliche Geldanlage. Quelle: LKA Baden-Württemberg laut dpa, Verbraucherzentrale Hessen',
+          'Phase 1: Eine fremde Person schreibt dich zuerst an, auf Instagram, in einer Dating-App, per Messenger. Quelle: ESMA, EBA, EIOPA, Faktenblatt zu Krypto-Betrug',
+          'Phase 2: Jeden Tag Nachrichten, viel Gefühl, nie ein Treffen. Komplimente, schnelle Liebeserklärungen, lange Geschichten aus dem Leben',
+          'Phase 3: Plötzlich geht es um Krypto. Eine Trading-Plattform, eine App, ein Investment. Liebesmasche plus Anlagebetrug heißt Pig Butchering. Quelle: BTC-ECHO Academy',
+          'Phase 4: Auf dem Bildschirm wächst dein Geld. Die Plattform zeigt Gewinne, du zahlst nach. Eine Zahl auf dem Bildschirm ist kein Geld. Quelle: FBI, Internet Crime Report 2025',
+          'Phase 5: Auszahlen nur gegen eine Gebühr. Bei mir war es ein Instagram-Kontakt, er wollte eine Netzwerkgebühr, ich hab gezahlt, die Auszahlung kam nie. Quelle: Verbraucherzentrale Hamburg',
+          'Merkzettel, Gefühl oder Falle, dein Test in 5 Zeilen: fremde Person schreibt zuerst; viel Gefühl, nie ein Treffen; erstes Wort über Krypto, Gespräch beenden; Gewinne auf dem Bildschirm zählen nur, wenn sie ankommen; Gebühr vor der Auszahlung ist Betrug. Schick das jemandem, der gerade auf Dating-Apps unterwegs ist'],
+    caption='''Erst schreibt jemand jeden Morgen. Nach ein paar Wochen kommt die Trading-App.
+
+Fast 1.000 Fälle von Love Scamming gab es 2025 allein in Baden-Württemberg (Quelle: LKA Baden-Württemberg laut dpa, Stuttgarter Zeitung). Oft geht es dabei um eine angebliche Geldanlage (Quelle: Verbraucherzentrale Hessen). Aus Liebesmasche plus Krypto-Betrug wird Pig Butchering (Quelle: BTC-ECHO Academy).
+
+Die 5 Phasen:
+1. Der Kontakt: Eine fremde Person schreibt dich zuerst an, auf Instagram, in einer Dating-App oder per Messenger. Die EU-Aufsicht nennt genau diese Wege als Warnzeichen (Quelle: ESMA, EBA, EIOPA, Faktenblatt zu Krypto-Betrug).
+2. Die Nähe: jeden Tag Nachrichten, viel Gefühl, nie ein Treffen.
+3. Die Gelegenheit: Plötzlich geht es um Krypto, eine Trading-Plattform oder eine App, mit der die Person angeblich selbst verdient.
+4. Die Gewinne: Die Plattform zeigt Gewinne, du zahlst nach (Quelle: FBI, Internet Crime Report 2025).
+5. Die Sperre: Auszahlen geht nur gegen Steuern, Gebühren oder eine neue Einzahlung (Quelle: Verbraucherzentrale Hamburg).
+
+Phase 5 kenne ich selbst. Bei mir war es ein Instagram-Kontakt, ganz ohne Liebe. Er wollte vor der Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie.
+
+Dein Test in 5 Zeilen:
+– Eine fremde Person schreibt zuerst? Wachsam bleiben.
+– Viel Gefühl, nie ein Treffen? Warnsignal.
+– Erstes Wort über Krypto oder eine Plattform? Gespräch beenden.
+– Gewinne auf dem Bildschirm? Es zählt nur, was auf deinem Konto, in deiner Wallet oder bei deiner Börse ankommt.
+– Gebühr vor der Auszahlung? Betrug, jedes Mal.
+
+Keine Anbieter-Empfehlung. Für jeden Anfänger, der Bitcoin und Krypto entdeckt und dabei online neue Leute trifft.
+
+In welcher Phase wärst du ausgestiegen? Schreib die Zahl in die Kommentare.
+
+Schick das jemandem, der gerade auf Dating-Apps unterwegs ist.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
