@@ -1039,6 +1039,72 @@ In welcher Phase wärst du ausgestiegen? Schreib die Zahl in die Kommentare.
 
 Schick das jemandem, der gerade auf Dating-Apps unterwegs ist.''')
 
+# ---------- Beitrag 38: Statement-Karussell (Wirbt ein bekanntes Gesicht, kaufe ich keinen Cent; Influencer-Coin 5.000 $, LIBRA laut Nansen) ----------
+Q_NANSEN = 'Quelle: Nansen Research, Februar 2025 (Wallets mit über 1.000 $ Gewinn oder Verlust)'
+POSTS['beitrag-38'] = dict(
+    date='2026-11-04', fmt='Statement-Karussell', topic='Wirbt ein bekanntes Gesicht für einen Coin, kaufe ich keinen Cent (Influencer-Coin 5.000 $, LIBRA: 86 % der Käufer mit Verlust laut Nansen)',
+    slides=[
+        s_hook('STATEMENT', 'Wirbt ein bekanntes Gesicht für einen Coin, %s' % A('kaufe ich keinen Cent.'),
+               sub='Für viele ist ein Promi der Beweis. Für mich ist er ein Warnsignal. So ein Coin hat mich 5.000 $ gekostet.',
+               cue='Was mich 5.000 $ gekostet hat &#8594;', size=''),
+        s_proof('MEIN BELEG', 'Ein Influencer-Coin. Das Gesicht kannte ich. Den Coin kaum.',
+                big='5.000 $', big_sub='hab ich in diesen Coin gesteckt. Das Geld ist weg.',
+                cue='Dann kam der Coin mit dem Präsidenten &#8594;'),
+        s_proof('KEIN EINZELFALL', 'LIBRA wurde durch einen Post des Präsidenten von Argentinien bekannt.',
+                big='86 %', big_sub='der Käufer verkauften mit Verlust. Zusammen rund 251 Mio. $.',
+                src=Q_NANSEN, cue='Warum das Gesicht dich blind macht &#8594;'),
+        s_point('WARUM', 'Das Gesicht leiht dir Vertrauen. %s' % A('Das Wissen fehlt trotzdem.'),
+                ['Du kaufst, weil du die Person kennst. Den Coin kennst du kaum.',
+                 D('Wer hat ihn gebaut? Wer hält wie viel? Das zeigt dir kein Gesicht.')],
+                cue='Heißt das, jeder Promi lügt? &#8594;'),
+        s_point('FAIR BLEIBEN', 'Will jeder Promi dein Geld? %s' % A('Nein.'),
+                ['Viele wissen selbst kaum, wofür sie werben.',
+                 D('Für dein Geld ist das egal. Ein Gesicht ersetzt kein Verstehen.')],
+                cue='Worauf ich statt des Gesichts schaue &#8594;'),
+        s_point('MEINE REGEL', 'Ich schaue auf den Coin, %s' % A('nie auf das Gesicht.'),
+                ['Wer hat ihn gebaut, und wer antwortet auf Fragen? Kann ich ihn in zwei Sätzen erklären?',
+                 D('Bleibt eine Antwort aus, bleibt mein Geld, wo es ist.')],
+                cue='Dein Merkzettel zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Bevor dich ein Gesicht überzeugt, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Ein bekanntes Gesicht ist kein Beleg.',
+            'Wer hat den Coin gebaut? Ohne Antwort kein Kauf.',
+            'Kannst du ihn in zwei Sätzen erklären?',
+            'Eile und Hype im Feed heißen: warten.',
+        ], 'Schick das jemandem, der gerade einen Promi-Coin kaufen will.'),
+    ],
+    alts=['Statement: Wirbt ein bekanntes Gesicht für einen Coin, kaufe ich keinen Cent. Für viele ist ein Promi der Beweis, für mich ein Warnsignal. So ein Coin hat mich 5.000 Dollar gekostet',
+          'Mein Beleg: Ein Influencer-Coin. Das Gesicht kannte ich, den Coin kaum. 5.000 Dollar hab ich in diesen Coin gesteckt, das Geld ist weg',
+          'Kein Einzelfall: LIBRA wurde durch einen Post des Präsidenten von Argentinien bekannt. 86 Prozent der Käufer verkauften mit Verlust, zusammen rund 251 Millionen Dollar. Quelle: Nansen Research, Februar 2025',
+          'Warum: Das Gesicht leiht dir Vertrauen, das Wissen fehlt trotzdem. Wer hat den Coin gebaut, wer hält wie viel? Das zeigt dir kein Gesicht',
+          'Fair bleiben: Will jeder Promi dein Geld? Nein. Viele wissen selbst kaum, wofür sie werben. Für dein Geld ist das egal, ein Gesicht ersetzt kein Verstehen',
+          'Meine Regel: Ich schaue auf den Coin, nie auf das Gesicht. Wer hat ihn gebaut, wer antwortet auf Fragen, kann ich ihn in zwei Sätzen erklären? Bleibt eine Antwort aus, bleibt mein Geld, wo es ist',
+          'Merkzettel, bevor dich ein Gesicht überzeugt: ein bekanntes Gesicht ist kein Beleg; wer hat den Coin gebaut, ohne Antwort kein Kauf; kannst du ihn in zwei Sätzen erklären; Eile und Hype im Feed heißen warten. Schick das jemandem, der gerade einen Promi-Coin kaufen will'],
+    caption='''Ein bekanntes Gesicht hat mich 5.000 $ gekostet. Seitdem ist es für mich ein Warnsignal.
+
+Damals hab ich 5.000 $ in einen Influencer-Coin gesteckt. Das Gesicht kannte ich. Den Coin kannte ich kaum. Das Geld ist weg.
+
+Kein Einzelfall:
+– LIBRA wurde durch einen Post des Präsidenten von Argentinien bekannt.
+– 86 % der Käufer verkauften mit Verlust, zusammen rund 251 Mio. $ (Quelle: Nansen Research, Februar 2025; gezählt wurden Wallets mit über 1.000 $ Gewinn oder Verlust).
+
+Warum das Gesicht so gefährlich ist:
+– Es leiht dir Vertrauen. Das Wissen über den Coin fehlt trotzdem.
+– Wer ihn gebaut hat und wer wie viel hält, zeigt dir kein Gesicht.
+
+Will jeder Promi dein Geld? Nein. Viele wissen selbst kaum, wofür sie werben. Für dein Geld ist das egal. Ein Gesicht ersetzt kein Verstehen.
+
+Dein Merkzettel:
+– Ein bekanntes Gesicht ist kein Beleg.
+– Wer hat den Coin gebaut? Ohne Antwort kein Kauf.
+– Kannst du ihn in zwei Sätzen erklären?
+– Eile und Hype im Feed heißen: warten.
+
+Keine Coin-Empfehlung, keine Kursprognose. Nur mein Lehrgeld gegen Betrug mit Promi-Coins, für jeden Anfänger, der Bitcoin, Krypto und die erste Börse gerade entdeckt.
+
+Hast du schon mal einen Coin gekauft, weil ein bekanntes Gesicht dafür warb? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der gerade einen Promi-Coin kaufen will.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
