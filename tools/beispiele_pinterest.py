@@ -463,6 +463,45 @@ PINS = [
           visual=vz_bubble('„Feste Rendite, jeden Monat. Garantiert. Die Rechner laufen schon für Sie.“', 'Nachgestellt. Mich kostete der Satz 4.000 $.'),
           points=['Garantie gibt es bei Krypto nie', 'Rendite fest, Markt schwankt', 'Gewinn nur am Bildschirm'],
           marks='warn', cta='Speichern für das nächste Rendite-Versprechen', size='xs')])),
+
+ # 31.10. und 01.11.2026 (Wochenende, Winterzeit): Fall der Woche (Peter) lief am 26.10., darum nur eigene Fakten und belegte Quellen.
+ # Neue Themen: BaFin-Wissensumfrage (Balken), Gier im Hype (Kurve), Love Scam mit Krypto (Zahl), Mythos „alles Betrug“ (Stempel, p-2 vom 02.10. ist 30 Tage her).
+
+ dict(d='2026-10-31', t='11:27', board=B_ANF, f='Balken', farbe='hell', bild='p-43',
+      titel='Krypto für Anfänger: 45 % müssen bei Krypto-Fragen passen (BaFin), 3 Regeln vor dem ersten Kauf',
+      text="""Krypto für Anfänger fängt beim Verstehen an. Die BaFin stellte im April 2026 1.000 Menschen 16 Fragen zu Krypto. Im Schnitt stimmten 36 % der Antworten, bei 45 % blieb die Antwort aus (Quelle: BaFin-Erhebung, cash-online, 25.08.2026). Bei mir war es damals so: viel gelesen, wenig verstanden. 5.000 $ steckte ich in einen Coin, weil die lauteste Stimme ihn empfahl. Die Macher verkauften auf einmal. Heute kaufe ich erst, wenn ich erklären kann, was ich kaufe. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: drei Balken aus der BaFin-Umfrage, 36 % richtig, 19 % falsch, 45 % ohne Antwort, darunter drei Regeln.',
+      build=lambda: build_pin('p-43', [pin2('light', 'Krypto-Wissen: <em>36&nbsp;%</em> richtig, 45&nbsp;% passen. Du?',
+          visual=vz_bars([('Richtig', '36 %', 36), ('Falsch', '19 %', 19), ('Keine Antwort', '45 %', 45)], 'BaFin, 1.000 Befragte, 16 Fragen.'),
+          points=['Erst verstehen, dann kaufen', 'Was kaufe ich? Zwei Sätze', 'Lautstärke ist kein Beleg'],
+          cta='Speichern, bevor du den ersten Coin kaufst', size='xs')])),
+
+ dict(d='2026-10-31', t='20:14', board=B_ANF, f='Kurve', farbe='schwarz', bild='p-44',
+      titel='Krypto für Anfänger: Alle kaufen gerade? 3 Regeln gegen Gier und Hype (5.000 $ Lehrgeld)',
+      text="""Krypto für Anfänger hat einen gefährlichen Moment, und der fühlt sich gut an. Alle reden von einem Coin, der Kurs steigt, du willst dabei sein. Bei mir war es ein Coin mit bekanntem Gesicht. 5.000 $ rein, weil alle begeistert waren. Dann verkauften die Macher ihre Coins, der Kurs fiel senkrecht. Heute kaufe ich an einem festen Tag eine feste Summe. Hype ändert daran kein Komma. Die Kurve im Pin zeigt keinen echten Kurs, nur den Takt. Keine Coin-Empfehlung. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: eine Kurve mit Punkten in festem Abstand, darunter drei Regeln gegen Gier im Hype.',
+      build=lambda: build_pin('p-44', [pin2('', 'Alle kaufen? <em>3&nbsp;Regeln</em> gegen die Gier',
+          visual=vz_curve('Feste Summe. Auch wenn alle jubeln.'),
+          points=['Gleiche Summe, auch im Hype', 'Empfehlung heißt warten', 'Nur kaufen, was du erklärst'],
+          cta='Speichern für den nächsten Hype', size='sm')])),
+
+ dict(d='2026-11-01', t='11:52', board=B_BET, f='Zahl', farbe='hell', bild='p-45',
+      titel='Love Scam mit Krypto erkennen: 5 Phasen, in denen aus einem Chat Anlagebetrug wird (14 Mio. € in BW)',
+      text="""Love Scam mit Krypto fängt mit einem Chat an. In Baden-Württemberg zahlten Betroffene in zwölf Monaten rund 14 Mio. € an falsche Geliebte (Quelle: LKA Baden-Württemberg laut dpa, 20.02.2026). Oft endet die Liebe auf einer Trading-Plattform, vor der Auszahlung werden Steuern oder Gebühren fällig (Quelle: BTC-ECHO, 24.10.2026). Phase 5 kenne ich ohne Liebe. Ein Instagram-Kontakt wollte vor der Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt, das Geld kam nie. Kostenloses Training über den Link.""",
+      alt='Love Scam mit Krypto: große Zahl 14 Mio. € Schaden in Baden-Württemberg, darunter fünf Phasen vom Chat bis zur Gebühr.',
+      build=lambda: build_pin('p-45', [pin2('light', 'Love Scam: <em>5&nbsp;Phasen</em> bis zum leeren Konto',
+          visual=vz_num('<span style="font-size:150px">14 Mio.&nbsp;€</span>', 'An falsche Geliebte, zwölf Monate, nur Baden-Württemberg.'),
+          points=['Fremde schreibt zuerst', 'Viel Gefühl, nie ein Treffen', 'Plötzlich geht es um Krypto', 'Gewinne nur am Bildschirm', 'Auszahlung nur gegen Gebühr'],
+          cta='Speichern, bevor es um Geld geht', size='xs', dense=True)])),
+
+ dict(d='2026-11-01', t='20:09', board=B_ANF, f='Stempel', farbe='akzent', bild='p-46',
+      titel='Krypto ist alles Betrug? 3 Fragen, die Betrüger von Bitcoin trennen (70.000 $ durch einen Menschen)',
+      text="""Krypto ist alles Betrug, den Satz hab ich selbst gesagt. Mich hat eine Wallet-App 70.000 $ gekostet. Geladen, weil sie echt aussah. Den Anbieter gab es als Handy-App nie. Betrogen hat mich ein Mensch, der die App gebaut und verteilt hat. Bitcoin hat mir nie geschrieben und nie etwas versprochen. Seitdem stelle ich jedem Kontakt die drei Fragen aus dem Pin. Hinter jedem Ja steht ein Mensch. Keine Coin-Empfehlung, mein Lehrgeld. Das kostenlose Training für Krypto-Anfänger findest du über den Link.""",
+      alt='Krypto alles Betrug? Stempel Mythos schräg im Rahmen, darunter drei Fragen, die Betrüger von Bitcoin trennen.',
+      build=lambda: build_pin('p-46', [pin2('acc', 'Alles Betrug? <em>3&nbsp;Fragen</em> zeigen den Betrüger',
+          visual=vz_stamp('Mythos', 'Betrogen hat mich ein Mensch mit einer App. Bitcoin schreibt keinem.', small=True),
+          points=['Wer hat dich angeschrieben?', 'Wer verspricht dir etwas?', 'Wer will Geld vorab?'],
+          cta='Speichern, bevor du Krypto abschreibst', size='sm', center=True)])),
 ]
 
 if __name__ == '__main__':

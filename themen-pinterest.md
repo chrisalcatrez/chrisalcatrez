@@ -52,3 +52,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 40 | 29.10.2026 20:31 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Auszahlung nur gegen Gebühr? 3 Fragen, die Betrug zeigen (ich hab gezahlt, das Geld kam nie) | pinterest/p-40.png | eingeplant
 - 41 | 30.10.2026 10:44 | Krypto-Betrug erkennen | Echt gegen Fake (akzent) | Krypto-Betrug erkennen: Echtes Coin-Projekt oder Influencer-Coin? 3 Unterschiede (5.000 $ Lehrgeld) | pinterest/p-41.png | eingeplant
 - 42 | 30.10.2026 20:27 | Krypto-Betrug erkennen | Beispielsatz (schwarz) | Krypto Betrug erkennen am Wort „garantiert“: 3 Warnsignale bei fester Rendite (4.000 $ Lehrgeld) | pinterest/p-42.png | eingeplant
+- 43 | 31.10.2026 11:27 | Krypto für Anfänger | Balken (hell) | Krypto für Anfänger: 45 % müssen bei Krypto-Fragen passen (BaFin), 3 Regeln vor dem ersten Kauf | pinterest/p-43.png | eingeplant
+- 44 | 31.10.2026 20:14 | Krypto für Anfänger | Kurve (schwarz) | Krypto für Anfänger: Alle kaufen gerade? 3 Regeln gegen Gier und Hype (5.000 $ Lehrgeld) | pinterest/p-44.png | eingeplant
+- 45 | 01.11.2026 11:52 | Krypto-Betrug erkennen | Zahl (hell) | Love Scam mit Krypto erkennen: 5 Phasen, in denen aus einem Chat Anlagebetrug wird (14 Mio. € in BW) | pinterest/p-45.png | eingeplant
+- 46 | 01.11.2026 20:09 | Krypto für Anfänger | Stempel (akzent) | Krypto ist alles Betrug? 3 Fragen, die Betrüger von Bitcoin trennen (70.000 $ durch einen Menschen) | pinterest/p-46.png | eingeplant
