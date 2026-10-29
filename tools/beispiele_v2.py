@@ -1126,7 +1126,7 @@ Was der „Support“ ihr schrieb, und was es heißt:
 – „… damit ich Ihnen unsere Dapp senden kann, um die Wallet vor unbekannten internen Hacks zu schützen.“ Ein fremder Link, über den du deine Wallet verbinden sollst.
 – „Sie werden sicherlich Ihr gesamtes Geld zurückbekommen.“ Wer dir alles zurück verspricht, will meist mehr.
 
-Später schrieb mir Lena: „Mir schreibt unter Deinem Namen jemand und bedrängt mich.“ Sie hat den „Support“ blockiert und sich Hilfe vor Ort gesucht.
+Lena schrieb mir: „Mir schreibt unter Deinem Namen jemand und bedrängt mich.“ Sie hat den „Support“ blockiert und sich Hilfe vor Ort gesucht.
 
 Behauptet jemand, Admin, Support oder ein Unternehmen zu sein, geh selbst auf die offizielle Seite und nimm dort Kontakt auf (Quelle: Mimikama, „Telegram-Betrug erkennen“). Nie über einen Link aus dem Chat.
 
