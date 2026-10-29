@@ -451,7 +451,7 @@ Ein fester Kauftag nimmt der Angst die Entscheidung ab.
 
 Kaufst du nach Gefühl oder nach Kalender?"""),
 
- dict(thema='Börse gegen eigene Wallet (FTX; Zahlen vor Verwendung per Websuche bestätigen)', feld='Sicherheit', var='Fall', frei_ab='2026-10-30', verwendet=None,
+ dict(thema='Börse gegen eigene Wallet (FTX; Zahlen vor Verwendung per Websuche bestätigen)', feld='Sicherheit', var='Fall', frei_ab='2026-10-30', verwendet='31.10.2026',
       text="""Über 8 Mrd. $ Kundengeld gestohlen. Die Schlüssel hatte nie ein Kunde.
 
 FTX brach im November 2022 zusammen. Der Gründer bekam 25 Jahre Haft (Quelle: US-Justizministerium, 28.03.2024).
@@ -495,7 +495,7 @@ Eine Wissenslücke kostet erst Geld, wenn man mit ihr kauft.
 
 Welche Frage zu Krypto traust du dich kaum zu stellen?"""),
 
- dict(thema='„Krypto ist doch alles Betrug“ (vier Menschen, null Netzwerk)', feld='Betrug', var='These', frei_ab='2026-10-31', verwendet=None,
+ dict(thema='„Krypto ist doch alles Betrug“ (vier Menschen, null Netzwerk)', feld='Betrug', var='These', frei_ab='2026-10-31', verwendet='31.10.2026',
       text="""„Alles Betrug“ stimmt zur Hälfte. Betrogen haben Menschen, nie das Netzwerk.
 
 Vier Mal hab ich Geld verloren: gefälschte Wallet-App, „Netzwerkgebühr“ vor der Auszahlung, Cloud-Mining mit fester Rendite, Coin mit bekanntem Gesicht. Zusammen weit über 70.000 $.
@@ -517,7 +517,7 @@ Betrug braucht ein Gesicht. Technik hat keins.
 
 Hat dich schon mal jemand unter dem Namen eines anderen angeschrieben?"""),
 
- dict(thema='Informationsflut (voller Feed gegen festen Kauftag)', feld='Psychologie', var='Fall', frei_ab='2026-10-31', verwendet=None,
+ dict(thema='Informationsflut (voller Feed gegen festen Kauftag)', feld='Psychologie', var='Fall', frei_ab='2026-10-31', verwendet='01.11.2026',
       text="""1.000 Befragte, 16 Krypto-Fragen, 45 % der Antworten: weiß ich nie.
 
 So lief eine Erhebung der BaFin im April 2026 (Quelle: BaFin, 25.08.2026). Dabei war Krypto nie so laut wie heute. Jeder Feed ist voll davon.
@@ -565,7 +565,7 @@ Geld, das schrumpft, wird zuerst im Einkaufswagen sichtbar.
 
 Welches Produkt hat dir zuletzt gezeigt, dass dein Geld weniger wert ist?"""),
 
- dict(thema='Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi)', feld='Einstieg', var='Fall', frei_ab='2026-11-01', verwendet=None,
+ dict(thema='Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi)', feld='Einstieg', var='Fall', frei_ab='2026-11-01', verwendet='01.11.2026',
       text="""100.000.000 Satoshi sind ein Bitcoin. Kaufen kannst du jede Menge dazwischen.
 
 Ein Bitcoin teilt sich in 100 Millionen Satoshi. Bruchteile kaufst du bei jeder Börse (Quelle: Bitpanda Academy). Für den Einstieg braucht keiner einen ganzen.
