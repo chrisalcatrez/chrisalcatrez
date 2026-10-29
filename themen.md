@@ -41,3 +41,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 36 | 02.11.2026 | FAQ beantworten | FAQ: „Kann ich mit wenig Zeit einsteigen?“ (aktivste Anleger 11,4 % statt 17,9 % laut Barber & Odean, lange Bestätigungssuche, Zeit einmal zum Verstehen)
 - 37 | 03.11.2026 | Aufzählung | Liebesbetrug mit Krypto: die 5 Phasen vom Chat bis zur Gebühr vor der Auszahlung (fast 1.000 Fälle 2025 in Baden-Württemberg laut LKA, eigene Netzwerkgebühr)
 - 38 | 04.11.2026 | Statement-Karussell | Wirbt ein bekanntes Gesicht für einen Coin, kaufe ich keinen Cent (Influencer-Coin 5.000 $, LIBRA: 86 % der Käufer mit Verlust laut Nansen)
+- 39 | 05.11.2026 | Gegenüberstellung | Fall Lena: In der Krypto-Gruppe um Hilfe gebeten, der falsche „Support“ kostete rund 1.000 €; was er schreibt vs. was es heißt (Mimikama)

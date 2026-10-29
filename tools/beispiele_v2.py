@@ -1105,6 +1105,37 @@ Hast du schon mal einen Coin gekauft, weil ein bekanntes Gesicht dafür warb? Sc
 
 Schick das jemandem, der gerade einen Promi-Coin kaufen will.''')
 
+# ---------- Beitrag 39: Gegenueberstellung (Fall Lena: Hilfe in der Krypto-Gruppe, falscher Support, rund 1.000 €; Was er schreibt vs. was es heisst) ----------
+Q_MIMIKAMA = 'Quelle: Mimikama, „Telegram-Betrug erkennen“'
+POSTS['beitrag-39'] = dict(
+    date='2026-11-05', fmt='Gegenüberstellung', topic='Fall Lena: In der Krypto-Gruppe um Hilfe gebeten, der falsche „Support“ kostete rund 1.000 €; was er schreibt vs. was es heißt (Mimikama)',
+    slides=[
+        s_vs('ECHTER FALL · NAME GEÄNDERT', 'Lena bat eine Krypto-Gruppe um Hilfe. Kosten: %s' % A('rund 1.000 €.'),
+             'ER SCHREIBT', ['„Schicken Sie mir einen Screenshot …“', '„Die Münze steigt jetzt …“', '„… unsere Dapp senden …“', '„Sie werden sicherlich Ihr gesamtes Geld zurückbekommen.“'],
+             'DAS HEISST', ['Er sieht, was du hast', 'Eile soll dich blind machen', 'Ein fremder Link greift nach deiner Wallet', 'Wer alles verspricht, will mehr'],
+             'Schick das jemandem, der in Krypto-Gruppen um Hilfe fragt.', src=Q_MIMIKAMA),
+    ],
+    alts=['Gegenüberstellung, echter Fall, Name geändert: Lena bat eine Krypto-Gruppe um Hilfe. Kosten: rund 1.000 Euro. Der falsche Support schreibt: Schicken Sie mir einen Screenshot; die Münze steigt jetzt; unsere Dapp senden; Sie werden sicherlich Ihr gesamtes Geld zurückbekommen. Das heißt: Er sieht, was du hast; Eile soll dich blind machen; ein fremder Link greift nach deiner Wallet; wer alles verspricht, will mehr. Quelle: Mimikama, Telegram-Betrug erkennen. Schick das jemandem, der in Krypto-Gruppen um Hilfe fragt'],
+    caption='''Sie wollte Hilfe. Sie bekam einen „Support“, der freundlich war bis zum Schluss.
+
+Echter Fall aus meiner Community, Name geändert, veröffentlicht mit Zustimmung: Lena bat in einer Krypto-Gruppe um Hilfe. Ein falscher „Community Support“ meldete sich. Sie folgte seinen Anweisungen. Währenddessen wurde ihre Wallet leergeräumt. In wenigen Wochen waren rund 1.000 € aus zwei Wallets weg.
+
+Was der „Support“ ihr schrieb, und was es heißt:
+– „Schicken Sie mir einen Screenshot … damit ich sehen kann.“ Er will sehen, was in deiner Wallet liegt.
+– „Die Münze steigt jetzt, also ist es zu Ihrem eigenen Vorteil …“ Eile mit dem Kurs ist Druck, keine Hilfe.
+– „… damit ich Ihnen unsere Dapp senden kann, um die Wallet vor unbekannten internen Hacks zu schützen.“ Ein fremder Link, über den du deine Wallet verbinden sollst.
+– „Sie werden sicherlich Ihr gesamtes Geld zurückbekommen.“ Wer dir alles zurück verspricht, will meist mehr.
+
+Später schrieb mir Lena: „Mir schreibt unter Deinem Namen jemand und bedrängt mich.“ Sie hat den „Support“ blockiert und sich Hilfe vor Ort gesucht.
+
+Behauptet jemand, Admin, Support oder ein Unternehmen zu sein, geh selbst auf die offizielle Seite und nimm dort Kontakt auf (Quelle: Mimikama, „Telegram-Betrug erkennen“). Nie über einen Link aus dem Chat.
+
+Keine Anbieter-Empfehlung. Nur ein echter Fall, damit du Betrug in Krypto-Gruppen erkennst, bevor deine Wallet leer ist. Für jeden Anfänger, der mit Bitcoin, Wallet und Börse gerade anfängt.
+
+Welcher der 4 Sätze hätte dich am ehesten überzeugt? Schreib die Zahl in die Kommentare.
+
+Schick das jemandem, der in Krypto-Gruppen um Hilfe fragt.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
