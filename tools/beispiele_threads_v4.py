@@ -234,7 +234,7 @@ Synchronisieren, verifizieren, aktualisieren: drei Wörter, eine Bitte, dein Gel
 
 Welches Wort hat dir ein „Support“ zuletzt angeboten?"""),
 
- dict(thema='Seed-Phrase am Telefon („synchronisieren“)', feld='Sicherheit', var='Fall', frei_ab='2026-10-25', verwendet=None,
+ dict(thema='Seed-Phrase am Telefon („synchronisieren“)', feld='Sicherheit', var='Fall', frei_ab='2026-10-25', verwendet='02.11.2026',
       text="""Vier Leute aus meiner Community, ein „AML-Supporter“, vier leere Wallets.
 
 Elena, Markus, Leon und Sabine, Namen geändert. Alle vier bekamen dieselbe Nachricht: Wegen neuer Geldwäscheregeln müsse die Wallet aktualisiert und verifiziert werden. Dafür brauche er die Seed-Phrase.
@@ -664,7 +664,7 @@ Der Admin, der dir privat schreibt, ist selten der Admin.
 
 Prüfst du, ob ein „Admin“ echt ist, bevor du ihm antwortest?"""),
 
- dict(thema='Fake-Account mit meinem Namen in der Telegram-Gruppe (Damals–Heute)', feld='Sicherheit', var='These', frei_ab='2026-11-03', verwendet=None,
+ dict(thema='Fake-Account mit meinem Namen in der Telegram-Gruppe (Damals–Heute)', feld='Sicherheit', var='These', frei_ab='2026-11-03', verwendet='03.11.2026',
       text="""Ein Name beweist null. Meiner hat andere 4.000 bis 5.000 € gekostet.
 
 Als Admin in der Telegram-Gruppe eines Coin-Projekts gab es mich plötzlich zweimal. Der zweite schrieb Mitglieder privat an. Danach waren Wallets leer.
@@ -743,4 +743,27 @@ Verstehen kostet Zeit, Raten kostet Geld.
 
 Welchen Coin hast du gekauft, ohne ihn erklären zu können?"""),
 
+ dict(thema='Venezuela: 14 Nullen seit 2008, drei Währungsschnitte (Preise in Dollar)', feld='Geldentwertung', var='Fall', frei_ab='2026-11-16', verwendet=None,
+      text="""Aus einer Million Bolívar wurde ein Bolívar. Über Nacht.
+
+Oktober 2021, der dritte Währungsschnitt in Venezuela seit 2008. Sechs Nullen weg, zusammen 14 (Quelle: AFP, 01.10.2021; BTC-ECHO, 18.08.2021).
+
+Ich lebe hier. Wer 2007 eine Million Bolívar gespart hatte, besitzt heute auf dem Papier 0,00000001 Bolívar. Darum stehen die Preise in Dollar, darum ist Krypto Alltag.
+
+Ein Währungsschnitt ändert die Scheine, nie den Wert.
+
+Was würdest du mit Erspartem tun, wenn dein Land Nullen streicht?"""),
+
+ dict(thema='Venezuela: 14 Nullen seit 2008, drei Währungsschnitte (Preise in Dollar)', feld='Geldentwertung', var='These', frei_ab='2026-11-16', verwendet=None,
+      text="""Inflation streicht keine Nullen. Sie druckt welche dazu.
+
+Venezuela hat seit 2008 drei Mal Nullen von der Währung geschnitten, 14 insgesamt (Quelle: AFP, 01.10.2021). Nach jedem Schnitt waren sie wenige Jahre später wieder da.
+
+Ich lebe hier. Die Preise stehen in Dollar, die Landeswährung rechnet kaum einer um.
+
+Ein Schnitt ist Kosmetik. Die Druckmaschine läuft weiter.
+
+Ein Währungsschnitt repariert die Scheine, nie das Geld.
+
+Glaubst du, dem Euro kann so etwas nie passieren?"""),
 ]
