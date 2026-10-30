@@ -502,6 +502,55 @@ PINS = [
           visual=vz_stamp('Mythos', 'Betrogen hat mich ein Mensch mit einer App. Bitcoin schreibt keinem.', small=True),
           points=['Wer hat dich angeschrieben?', 'Wer verspricht dir etwas?', 'Wer will Geld vorab?'],
           cta='Speichern, bevor du Krypto abschreibst', size='sm', center=True)])),
+
+ # Woche ab 02.11.2026 (Winterzeit): Fall der Woche Elena, Markus, Leon, Sabine („AML-Supporter“, p-49); p-47, p-48 und p-50 nur eigene Fakten plus Quelle.
+ # Rotation nach p-46 (Stempel): Foto -> Entscheidungsbaum -> Echt gegen Fake -> Karussell; Farben schwarz -> hell -> schwarz -> hell.
+ dict(d='2026-11-02', t='10:38', board=B_SIC, f='Foto', farbe='schwarz', bild='p-47',
+      titel='Seed-Phrase: 4 Regeln für deine 12 Wörter, damit dein Bitcoin bei dir bleibt (Anrufer wollte sie)',
+      text="""Seed-Phrase, das sind die 12 Wörter, die deine Wallet wiederherstellen. Wer sie hat, hat dein Geld. In der Community eines Mining-Anbieters rief mich jemand an, er müsse meine Wallet synchronisieren und brauche die Wörter. Ich hab ihm zwölf ausgedachte vorgelesen, er rastete aus. Seitdem gelten bei mir die vier Regeln aus dem Pin. Die Wörter bleiben offline, nie in Cloud oder Handy (Quelle: Bitpanda Academy). Wie die Wallet in mein System passt, zeige ich im kostenlosen Training über den Link.""",
+      alt='Seed-Phrase: vier Regeln für die 12 Wörter deiner Wallet, darunter Chris Alcatrez im blauen Hemd.',
+      build=lambda: build_pin('p-47', [pin2('', 'Seed-Phrase: <em>4&nbsp;Regeln</em> für deine 12&nbsp;Wörter',
+          points=['Offline, nie in der Cloud', 'Kein Foto auf dem Handy', 'Kein Support braucht sie', 'Wer fragt, will dein Geld'],
+          cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
+
+ dict(d='2026-11-02', t='20:19', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-48',
+      titel='Krypto Betrug erkennen in WhatsApp-Gruppen: 3 Fragen, bevor du einer Anlagegruppe glaubst',
+      text="""Krypto Betrug erkennen fängt oft in einer WhatsApp-Gruppe an, in die du ungefragt kamst. Eine „Assistenz“ betreut sie, bekannte Namen ködern, am Ende soll Geld auf eine App oder fremde Wallet (Quelle: Verbraucherzentrale, 17.09.2026). Gruppen kenne ich von innen. Als Admin in der Telegram-Gruppe eines Coin-Projekts sah ich, wie ein Account mit meinem Namen Mitglieder anschrieb und Wallets leerte. Die drei Fragen im Pin stelle ich seitdem bei jeder Einladung. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen in WhatsApp-Gruppen: Entscheidungsbaum mit drei Fragen, Ja heißt Betrug, Nein führt weiter.',
+      build=lambda: build_pin('p-48', [pin2('light', 'Anlagegruppe auf WhatsApp? <em>3&nbsp;Fragen</em>, dann raus',
+          visual=vz_flow(['Ungefragt hinzugefügt?', 'Hohe Gewinne, Risiko kein Wort?', 'Geld auf eine fremde App?'],
+                         'Kein Warnsignal. Trotzdem: Geld bleibt bei dir.'),
+          cta='Speichern, bevor du der Gruppe antwortest', size='xs')])),
+
+ dict(d='2026-11-03', t='11:23', board=B_BET, f='Echt gegen Fake', farbe='schwarz', bild='p-49',
+      titel='Falscher Support Krypto: Wallet „verifizieren“? 3 Unterschiede zur echten Prüfung (4 leere Wallets)',
+      text="""Falscher Support Krypto, diesmal als „AML-Supporter“: Wegen neuer Geldwäscheregeln müsse die Wallet verifiziert werden, er brauche die Seed-Phrase. Elena, Markus, Leon und Sabine (Namen geändert) aus meiner Community gaben sie heraus. Danach war das Geld weg. Eine echte Prüfung braucht nur die öffentliche Adresse, nie die 12 Wörter (Quelle: Malwarebytes, 19.08.2026). Nachgestellt, veröffentlicht mit Zustimmung. Die 3 Fehlgriffe der Krypto-Anfänger zeige ich im kostenlosen Training über den Link.""",
+      alt='Falscher Support Krypto: links echte Wallet-Prüfung mit drei Haken, rechts der Fake mit drei Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-49', [pin2('', 'Wallet „verifizieren“? <em>3&nbsp;Unterschiede</em> zum Fake',
+          visual=vz_vs2('Echte Prüfung', ['Du stößt sie selbst an', 'Braucht nur die Adresse', 'Läuft in deiner Börsen-App'],
+                        'Fake', ['Schreibt dich privat an', 'Will deine 12 Wörter', 'Neues Gesetz'],
+                        note='Nachgestellt. Vier aus meiner Community, Namen geändert.'),
+          cta='Speichern für die nächste „Verifizierung“', size='sm')])),
+
+ dict(d='2026-11-03', t='20:46', board=B_BET, f='Karussell (4 Folien)', farbe='hell', bild='p-50', folien=4,
+      titel='Krypto Betrug: Geld zurück? 3 Schritte nach dem Verlust und der zweite Betrug, der fast immer folgt',
+      text="""Krypto Betrug, Geld zurück: Die Frage kannte ich. Ein Instagram-Kontakt wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt, das Geld kam nie. Die drei Schritte im Pin stammen von den EU-Aufsichtsbehörden ESMA, EBA und EIOPA (Faktenblatt Krypto-Betrug, 2025): Zahlungen stoppen, Kontakt blocken, bei Polizei oder Aufsicht melden, wachsam bleiben, wenn jemand das Geld gegen Gebühr zurückholen will. Einmal betrogen schützt vor dem zweiten Mal nie. Kostenloses Training über den Link.""",
+      alt='Karussell: Stempel Stopp nach Krypto Betrug, dann drei Folien mit je einem Schritt nach dem Verlust und zwei Regeln.',
+      alts=['Krypto Betrug, Geld weg: Stempel Stopp, drei Schritte danach, einer pro Folie.',
+            'Schritt 1: null Euro mehr. Jede weitere Zahlung ist die nächste Stufe der Masche, zwei Regeln.',
+            'Schritt 2: zwei Stellen, Polizei und Finanzaufsicht, dazu der Anbieter über seine echte Seite, zwei Regeln.',
+            'Schritt 3: Stempel Vorkasse, der zweite Betrug nach dem Verlust, zwei Warnzeichen.'],
+      build=lambda: build_pin('p-50', [
+          pin2('light', 'Geld an Betrüger weg? <em>3&nbsp;Schritte</em> danach',
+               visual=vz_stamp('Stopp', 'Bei mir kam die Auszahlung nie. Was danach zählt, ein Schritt pro Folie.'),
+               cta='Speichern. Ein Schritt pro Folie', size='sm', center=True),
+          pin2('light', 'Schritt 1: <em>Kein Cent</em> mehr', visual=vz_num('<span style="font-size:190px">0 €</span>', 'Jede weitere Zahlung ist die nächste Stufe der Masche. Kontakt abbrechen, Absender blockieren.'),
+               points=['Keine Gebühr, keine Steuer', 'Anrufe und Mails blocken'], marks='check', cta='Speichern, bevor du nachzahlst', size='sm'),
+          pin2('light', 'Schritt 2: <em>Melden</em>, bei zwei Stellen', visual=vz_num('2 Stellen', 'Polizei und Finanzaufsicht. Dazu der Anbieter, über seine echte Seite.'),
+               points=['Anzeige bei der Polizei', 'Anbieter über echte Seite'], marks='check', cta='Speichern für den Tag danach', size='sm'),
+          pin2('light', 'Schritt 3: Der <em>zweite Betrug</em>', visual=vz_stamp('Vorkasse', 'Nach dem Verlust melden sich „Behörden“ und „Kanzleien“: Geld zurück, gegen Gebühr.', small=True),
+               points=['Hilfe kommt ungefragt', 'Rückholung gegen Gebühr'], marks='warn', cta='Speichern für die nächste Rückhol-Mail', size='sm', center=True),
+      ])),
 ]
 
 if __name__ == '__main__':
