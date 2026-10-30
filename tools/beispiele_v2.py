@@ -1136,6 +1136,75 @@ Welcher der 4 Sätze hätte dich am ehesten überzeugt? Schreib die Zahl in die 
 
 Schick das jemandem, der in Krypto-Gruppen um Hilfe fragt.''')
 
+# ---------- Beitrag 40: Nischenmythos (Wallet verifizieren ist wie Ausweis zeigen; AML-Supporter, vier Wallets leer) ----------
+Q_TOFR = 'Quelle: Börse Stuttgart Digital Exchange, „Was bedeutet die Transfer of Funds Regulation?“'
+Q_SEED = 'Quelle: boerse.de, Börsenlexikon „Seed Phrase“'
+POSTS['beitrag-40'] = dict(
+    date='2026-11-06', fmt='Nischenmythos entlarven', topic='Mythos: „Wallet verifizieren ist wie Ausweis zeigen“ (Fall Elena, Markus, Leon, Sabine: falscher AML-Supporter, 4 von 4 gaben die Seed-Phrase; Travel Rule echt, Prüfung ohne Wörter)',
+    slides=[
+        s_hook('MYTHOS', '„Wallet verifizieren ist wie %s“' % A('Ausweis zeigen.'),
+               sub='4 Menschen aus meiner Community haben das geglaubt. Danach waren 4 Wallets leer. Wo der Unterschied liegt.',
+               cue='Was die vier geschrieben bekamen &#8594;'),
+        s_proof('ECHTE FÄLLE · NAMEN GEÄNDERT', 'Eine Nachricht. Vier leere Wallets.',
+                big='4 von 4', big_sub='gaben einem „AML-Supporter“ ihre Seed-Phrase. Er schrieb: Wegen neuer Geldwäscheregeln müsst ihr eure Wallet verifizieren.',
+                ps=[D('Elena, Markus, Leon und Sabine. Danach war das Geld weg.')],
+                cue='Warum die Nachricht so echt klang &#8594;'),
+        s_point('WARUM ES ECHT KLINGT', 'Die Regeln gibt es %s' % A('wirklich.'),
+                ['Seit dem 30.12.2024 gilt in der EU die Travel Rule. Bei Transfers ab 1.000 € an oder von einer eigenen Wallet will die Börse einen Nachweis, dass sie dir gehört.',
+                 D('Der Betrüger leiht sich ein echtes Gesetz.')],
+                src=Q_TOFR, size='m', cue='Der Unterschied, der alles entscheidet &#8594;'),
+        s_point('DIE WAHRHEIT', 'Dein Ausweis zeigt, wer du bist. Deine 12 Wörter %s' % A('sind dein Geld.'),
+                ['Wer deinen Ausweis sieht, kennt deinen Namen.',
+                 D('Wer deine 12 Wörter hat, braucht kein Handy und keine PIN. Er hat die Wallet.')],
+                size='m', cue='So sieht eine echte Prüfung aus &#8594;'),
+        s_point('ECHTE PRÜFUNG', 'Eine echte Prüfung braucht %s' % A('deine Wörter nie.'),
+                ['Sie kommt im Konto deiner Börse, in der App, die du selbst öffnest. Der Nachweis läuft zum Beispiel über einen kleinen Testbetrag.',
+                 D('Seriöse Anbieter brauchen die Seed-Phrase nie, um eine Wallet zu prüfen.')],
+                src='%s; %s' % (Q_TOFR, Q_SEED.replace('Quelle: ', '')), size='m', cue='Dein Test in 5 Sekunden &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Prüfung oder %s' % A('Raub?'), 'Dein Merkzettel', [
+            'Ausweis hochladen in deiner Börsen-App: normal.',
+            'Privatnachricht von einem „Supporter“: kein Support.',
+            'Neue Gesetze als Grund? Prüfe in der App, nie im Chat.',
+            'Deine 12 Wörter in Chat oder Formular: nie.',
+        ], 'Schick das jemandem, der gerade seine erste Wallet eingerichtet hat.'),
+    ],
+    alts=['Mythos: Wallet verifizieren ist wie Ausweis zeigen. 4 Menschen aus meiner Community haben das geglaubt, danach waren 4 Wallets leer. Wo der Unterschied liegt',
+          'Echte Fälle, Namen geändert: Eine Nachricht, vier leere Wallets. 4 von 4 gaben einem AML-Supporter ihre Seed-Phrase, wegen angeblich neuer Geldwäscheregeln. Elena, Markus, Leon und Sabine, danach war das Geld weg',
+          'Warum es echt klingt: Die Regeln gibt es wirklich. Seit dem 30.12.2024 gilt in der EU die Travel Rule, bei Transfers ab 1.000 Euro will die Börse einen Nachweis, dass die eigene Wallet dir gehört. Der Betrüger leiht sich ein echtes Gesetz. Quelle: Börse Stuttgart Digital Exchange',
+          'Die Wahrheit: Dein Ausweis zeigt, wer du bist. Deine 12 Wörter sind dein Geld. Wer sie hat, braucht kein Handy und keine PIN, er hat die Wallet',
+          'Echte Prüfung: Sie braucht deine Wörter nie. Sie kommt im Konto deiner Börse, der Nachweis läuft zum Beispiel über einen kleinen Testbetrag. Seriöse Anbieter brauchen die Seed-Phrase nie. Quelle: Börse Stuttgart Digital Exchange, boerse.de',
+          'Merkzettel, Prüfung oder Raub: Ausweis hochladen in deiner Börsen-App ist normal; Privatnachricht von einem Supporter ist kein Support; neue Gesetze als Grund, prüfe in der App, nie im Chat; deine 12 Wörter in Chat oder Formular: nie. Schick das jemandem, der gerade seine erste Wallet eingerichtet hat'],
+    caption='''Ein Gesetz gibt es wirklich. Die Nachricht dazu war trotzdem Betrug.
+
+Der Mythos: „Wallet verifizieren ist wie Ausweis zeigen.“ Klingt harmlos. Bei deiner Börse lädst du ja auch deinen Ausweis hoch.
+
+Echte Fälle aus meiner Community, Namen geändert, veröffentlicht mit Zustimmung: Elena, Markus, Leon und Sabine bekamen eine Nachricht von einem angeblichen „AML-Supporter“. AML steht für Anti-Geldwäsche. Wegen neuer Geldwäscheregeln müssten sie ihre Wallet aktualisieren und verifizieren. Dafür wollte er ihre Seed-Phrase. Alle vier haben sie herausgegeben. Danach war das Geld weg.
+
+Warum die Nachricht so echt klang:
+– Seit dem 30.12.2024 gilt in der EU die Travel Rule. Bei Transfers ab 1.000 € an oder von einer eigenen Wallet will die Börse einen Nachweis, dass die Wallet dir gehört (Quelle: Börse Stuttgart Digital Exchange, „Was bedeutet die Transfer of Funds Regulation?“).
+– Der Betrüger leiht sich ein echtes Gesetz.
+
+Der Unterschied:
+– Dein Ausweis zeigt, wer du bist.
+– Deine 12 Wörter sind dein Geld. Wer sie hat, braucht kein Handy und keine PIN. Er hat die Wallet.
+
+So sieht eine echte Prüfung aus:
+– Sie kommt im Konto deiner Börse, in der App, die du selbst öffnest.
+– Der Nachweis läuft zum Beispiel über einen kleinen Testbetrag.
+– Seriöse Anbieter brauchen die Seed-Phrase nie, um eine Wallet zu prüfen (Quelle: boerse.de, Börsenlexikon „Seed Phrase“).
+
+Dein Merkzettel:
+– Ausweis hochladen in deiner Börsen-App: normal.
+– Privatnachricht von einem „Supporter“: kein Support.
+– Neue Gesetze als Grund? Prüfe in der App, nie im Chat.
+– Deine 12 Wörter in Chat oder Formular: nie.
+
+Keine Anbieter-Empfehlung. Nur echte Fälle, damit du Betrug rund um Wallet und Börse erkennst, bevor dein Bitcoin weg ist. Für jeden Krypto-Anfänger.
+
+Hat dich schon mal jemand gebeten, deine Wallet zu „verifizieren“? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der gerade seine erste Wallet eingerichtet hat.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
