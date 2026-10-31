@@ -43,3 +43,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 38 | 04.11.2026 | Statement-Karussell | Wirbt ein bekanntes Gesicht für einen Coin, kaufe ich keinen Cent (Influencer-Coin 5.000 $, LIBRA: 86 % der Käufer mit Verlust laut Nansen)
 - 39 | 05.11.2026 | Gegenüberstellung | Fall Lena: In der Krypto-Gruppe um Hilfe gebeten, der falsche „Support“ kostete rund 1.000 €; was er schreibt vs. was es heißt (Mimikama)
 - 40 | 06.11.2026 | Nischenmythos entlarven | Mythos: „Wallet verifizieren ist wie Ausweis zeigen“ (Elena, Markus, Leon, Sabine: falscher AML-Supporter, 4 von 4 gaben die Seed-Phrase; Travel Rule echt, Prüfung ohne Wörter)
+- 41 | 07.11.2026 | Erfolgsgeschichte | Geldentwertung: Ich lebe, wo das Geld 14 Nullen verloren hat; damals gekauft ohne zu verstehen, heute ein einfaches System und Krypto im Alltag (ORF)

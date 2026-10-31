@@ -1205,6 +1205,72 @@ Hat dich schon mal jemand gebeten, deine Wallet zu „verifizieren“? Schreib J
 
 Schick das jemandem, der gerade seine erste Wallet eingerichtet hat.''')
 
+# ---------- Beitrag 41: Erfolgsgeschichte (Geldentwertung: Venezuela, 14 Nullen; damals gekauft ohne zu verstehen, heute Alltag) ----------
+Q_ORF = 'Quelle: ORF, „Venezuela streicht sechs Nullen aus seiner Währung“, 2021'
+POSTS['beitrag-41'] = dict(
+    date='2026-11-07', fmt='Erfolgsgeschichte', topic='Geldentwertung: Ich lebe, wo das Geld 14 Nullen verloren hat; damals gekauft ohne zu verstehen, heute ein einfaches System und Krypto im Alltag (ORF)',
+    slides=[
+        s_hook('ERFOLGSGESCHICHTE', 'Ich lebe, wo das Geld %s verloren hat. Krypto hat mich zuerst trotzdem Lehrgeld gekostet.' % A('14 Nullen'),
+               sub='Damals und heute. Meine Geschichte aus Venezuela.', cue='Zuerst, was 14 Nullen bedeuten &#8594;', size=''),
+        s_proof('WO ICH LEBE', 'Venezuela. Dreimal neue Scheine.',
+                big='14 Nullen', big_sub='seit 2008 vom Bolívar gestrichen: 2008 drei, 2018 fünf, 2021 sechs. Aus einer Million wurde ein Bolívar.',
+                src=Q_ORF, cue='Warum mich das allein nie geschützt hat &#8594;'),
+        s_point('DAMALS', 'Ich hab Krypto gekauft, %s' % A('ohne zu verstehen, was ich kaufe.'),
+                ['Ein Coin hier, eine App dort. Gekauft, weil es echt aussah.', D('Angst vor Geldentwertung ersetzt kein Verstehen. Ein Betrüger freut sich über beides.')],
+                size='m', cue='Der Moment, an dem es kippte &#8594;'),
+        s_point('DER WENDEPUNKT', 'Ich hab angefangen, %s' % A('selbst zu verstehen.'),
+                ['Was kaufe ich? Wo liegt es? Wer hält den Schlüssel?', D('Schritt für Schritt. Daraus wurde ein einfaches, langfristiges System.')],
+                size='m', cue='Wie es heute aussieht &#8594;'),
+        s_point('HEUTE', 'Krypto ist hier Alltag. %s' % A('Für mich auch.'),
+                ['Laut meiner Rechnung jedes Jahr ein fünfstelliger Krypto-Gewinn. Dazu über 250 Kunden.', D('Meine Zahl, kein Versprechen für dich.')],
+                cue='Was das für dich heißt &#8594;'),
+        s_point('FÜR DICH', 'Ich bin kein Genie.',
+                ['Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.', D('Und du brauchst dafür keine 14 Nullen als Weckruf.')],
+                cue='Dein Merkzettel gegen die Eile &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Geld schützen, %s' % A('ohne Eile.'), 'Dein Merkzettel', [
+            'Geldentwertung ist ein Grund zu verstehen. Nie ein Grund zur Eile.',
+            'Kauf nur, was du in zwei Sätzen erklären kannst.',
+            'Feste Rendite „gegen die Inflation“? Warnsignal.',
+            'Einfach und langfristig statt Hype aus dem Feed.',
+        ], 'Speichere dir das, bevor die Angst ums Ersparte für dich kauft.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Erfolgsgeschichte: Ich lebe, wo das Geld 14 Nullen verloren hat. Krypto hat mich zuerst trotzdem Lehrgeld gekostet. Damals und heute, meine Geschichte aus Venezuela',
+          'Wo ich lebe: Venezuela, dreimal neue Scheine. 14 Nullen seit 2008 vom Bolívar gestrichen, 2008 drei, 2018 fünf, 2021 sechs. Aus einer Million wurde ein Bolívar. Quelle: ORF',
+          'Damals: Ich hab Krypto gekauft, ohne zu verstehen, was ich kaufe. Gekauft, weil es echt aussah. Angst vor Geldentwertung ersetzt kein Verstehen',
+          'Der Wendepunkt: Ich hab angefangen, selbst zu verstehen. Was kaufe ich, wo liegt es, wer hält den Schlüssel. Daraus wurde ein einfaches, langfristiges System',
+          'Heute: Krypto ist hier Alltag, für mich auch. Laut meiner Rechnung jedes Jahr ein fünfstelliger Krypto-Gewinn, dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich',
+          'Für dich: Ich bin kein Genie. Wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch. Du brauchst dafür keine 14 Nullen als Weckruf',
+          'Merkzettel, Geld schützen ohne Eile: Geldentwertung ist ein Grund zu verstehen, nie ein Grund zur Eile; kauf nur, was du in zwei Sätzen erklären kannst; feste Rendite gegen die Inflation ist ein Warnsignal; einfach und langfristig statt Hype aus dem Feed. Speichere dir das',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Aus einer Million wurde ein Bolívar. Hier wohne ich.
+
+Venezuela hat seit 2008 vom Bolívar 14 Nullen gestrichen: 2008 drei, 2018 fünf, 2021 sechs (Quelle: ORF, „Venezuela streicht sechs Nullen aus seiner Währung“, 2021). Krypto ist hier Alltag.
+
+Damals:
+– Ich hab Krypto gekauft, ohne zu verstehen, was ich kaufe.
+– Ein Coin hier, eine App dort. Gekauft, weil es echt aussah.
+– Angst vor Geldentwertung ersetzt kein Verstehen. Ein Betrüger freut sich über beides.
+
+Der Wendepunkt:
+– Ich hab angefangen, Schritt für Schritt selbst zu verstehen, was ich kaufe.
+– Was kaufe ich? Wo liegt es? Wer hält den Schlüssel der Wallet?
+– Daraus wurde ein einfaches, langfristiges System.
+
+Heute mache ich laut meiner eigenen Rechnung jedes Jahr einen fünfstelligen Krypto-Gewinn. Dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch. Und du brauchst dafür keine 14 Nullen als Weckruf.
+
+Dein Merkzettel:
+– Geldentwertung ist ein Grund zu verstehen. Nie ein Grund zur Eile.
+– Kauf nur, was du in zwei Sätzen erklären kannst.
+– Feste Rendite „gegen die Inflation“? Warnsignal für Betrug.
+– Einfach und langfristig statt Hype aus dem Feed.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für alle Krypto-Anfänger, die ihr Erspartes schützen wollen und vor dem ersten Bitcoin an der Börse oder in der Wallet stehen.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
