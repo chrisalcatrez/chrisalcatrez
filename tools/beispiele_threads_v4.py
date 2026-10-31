@@ -381,7 +381,7 @@ Echt aussehen kostet einen Betrüger fast null.
 
 Woran prüfst du, ob eine App oder eine Mail echt ist?"""),
 
- dict(thema='FAQ: Wie viel Geld für den Anfang (kleine Beträge)', feld='Einstieg', var='These', frei_ab='2026-10-28', verwendet=None,
+ dict(thema='FAQ: Wie viel Geld für den Anfang (kleine Beträge)', feld='Einstieg', var='These', frei_ab='2026-10-28', verwendet='04.11.2026',
       text="""Wer mit 10.000 € anfängt, zahlt für jeden Anfängerirrtum das Hundertfache.
 
 Verglichen mit 100 €. Der Irrtum ist derselbe, der Kurs fällt gleich tief. Nur die Rechnung wächst mit.
@@ -554,7 +554,7 @@ Inflation ändert zuerst die Preisschilder, dann die Gewohnheiten.
 
 Ab welcher Zahl würdest du anfangen, in einer anderen Währung zu rechnen?"""),
 
- dict(thema='Venezuela: 468 % Inflation, Preisschilder in Dollar', feld='Geldentwertung', var='These', frei_ab='2026-11-01', verwendet=None,
+ dict(thema='Venezuela: 468 % Inflation, Preisschilder in Dollar', feld='Geldentwertung', var='These', frei_ab='2026-11-01', verwendet='05.11.2026',
       text="""Inflation ist kein Prozentsatz. Sie ist ein neues Preisschild.
 
 In Venezuela, wo ich lebe, rechnet der IWF für 2026 mit 468 % (Quelle: IWF, World Economic Outlook, Oktober 2026). Im Laden merkt man die Zahl kaum. Man merkt, dass alle Preise in Dollar stehen.
@@ -766,4 +766,24 @@ Ein Schnitt ist Kosmetik. Die Druckmaschine läuft weiter.
 Ein Währungsschnitt repariert die Scheine, nie das Geld.
 
 Glaubst du, dem Euro kann so etwas nie passieren?"""),
+
+ dict(thema='Hardware-Wallet (Briefe mit Hologramm und QR-Code an Trezor- und Ledger-Nutzer, Februar 2026)', feld='Sicherheit', var='Fall', frei_ab='2026-11-19', verwendet=None,
+      text="""Zwei Hersteller, ein Brief, eine Frist: 15. Februar 2026.
+
+Trezor- und Ledger-Kunden fanden Post im Briefkasten. Hologramm, QR-Code, „Authentication Check“ bis zum 15. Februar, sonst werde das Gerät eingeschränkt. Der Code führte auf eine nachgebaute Einrichtungsseite, dort sollte man die Wiederherstellungswörter eingeben (Quelle: Cointelegraph, 17.02.2026).
+
+Ein Brief leert keine Wallet. Die Wörter im Formular schon.
+
+Hast du schon mal Post von deinem Wallet-Hersteller bekommen?"""),
+
+ dict(thema='Hardware-Wallet (Briefe mit Hologramm und QR-Code an Trezor- und Ledger-Nutzer, Februar 2026)', feld='Sicherheit', var='Story', frei_ab='2026-11-19', verwendet=None,
+      text="""Er wollte meine Wallet „synchronisieren“. Ein Gerät hat er nie verlangt.
+
+Anruf aus der Community eines Mining-Anbieters. Für die Synchronisierung brauche er meine 12 Wörter. Ich hab ihm zwölf erfundene vorgelesen. Er ist ausgerastet.
+
+Eine Hardware-Wallet hätte an dem Anruf null geändert. Das Gerät schützt den Schlüssel vor Schadsoftware, nie vor einem Anruf.
+
+Das beste Gerät verliert gegen einen freundlichen Anruf.
+
+Wem hast du zuletzt am Telefon etwas vorgelesen, das geheim bleiben sollte?"""),
 ]
