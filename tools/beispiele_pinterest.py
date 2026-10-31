@@ -551,6 +551,45 @@ PINS = [
           pin2('light', 'Schritt 3: Der <em>zweite Betrug</em>', visual=vz_stamp('Vorkasse', 'Nach dem Verlust melden sich „Behörden“ und „Kanzleien“: Geld zurück, gegen Gebühr.', small=True),
                points=['Hilfe kommt ungefragt', 'Rückholung gegen Gebühr'], marks='warn', cta='Speichern für die nächste Rückhol-Mail', size='sm', center=True),
       ])),
+
+ # 04. und 05.11.2026 (Winterzeit): Fall der Woche (AML-Supporter) lief am 03.11., darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-50 (Karussell): Beispielsatz -> Balken -> Kurve -> Zahl; Farben akzent -> schwarz -> hell -> schwarz.
+ # Neue Themen: Giveaway-Betrug (Verdoppeln), wie viel Geld zum Start (p-4 vom 04.10. ist 30 Tage her), Erspartes im festen Takt, Venezuela 14 Nullen (p-6 vom 06.10. ist 30 Tage her).
+ dict(d='2026-11-04', t='11:41', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-51',
+      titel='Krypto Betrug erkennen: „Wir verdoppeln Ihre Bitcoin“, 3 Warnsignale, bevor du etwas sendest',
+      text="""Krypto Betrug erkennen am Versprechen, Bitcoin zu verdoppeln. Falsche Promi-Profile bitten um Bitcoin an eine Adresse, der Betrag komme doppelt zurück. Ein Kölner schickte 10 Bitcoin und hoffte auf 20, rund 500.000 € (Quelle: futurezone.at, 18.05.2021, nach FTC). Mehr Geld fürs Einzahlen hat mir ein Cloud-Mining versprochen. 4.000 bis 5.000 $ rein, die Rechner hab ich nie gesehen, das Geld auch nie wieder. Wer zuerst senden soll, bekommt nie etwas zurück. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: nachgestellter Satz „Senden Sie 0,1 BTC, Sie erhalten 0,2 zurück“ in Sprechblase, drei Warnsignale.',
+      build=lambda: build_pin('p-51', [pin2('acc', 'Bitcoin verdoppeln? <em>3&nbsp;Warnsignale</em>, bevor du sendest',
+          visual=vz_bubble('„Senden Sie 0,1 BTC. Sie erhalten 0,2 BTC zurück. Nur heute.“', 'Nachgestellt. Zurück kam nie etwas.'),
+          points=['Erst senden, dann bekommen', 'Mehr zurück als hin', 'Frist: nur heute'],
+          marks='warn', cta='Speichern, bevor du Bitcoin sendest', size='xs')])),
+
+ dict(d='2026-11-04', t='20:33', board=B_ANF, f='Balken', farbe='schwarz', bild='p-52',
+      titel='Krypto für Anfänger: Wie viel Geld zum Start? 5.000 $ war mein erster Kauf, 100 $ reichen zum Üben',
+      text="""Krypto für Anfänger, die Frage nach dem Betrag kommt vor jeder anderen. Mein erster großer Kauf waren 5.000 $ in einen Coin mit bekanntem Gesicht. Die Macher verkauften auf einmal, der Kurs fiel senkrecht. Mit 100 $ hätte ich dieselbe Lektion gesehen, nur 4.900 $ billiger. Seitdem gilt bei mir: Der erste Kauf ist Übung, und Übung bezahlt man klein. Keine Coin-Empfehlung, kein Betrag als Vorgabe, nur mein Lehrgeld. Mein System mit vier Schritten zeige ich im kostenlosen Training über den Link.""",
+      alt='Krypto für Anfänger: zwei Balken, 5.000 $ für meinen ersten Kauf gegen 100 $ zum Üben, darunter drei Grenzen für den Betrag.',
+      build=lambda: build_pin('p-52', [pin2('', 'Wie viel Geld in Krypto? <em>100&nbsp;$</em> statt meiner 5.000&nbsp;$',
+          visual=vz_bars([('Mein erster Kauf', '5.000 $', 100), ('Hätte zum Üben gereicht', '100 $', 2)], 'Derselbe Absturz, 50-mal kleinere Rechnung.'),
+          points=['Erster Kauf ist Übung', 'Geld, das weg sein darf', 'Mehr erst nach Verstehen'],
+          cta='Speichern, bevor du den Betrag festlegst', size='xs')])),
+
+ dict(d='2026-11-05', t='10:56', board=B_INF, f='Kurve', farbe='hell', bild='p-53',
+      titel='Geld anlegen für Anfänger: Auf den richtigen Moment warten? 3 Regeln für den festen Takt',
+      text="""Geld anlegen für Anfänger hängt oft an der Frage nach dem richtigen Moment. Ich hab sie mir zu oft gestellt. Ende 2024 hab ich alle Bitcoin in Panik verkauft, weil der Moment falsch wirkte. Heute entscheidet der Kalender. Fester Tag, gleiche Summe. Der Kurs darf machen, was er will. Die Kurve im Pin zeigt keinen echten Kurs, nur den Takt. Keine Kursprognose, keine Gewinnzusage, meine Erfahrung. Wie der Takt in mein System mit vier Schritten passt, zeige ich im kostenlosen Training über den Link.""",
+      alt='Geld anlegen für Anfänger: Kurve mit Punkten in festem Abstand, jeder Punkt ein fester Tag, darunter drei Regeln.',
+      build=lambda: build_pin('p-53', [pin2('light', 'Erspartes anlegen? <em>3&nbsp;Regeln</em> für den festen Takt',
+          visual=vz_curve('Jeder Punkt ein fester Tag. Den richtigen Moment braucht keiner.'),
+          points=['Notgroschen zuerst', 'Kalender statt Kurs', 'Gleiche Summe, jeden Monat'],
+          cta='Speichern, bevor du auf den Tiefpunkt wartest', size='sm')])),
+
+ dict(d='2026-11-05', t='20:12', board=B_INF, f='Zahl', farbe='schwarz', bild='p-54',
+      titel='Geldentwertung: 14 Nullen hat Venezuela seit 2008 gestrichen, 3 Lehren für dein Erspartes',
+      text="""Geldentwertung sieht man in Venezuela an den Scheinen. Seit 2008 hat das Land 14 Nullen vom Bolívar gestrichen, 2008 drei, 2018 fünf, 2021 sechs. Aus einer Million wurde ein Bolívar (Quelle: ORF, 01.10.2021). Ich lebe hier. Preise stehen in Dollar, Krypto ist Alltag, ich bezahle damit digital. Verstehen kam bei mir trotzdem spät. 70.000 $ steckten in einer Wallet-App, die nur echt aussah. Heute verstehe ich zuerst, dann lege ich an. Keine Kursprognose. Kostenloses Training über den Link.""",
+      alt='Geldentwertung: große Zahl 14 Nullen, die Venezuela seit 2008 gestrichen hat, darunter drei Lehren für dein Erspartes.',
+      build=lambda: build_pin('p-54', [pin2('', 'Geldentwertung: <em>3&nbsp;Lehren</em> aus Venezuela für dein Erspartes',
+          visual=vz_num('<span style="font-size:150px">14 Nullen</span>', 'hat Venezuela seit 2008 von seinem Geld gestrichen. Ich lebe hier.'),
+          points=['Preisschilder in Dollar', 'Krypto ist hier Alltag', 'Verstehen ja, Eile nie'],
+          cta='Speichern, bevor dein Geld nur liegt', size='xs')])),
 ]
 
 if __name__ == '__main__':

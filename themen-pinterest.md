@@ -60,3 +60,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 48 | 02.11.2026 20:19 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Betrug erkennen in WhatsApp-Gruppen: 3 Fragen, bevor du einer Anlagegruppe glaubst | pinterest/p-48.png | eingeplant
 - 49 | 03.11.2026 11:23 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Falscher Support Krypto: Wallet „verifizieren“? 3 Unterschiede zur echten Prüfung (4 leere Wallets) | pinterest/p-49.png | eingeplant
 - 50 | 03.11.2026 20:46 | Krypto-Betrug erkennen | Karussell (4 Folien) (hell) | Krypto Betrug: Geld zurück? 3 Schritte nach dem Verlust und der zweite Betrug, der fast immer folgt | pinterest/p-50-1.png bis p-50-4.png | eingeplant
+- 51 | 04.11.2026 11:41 | Krypto-Betrug erkennen | Beispielsatz (akzent) | Krypto Betrug erkennen: „Wir verdoppeln Ihre Bitcoin“, 3 Warnsignale, bevor du etwas sendest | pinterest/p-51.png | eingeplant
+- 52 | 04.11.2026 20:33 | Krypto für Anfänger | Balken (schwarz) | Krypto für Anfänger: Wie viel Geld zum Start? 5.000 $ war mein erster Kauf, 100 $ reichen zum Üben | pinterest/p-52.png | eingeplant
+- 53 | 05.11.2026 10:56 | Geld anlegen und Inflation | Kurve (hell) | Geld anlegen für Anfänger: Auf den richtigen Moment warten? 3 Regeln für den festen Takt | pinterest/p-53.png | eingeplant
+- 54 | 05.11.2026 20:12 | Geld anlegen und Inflation | Zahl (schwarz) | Geldentwertung: 14 Nullen hat Venezuela seit 2008 gestrichen, 3 Lehren für dein Erspartes | pinterest/p-54.png | eingeplant
