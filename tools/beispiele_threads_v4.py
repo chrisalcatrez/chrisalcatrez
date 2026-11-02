@@ -168,7 +168,7 @@ Wer vor dem Auszahlen kassiert, zahlt danach nie aus.
 
 Welche der drei Begründungen hättest du geglaubt?"""),
 
- dict(thema='Gebühr vor der Auszahlung (falscher Trader, Solana-Adresse)', feld='Betrug', var='Story', frei_ab='2026-10-23', verwendet=None,
+ dict(thema='Gebühr vor der Auszahlung (falscher Trader, Solana-Adresse)', feld='Betrug', var='Story', frei_ab='2026-10-23', verwendet='07.11.2026',
       text="""Ich nannte ihn Betrüger. Antwort: „Dann trade ich nie wieder für dich.“
 
 Davor hatte ich die Gebühr für seinen „Trading-Bot“ zwei-, dreimal an eine Solana-Adresse gezahlt. Netzwerkschwankungen. Internetstörung. Der Bot verlangt es. Die Auszahlung kam nie.
@@ -686,7 +686,7 @@ Ein Logo kopiert jeder. Einen Link gibt nur der Anbieter.
 
 Prüfst du vor dem Download, wer die App gemacht hat?"""),
 
- dict(thema='Gefälschte Wallet-App (26 Apps im App Store laut Kaspersky, April 2026; meine 70.000 $)', feld='Sicherheit', var='Story', frei_ab='2026-11-06', verwendet=None,
+ dict(thema='Gefälschte Wallet-App (26 Apps im App Store laut Kaspersky, April 2026; meine 70.000 $)', feld='Sicherheit', var='Story', frei_ab='2026-11-06', verwendet='06.11.2026',
       text="""Ein Download, 70.000 $. Mehr brauchte es bei mir nie.
 
 Ich hab eine Wallet-App geladen, weil sie echt aussah. Geprüft hab ich sonst null. Geld rein, Geld weg. Den Anbieter gab es als Handy-App nie.
@@ -786,4 +786,15 @@ Eine Hardware-Wallet hätte an dem Anruf null geändert. Das Gerät schützt den
 Das beste Gerät verliert gegen einen freundlichen Anruf.
 
 Wem hast du zuletzt am Telefon etwas vorgelesen, das geheim bleiben sollte?"""),
+
+ dict(thema='Cloud-Mining am Fall HashFlare (über 577 Mio. $ Verträge 2015 bis 2019, gefälschte Dashboards, Quelle US-Justizministerium 13.02.2025 und 12.08.2025)', feld='Betrug', var='Fall', frei_ab='2026-11-21', verwendet=None,
+      text="""Über 577 Mio. $ für Rechenleistung. Die Rechner fehlten für den Großteil.
+
+HashFlare verkaufte von 2015 bis 2019 Cloud-Mining-Verträge. Das Dashboard zeigte Gewinne, die Daten waren gefälscht. Für den Großteil des versprochenen Schürfens gab es keine Rechner (Quelle: US-Justizministerium, 13.02.2025). 2025 bekannten sich die Betreiber schuldig, Vermögen über 450 Mio. $ wurde eingezogen.
+
+Mein Anbieter war kleiner. 4.000 bis 5.000 $, feste Rendite, Rechner nie gesehen.
+
+Ein Zähler auf einer Webseite schürft null.
+
+Hast du schon mal Gewinne gesehen, die nur auf einem Bildschirm existierten?"""),
 ]
