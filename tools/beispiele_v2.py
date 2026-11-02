@@ -1329,7 +1329,7 @@ POSTS['beitrag-43'] = dict(
     alts=['Hand aufs Herz: 4.000 bis 5.000 Dollar hab ich in ein Cloud-Mining mit festen Renditen gesteckt. Hat dir schon mal jemand eine feste Rendite versprochen? Ich fange an: Ja, und ich hab Ja gesagt. Schick das jemandem, dem gerade eine feste Rendite versprochen wird'],
     caption='''Eine feste Zahl pro Monat. Für mich klang das nach Sicherheit.
 
-Ich hab 4.000 bis 5.000 $ in ein Cloud-Mining mit festen Renditen gesteckt. Die Rechner hab ich nie gesehen. Nur die Zahl, die mir versprochen wurde.
+Ich hab 4.000 bis 5.000 $ in ein Cloud-Mining mit festen Renditen gesteckt. Ich hab auf die versprochene Zahl geschaut, statt zu verstehen, was dahintersteckt.
 
 Heute sehe ich das so:
 – Krypto schwankt. Wer dir trotzdem eine feste Rendite verspricht, verspricht etwas, das der Markt selbst nie hält.
