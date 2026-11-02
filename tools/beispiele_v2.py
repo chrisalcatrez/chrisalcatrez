@@ -1271,6 +1271,77 @@ Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für alle 
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 42: Visueller Post (Hype-Bingo: 9 Saetze aus dem Feed) ----------
+POSTS['beitrag-42'] = dict(
+    date='2026-11-08', fmt='Visueller Post', topic='Hype-Bingo: Bei diesen 9 Sätzen aus dem Feed kaufe ich keinen Cent (Gier und Informationsflut, Influencer-Coin 5.000 $)',
+    slides=[
+        s_bingo('HYPE-BINGO', 'Bei diesen 9 Sätzen kaufe ich %s' % A('keinen Cent.'),
+                'Ein Coin aus dem Feed kostete mich 5.000 $.', [
+                    '„Der nächste 100x-Coin“',
+                    '„Nur heute zum Startpreis“',
+                    '„Wer jetzt zögert, bereut es“',
+                    '„Ein bekanntes Gesicht ist dabei“',
+                    '„Alle in der Gruppe sind schon drin“',
+                    '„Das Team bleibt lieber anonym“',
+                    '„Link per Privatnachricht“',
+                    '„Früh rein, bevor ihn jede Börse hat“',
+                    '„Schau dir diesen Chart an“',
+                ], 4, 'Speichere dir das für den nächsten Hype.'),
+    ],
+    alts=['Hype-Bingo: Bei diesen 9 Sätzen kaufe ich keinen Cent. Ein Coin aus dem Feed kostete mich 5.000 Dollar. Felder: Der nächste 100x-Coin; Nur heute zum Startpreis; Wer jetzt zögert, bereut es; Ein bekanntes Gesicht ist dabei; in der Mitte: Alle in der Gruppe sind schon drin; Das Team bleibt lieber anonym; Link per Privatnachricht; Früh rein, bevor ihn jede Börse hat; Schau dir diesen Chart an. Speichere dir das für den nächsten Hype'],
+    caption='''Dein Feed will, dass du schneller kaufst, als du denkst.
+
+Ich kenne das. Ich hab 5.000 $ in einen Influencer-Coin gesteckt. Gesehen im Feed, gekauft aus dem Bauch. Verstanden hab ich ihn nie. Das Geld ist weg.
+
+Heute spiele ich Bingo, bevor ich irgendwas kaufe. Die 9 Felder:
+– „Der nächste 100x-Coin“
+– „Nur heute zum Startpreis“
+– „Wer jetzt zögert, bereut es“
+– „Ein bekanntes Gesicht ist dabei“
+– „Alle in der Gruppe sind schon drin“
+– „Das Team bleibt lieber anonym“
+– „Link per Privatnachricht“
+– „Früh rein, bevor ihn jede Börse hat“
+– „Schau dir diesen Chart an“
+
+Was die Sätze gemeinsam haben:
+– Sie machen Eile. Eile ersetzt Verstehen.
+– Sie zeigen auf andere. Was andere kaufen, beweist null über deinen Coin.
+– Keiner davon erklärt, was du da eigentlich kaufst.
+
+Meine Regel seitdem: Kann ich einen Coin in zwei Sätzen erklären? Wenn nein, bleibt mein Geld, wo es ist.
+
+Keine Coin-Empfehlung, keine Kursprognose. Nur mein Filter gegen Hype und Betrug, für jeden Anfänger, der Bitcoin, Krypto, Wallet und Börse gerade entdeckt.
+
+Wie viele Felder hast du schon in deinem Feed gesehen? Schreib die Zahl in die Kommentare.
+
+Speichere dir das für den nächsten Hype.''')
+
+# ---------- Beitrag 43: Frage an die Zielgruppe (feste Rendite, Cloud-Mining 4.000 bis 5.000 $) ----------
+POSTS['beitrag-43'] = dict(
+    date='2026-11-09', fmt='Frage an die Zielgruppe', topic='Hand aufs Herz: Hat dir schon mal jemand eine feste Rendite versprochen? (Cloud-Mining mit festen Renditen, 4.000 bis 5.000 $)',
+    slides=[
+        s_question('FRAGE AN DICH', 'Hand aufs Herz', 'Hat dir schon mal jemand eine %s versprochen?' % A('feste Rendite'),
+                   'Ich fange an: Ja. Und ich hab Ja gesagt.',
+                   'Schick das jemandem, dem gerade eine feste Rendite versprochen wird.',
+                   pre='4.000 bis 5.000 $ hab ich in ein Cloud-Mining mit festen Renditen gesteckt.'),
+    ],
+    alts=['Hand aufs Herz: 4.000 bis 5.000 Dollar hab ich in ein Cloud-Mining mit festen Renditen gesteckt. Hat dir schon mal jemand eine feste Rendite versprochen? Ich fange an: Ja, und ich hab Ja gesagt. Schick das jemandem, dem gerade eine feste Rendite versprochen wird'],
+    caption='''Eine feste Zahl pro Monat. Für mich klang das nach Sicherheit.
+
+Ich hab 4.000 bis 5.000 $ in ein Cloud-Mining mit festen Renditen gesteckt. Die Rechner hab ich nie gesehen. Nur die Zahl, die mir versprochen wurde.
+
+Heute sehe ich das so:
+– Krypto schwankt. Wer dir trotzdem eine feste Rendite verspricht, verspricht etwas, das der Markt selbst nie hält.
+– Eine Zahl im Dashboard ist kein Geld. Geld ist, was auf deinem Konto oder in deiner Wallet ankommt.
+– Je sicherer ein Versprechen klingt, desto genauer schaue ich hin.
+
+Keine Anbieter-Empfehlung, keine Gewinnzusage. Nur mein Lehrgeld gegen Betrug mit festen Renditen, für jeden Anfänger, der mit Bitcoin, Krypto und der ersten Börse anfängt.
+
+Ich will wissen, wie oft dir das begegnet. Hat dir schon mal jemand eine feste Rendite versprochen? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, dem gerade eine feste Rendite versprochen wird.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
