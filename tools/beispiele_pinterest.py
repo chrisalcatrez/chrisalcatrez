@@ -590,6 +590,47 @@ PINS = [
           visual=vz_num('<span style="font-size:150px">14 Nullen</span>', 'hat Venezuela seit 2008 von seinem Geld gestrichen. Ich lebe hier.'),
           points=['Preisschilder in Dollar', 'Krypto ist hier Alltag', 'Verstehen ja, Eile nie'],
           cta='Speichern, bevor dein Geld nur liegt', size='xs')])),
+
+ # 06. und 07.11.2026 (Winterzeit): Fall der Woche (AML-Supporter) lief am 03.11., darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-54 (Zahl): Karte -> Entscheidungsbaum -> Echt gegen Fake -> Beispielsatz; Foto (p-47 am 02.11.) und Karussell (p-50 am 03.11.)
+ # in dieser Woche ausgelassen (je eines pro Woche). Farben hell -> akzent -> schwarz -> hell.
+ # Neue Themen: zu spät? (p-7 vom 07.10. ist 30 Tage her), Fernzugriff auf den Rechner, Guthaben nur am Bildschirm, Brief an Hardware-Wallet-Kunden.
+ dict(d='2026-11-06', t='11:17', board=B_ANF, f='Karte', farbe='hell', bild='p-55',
+      titel='Bitcoin zu spät? 3 Fragen, die mehr zählen als der Kurs (Ende 2024 hab ich in Panik verkauft)',
+      text="""Bitcoin zu spät, diese Frage hör ich von Anfängern am häufigsten. Ich hab sie mir selbst gestellt. Ende 2024 hab ich dann alle Bitcoin in Panik verkauft, aus Angst vor dem falschen Moment. Heute entscheidet bei mir ein fester Tag im Monat, der Kurs darf machen, was er will. Die drei Fragen im Pin ersetzen seitdem den Blick auf den Kurs. Keine Kursprognose, nur mein Lehrgeld. Das kostenlose Training für Krypto-Anfänger findest du über den Link.""",
+      alt='Bitcoin zu spät: Karte mit der Frage „Zu spät?“, darunter drei Fragen, die vor dem Kauf mehr zählen als der Kurs.',
+      build=lambda: build_pin('p-55', [pin2('light', 'Zu spät für Bitcoin? <em>3&nbsp;Fragen</em> statt Kursblick',
+          visual=vz_card('Zu spät?', 'Hab ich mich auch gefragt. Dann verkaufte ich in Panik alles.'),
+          points=['Brauchst du das Geld bald?', 'Kannst du es erklären?', 'Fester Tag oder Tiefpunkt?'],
+          cta='Speichern, bevor du wieder wartest', size='sm')])),
+
+ dict(d='2026-11-06', t='20:36', board=B_BET, f='Entscheidungsbaum', farbe='akzent', bild='p-56',
+      titel='Krypto Sicherheit: Fernzugriff auf deinen Rechner? 3 Fragen, bevor du den Bildschirm teilst',
+      text="""Krypto Sicherheit endet, sobald ein Fremder auf deinem Rechner sitzt. Falsche Berater bitten um Fernzugriff auf den Rechner; die Polizei nennt das in ihrer Checkliste zum Cybertrading-Betrug als Warnzeichen (Quelle: polizei-beratung.de). Danach floss in bekannten Fällen Geld vom Bankkonto ab (Quelle: Verbraucherzentrale, 23.10.2026). Mich wollte einer am Telefon zum „Synchronisieren“ bringen und brauchte meine zwölf Wörter. Er bekam zwölf erfundene. Kostenloses Training über den Link.""",
+      alt='Krypto Sicherheit: Entscheidungsbaum mit drei Fragen zum Fernzugriff, Ja heißt Betrug, Nein führt zur nächsten Frage.',
+      build=lambda: build_pin('p-56', [pin2('acc', 'Bildschirm teilen? <em>3&nbsp;Fragen</em>, bevor du Zugriff gibst',
+          visual=vz_flow(['Hat er dich angerufen, du ihn nie?', 'Will er auf deinen Rechner?', 'Soll dein Konto dabei offen sein?'],
+                         'Kein Warnsignal. Trotzdem: Zugriff gibt es nie.'),
+          cta='Speichern, bevor du den Bildschirm teilst', size='xs')])),
+
+ dict(d='2026-11-07', t='10:52', board=B_BET, f='Echt gegen Fake', farbe='schwarz', bild='p-57',
+      titel='Krypto Betrug erkennen: Gewinn nur am Bildschirm? 3 Unterschiede zwischen echtem Geld und Fake-Konto',
+      text="""Krypto Betrug erkennen fängt bei der Frage an, wo das Geld liegt. Betrugs-Plattformen zeigen im Anlagekonto hohe Gewinne, gehandelt wird nie, und vor der Auszahlung sollen erst Steuern oder Gebühren fließen (Quelle: Verbraucherzentrale, 23.10.2026). Mein Cloud-Mining versprach eine feste Rendite. 4.000 bis 5.000 $ hab ich eingezahlt, die Rechner nie gesehen, das Geld nie wieder. Seitdem zählt nur, was in meiner Wallet liegt. Der Vergleich ist nachgestellt. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: links echtes Geld mit drei Haken, rechts Fake-Konto mit drei Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-57', [pin2('', 'Gewinn nur am Bildschirm? <em>3&nbsp;Unterschiede</em> zu echtem Geld',
+          visual=vz_vs2('Echtes Geld', ['In deiner Wallet', 'Auszahlung ohne Vorkasse', 'Du hältst den Schlüssel'],
+                        'Fake', ['Zahl bei Fremden', 'Schlüssel beim Anbieter', 'Erst Gebühr zahlen'],
+                        note='Nachgestellt. Rechts: 4.000 $ meines Lehrgelds.'),
+          cta='Speichern, bevor du der Zahl glaubst', size='xs')])),
+
+ dict(d='2026-11-07', t='19:58', board=B_SIC, f='Beispielsatz (Sprechblase)', farbe='hell', bild='p-58',
+      titel='Hardware-Wallet: Brief mit QR-Code und Frist? 3 Warnsignale, bevor du deine Wörter eingibst',
+      text="""Hardware-Wallet im Schrank, und der Angriff kam mit der Post. Im Februar 2026 bekamen Kunden zweier Hersteller Post mit Hologramm und QR-Code: „Authentication Check“ bis zum 15., sonst werde das Gerät eingeschränkt. Der Code führte auf eine nachgebaute Seite, die die Wiederherstellungswörter wollte (Quelle: Cointelegraph, 17.02.2026). Mich wollte einer am Telefon zum „Synchronisieren“ bringen, er bekam zwölf erfundene Wörter. Kein Hersteller braucht sie je. Kostenloses Training über den Link.""",
+      alt='Hardware-Wallet: nachgestellter Satz aus einem Betrugsbrief mit Frist in einer Sprechblase, darunter drei Warnsignale.',
+      build=lambda: build_pin('p-58', [pin2('light', 'Brief an deine Hardware-Wallet? <em>3&nbsp;Warnsignale</em>',
+          visual=vz_bubble('„Authentifizierung bis zum 15. erforderlich. Sonst wird Ihr Gerät eingeschränkt.“', 'Nachgestellt. Mit Hologramm und QR-Code.'),
+          points=['Frist mit Drohung', 'QR-Code zur „Prüfung“', 'Deine Wörter eingeben'],
+          marks='warn', cta='Speichern, bevor du den QR-Code scannst', size='xs')])),
 ]
 
 if __name__ == '__main__':

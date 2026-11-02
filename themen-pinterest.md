@@ -64,3 +64,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 52 | 04.11.2026 20:33 | Krypto für Anfänger | Balken (schwarz) | Krypto für Anfänger: Wie viel Geld zum Start? 5.000 $ war mein erster Kauf, 100 $ reichen zum Üben | pinterest/p-52.png | eingeplant
 - 53 | 05.11.2026 10:56 | Geld anlegen und Inflation | Kurve (hell) | Geld anlegen für Anfänger: Auf den richtigen Moment warten? 3 Regeln für den festen Takt | pinterest/p-53.png | eingeplant
 - 54 | 05.11.2026 20:12 | Geld anlegen und Inflation | Zahl (schwarz) | Geldentwertung: 14 Nullen hat Venezuela seit 2008 gestrichen, 3 Lehren für dein Erspartes | pinterest/p-54.png | eingeplant
+- 55 | 06.11.2026 11:17 | Krypto für Anfänger | Karte (hell) | Bitcoin zu spät? 3 Fragen, die mehr zählen als der Kurs (Ende 2024 hab ich in Panik verkauft) | pinterest/p-55.png | eingeplant
+- 56 | 06.11.2026 20:36 | Krypto-Betrug erkennen | Entscheidungsbaum (akzent) | Krypto Sicherheit: Fernzugriff auf deinen Rechner? 3 Fragen, bevor du den Bildschirm teilst | pinterest/p-56.png | eingeplant
+- 57 | 07.11.2026 10:52 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Krypto Betrug erkennen: Gewinn nur am Bildschirm? 3 Unterschiede zwischen echtem Geld und Fake-Konto | pinterest/p-57.png | eingeplant
+- 58 | 07.11.2026 19:58 | Bitcoin sicher aufbewahren | Beispielsatz (hell) | Hardware-Wallet: Brief mit QR-Code und Frist? 3 Warnsignale, bevor du deine Wörter eingibst | pinterest/p-58.png | eingeplant
