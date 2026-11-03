@@ -1342,6 +1342,60 @@ Ich will wissen, wie oft dir das begegnet. Hat dir schon mal jemand eine feste R
 
 Schick das jemandem, dem gerade eine feste Rendite versprochen wird.''')
 
+# ---------- Beitrag 44: Schritt-fuer-Schritt (Bestaetigungssuche: 4 Fragen an mich selbst statt ein Ja von Fremden) ----------
+POSTS['beitrag-44'] = dict(
+    date='2026-11-10', fmt='Schritt-für-Schritt-Anleitung', topic='Bestätigungssuche: Statt Fremde nach einem Ja zu fragen, stelle ich mir vor jedem Kauf 4 Fragen selbst (mein System als Fragen, 70.000 $ Lehrgeld)',
+    slides=[
+        s_hook('SCHRITT FÜR SCHRITT', 'Nach 70.000 $ Lehrgeld frage ich vor einem Kauf keinen Fremden mehr. Ich stelle mir %s' % A('4 Fragen selbst.'),
+               sub='Mein System in 4 Schritten, als Fragen. Grob, die Tiefe im Training.', cue='Zuerst, wie ich vorher entschieden hab &#8594;', size=''),
+        s_point('DAMALS', 'Ich hab lange %s gesucht.' % A('Bestätigung'),
+                ['Ich wollte, dass andere mir sagen: So ist es richtig.', D('Jedes Ja fühlte sich sicher an. Verstanden hatte ich dadurch null.')],
+                cue='Frage 1 ersetzt das erste Ja &#8594;'),
+        s_point('FRAGE 1 VON 4', 'Kann ich es in zwei Sätzen erklären?',
+                ['Statt in der Gruppe zu fragen: „Ist der Coin gut?“', D('Bleibe ich stecken, bleibt das Geld, wo es ist.')],
+                cue='Frage 2 schützt dich vor fremden Links &#8594;'),
+        s_point('FRAGE 2 VON 4', 'Hab ich die Seite selbst gefunden?',
+                ['Statt zu fragen: „Kennt jemand diese Plattform?“', D('Keine Links aus Nachrichten. Keine Plattformen von Fremden.')],
+                cue='Frage 3 entscheidet, wem dein Geld gehört &#8594;'),
+        s_point('FRAGE 3 VON 4', 'Wer hält den %s?' % A('Schlüssel'),
+                ['Statt zu fragen: „Ist mein Geld da sicher?“', D('Was ich langfristig halte, liegt in meiner eigenen Wallet. Die Wörter dazu kennt nur ich.')],
+                cue='Frage 4 beantwortest du an einem ruhigen Tag &#8594;'),
+        s_point('FRAGE 4 VON 4', 'Was tue ich an einem roten Tag?',
+                ['Statt zu fragen: „Soll ich jetzt verkaufen?“', D('Den Plan lege ich vorher fest. Am roten Tag gibt es keine neue Entscheidung.')],
+                cue='Dein Merkzettel vor dem nächsten Kauf &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Vier Fragen, %s' % A('keine fremde Meinung.'), 'Dein Merkzettel', [
+            'Kann ich es in zwei Sätzen erklären?',
+            'Hab ich die Seite selbst gefunden?',
+            'Wer hält den Schlüssel?',
+            'Was tue ich an einem roten Tag?',
+        ], 'Speichere dir das, bevor du in der nächsten Gruppe nach einem Ja fragst.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Schritt für Schritt: Nach 70.000 Dollar Lehrgeld frage ich vor einem Kauf keinen Fremden mehr. Ich stelle mir 4 Fragen selbst. Mein System in 4 Schritten, als Fragen',
+          'Damals: Ich hab lange Bestätigung gesucht. Jedes Ja von anderen fühlte sich sicher an, verstanden hatte ich dadurch null',
+          'Frage 1 von 4: Kann ich es in zwei Sätzen erklären? Statt in der Gruppe zu fragen, ob der Coin gut ist. Bleibe ich stecken, bleibt das Geld, wo es ist',
+          'Frage 2 von 4: Hab ich die Seite selbst gefunden? Statt zu fragen, ob jemand die Plattform kennt. Keine Links aus Nachrichten, keine Plattformen von Fremden',
+          'Frage 3 von 4: Wer hält den Schlüssel? Statt zu fragen, ob mein Geld da sicher ist. Was ich langfristig halte, liegt in meiner eigenen Wallet, die Wörter kennt nur ich',
+          'Frage 4 von 4: Was tue ich an einem roten Tag? Statt zu fragen, ob ich jetzt verkaufen soll. Der Plan steht vorher',
+          'Merkzettel, vier Fragen, keine fremde Meinung: Kann ich es in zwei Sätzen erklären; hab ich die Seite selbst gefunden; wer hält den Schlüssel; was tue ich an einem roten Tag. Speichere dir das',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Ein Ja aus der Gruppe fühlt sich sicher an. Es ersetzt keine eigene Antwort.
+
+Lange hab ich Bestätigung bei anderen gesucht. Ich wollte, dass mir jemand sagt: So ist es richtig. Jedes Ja fühlte sich gut an. Verstanden hatte ich dadurch null.
+
+Der Wendepunkt: Ich hab Schritt für Schritt selbst verstanden, was ich kaufe. Daraus wurde ein einfaches, langfristiges System mit vier Schritten. Heute stelle ich mir vor jedem Kauf vier Fragen selbst, grob:
+
+1. Kann ich es in zwei Sätzen erklären? Statt in einer Krypto-Gruppe zu fragen, ob der Coin gut ist. Bleibe ich stecken, bleibt das Geld, wo es ist.
+2. Hab ich die Seite selbst gefunden? Statt zu fragen, ob jemand die Plattform kennt. Keine Links aus Nachrichten, keine Plattformen von Fremden.
+3. Wer hält den Schlüssel? Statt zu fragen, ob mein Geld da sicher ist. Was ich langfristig halte, liegt in meiner eigenen Wallet. Die Wörter dazu kennt nur ich.
+4. Was tue ich an einem roten Tag? Statt zu fragen, ob ich jetzt verkaufen soll. Den Plan lege ich vorher fest.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Keine Coin-Empfehlung, keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der vor dem ersten Bitcoin an der Börse steht und sich vor Betrug schützen will, statt auf ein Ja von Fremden zu warten.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

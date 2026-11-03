@@ -46,3 +46,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 41 | 07.11.2026 | Erfolgsgeschichte | Geldentwertung: Ich lebe, wo das Geld 14 Nullen verloren hat; damals gekauft ohne zu verstehen, heute ein einfaches System und Krypto im Alltag (ORF)
 - 42 | 08.11.2026 | Visueller Post | Hype-Bingo: Bei diesen 9 Sätzen aus dem Feed kaufe ich keinen Cent (Gier und Informationsflut, Influencer-Coin 5.000 $)
 - 43 | 09.11.2026 | Frage an die Zielgruppe | Hand aufs Herz: Hat dir schon mal jemand eine feste Rendite versprochen? (Cloud-Mining mit festen Renditen, 4.000 bis 5.000 $)
+- 44 | 10.11.2026 | Schritt-für-Schritt-Anleitung | Bestätigungssuche: Statt Fremde nach einem Ja zu fragen, stelle ich mir vor jedem Kauf 4 Fragen selbst (mein System als Fragen, 70.000 $ Lehrgeld)
