@@ -631,6 +631,45 @@ PINS = [
           visual=vz_bubble('„Authentifizierung bis zum 15. erforderlich. Sonst wird Ihr Gerät eingeschränkt.“', 'Nachgestellt. Mit Hologramm und QR-Code.'),
           points=['Frist mit Drohung', 'QR-Code zur „Prüfung“', 'Deine Wörter eingeben'],
           marks='warn', cta='Speichern, bevor du den QR-Code scannst', size='xs')])),
+
+ # 08. und 09.11.2026 (Winterzeit): 08.11. gehört zur Woche des AML-Falls (p-49), darum ohne Fall; 09.11. neue Woche, Fall Peter (Kreditkarte) in p-61.
+ # Rotation nach p-58 (Beispielsatz): Balken -> Kurve -> Zahl -> Stempel; Farben schwarz -> hell -> akzent -> schwarz.
+ # Neue Themen: Mythos „nur für Kriminelle“ (Chainalysis), Zeithorizont statt Takt, Krypto auf Kredit, Finanzagent (fremdes Geld weiterleiten).
+ dict(d='2026-11-08', t='11:26', board=B_ANF, f='Balken', farbe='schwarz', bild='p-59',
+      titel='Krypto für Anfänger: Nur für Kriminelle? 0,14 % der Zahlungen waren illegal, 3 Fakten statt Mythos',
+      text="""Krypto für Anfänger hat einen Einwand, der immer kommt: Das nutzen doch nur Kriminelle. 2024 gingen 0,14 % aller Krypto-Zahlungen an illegale Adressen, rund 41 Mrd. $ (Quelle: Chainalysis, Crypto Crime Report, Januar 2025). Mich haben Kriminelle um 70.000 $ gebracht, mit einer Wallet-App, die nur echt aussah. Den Anbieter gab es als Handy-App nie. Der Betrug kam von einem Menschen, über einen Download. Jede Zahlung auf der Kette bleibt sichtbar. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: zwei Balken, 0,14 % illegale Zahlungen gegen 99,86 % übrige, darunter drei Fakten.',
+      build=lambda: build_pin('p-59', [pin2('', 'Krypto nur für Kriminelle? <em>0,14&nbsp;%</em> sagen etwas anderes',
+          visual=vz_bars([('An illegale Adressen', '0,14 %', 1), ('Alle anderen Zahlungen', '99,86 %', 100)], 'Anteil laut Chainalysis. Betrogen hat mich ein Mensch.'),
+          points=['Jede Zahlung bleibt sichtbar', 'Betrüger schreiben dich an', 'Ein Coin bittet nie um Geld'],
+          cta='Speichern für den nächsten Einwand', size='xs')])),
+
+ dict(d='2026-11-08', t='19:47', board=B_INF, f='Kurve', farbe='hell', bild='p-60',
+      titel='Krypto langfristig anlegen: Wie lange? 3 Regeln für Geld, das liegen darf (ich verkaufte in Panik)',
+      text="""Krypto langfristig anlegen heißt bei mir: Geld, das jahrelang liegen darf, ohne Termin, an dem ich es brauche. Ende 2024 hab ich alle Bitcoin in Panik verkauft. Der Kurs war rot, ich hatte keinen Plan für rote Monate. Daraus wurde ein einfaches System mit vier Schritten, und der Plan für rote Tage steht heute vorher. Die Kurve im Pin zeigt keinen echten Kurs, nur den langen Blick. Keine Kursprognose, keine Gewinnzusage, meine Erfahrung. Kostenloses Training über den Link.""",
+      alt='Krypto langfristig anlegen: Kurve mit Punkten in festem Abstand, jeder Punkt ein Jahr, darunter drei Regeln.',
+      build=lambda: build_pin('p-60', [pin2('light', 'Krypto langfristig anlegen? <em>3&nbsp;Regeln</em> für Geld, das liegen darf',
+          visual=vz_curve('Jeder Punkt ein Jahr. Rote Monate liegen dazwischen.'),
+          points=['Nur Geld ohne Termin', 'Rote Monate gehören dazu', 'Kurs nur am festen Tag'],
+          cta='Speichern, bevor du Erspartes anlegst', size='xs')])),
+
+ dict(d='2026-11-09', t='10:43', board=B_ANF, f='Zahl', farbe='akzent', bild='p-61',
+      titel='Krypto auf Kredit? 3 Regeln, woher dein Geld kommt (5.000 € von der Kreditkarte, Name geändert)',
+      text="""Krypto auf Kredit klingt nach Abkürzung. In Großbritannien kaufen 14 % der Krypto-Nutzer mit geliehenem Geld, die Aufsicht FCA will das verbieten (Quelle: BTC-ECHO, 03.05.2025). Peter (Name geändert) aus meiner Community holte 5.000 € als Bargeld von der Kreditkarte, für ein Handelskonto, das 83.000 € zeigte. Ausgezahlt wurden 5 €. Mein erster Kauf war eigenes Geld, 5.000 $ in einen Coin mit bekanntem Gesicht. Das war weg. Geliehenes wäre weg und fällig. Kostenloses Training über den Link.""",
+      alt='Krypto auf Kredit: große Zahl 5.000 € Bargeld von der Kreditkarte, Name geändert, darunter drei Regeln.',
+      build=lambda: build_pin('p-61', [pin2('acc', 'Krypto auf Kredit? <em>3&nbsp;Regeln</em>, woher dein Geld kommt',
+          visual=vz_num('<span style="font-size:150px">5.000&nbsp;€</span>', 'Bargeld von der Kreditkarte, für ein „Handelskonto“. Peter, Name geändert.'),
+          points=['Kein Kredit, kein Dispo', 'Keine Kreditkarte für Coins', 'Notgroschen bleibt, wo er ist'],
+          cta='Speichern, bevor du Geld aufnimmst', size='xs')])),
+
+ dict(d='2026-11-09', t='20:18', board=B_BET, f='Stempel', farbe='schwarz', bild='p-62',
+      titel='Krypto Betrug erkennen: Fremdes Geld auf deinem Konto? 3 Warnsignale beim „Nebenjob“ als Finanzagent',
+      text="""Krypto Betrug erkennen, bevor er dich zum Täter macht: „Finanzagent“ heißen Jobangebote, bei denen fremdes Geld auf deinem Konto landet und du es weiterleitest, gegen Provision. Es stammt oft von anderen Betrogenen, wer weiterleitet, kann sich strafbar machen (Quelle: Verbraucherzentrale, 07.08.2026). Mich wollten Betrüger um mein Geld bringen. Einer verlangte vor der Auszahlung eine Gebühr, ich zahlte, es kam nie etwas. Die Masche hier will dein Konto. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: Stempel Geldwäsche schräg im Rahmen, darunter drei Warnsignale beim Nebenjob als Finanzagent.',
+      build=lambda: build_pin('p-62', [pin2('', 'Fremdes Geld auf deinem Konto? <em>3&nbsp;Warnsignale</em>',
+          visual=vz_stamp('<span style="font-size:72px;letter-spacing:4px">Geldwäsche</span>', 'Nebenjob: Geld annehmen, weiterleiten, Provision behalten. Das Geld kommt von anderen Betrogenen.', small=True),
+          points=['Job ohne Gespräch, per Chat', 'Weiterleiten ins Ausland', 'Provision pro Überweisung'],
+          marks='warn', cta='Speichern, bevor du den Nebenjob annimmst', size='sm', center=True)])),
 ]
 
 if __name__ == '__main__':
