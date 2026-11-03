@@ -124,7 +124,7 @@ Eine verschenkte Wallet ist ein Köder mit Preisschild.
 
 Hast du so einen Kommentar schon mal gesehen?"""),
 
- dict(thema='Köder-Wallet (öffentliche Seed-Phrase)', feld='Betrug', var='Fall', frei_ab='2026-10-22', verwendet=None,
+ dict(thema='Köder-Wallet (öffentliche Seed-Phrase)', feld='Betrug', var='Fall', frei_ab='2026-10-22', verwendet='09.11.2026',
       text="""Zwei fremde Wallets, zweimal 10 $ eingezahlt, zweimal nach Minuten leer.
 
 Beide Seed-Phrasen standen unter meinen alten Videos. Beide zeigten fünfstellige USDT-Guthaben auf Tron. Beide verlangten TRX fürs Auszahlen.
@@ -223,7 +223,7 @@ Ein Coin, dessen Macher den Großteil hält, gehört ihm. Nie dir.
 
 Hast du schon mal gekauft, weil ein bekannter Name dahinterstand?"""),
 
- dict(thema='Seed-Phrase am Telefon („synchronisieren“)', feld='Sicherheit', var='These', frei_ab='2026-10-25', verwendet=None,
+ dict(thema='Seed-Phrase am Telefon („synchronisieren“)', feld='Sicherheit', var='These', frei_ab='2026-10-25', verwendet='08.11.2026',
       text="""Kein Support der Welt braucht deine 12 Wörter. Keiner.
 
 Mich hat mal einer angerufen, aus der Community eines Mining-Anbieters. Meine Wallet müsse „synchronisiert“ werden. Ich hab ihm zwölf erfundene Wörter vorgelesen. Er ist ausgerastet.
@@ -797,4 +797,24 @@ Mein Anbieter war kleiner. 4.000 bis 5.000 $, feste Rendite, Rechner nie gesehen
 Ein Zähler auf einer Webseite schürft null.
 
 Hast du schon mal Gewinne gesehen, die nur auf einem Bildschirm existierten?"""),
+
+ dict(thema='Cybertrading-Betrug am Fall Peter (Name geändert; gut 250 € Start, 83.000 € auf dem Handelskonto, 5 € ausgezahlt, Schaden rund 62.000 €)', feld='Betrug', var='These', frei_ab='2026-11-23', verwendet=None,
+      text="""Ein Berater, der täglich anruft, lebt von deinem Geld.
+
+Peter (Name geändert) aus meiner Community: „Laura“ rief mehrmals am Tag an und handelte für ihn. Gut 250 € zum Start, dann 5.000 € Bargeld von der Kreditkarte. Das Handelskonto zeigte 83.000 €, ausgezahlt wurden 5 €.
+
+Wer anruft, damit du mehr einzahlst, sitzt laut Polizei im Callcenter (Quelle: dpa, 13.10.2025).
+
+Je öfter das Telefon klingelt, desto leerer das Konto.
+
+Wie oft dürfte dich ein Anbieter anrufen, bevor du misstrauisch wirst?"""),
+
+ dict(thema='Cybertrading-Betrug am Fall Peter (Name geändert; gut 250 € Start, 83.000 € auf dem Handelskonto, 5 € ausgezahlt, Schaden rund 62.000 €)', feld='Betrug', var='Story', frei_ab='2026-11-23', verwendet=None,
+      text="""Vor jeder Überweisung ein Videoanruf. Drei Girokonten geschlossen, 5 € ausgezahlt.
+
+Peter (Name geändert) erzählte mir seinen Fall. Statt Auszahlung landete Geld von Fremden auf seinem Girokonto. Er sollte es über eine Krypto-Börse an ein „Sicherheitskonto“ schicken, bei geteiltem Bildschirm. Zum Schluss Mails einer falschen „Europäischen Zentralbank“ mit Frist.
+
+Wer dir fremdes Geld aufs Konto legt, macht dich zum Kurier.
+
+Hättest du das fremde Geld weitergeschickt oder die Bank angerufen?"""),
 ]
