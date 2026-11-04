@@ -642,7 +642,7 @@ Anfänger sein ist kein Hindernis. Kaufen ohne Verstehen ist eins.
 
 Was würdest du über Bitcoin gern verstehen, bevor du den ersten Euro einsetzt?"""),
 
- dict(thema='FAQ: Bin ich als Anfänger bei Krypto überhaupt richtig? (vier Schritte, kein Genie)', feld='Psychologie', var='Story', frei_ab='2026-11-02', verwendet=None,
+ dict(thema='FAQ: Bin ich als Anfänger bei Krypto überhaupt richtig? (vier Schritte, kein Genie)', feld='Psychologie', var='Story', frei_ab='2026-11-02', verwendet='10.11.2026',
       text="""Ich bin kein Genie. Mein Lehrgeld: weit über 70.000 $.
 
 Ich hab lange geglaubt, die anderen wüssten mehr. Also hab ich Fremde gefragt, wohin mit meinem Geld. Bestätigung gab es reichlich, Verstehen null.
@@ -719,7 +719,7 @@ Ruhe kauft man sich mit einem Plan, nie mit einem Versprechen.
 
 Was hat dich der Wunsch nach Sicherheit schon gekostet?"""),
 
- dict(thema='Bitcoin oder Altcoins? (3,7 Mio. tote Coins laut CoinGecko, Memecoin)', feld='Einstieg', var='These', frei_ab='2026-11-10', verwendet=None,
+ dict(thema='Bitcoin oder Altcoins? (3,7 Mio. tote Coins laut CoinGecko, Memecoin)', feld='Einstieg', var='These', frei_ab='2026-11-10', verwendet='10.11.2026',
       text="""Der lauteste Coin im Chat hat die kürzeste Lebenserwartung.
 
 Seit 2021 haben 3,7 Millionen Coins den Handel eingestellt, über die Hälfte aller gelisteten. Allein im ersten Quartal 2025 waren es 1,8 Millionen (Quelle: CoinGecko, 30.04.2025).
@@ -817,4 +817,48 @@ Peter (Name geändert) erzählte mir seinen Fall. Statt Auszahlung landete Geld 
 Wer dir fremdes Geld aufs Konto legt, macht dich zum Kurier.
 
 Hättest du das fremde Geld weitergeschickt oder die Bank angerufen?"""),
+
+ dict(thema='Address Poisoning (fast 50 Mio. $ in USDT an eine ähnliche Adresse aus dem eigenen Verlauf, Quelle BTC-ECHO 20.12.2025)', feld='Sicherheit', var='These', frei_ab='2026-11-25', verwendet=None,
+      text="""Eine Adresse liest man in der Mitte. Den Rand kopiert der Betrüger.
+
+Dezember 2025: fast 50 Mio. $ in USDT an eine falsche Adresse. Vorn drei und hinten vier Zeichen stimmten, der Rest war fremd (Quelle: BTC-ECHO, 20.12.2025).
+
+Address Poisoning lebt davon, dass Menschen Adressen nur am Rand vergleichen. Der Betrüger legt dir per Kleinstzahlung eine ähnliche in den Verlauf.
+
+Was im Verlauf steht, hat jemand dort hingelegt.
+
+Vergleichst du vor dem Senden den Anfang, das Ende oder alles?"""),
+
+ dict(thema='Address Poisoning (fast 50 Mio. $ in USDT an eine ähnliche Adresse aus dem eigenen Verlauf, Quelle BTC-ECHO 20.12.2025)', feld='Sicherheit', var='Story', frei_ab='2026-11-25', verwendet=None,
+      text="""Ich zahle digital mit Krypto. Jede Zahlung beginnt mit Kopieren.
+
+In Venezuela stehen die Preise in Dollar, Krypto ist Alltag. Also kopiere ich Adressen, oft.
+
+Im Dezember 2025 gingen fast 50 Mio. $ in USDT an eine Adresse, die nur vorn und hinten stimmte. Kopiert aus dem Verlauf, vorher sogar ein Testbetrag an die richtige (Quelle: BTC-ECHO, 20.12.2025).
+
+Der Testbetrag schützt nur die Adresse, die du danach wieder nimmst.
+
+Schickst du vor großen Beträgen einen Testbetrag, Ja oder Nein?"""),
+
+ dict(thema='Rückhol-Betrug ohne Fall aus der Community (Bank, Polizei, BaFin-Taskforce, Anwalt mit Vorkasse; Quellen Verbraucherzentrale laut dpa 07.05.2026, BaFin laut Börse Online 27.10.2025, web.de 24.01.2025)', feld='Betrug', var='These', frei_ab='2026-11-25', verwendet=None,
+      text="""Die BaFin ruft nie an. Als BaFin ruft nur ein Betrüger an.
+
+Betrüger melden sich als „Taskforce der BaFin“ und versprechen, Verluste aus Anlagebetrug zurückzuholen. Die BaFin dazu: Sie kontaktiert generell keine Verbraucher (Quelle: BaFin laut Börse Online, 27.10.2025).
+
+Der zweite Betrug lebt vom ersten. Die Täter kennen Summe, Namen und Hoffnung.
+
+Ein Anruf, der dein Geld zurückbringt, kommt nie von selbst.
+
+Wem würdest du nach einem Verlust zuerst glauben, Bank, Polizei oder Anwalt?"""),
+
+ dict(thema='Rückhol-Betrug ohne Fall aus der Community (Bank, Polizei, BaFin-Taskforce, Anwalt mit Vorkasse; Quellen Verbraucherzentrale laut dpa 07.05.2026, BaFin laut Börse Online 27.10.2025, web.de 24.01.2025)', feld='Betrug', var='Story', frei_ab='2026-11-25', verwendet=None,
+      text="""Nach 70.000 $ Verlust hätte ich jedem geglaubt, der sie zurückholt.
+
+Ich kenne den Zustand danach. Man sucht Bestätigung, bei jedem, der sie anbietet.
+
+Dieselben Täter melden sich als Bank, Polizei oder Behörde. Das Geld sei „sichergestellt“, vorher fallen „Gebühren“ an (Quelle: Verbraucherzentrale laut dpa, 07.05.2026). Oder ein „Anwalt“ will Vorkasse (Quelle: web.de).
+
+Wer nach dem Verlust hilft und vorher kassiert, ist der Verlust.
+
+Was würdest du zahlen, um dein Geld zurückzubekommen?"""),
 ]
