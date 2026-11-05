@@ -72,3 +72,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 60 | 08.11.2026 19:47 | Geld anlegen und Inflation | Kurve (hell) | Krypto langfristig anlegen: Wie lange? 3 Regeln für Geld, das liegen darf (ich verkaufte in Panik) | pinterest/p-60.png | eingeplant
 - 61 | 09.11.2026 10:43 | Krypto für Anfänger | Zahl (akzent) | Krypto auf Kredit? 3 Regeln, woher dein Geld kommt (5.000 € von der Kreditkarte, Name geändert) | pinterest/p-61.png | eingeplant
 - 62 | 09.11.2026 20:18 | Krypto-Betrug erkennen | Stempel (schwarz) | Krypto Betrug erkennen: Fremdes Geld auf deinem Konto? 3 Warnsignale beim „Nebenjob“ als Finanzagent | pinterest/p-62.png | eingeplant
+- 63 | 10.11.2026 11:31 | Krypto für Anfänger | Foto (schwarz) | Bitcoin für Anfänger: 4 Begriffe, die du vor dem ersten Kauf verstehen musst (70.000 $ Lehrgeld) | pinterest/p-63.png | eingeplant
+- 64 | 10.11.2026 20:24 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Betrug erkennen vor dem Senden: 3 Fragen, bevor Geld deine Wallet verlässt (nie rückholbar) | pinterest/p-64.png | eingeplant
+- 65 | 11.11.2026 10:57 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Krypto Betrug erkennen: Promi wirbt für Bitcoin-Plattform? 3 Unterschiede zum echten Interview | pinterest/p-65.png | eingeplant
+- 66 | 11.11.2026 20:09 | Bitcoin sicher aufbewahren | Karussell (4 Folien) (hell) | Krypto Sicherheit: Börsen-Konto gehackt? 3 Schalter, die vorher stehen müssen (je einer pro Folie) | pinterest/p-66-1.png bis p-66-4.png | eingeplant

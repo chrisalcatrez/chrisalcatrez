@@ -670,6 +670,57 @@ PINS = [
           visual=vz_stamp('<span style="font-size:72px;letter-spacing:4px">Geldwäsche</span>', 'Nebenjob: Geld annehmen, weiterleiten, Provision behalten. Das Geld kommt von anderen Betrogenen.', small=True),
           points=['Job ohne Gespräch, per Chat', 'Weiterleiten ins Ausland', 'Provision pro Überweisung'],
           marks='warn', cta='Speichern, bevor du den Nebenjob annimmst', size='sm', center=True)])),
+
+ # 10. und 11.11.2026 (Winterzeit): Fall der Woche (Peter, Kreditkarte) lief am 09.11. in p-61, darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-62 (Stempel): Foto -> Entscheidungsbaum -> Echt gegen Fake -> Karussell (je eines pro Woche, Woche 09. bis 15.11.).
+ # Farben: Foto zählt als schwarz, danach hell -> schwarz -> hell.
+ # Neue Themen: vier Grundbegriffe, Prüfung vor dem Senden (Überweisung nie rückholbar), Fake-Promi-Werbung (Deepfakes), drei Schalter im Börsen-Konto.
+ dict(d='2026-11-10', t='11:31', board=B_ANF, f='Foto', farbe='schwarz', bild='p-63',
+      titel='Bitcoin für Anfänger: 4 Begriffe, die du vor dem ersten Kauf verstehen musst (70.000 $ Lehrgeld)',
+      text="""Bitcoin für Anfänger fängt bei vier Wörtern an, die ich beim ersten Kauf nie verstanden hab. Ich hab eine Wallet-App geladen, weil sie echt aussah. Den Anbieter gab es als Handy-App nie, 70.000 $ weg. Heute erkläre ich mir jeden Begriff in einem Satz, bevor Geld fließt. Wallet, Börse, Seed-Phrase, Blockchain, die Kurzfassung steht im Pin. Keine Coin-Empfehlung, nur mein Lehrgeld. Wie die vier Begriffe in mein System mit vier Schritten passen, zeige ich im kostenlosen Training über den Link.""",
+      alt='Bitcoin für Anfänger: vier Begriffe in je einem Satz erklärt, darunter Chris Alcatrez im blauen Hemd.',
+      build=lambda: build_pin('p-63', [pin2('', 'Bitcoin für Anfänger: <em>4&nbsp;Begriffe</em> vor dem ersten Kauf',
+          points=['Wallet: dein Geldbeutel', 'Börse: Wechselstube für Euro', 'Seed-Phrase: deine 12 Wörter', 'Blockchain: das Kassenbuch'],
+          cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
+
+ dict(d='2026-11-10', t='20:24', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-64',
+      titel='Krypto Betrug erkennen vor dem Senden: 3 Fragen, bevor Geld deine Wallet verlässt (nie rückholbar)',
+      text="""Krypto Betrug erkennen, bevor du sendest. Eine bestätigte Krypto-Überweisung lässt sich nie rückgängig machen, eine falsche Adresse nie korrigieren (Quelle: PostFinance, 09.04.2026). Ein Instagram-Kontakt wollte vor meiner Auszahlung eine „Netzwerkgebühr“ an eine Adresse aus dem Chat. Ich hab gesendet, die Auszahlung kam nie. Seitdem stelle ich vor jedem Senden die drei Fragen im Pin. Und der erste Betrag an eine neue Adresse ist ein Testbetrag. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: Entscheidungsbaum mit drei Fragen vor dem Senden, Ja heißt Betrug, Nein führt zur nächsten Frage.',
+      build=lambda: build_pin('p-64', [pin2('light', 'Krypto senden? <em>3&nbsp;Fragen</em>, bevor das Geld weg ist',
+          visual=vz_flow(['Adresse aus Chat oder Mail?', 'Frist: nur heute?', 'Kommt angeblich mehr zurück?'],
+                         'Kein Warnsignal. Trotzdem: erst Testbetrag.'),
+          cta='Speichern, bevor du sendest', size='xs')])),
+
+ dict(d='2026-11-11', t='10:57', board=B_BET, f='Echt gegen Fake', farbe='schwarz', bild='p-65',
+      titel='Krypto Betrug erkennen: Promi wirbt für Bitcoin-Plattform? 3 Unterschiede zum echten Interview',
+      text="""Krypto Betrug erkennen bei Werbung mit bekannten Gesichtern. Kriminelle bauen mit KI Videos, in denen Promis angeblich eine Trading-Plattform empfehlen. Verräter sind fehlende Quellen, Seiten ohne Impressum und Versprechen wie 10.000 € pro Woche, danach folgen betrügerische Anrufe (Quelle: Verbraucherzentrale, 23.03.2026). Mich hat ein bekanntes Gesicht 5.000 $ gekostet, in einem Coin, den ich nie verstanden hab. Ein Gesicht ist kein Beleg. Nachgestellt. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: links echtes Interview mit drei Haken, rechts Fake-Werbung mit Promi, drei Kreuze und Stempel Fake.',
+      build=lambda: build_pin('p-65', [pin2('', 'Promi wirbt für Bitcoin? <em>3&nbsp;Unterschiede</em> zum echten Interview',
+          visual=vz_vs2('Echt', ['Läuft beim Sender selbst', 'Kein Link zum Anmelden', 'Niemand ruft dich an'],
+                        'Fake', ['Promi-„Geheimnis“', 'Anmelde-Link', 'Dann ein Anruf'],
+                        note='Nachgestellt. Promis nie gefragt.'),
+          cta='Speichern vor dem nächsten Klick', size='xs')])),
+
+ dict(d='2026-11-11', t='20:09', board=B_SIC, f='Karussell (4 Folien)', farbe='hell', bild='p-66', folien=4,
+      titel='Krypto Sicherheit: Börsen-Konto gehackt? 3 Schalter, die vorher stehen müssen (je einer pro Folie)',
+      text="""Krypto Sicherheit fängt im Börsen-Konto an. Börsenkonten sind nie ganz sicher vor Hackern, sagt das BSI (Quelle: BTC-ECHO, 16.08.2024). Drei Schalter helfen: zweiter Code beim Login aus einer App, eigenes Codewort in jeder echten Mail, Auszahlungen gesperrt, solange du keine brauchst (Quelle: Bitvavo, 22.09.2025). Meine 70.000 $ gingen an eine App, die echt aussah. Kein Schalter hilft, wenn der Anbieter der Betrüger ist. Zuerst der Anbieter, dann die Schalter. Kostenloses Training über den Link.""",
+      alt='Karussell: Stempel Gehackt zur Krypto Sicherheit im Börsen-Konto, dann drei Folien mit je einem Schalter und zwei Regeln.',
+      alts=['Krypto Sicherheit: Stempel Gehackt, Börsenkonten sind nie ganz sicher vor Hackern, drei Schalter, einer pro Folie.',
+            'Schalter 1: zwei Faktoren beim Login, Passwort plus Code aus einer App auf dem Handy, zwei Regeln.',
+            'Schalter 2: Codewort, ein eigenes Wort in jeder echten Mail der Börse, fehlt es, ist die Mail Fake, zwei Warnzeichen.',
+            'Schalter 3: Auszahlung gesperrt, kein Cent verlässt das Konto ohne dich, zwei Regeln.'],
+      build=lambda: build_pin('p-66', [
+          pin2('light', 'Börsen-Konto gehackt? <em>3&nbsp;Schalter</em>, die vorher stehen',
+               visual=vz_stamp('Gehackt', 'Börsenkonten sind nie ganz sicher vor Hackern, sagt das BSI. Drei Schalter dagegen, einer pro Folie.', small=True),
+               cta='Speichern. Ein Schalter pro Folie', size='sm', center=True),
+          pin2('light', 'Schalter 1: <em>Zweiter Code</em> beim Login', visual=vz_num('<span style="font-size:150px">2 Faktoren</span>', 'Passwort plus Code aus einer App auf deinem Handy. Ohne dein Handy kommt keiner rein.'),
+               points=['Code aus einer App', 'Auch fürs E-Mail-Konto'], marks='check', cta='Speichern, bevor du dich wieder anmeldest', size='sm'),
+          pin2('light', 'Schalter 2: <em>Dein Codewort</em> in jeder Mail', visual=vz_card('Codewort', 'Du legst ein Wort fest. Echte Mails der Börse tragen es. Fehlt es, ist die Mail Fake.'),
+               points=['Fehlt das Wort: Fake', 'Link in der Mail: nie klicken'], marks='warn', cta='Speichern für die nächste Mail der Börse', size='sm'),
+          pin2('light', 'Schalter 3: <em>Auszahlung</em> gesperrt', visual=vz_num('<span style="font-size:150px">0 € raus</span>', 'Auszahlungen sperren, solange du keine brauchst. Freigabe nur durch dich.'),
+               points=['Gesperrt: kein Cent raus', 'Fremder im Konto: Geld bleibt'], marks='check', cta='Speichern, bevor ein Fremder im Konto ist', size='sm'),
+      ])),
 ]
 
 if __name__ == '__main__':
