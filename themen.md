@@ -47,3 +47,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 42 | 08.11.2026 | Visueller Post | Hype-Bingo: Bei diesen 9 Sätzen aus dem Feed kaufe ich keinen Cent (Gier und Informationsflut, Influencer-Coin 5.000 $)
 - 43 | 09.11.2026 | Frage an die Zielgruppe | Hand aufs Herz: Hat dir schon mal jemand eine feste Rendite versprochen? (Cloud-Mining mit festen Renditen, 4.000 bis 5.000 $)
 - 44 | 10.11.2026 | Schritt-für-Schritt-Anleitung | Bestätigungssuche: Statt Fremde nach einem Ja zu fragen, stelle ich mir vor jedem Kauf 4 Fragen selbst (mein System als Fragen, 70.000 $ Lehrgeld)
+- 45 | 11.11.2026 | FAQ beantworten | FAQ: „Bin ich als absoluter Anfänger richtig?“ (Krypto-Besitzer bei 31 % der Antworten falsch, über ein Drittel hält Bitcoin für stabil laut BaFin-Umfrage, Panikverkauf Ende 2024)
+- 46 | 12.11.2026 | Aufzählung | Seed-Phrase: 4 Momente, in denen jemand deine 12 Wörter will (Anruf zum „Synchronisieren“ mit erfundenen Wörtern, Briefe mit QR-Code laut BleepingComputer und BACS, Fake-Apps laut Kaspersky, Recovery Scam)

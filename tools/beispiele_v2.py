@@ -1396,6 +1396,125 @@ Keine Coin-Empfehlung, keine Anbieter-Empfehlung, keine Kursprognose. Für jeden
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 45: FAQ beantworten („Bin ich als absoluter Anfänger richtig?“, BaFin-Umfrage laut t3n, Panikverkauf Ende 2024) ----------
+Q_BAFIN = 'Quelle: BaFin-Umfrage, April 2026, laut t3n'
+POSTS['beitrag-45'] = dict(
+    date='2026-11-11', fmt='FAQ beantworten', topic='FAQ: „Bin ich als absoluter Anfänger richtig?“ (Krypto-Besitzer bei 31 % der Antworten falsch, über ein Drittel hält Bitcoin für stabil laut BaFin-Umfrage, Panikverkauf Ende 2024)',
+    slides=[
+        s_hook('FAQ', '„Bin ich als Anfänger hier richtig?“ Wer schon Krypto hat, lag bei %s Warum du kaum hinten liegst.' % A('31 % der Antworten falsch.'),
+               sub='Was ich Anfängern darauf antworte.', cue='Zuerst die Umfrage hinter der Zahl &#8594;', size=''),
+        s_proof('DER BELEG', 'Auch wer schon drin ist, rät oft.',
+                big='31 %', big_sub='falsche Antworten bei Menschen, die schon Kryptowerte besitzen. 1.000 Befragte, 16 Fragen zu Krypto.',
+                src=Q_BAFIN, cue='Der teuerste Irrtum aus der Umfrage &#8594;'),
+        s_point('DER IRRTUM', 'Über ein Drittel der Krypto-Anleger hält den Bitcoin-Kurs für %s' % A('stabil.'),
+                ['Er schwankt. Mal kräftig, mal über Monate.', D('Wer mit einem ruhigen Kurs rechnet, hat für rote Tage keinen Plan.')],
+                src=Q_BAFIN, size='m', cue='Genau das hat mich alle Bitcoin gekostet &#8594;'),
+        s_point('MEIN FALL', 'Ende 2024 hab ich %s' % A('alle Bitcoin in Panik verkauft.'),
+                ['Ich war drin. Ich fühlte mich sicher.', D('Mir fehlte ein Plan für rote Tage. Entschieden hat die Angst.')],
+                size='m', cue='Darum hast du als Anfänger einen Vorteil &#8594;'),
+        s_point('MEINE ANTWORT', 'Du weißt, dass du wenig weißt. %s' % A('Das schützt dich.'),
+                ['Wer glaubt, er kennt sich aus, fragt seltener nach.', D('Als Anfänger prüfst du jeden Schritt. Genau so hab ich mein System gebaut: Schritt für Schritt.')],
+                size='m', cue='Was du vor dem ersten Kauf brauchst &#8594;'),
+        s_point('WAS DU BRAUCHST', 'Kein Vorwissen. %s' % A('Drei Antworten vor dem ersten Kauf.'),
+                ['Was kaufe ich? Wo liegt es? Wer hält den Schlüssel?', D('Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.')],
+                size='m', cue='Die Antwort in 4 Zeilen zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Anfänger? %s' % A('Du bist richtig.'), 'Dein Merkzettel', [
+            'Wer schon Krypto hat, lag bei 31 % der Antworten falsch.',
+            'Bitcoin schwankt. Der Plan für rote Tage steht vor dem Kauf.',
+            'Drei Antworten vor dem ersten Kauf: Was? Wo? Wer hält den Schlüssel?',
+            'Wer weiß, dass er Anfänger ist, prüft genauer.',
+        ], 'Speichere dir das für deinen ersten Kauf.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['FAQ: Bin ich als Anfänger hier richtig? Wer schon Krypto hat, lag bei 31 Prozent der Antworten falsch. Warum du kaum hinten liegst',
+          'Der Beleg: 31 Prozent falsche Antworten bei Menschen, die schon Kryptowerte besitzen. 1.000 Befragte, 16 Fragen zu Krypto. Quelle: BaFin-Umfrage, April 2026, laut t3n',
+          'Der Irrtum: Über ein Drittel der Krypto-Anleger hält den Bitcoin-Kurs für stabil. Er schwankt. Wer mit einem ruhigen Kurs rechnet, hat für rote Tage keinen Plan. Quelle: BaFin-Umfrage laut t3n',
+          'Mein Fall: Ende 2024 hab ich alle Bitcoin in Panik verkauft. Ich fühlte mich sicher, mir fehlte ein Plan für rote Tage',
+          'Meine Antwort: Du weißt, dass du wenig weißt, das schützt dich. Als Anfänger prüfst du jeden Schritt',
+          'Was du brauchst: kein Vorwissen, drei Antworten vor dem ersten Kauf. Was kaufe ich, wo liegt es, wer hält den Schlüssel. Ich bin kein Genie, wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch',
+          'Merkzettel, Anfänger, du bist richtig: wer schon Krypto hat, lag bei 31 Prozent der Antworten falsch; Bitcoin schwankt, der Plan für rote Tage steht vor dem Kauf; drei Antworten vor dem ersten Kauf; wer weiß, dass er Anfänger ist, prüft genauer. Speichere dir das für deinen ersten Kauf',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''„Ich versteh davon fast null. Bin ich hier überhaupt richtig?“ Diese Frage bekomme ich von Krypto-Anfängern fast jede Woche.
+
+Zuerst die Zahl: Die BaFin hat im April 2026 1.000 Menschen 16 Fragen zu Kryptowerten gestellt. Wer selbst schon Kryptowerte besitzt, lag bei 31 % der Antworten falsch. Über ein Drittel der Krypto-Anleger hielt den Bitcoin-Kurs für stabil (Quelle: BaFin-Umfrage, April 2026, laut t3n).
+
+Dann mein Fall: Ich war drin und fühlte mich sicher. Ende 2024 hab ich alle Bitcoin in Panik verkauft. Mir fehlte ein Plan für rote Tage. Entschieden hat die Angst.
+
+Was ich Anfängern heute antworte:
+– Du weißt, dass du wenig weißt. Das schützt dich. Wer glaubt, er kennt sich aus, fragt seltener nach.
+– Vorwissen brauchst du keins. Du brauchst drei Antworten vor dem ersten Kauf: Was kaufe ich? Wo liegt es, an der Börse oder in der eigenen Wallet? Wer hält den Schlüssel?
+– Bitcoin schwankt. Den Plan für rote Tage legst du vor dem Kauf fest, statt mittendrin.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der sich vor Betrug schützen und Bitcoin erst verstehen will, bevor Geld fließt.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 46: Aufzaehlung (4 Momente, in denen jemand deine 12 Woerter will; Anruf zum Synchronisieren) ----------
+Q_BLEEP = 'Quelle: BleepingComputer, 14.02.2026; BACS laut Netzwoche, 19.08.2026'
+Q_VZH = 'Quelle: Verbraucherzentrale Hessen, 19.08.2026'
+POSTS['beitrag-46'] = dict(
+    date='2026-11-12', fmt='Aufzählung', topic='Seed-Phrase: 4 Momente, in denen jemand deine 12 Wörter will (Anruf zum „Synchronisieren“ mit erfundenen Wörtern, Briefe mit QR-Code laut BleepingComputer und BACS, Fake-Apps laut Kaspersky, Recovery Scam)',
+    slides=[
+        s_hook('AUFZÄHLUNG', '12 Wörter entscheiden, ob deine Bitcoin weg sind. %s' % A('In diesen 4 Momenten will sie jemand von dir.'),
+               sub='Keiner davon sieht nach Betrug aus.', cue='Zuerst der Anruf, den ich bekam &#8594;', size=''),
+        s_proof('MEIN FALL', 'Er wollte meine Wörter. %s' % A('Er bekam 12 erfundene.'),
+                quote='„Ihre Wallet muss synchronisiert werden. Dafür brauche ich Ihre 12 Wörter.“',
+                quote_from='Anrufer aus der Community eines Mining-Anbieters. Nachgestellt, so lief es.',
+                ps=[D('Ich las ihm 12 ausgedachte Wörter vor. Dann war die Freundlichkeit weg. Er rastete aus.')],
+                cue='Moment 1 klingt genau so &#8594;'),
+        s_point('MOMENT 1', 'Ein „Support“ meldet sich %s' % A('von selbst.'),
+                ['Anruf, Chat, Privatnachricht. Er will „synchronisieren“, „prüfen“ oder „sichern“.', D('Kein echter Support, keine Börse, kein Hersteller und keine Behörde fragt je nach deinen Wörtern.')],
+                src='Quelle: BACS, Bundesamt für Cybersicherheit der Schweiz, laut Netzwoche', size='m', cue='Moment 2 kommt mit der Post &#8594;'),
+        s_point('MOMENT 2', 'Ein Brief mit %s' % A('QR-Code und Frist.'),
+                ['Februar 2026: ein „Authentication Check“ für Hardware-Wallets. August 2026: ein „Sicherheits-Update“ gegen Quantencomputer.', D('Der Code führt auf eine nachgebaute Seite. Sie fragt nach den Wörtern.')],
+                src=Q_BLEEP, size='m', cue='Moment 3 lädst du dir selbst aufs Handy &#8594;'),
+        s_point('MOMENT 3', 'Eine Wallet-App, die %s' % A('echt aussieht.'),
+                ['26 gefälschte Wallet-Apps fand Kaspersky im App Store von Apple, mit Namen und Logos bekannter Wallets.', D('Die echte Ledger-App fragt nie nach den Wörtern. Die gefälschte schon.')],
+                src=Q_KASP, size='m', cue='Moment 4 trifft dich, wenn schon Geld weg ist &#8594;'),
+        s_point('MOMENT 4', 'Ein Helfer, der %s' % A('dein Geld gefunden haben will.'),
+                ['Nach einem Verlust melden sich angebliche Bankmitarbeiter oder Behörden. Das Geld sei wieder da.', D('Recovery Scam heißt das. Wer deine Wörter oder Vorkasse will, holt nur dein restliches Geld.')],
+                src=Q_VZH, size='m', cue='Die 4 Momente als Test zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Deine 12 Wörter %s' % A('gehören nur dir.'), 'Dein Merkzettel', [
+            'Support meldet sich von selbst? Auflegen.',
+            'Brief mit QR-Code und Frist? Nie scannen.',
+            'App fragt beim Start nach den Wörtern? Löschen.',
+            'Helfer will Wörter oder Vorkasse? Betrug.',
+            'Die Wörter bleiben auf Papier. Nie in Chat, Formular oder Foto.',
+        ], 'Speichere dir das, bevor jemand nach deinen 12 Wörtern fragt.'),
+    ],
+    alts=['Aufzählung: 12 Wörter entscheiden, ob deine Bitcoin weg sind. In diesen 4 Momenten will sie jemand von dir. Keiner davon sieht nach Betrug aus',
+          'Mein Fall, nachgestellt: Ein Anrufer aus der Community eines Mining-Anbieters sagt, die Wallet müsse synchronisiert werden, dafür brauche er die 12 Wörter. Chris las ihm 12 ausgedachte Wörter vor, der Anrufer rastete aus',
+          'Moment 1: Ein Support meldet sich von selbst, per Anruf, Chat oder Privatnachricht. Kein echter Support, keine Börse, kein Hersteller und keine Behörde fragt je nach deinen Wörtern. Quelle: BACS laut Netzwoche',
+          'Moment 2: Ein Brief mit QR-Code und Frist, im Februar 2026 ein Authentication Check für Hardware-Wallets, im August 2026 ein Sicherheits-Update gegen Quantencomputer. Der Code führt auf eine nachgebaute Seite. Quelle: BleepingComputer, BACS laut Netzwoche',
+          'Moment 3: Eine Wallet-App, die echt aussieht. 26 gefälschte Wallet-Apps fand Kaspersky im App Store von Apple. Die echte Ledger-App fragt nie nach den Wörtern, die gefälschte schon. Quelle: Kaspersky, 20.04.2026',
+          'Moment 4: Ein Helfer, der dein Geld gefunden haben will. Nach einem Verlust melden sich angebliche Bankmitarbeiter oder Behörden, das heißt Recovery Scam. Quelle: Verbraucherzentrale Hessen, 19.08.2026',
+          'Merkzettel, deine 12 Wörter gehören nur dir: Support meldet sich von selbst, auflegen; Brief mit QR-Code und Frist, nie scannen; App fragt beim Start nach den Wörtern, löschen; Helfer will Wörter oder Vorkasse, Betrug; die Wörter bleiben auf Papier. Speichere dir das, bevor jemand nach deinen 12 Wörtern fragt'],
+    caption='''Einer wollte am Telefon meine 12 Wörter. Ich hab ihm 12 erfundene vorgelesen.
+
+Der Anruf kam aus der Community eines Mining-Anbieters. Meine Wallet müsse „synchronisiert“ werden, dafür brauche er die Wörter. Als er merkte, dass sie ausgedacht waren, rastete er aus. Mit den echten wäre meine Wallet leer gewesen.
+
+Die 12 Wörter, auch Seed-Phrase genannt, sind deine Wallet. Wer sie hat, braucht kein Handy und keine PIN. In diesen 4 Momenten will sie jemand von dir:
+
+1. Ein „Support“ meldet sich von selbst, per Anruf, Chat oder Privatnachricht. Kein echter Support, keine Börse, kein Wallet-Hersteller und keine Behörde fragt je danach (Quelle: BACS, Bundesamt für Cybersicherheit der Schweiz, laut Netzwoche, 19.08.2026).
+2. Ein Brief mit QR-Code und Frist. Im Februar 2026 ein „Authentication Check“ für Hardware-Wallets (Quelle: BleepingComputer, 14.02.2026), im August 2026 ein „Sicherheits-Update“ gegen Quantencomputer (Quelle: BACS laut Netzwoche). Der Code führt auf eine nachgebaute Seite, die nach den Wörtern fragt.
+3. Eine Wallet-App, die echt aussieht. Kaspersky fand 26 gefälschte Wallet-Apps im App Store von Apple. Die echte Ledger-App fragt nie nach den Wörtern, die gefälschte schon (Quelle: Kaspersky, Pressemitteilung vom 20.04.2026).
+4. Ein Helfer, der dein verlorenes Geld gefunden haben will. Angebliche Bankmitarbeiter oder Behörden melden sich nach dem Verlust, das nennt sich Recovery Scam (Quelle: Verbraucherzentrale Hessen, 19.08.2026).
+
+Dein Merkzettel:
+– Support meldet sich von selbst? Auflegen.
+– Brief mit QR-Code und Frist? Nie scannen.
+– App fragt beim Start nach den Wörtern? Löschen.
+– Helfer will Wörter oder Vorkasse? Betrug.
+– Die Wörter bleiben auf Papier. Nie in Chat, Formular oder Foto.
+
+Keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger mit Wallet, Bitcoin an der Börse oder der ersten Hardware-Wallet, der sich vor Betrug schützen will.
+
+Welcher der 4 Momente ist dir schon begegnet? Schreib die Zahl in die Kommentare.
+
+Speichere dir das, bevor jemand nach deinen 12 Wörtern fragt.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
