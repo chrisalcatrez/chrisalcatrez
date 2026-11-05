@@ -135,7 +135,7 @@ Wer fremdes Geld abheben will, zahlt.
 
 Was hättest du nach der ersten weggebuchten Gebühr gemacht?"""),
 
- dict(thema='Selbstgebaute Token mit Stablecoin-Namen (USDTS, USDCF)', feld='Betrug', var='These', frei_ab='2026-10-22', verwendet=None,
+ dict(thema='Selbstgebaute Token mit Stablecoin-Namen (USDTS, USDCF)', feld='Betrug', var='These', frei_ab='2026-10-22', verwendet='12.11.2026',
       text="""Der Name eines Coins ist Werbung, kein Wert.
 
 Ein Teilnehmer hatte „USDT“ in der Wallet und fand keine Börse, die ihn nahm. Beim Hinsehen hießen die Coins USDTS und USDCF. Selbstgebaut, Verkaufswert 0 €.
@@ -861,4 +861,26 @@ Dieselben Täter melden sich als Bank, Polizei oder Behörde. Das Geld sei „si
 Wer nach dem Verlust hilft und vorher kassiert, ist der Verlust.
 
 Was würdest du zahlen, um dein Geld zurückzubekommen?"""),
+
+ dict(thema='Nebenjob als „Finanzagent“ oder „Crypto-Assistent“ (fremdes Geld auf dem eigenen Konto, Bitcoin kaufen und weiterleiten; Quelle Verbraucherzentrale 07.08.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-26', verwendet=None,
+      text="""Drei Girokonten geschlossen. Das Geld darauf war nie seins.
+
+Peter (Name geändert): Statt Auszahlung kam Geld von Fremden auf sein Girokonto, weiter an ein „Sicherheitskonto“. Drei Konten zu, Schaden laut Anzeige rund 62.000 €.
+
+So werben Betrüger „Finanzagenten“ an: fremdes Geld annehmen, Bitcoin kaufen, weiterleiten. Strafbar als Geldwäsche (Verbraucherzentrale, 07.08.2026).
+
+Wer fremdes Geld weiterschickt, wird vom Opfer zum Verdächtigen.
+
+Was hätte dich gestoppt?"""),
+
+ dict(thema='Nebenjob als „Finanzagent“ oder „Crypto-Assistent“ (fremdes Geld auf dem eigenen Konto, Bitcoin kaufen und weiterleiten; Quelle Verbraucherzentrale 07.08.2026)', feld='Betrug', var='Story', frei_ab='2026-11-26', verwendet=None,
+      text="""Meine Gebühr: dreimal gezahlt, null bekommen. Beim „Nebenjob“ zahlst du anders.
+
+Ich hab Geld geschickt, um Geld zu bekommen. Beim Job als „Finanzagent“ läuft es umgekehrt: Fremdes Geld landet auf deinem Konto, du kaufst Bitcoin und leitest ihn weiter (Verbraucherzentrale, 07.08.2026).
+
+Beide Male verdient nur einer. Beim Nebenjob kommt die Anzeige wegen Geldwäsche dazu.
+
+Geld, das nur durch dein Konto läuft, kommt als Anzeige zurück.
+
+Würdest du fremdes Geld über dein Konto laufen lassen?"""),
 ]
