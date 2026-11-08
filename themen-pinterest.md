@@ -76,3 +76,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 64 | 10.11.2026 20:24 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Betrug erkennen vor dem Senden: 3 Fragen, bevor Geld deine Wallet verlässt (nie rückholbar) | pinterest/p-64.png | eingeplant
 - 65 | 11.11.2026 10:57 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Krypto Betrug erkennen: Promi wirbt für Bitcoin-Plattform? 3 Unterschiede zum echten Interview | pinterest/p-65.png | eingeplant
 - 66 | 11.11.2026 20:09 | Bitcoin sicher aufbewahren | Karussell (4 Folien) (hell) | Krypto Sicherheit: Börsen-Konto gehackt? 3 Schalter, die vorher stehen müssen (je einer pro Folie) | pinterest/p-66-1.png bis p-66-4.png | eingeplant
+- 67 | 12.11.2026 11:08 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Krypto Betrug erkennen: „Hi“ von fremder Nummer? 3 Warnsignale, bevor aus dem Chat Geldanlage wird | pinterest/p-67.png | eingeplant
+- 68 | 12.11.2026 20:41 | Krypto-Betrug erkennen | Balken (schwarz) | Krypto Betrug erkennen ab 60: 83.000 $ verliert ein Opfer im Schnitt (FBI), 3 Regeln für Eltern | pinterest/p-68.png | eingeplant
+- 69 | 13.11.2026 11:19 | Krypto für Anfänger | Kurve (hell) | Bitcoin Sparplan oder Einmalkauf? 3 Regeln, warum ich in Teilen kaufe (5.000 $ an einem Tag weg) | pinterest/p-69.png | eingeplant
+- 70 | 13.11.2026 20:27 | Krypto für Anfänger | Zahl (schwarz) | Kryptowährung erklärt: Warum es nie mehr als 21 Millionen Bitcoin gibt, 3 Fakten für Anfänger | pinterest/p-70.png | eingeplant

@@ -721,6 +721,45 @@ PINS = [
           pin2('light', 'Schalter 3: <em>Auszahlung</em> gesperrt', visual=vz_num('<span style="font-size:150px">0 € raus</span>', 'Auszahlungen sperren, solange du keine brauchst. Freigabe nur durch dich.'),
                points=['Gesperrt: kein Cent raus', 'Fremder im Konto: Geld bleibt'], marks='check', cta='Speichern, bevor ein Fremder im Konto ist', size='sm'),
       ])),
+
+ # 12. und 13.11.2026 (Winterzeit): Fall der Woche (Peter, Kreditkarte) lief am 09.11. in p-61, darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-66 (Karussell): Beispielsatz -> Balken -> Kurve -> Zahl. Farben nach p-66 (hell): akzent -> schwarz -> hell -> schwarz.
+ # Neue Themen: „Hi“ von fremder Nummer (Watchlist Internet), Verluste über 60 (FBI IC3 2024), Sparplan gegen Einmalkauf, 21 Millionen Bitcoin.
+ dict(d='2026-11-12', t='11:08', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-67',
+      titel='Krypto Betrug erkennen: „Hi“ von fremder Nummer? 3 Warnsignale, bevor aus dem Chat Geldanlage wird',
+      text="""Krypto Betrug erkennen fängt bei einer harmlosen Nachricht an. Eine fremde Nummer schreibt „Hi“ oder „Wer bist du?“. Erst wird es persönlich, dann geht es um Geldanlage auf einer Plattform der Betrüger. Auszahlen geht nur gegen erfundene Gebühren. Ein Wiener verlor so gut 200.000 € (Quelle: Watchlist Internet laut futurezone, 17.04.2025). Bei mir kam der Kontakt über Instagram. Vor der Auszahlung wollte er eine „Netzwerkgebühr“. Ich zahlte, es kam nie etwas. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: nachgestellter Satz „Hi. Wer bist du?“ von fremder Nummer in einer Sprechblase, drei Warnsignale.',
+      build=lambda: build_pin('p-67', [pin2('acc', '„Hi“ von fremder Nummer? <em>3&nbsp;Warnsignale</em> im Chat',
+          visual=vz_bubble('„Hi. Wer bist du? Sorry, falsche Nummer. Wie geht es dir so?“', 'Nachgestellt. Ein Wiener: gut 200.000 € weg.'),
+          points=['Fremde schreibt zuerst', 'Bald geht es um Geldanlage', 'Gebühr vor der Auszahlung'],
+          marks='warn', cta='Speichern, bevor du Fremden antwortest', size='xs')])),
+
+ dict(d='2026-11-12', t='20:41', board=B_BET, f='Balken', farbe='schwarz', bild='p-68',
+      titel='Krypto Betrug erkennen ab 60: 83.000 $ verliert ein Opfer im Schnitt (FBI), 3 Regeln für Eltern',
+      text="""Krypto Betrug erkennen wird ab 60 zur Pflicht. Menschen über 60 verloren 2024 fast 2,8 Mrd. $ an Krypto-Betrüger, im Schnitt 83.000 $ pro Opfer. Bei anderen Online-Delikten lag der Schnitt bei 19.372 $ (Quelle: FBI-Bericht IC3 2024, laut Decrypt, 24.04.2025). Meine 70.000 $ gingen an eine Wallet-App, die nur echt aussah. Den Anbieter gab es als Handy-App nie. Gefragt hab ich vorher niemanden. Heute redet vor jeder Zahlung ein zweiter Mensch mit. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: zwei Balken, 83.000 $ pro Opfer über 60 gegen 19.372 $ bei anderen Online-Delikten, drei Regeln.',
+      build=lambda: build_pin('p-68', [pin2('', 'Krypto-Betrug ab 60: <em>83.000&nbsp;$</em> pro Opfer',
+          visual=vz_bars([('Opfer über 60', '83.000 $', 100), ('Andere Online-Delikte', '19.372 $', 23)], 'Schnitt pro Opfer 2024 laut FBI. Meine App: 70.000 $.'),
+          points=['Niemand ruft zuerst an', 'Gewinn nur am Bildschirm', 'Erst fragen, dann zahlen'],
+          cta='Speichern und deinen Eltern schicken', size='sm')])),
+
+ dict(d='2026-11-13', t='11:19', board=B_ANF, f='Kurve', farbe='hell', bild='p-69',
+      titel='Bitcoin Sparplan oder Einmalkauf? 3 Regeln, warum ich in Teilen kaufe (5.000 $ an einem Tag weg)',
+      text="""Bitcoin Sparplan oder alles auf einmal, die Frage kam bei mir zu spät. Mein erster großer Kauf waren 5.000 $ an einem Tag, in einen Coin mit bekanntem Gesicht. Die Macher verkauften, der Kurs fiel senkrecht, das Geld war weg. Heute kaufe ich in Teilbeträgen, an einem festen Tag, mit derselben Summe. Ein roter Tag trifft so nur einen kleinen Teil. Die Kurve im Pin zeigt keinen echten Kurs, nur die Punkte. Keine Kursprognose, keine Gewinnzusage, mein Lehrgeld. Kostenloses Training über den Link.""",
+      alt='Bitcoin Sparplan: Kurve mit Punkten in festem Abstand, jeder Punkt ein Kauf, darunter drei Regeln gegen den Einmalkauf.',
+      build=lambda: build_pin('p-69', [pin2('light', 'Bitcoin Sparplan oder alles auf einmal? <em>3&nbsp;Regeln</em>',
+          visual=vz_curve('Jeder Punkt ein Kauf. Mein Einmalkauf: 5.000 $, an einem Tag weg.'),
+          points=['Nie alles an einem Tag', 'Feste Summe, fester Tag', 'Der Kauftag kennt keine Farbe'],
+          cta='Speichern, bevor du alles auf einmal kaufst', size='sm')])),
+
+ dict(d='2026-11-13', t='20:27', board=B_ANF, f='Zahl', farbe='schwarz', bild='p-70',
+      titel='Kryptowährung erklärt: Warum es nie mehr als 21 Millionen Bitcoin gibt, 3 Fakten für Anfänger',
+      text="""Kryptowährung erklärt an einer Zahl: 21 Millionen Bitcoin, mehr wird es nie geben. Die Grenze steht im Code und hält, weil sich alle im Netzwerk darauf einigen. 2022 war der 19-millionste Bitcoin da (Quelle: BTC-ECHO, 04.04.2022). Ich lebe in Venezuela, wo das eigene Geld nachgedruckt wurde, bis die Preise in Dollar standen. Knapp heißt trotzdem nie, dass der Kurs steigt. Ende 2024 hab ich in Panik alles verkauft. Keine Kursprognose, keine Gewinnzusage. Kostenloses Training über den Link.""",
+      alt='Kryptowährung erklärt: große Zahl 21 Mio., mehr Bitcoin wird es nie geben, darunter drei Fakten für Anfänger.',
+      build=lambda: build_pin('p-70', [pin2('', 'Kryptowährung erklärt: Bitcoin endet bei <em>21&nbsp;Mio.</em>',
+          visual=vz_num('<span style="font-size:170px">21 Mio.</span>', 'Mehr Bitcoin wird es nie geben. Ich lebe in einem Land, das sein Geld nachdruckt.'),
+          points=['Niemand druckt nach', 'Die Grenze kennt jeder vorher', 'Knapp heißt nie: steigt'],
+          cta='Speichern für die Frage, was Bitcoin eigentlich ist', size='sm')])),
 ]
 
 if __name__ == '__main__':
