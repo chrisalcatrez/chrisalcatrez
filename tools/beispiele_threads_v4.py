@@ -587,7 +587,7 @@ Ein niedriger Stückpreis ist kein Schnäppchen, nur eine kleine Einheit.
 
 Hast du schon mal gekauft, weil ein Coin pro Stück billig aussah?"""),
 
- dict(thema='BaFin-Warnung: 23 fast gleiche Finanz- und Krypto-Seiten ohne Erlaubnis', feld='Betrug', var='These', frei_ab='2026-11-02', verwendet=None,
+ dict(thema='BaFin-Warnung: 23 fast gleiche Finanz- und Krypto-Seiten ohne Erlaubnis', feld='Betrug', var='These', frei_ab='2026-11-02', verwendet='13.11.2026',
       text="""Eine Erlaubnis sieht man keiner Webseite an. Man schlägt sie nach.
 
 Die BaFin warnt seit dem 14.10.2026 vor 23 fast gleich gebauten Seiten für Finanz- und Kryptodienste. Andere Namen, derselbe Werbesatz, keine Erlaubnis (Quelle: BaFin).
@@ -883,4 +883,65 @@ Beide Male verdient nur einer. Beim Nebenjob kommt die Anzeige wegen Geldwäsche
 Geld, das nur durch dein Konto läuft, kommt als Anzeige zurück.
 
 Würdest du fremdes Geld über dein Konto laufen lassen?"""),
+
+ dict(thema='Panikverkauf Ende 2024 (Damals–Heute, fester Tag statt Panikknopf)', feld='Psychologie', var='These', frei_ab='2026-11-27', verwendet=None,
+      text="""Wer ohne Plan kauft, verkauft mit Panik.
+
+Ende 2024 hab ich alle Bitcoin verkauft. Der Kurs fiel, und ich hatte für diesen Tag keine Regel. Am 07.10.2025 stand ein Bitcoin über 126.000 $ (Quelle: Börse Express).
+
+Ein Sparplan mit festem Tag und fester Summe kennt keinen Panikknopf.
+
+Die Regel für rote Tage schreibt man an einem grünen.
+
+Hast du eine Regel für den Tag, an dem dein Depot 30 % im Minus steht?"""),
+ dict(thema='Panikverkauf Ende 2024 (Damals–Heute, fester Tag statt Panikknopf)', feld='Psychologie', var='Fall', frei_ab='2026-11-27', verwendet=None,
+      text="""Ende 2024 alles verkauft. Oktober 2025 ein Rekord über 126.000 $.
+
+Mein Fall, mit Zahlen. Verkauft in Panik, an einem Tag, an dem der Kurs fiel. Zehn Monate später meldete Börse Express am 07.10.2025 ein Allzeithoch über 126.000 $.
+
+Verpasst hab ich das Hoch, weil ich ohne Regel im Markt war. Nie wegen des Kurses.
+
+Wer ohne Regel kauft, verkauft am schlechtesten Tag.
+
+Was war dein teuerster Verkauf?"""),
+ dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='These', frei_ab='2026-11-28', verwendet=None,
+      text="""Eine Bank sperrt dein Konto nie per Mail um 23:59 Uhr.
+
+Genau das drohte eine Phishing-Mail am 03.11.2026, Betreff „Zugang läuft heute ab“, Knopf „Zugang sofort entsperren“ (Quelle: Phishing-Radar der Verbraucherzentrale). Am 06.11. folgte eine mit 14 Tagen Frist und Bitte um Ausweiskopie.
+
+Je kürzer die Frist, desto kleiner die Prüfung. Bei Krypto gibt es danach keine Rückbuchung.
+
+Wer dir eine Frist setzt, will deine Prüfung abkürzen.
+
+Welche Frist hat dich zuletzt zum Klicken gebracht?"""),
+ dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet=None,
+      text="""Zwei Mails, eine Woche, zwei Fristen. Heute 23:59 Uhr und 14 Tage.
+
+Phishing-Radar der Verbraucherzentrale, 03.11.2026: „Zugang läuft heute ab“, Sperre um 23:59 Uhr. 06.11.2026: „Dokumentenprüfung zur Geldwäscheverordnung“, Ausweiskopie hochladen, Sperre ab Tag 15.
+
+Beide im Namen echter Banken, beide mit Knopf und Frist. Bei Krypto-Konten dieselbe Masche, ohne Rückbuchung.
+
+Eine Frist in einer Mail ist ein Werkzeug, kein Service.
+
+Hättest du bei 14 Tagen Frist eher geklickt als bei 24 Stunden?"""),
+ dict(thema='Binance-Hack 29.10.2026 (6,3 Mrd. $, gefälschtes Vorstellungsgespräch; Guthaben auf der Börse ist ein Versprechen)', feld='Sicherheit', var='These', frei_ab='2026-11-28', verwendet=None,
+      text="""Auf der Börse besitzt du ein Login, keinen Bitcoin.
+
+Am 29.10.2026 flossen bei Binance über 6,3 Mrd. $ ab. Der Einstieg im September: ein gefälschtes Vorstellungsgespräch für einen Entwickler (Quelle: it-daily, 04.11.2026). Binance ersetzte 98 % aus eigener Kasse.
+
+Diesmal reichte die Kasse. Das Guthaben der Kunden hing an ihr, keine Sekunde an einem eigenen Schlüssel.
+
+Ein Login ist ein Zugang, kein Besitz.
+
+Wie lange liegt dein Krypto schon auf einer Börse, ohne dass du es je bewegt hast?"""),
+ dict(thema='Binance-Hack 29.10.2026 (6,3 Mrd. $, gefälschtes Vorstellungsgespräch; Guthaben auf der Börse ist ein Versprechen)', feld='Sicherheit', var='Fall', frei_ab='2026-11-28', verwendet=None,
+      text="""6,34 Mrd. $ in vier Stunden. Acht Wochen Vorbereitung.
+
+Binance, 29.10.2026, 20:05 UTC, Eindämmung 00:10 UTC (Quelle: cryptoticker, 03.11.2026). Der Einstieg im September: ein gefälschtes Vorstellungsgespräch mit Schadsoftware in der Programmieraufgabe. Am 20.10. zwei Rechner von Wallet-Ingenieuren (Quelle: bitcoinbasis, 07.11.2026).
+
+Binance ersetzte 98 % aus eigener Kasse.
+
+Die sicherste Börse ist eine Firma mit Mitarbeitern.
+
+Weißt du aus dem Kopf, wie viel davon auf einer Börse liegt?"""),
 ]
