@@ -403,7 +403,7 @@ Der Einsatz bestimmt den Schaden, nie die Einsicht.
 
 Wie viel hat dich dein erster Krypto-Kauf gekostet?"""),
 
- dict(thema='Anlagebetrug in WhatsApp-Gruppen (ungefragt hinzugefügt, Chatbots als Mitglieder)', feld='Betrug', var='These', frei_ab='2026-10-29', verwendet=None,
+ dict(thema='Anlagebetrug in WhatsApp-Gruppen (ungefragt hinzugefügt, Chatbots als Mitglieder)', feld='Betrug', var='These', frei_ab='2026-10-29', verwendet='15.11.2026',
       text="""19,6 Mio. € Schaden. In der WhatsApp-Gruppe gewinnt trotzdem jeder.
 
 Die Zahl meldet Österreichs Finanzaufsicht FMA für 2025, bei 843 Betrugsmeldungen. Als neue Masche nennt sie WhatsApp-Gruppen. Die jubelnde „Community“ spielen laut FMA oft Chatbots.
@@ -528,7 +528,7 @@ Lautstärke im Feed ersetzt kein Verstehen.
 
 Was weißt du über den letzten Coin, den dir jemand empfohlen hat?"""),
 
- dict(thema='Informationsflut (voller Feed gegen festen Kauftag)', feld='Psychologie', var='These', frei_ab='2026-10-31', verwendet=None,
+ dict(thema='Informationsflut (voller Feed gegen festen Kauftag)', feld='Psychologie', var='These', frei_ab='2026-10-31', verwendet='16.11.2026',
       text="""Zehn Krypto-Kanäle im Feed sind zehn Verkäufer im Wohnzimmer.
 
 Jeder verdient, wenn du handelst. Keiner, wenn du wartest. Darum jeden Tag ein neuer Coin, jeden Abend eine neue Meinung.
@@ -944,4 +944,44 @@ Binance ersetzte 98 % aus eigener Kasse.
 Die sicherste Börse ist eine Firma mit Mitarbeitern.
 
 Weißt du aus dem Kopf, wie viel davon auf einer Börse liegt?"""),
+ dict(thema='Venezuela: Bolívar verlor 2025 82,7 % gegen den Dollar (52 auf 301 Bolívar je Dollar, Quelle BCV laut EFE 31.12.2025); Schwankung gegen Entwertung', feld='Geldentwertung', var='Fall', frei_ab='2026-11-29', verwendet=None,
+      text="""52 Bolívar je Dollar im Januar. 301 im Dezember.
+
+So stand der offizielle Kurs der Zentralbank Venezuelas 2025, ein Minus von 82,7 % in einem Jahr (Quelle: BCV laut EFE, 31.12.2025). Der Mindestlohn blieb bei 130 Bolívar.
+
+Ich lebe hier. Darum stehen alle Preise in Dollar, und Krypto ist Alltag.
+
+Bitcoin schwankt. Ein Bolívar fällt.
+
+Wie viel Prozent dürfte dein Geld im Jahr verlieren, bevor du es wechselst?"""),
+ dict(thema='Venezuela: Bolívar verlor 2025 82,7 % gegen den Dollar (52 auf 301 Bolívar je Dollar, Quelle BCV laut EFE 31.12.2025); Schwankung gegen Entwertung', feld='Psychologie', var='These', frei_ab='2026-11-29', verwendet=None,
+      text="""Bitcoin hat rote Tage. Der Bolívar hatte 2025 ein rotes Jahr.
+
+Minus 82,7 % gegen den Dollar, von 52 auf 301 (Quelle: BCV laut EFE, 31.12.2025). Ich lebe in Venezuela, Preise stehen hier in Dollar.
+
+Bitcoin fiel vom Rekord über 126.000 $ auf unter 60.000 $ (Quellen: Börse Express; dpa-AFX). Geld mit nur einer Richtung tut jeden Tag weh.
+
+Wer Schwankung fürchtet, sollte Entwertung fürchten.
+
+Was wäre dir lieber: ein Kurs, der schwankt, oder Geld, das jedes Jahr weniger kauft?"""),
+ dict(thema='Promi-Deepfake-Werbung für Trading-Plattformen (Datensatz 1.350 $ laut OCCRP/test.de 14.10.2025; „10.000 € pro Woche“, kein Impressum, Quelle Verbraucherzentrale Thüringen 09.07.2025; Rentner 251 € Start, 193.000 € am Bildschirm, Kredite 83.000 €, Quelle Verbraucherzentrale Sachsen-Anhalt 24.08.2026)', feld='Betrug', var='These', frei_ab='2026-11-30', verwendet=None,
+      text="""Ein bekanntes Gesicht in der Werbung senkt den Preis für dein Vertrauen.
+
+1.350 $ zahlt ein Callcenter laut OCCRP für den Datensatz eines Opfers (Quelle: test.de, 14.10.2025). Davor ein Video: Bild echt, Stimme von einer KI ersetzt, dazu „10.000 € pro Woche“ (Quelle: Verbraucherzentrale Thüringen, 09.07.2025).
+
+Mich hat ein bekanntes Gesicht 5.000 $ gekostet, in einem Coin.
+
+Wer dir aus einem Video Geld verspricht, verdient an deinem Klick.
+
+Welchem Gesicht hast du zuletzt im Netz geglaubt?"""),
+ dict(thema='Promi-Deepfake-Werbung für Trading-Plattformen (Datensatz 1.350 $ laut OCCRP/test.de 14.10.2025; „10.000 € pro Woche“, kein Impressum, Quelle Verbraucherzentrale Thüringen 09.07.2025; Rentner 251 € Start, 193.000 € am Bildschirm, Kredite 83.000 €, Quelle Verbraucherzentrale Sachsen-Anhalt 24.08.2026)', feld='Betrug', var='Story', frei_ab='2026-11-30', verwendet=None,
+      text="""Ein Gesicht, dem ich vertraut hab, kostete mich 5.000 $.
+
+Kein Video, ein Coin. Ein bekanntes Gesicht warb dafür, ich kaufte. Die Macher verkauften auf einmal.
+
+Heute tauscht eine KI die Stimme eines Politikers gegen Werbung für eine Trading-Plattform (Quelle: test.de, 14.10.2025). Ein Rentner startete so mit 251 € und endete mit Krediten über 83.000 € (Quelle: Verbraucherzentrale Sachsen-Anhalt, 24.08.2026).
+
+Ein Gesicht ist Werbung, kein Beleg.
+
+Welchem Gesicht hättest du Geld anvertraut?"""),
 ]
