@@ -49,3 +49,6 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 44 | 10.11.2026 | Schritt-für-Schritt-Anleitung | Bestätigungssuche: Statt Fremde nach einem Ja zu fragen, stelle ich mir vor jedem Kauf 4 Fragen selbst (mein System als Fragen, 70.000 $ Lehrgeld)
 - 45 | 11.11.2026 | FAQ beantworten | FAQ: „Bin ich als absoluter Anfänger richtig?“ (Krypto-Besitzer bei 31 % der Antworten falsch, über ein Drittel hält Bitcoin für stabil laut BaFin-Umfrage, Panikverkauf Ende 2024)
 - 46 | 12.11.2026 | Aufzählung | Seed-Phrase: 4 Momente, in denen jemand deine 12 Wörter will (Anruf zum „Synchronisieren“ mit erfundenen Wörtern, Briefe mit QR-Code laut BleepingComputer und BACS, Fake-Apps laut Kaspersky, Recovery Scam)
+- 47 | 13.11.2026 | Statement-Karussell | Ein Coin für 0,0001 $ ist nie billig (Bitcoin gegen Altcoins und Memecoins, eigener Memecoin-Verlust, 3,7 Mio. tote Coins seit 2021 laut CoinGecko)
+- 48 | 14.11.2026 | Gegenüberstellung | Sparplan statt Timing, früher ich vs. heute ich (Ende 2024 alle Bitcoin in Panik verkauft, im Oktober 2025 über 126.000 $ laut Börse Express)
+- 49 | 15.11.2026 | Nischenmythos entlarven | Mythos: „Eine Krypto-Überweisung kann ich zurückholen“ (Address Poisoning, fast 50 Mio. $ laut BTC-ECHO; eigene Netzwerkgebühr; Rückholung gegen Vorkasse)

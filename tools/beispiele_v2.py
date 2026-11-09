@@ -1515,6 +1515,175 @@ Welcher der 4 Momente ist dir schon begegnet? Schreib die Zahl in die Kommentare
 
 Speichere dir das, bevor jemand nach deinen 12 Wörtern fragt.''')
 
+# ---------- Beitrag 47: Statement-Karussell (Ein Coin fuer 0,0001 $ ist nie billig; Memecoin-Verlust, CoinGecko 3,7 Mio. tote Coins) ----------
+Q_CG = 'Quelle: CoinGecko Research, 2025 (Coins auf GeckoTerminal seit 2021)'
+POSTS['beitrag-47'] = dict(
+    date='2026-11-13', fmt='Statement-Karussell', topic='Ein Coin für 0,0001 $ ist nie billig (Bitcoin gegen Altcoins und Memecoins, eigener Memecoin-Verlust, 3,7 Mio. tote Coins seit 2021 laut CoinGecko)',
+    slides=[
+        s_hook('STATEMENT', 'Ein Coin für 0,0001 $ ist %s' % A('nie billig.'),
+               sub='Viele Anfänger kaufen lieber Millionen kleine Coins als ein Stück Bitcoin. Mit einem Memecoin hab ich Geld verloren. Seitdem schaue ich auf etwas anderes als den Preis.',
+               cue='Wie viele kleine Coins schon tot sind &#8594;', size=''),
+        s_proof('DER BELEG', 'Über die Hälfte der neuen Coins seit 2021 ist gestorben.',
+                big='3,7 Mio.', big_sub='Coins ohne Handel. 1,8 Mio. davon allein im ersten Quartal 2025.',
+                src=Q_CG, cue='Warum der kleine Preis dich blendet &#8594;'),
+        s_point('WARUM', 'Der Preis pro Stück sagt %s' % A('kaum etwas.'),
+                ['Ein Rechenbeispiel: 1 Billion Stück zu je 0,0001 $ sind zusammen 100 Mio. $ wert.',
+                 D('Billig wirkt der Coin nur, weil es so viele Stück gibt. Mehr Luft nach oben hat er dadurch nie.')],
+                cue='Mein eigener Memecoin &#8594;'),
+        s_point('MEIN FALL', 'Mit einem Memecoin %s' % A('hab ich Geld verloren.'),
+                ['Verstanden, was ich da kaufe, hatte ich damals kaum.',
+                 D('Erst später hab ich Schritt für Schritt verstanden, was ich kaufe. Daraus wurde ein einfaches, langfristiges System.')],
+                cue='Heißt das, jeder kleine Coin ist Betrug? &#8594;'),
+        s_point('FAIR BLEIBEN', 'Ist jeder kleine Coin Betrug? %s' % A('Nein.'),
+                ['Ein Coin kann auch ohne Betrug sterben. Es fehlen Käufer, Nutzen oder ein Team, das bleibt.',
+                 D('Für dein Geld ist der Grund egal. Ohne Handel ist ein Coin null wert.')],
+                cue='Worauf ich statt des Preises schaue &#8594;'),
+        s_point('MEINE REGEL', 'Ich schaue auf den Coin, %s' % A('nie auf den Preis pro Stück.'),
+                ['Kann ich in zwei Sätzen erklären, was er macht? Wer kauft ihn mir morgen wieder ab?',
+                 D('Bleibt eine Antwort aus, bleibt mein Geld, wo es ist.')],
+                cue='Dein Merkzettel zum Speichern &#8594;', size='m'),
+        s_memo('ZUM SPEICHERN', 'Bevor dich ein kleiner Preis lockt, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Ein kleiner Preis pro Stück heißt nie billig.',
+            'Rechne: Stückzahl mal Preis.',
+            'Über die Hälfte der neuen Coins seit 2021 ist tot.',
+            'Kannst du ihn in zwei Sätzen erklären? Sonst kein Kauf.',
+        ], 'Schick das jemandem, der gerade Millionen kleine Coins kaufen will.'),
+    ],
+    alts=['Statement: Ein Coin für 0,0001 Dollar ist nie billig. Viele Anfänger kaufen lieber Millionen kleine Coins als ein Stück Bitcoin. Chris hat mit einem Memecoin Geld verloren und schaut seitdem auf etwas anderes als den Preis',
+          'Der Beleg: Über die Hälfte der neuen Coins seit 2021 ist gestorben. 3,7 Millionen Coins ohne Handel, 1,8 Millionen davon allein im ersten Quartal 2025. Quelle: CoinGecko Research, 2025',
+          'Warum: Der Preis pro Stück sagt kaum etwas. Rechenbeispiel: 1 Billion Stück zu je 0,0001 Dollar sind zusammen 100 Millionen Dollar wert. Billig wirkt der Coin nur, weil es so viele Stück gibt',
+          'Mein Fall: Mit einem Memecoin hab ich Geld verloren. Verstanden, was ich kaufe, hatte ich damals kaum. Erst später hab ich Schritt für Schritt verstanden, was ich kaufe, daraus wurde ein einfaches, langfristiges System',
+          'Fair bleiben: Ist jeder kleine Coin Betrug? Nein. Ein Coin kann auch ohne Betrug sterben, es fehlen Käufer, Nutzen oder ein Team, das bleibt. Für dein Geld ist der Grund egal, ohne Handel ist ein Coin null wert',
+          'Meine Regel: Ich schaue auf den Coin, nie auf den Preis pro Stück. Kann ich in zwei Sätzen erklären, was er macht? Wer kauft ihn mir morgen wieder ab? Bleibt eine Antwort aus, bleibt mein Geld, wo es ist',
+          'Merkzettel, bevor dich ein kleiner Preis lockt: ein kleiner Preis pro Stück heißt nie billig; rechne Stückzahl mal Preis; über die Hälfte der neuen Coins seit 2021 ist tot; kannst du ihn in zwei Sätzen erklären, sonst kein Kauf. Schick das jemandem, der gerade Millionen kleine Coins kaufen will'],
+    caption='''Millionen Stück für 50 €. Das fühlt sich nach einem Schnäppchen an. Ist es fast nie.
+
+Viele Krypto-Anfänger kaufen lieber Millionen kleine Coins als ein Stück Bitcoin. Der Gedanke: Bei 0,0001 $ ist viel Luft nach oben.
+
+Zuerst die Zahl:
+– Seit 2021 sind rund 3,7 Millionen Coins gestorben, über die Hälfte aller neu gelisteten.
+– 1,8 Millionen davon allein im ersten Quartal 2025 (Quelle: CoinGecko Research, 2025; gezählt wurden Coins auf GeckoTerminal).
+
+Warum der Preis pro Stück täuscht:
+– Rechenbeispiel: 1 Billion Stück zu je 0,0001 $ sind zusammen 100 Mio. $ wert.
+– Billig wirkt der Coin nur, weil es so viele Stück gibt. Mehr Luft nach oben hat er dadurch nie.
+
+Mein Fall: Mit einem Memecoin hab ich Geld verloren. Verstanden, was ich da kaufe, hatte ich damals kaum. Erst später hab ich Schritt für Schritt verstanden, was ich kaufe. Daraus wurde ein einfaches, langfristiges System.
+
+Ist jeder kleine Coin Betrug? Nein. Ein Coin kann auch ohne Betrug sterben. Für dein Geld ist der Grund egal. Ohne Handel ist ein Coin null wert.
+
+Dein Merkzettel:
+– Ein kleiner Preis pro Stück heißt nie billig.
+– Rechne: Stückzahl mal Preis.
+– Über die Hälfte der neuen Coins seit 2021 ist tot.
+– Kannst du ihn in zwei Sätzen erklären? Sonst kein Kauf.
+
+Keine Coin-Empfehlung, keine Kursprognose. Nur mein Lehrgeld, für jeden Anfänger, der zwischen Bitcoin, Altcoins und Memecoins an der Börse steht und sich vor Betrug schützen will.
+
+Hast du schon mal einen Coin gekauft, weil er so billig aussah? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der gerade Millionen kleine Coins kaufen will.''')
+
+# ---------- Beitrag 48: Gegenueberstellung (Frueher ich, heute ich: Panikverkauf Ende 2024, Sparplan statt Timing) ----------
+POSTS['beitrag-48'] = dict(
+    date='2026-11-14', fmt='Gegenüberstellung', topic='Sparplan statt Timing, früher ich vs. heute ich (Ende 2024 alle Bitcoin in Panik verkauft, im Oktober 2025 über 126.000 $ laut Börse Express)',
+    slides=[
+        s_vs('FRÜHER ICH · HEUTE ICH', 'Ende 2024 alle Bitcoin in Panik verkauft. Im Oktober 2025: %s' % A('über 126.000 $.'),
+             'FRÜHER ICH', ['Gekauft, ohne zu verstehen, was', 'Andere gefragt, ob jetzt der Moment ist', 'Bei Rot alles verkauft', 'Entschieden hat das Gefühl'],
+             'HEUTE ICH', ['Erst verstehen, dann kaufen', 'Fester Tag, feste Summe', 'Der Plan für rote Tage steht vorher', 'Entscheidet der Plan, langfristig'],
+             'Speichere dir das für den nächsten roten Tag.', src='Quelle Kurs: Börse Express, Oktober 2025. Keine Kursprognose.'),
+    ],
+    alts=['Gegenüberstellung, früher ich und heute ich: Ende 2024 alle Bitcoin in Panik verkauft, im Oktober 2025 stand Bitcoin über 126.000 Dollar. Früher ich: gekauft, ohne zu verstehen, was; andere gefragt, ob jetzt der Moment ist; bei Rot alles verkauft; entschieden hat das Gefühl. Heute ich: erst verstehen, dann kaufen; fester Tag, feste Summe; der Plan für rote Tage steht vorher; entscheidet der Plan, langfristig. Quelle Kurs: Börse Express, Oktober 2025, keine Kursprognose. Speichere dir das für den nächsten roten Tag'],
+    caption='''Zwei Klicks, eine ruhige Nacht. Und ein Verkauf, den ich heute anders machen würde.
+
+Ende 2024 hab ich alle Bitcoin in Panik verkauft. Der Kurs fiel, einen Plan dafür hatte ich keinen. Anfang Oktober 2025 stand ein Bitcoin über 126.000 $ (Quelle: Börse Express, „Bitcoin: 126.000 Dollar geknackt“, Oktober 2025). Ich hab zugeschaut.
+
+Früher ich:
+– Gekauft, ohne zu verstehen, was.
+– Andere gefragt, ob jetzt der richtige Moment ist.
+– Bei Rot alles verkauft.
+– Entschieden hat das Gefühl.
+
+Heute ich:
+– Erst verstehen, dann kaufen.
+– Fester Tag, feste Summe. Den perfekten Moment suche ich keinen mehr.
+– Der Plan für rote Tage steht vor dem Kauf.
+– Entscheidet der Plan, langfristig.
+
+Der Kurs kann morgen wieder fallen. Keine Kursprognose, keine Gewinnzusage, keine Coin-Empfehlung. Nur meine Erfahrung, für jeden Krypto-Anfänger, der Bitcoin an der Börse kaufen will, ohne an roten Tagen vor dem Handy zu sitzen.
+
+Was machst du an einem roten Tag: halten, kaufen oder verkaufen? Schreib es in die Kommentare.
+
+Speichere dir das für den nächsten roten Tag.''')
+
+# ---------- Beitrag 49: Nischenmythos (Eine Krypto-Ueberweisung kann ich zurueckholen; Address Poisoning fast 50 Mio. $, Netzwerkgebuehr) ----------
+Q_POISON = 'Quelle: BTC-ECHO, 20.12.2025; The Block'
+Q_CT = 'Quelle: cryptoticker, „Krypto an die falsche Adresse gesendet“'
+POSTS['beitrag-49'] = dict(
+    date='2026-11-15', fmt='Nischenmythos entlarven', topic='Mythos: „Eine Krypto-Überweisung kann ich zurückholen“ (Address Poisoning, fast 50 Mio. $ laut BTC-ECHO; eigene Netzwerkgebühr; Rückholung gegen Vorkasse)',
+    slides=[
+        s_hook('MYTHOS', '„Eine Krypto-Überweisung kann ich %s“' % A('zurückholen.'),
+               sub='Fast 50 Mio. $ gingen im Dezember 2025 an eine fremde Adresse. Kopiert aus dem eigenen Verlauf.',
+               cue='Wie das passierte &#8594;', size=''),
+        s_proof('DER BELEG', 'Erst ein Testbetrag. Dann der Rest, %s' % A('an die falsche Adresse.'),
+                big='50 Mio. $', big_sub='in USDT. Die fremde Adresse stand im Verlauf, Anfang und Ende stimmten mit der echten überein.',
+                src=Q_POISON, cue='Warum ihm keiner das Geld zurückbucht &#8594;'),
+        s_point('DIE WAHRHEIT', 'Bestätigt heißt %s' % A('endgültig.'),
+                ['Zwischen dir und dem Empfänger sitzt keine Bank. Keiner kann die Überweisung stoppen oder zurückbuchen.',
+                 D('Zurück kommt das Geld nur, wenn der Empfänger es freiwillig zurückschickt.')],
+                src=Q_CT, cue='Mein eigener Fall &#8594;'),
+        s_point('MEIN FALL', 'Ich hab einem Betrüger %s' % A('eine Gebühr geschickt.'),
+                ['Ein Instagram-Kontakt wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt.',
+                 D('Die Auszahlung kam nie. Die Gebühr kam nie zurück. Einen Rückweg gab es keinen.')],
+                cue='Dann kommen die Helfer &#8594;'),
+        s_point('DIE ZWEITE FALLE', 'Wer verspricht, es zurückzuholen, %s' % A('will zuerst Geld.'),
+                ['Nach einem Verlust melden sich „Helfer“, Kanzleien oder angebliche Behörden. Erst Vorkasse, dann sei das Geld wieder da.',
+                 D('Recovery Scam heißt das. Wer Vorkasse fürs Zurückholen will, holt nur dein restliches Geld.')],
+                src='Quelle: Verbraucherzentrale Hessen, 19.08.2026; cryptoticker', size='m', cue='Was wirklich schützt: dein Test vor dem Senden &#8594;'),
+        s_point('DEIN TEST', 'Schützen kannst du dich %s' % A('nur vor dem Senden.'),
+                ['Adresse nie aus dem Verlauf kopieren. Aus der Quelle holen, dann Anfang, Mitte und Ende vergleichen.',
+                 D('Ein Testbetrag hilft nur, wenn du danach dieselbe Adresse prüfst.')],
+                size='m', cue='Dein Merkzettel zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Vor jeder Krypto-Überweisung, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Bestätigt ist endgültig. Eine Rückbuchung gibt es nie.',
+            'Adresse nie aus dem Verlauf kopieren.',
+            'Anfang, Mitte und Ende vergleichen.',
+            'Rückholung gegen Vorkasse? Betrug.',
+        ], 'Speichere dir das, bevor du das nächste Mal Krypto sendest.'),
+    ],
+    alts=['Mythos: Eine Krypto-Überweisung kann ich zurückholen. Fast 50 Millionen Dollar gingen im Dezember 2025 an eine fremde Adresse, kopiert aus dem eigenen Verlauf',
+          'Der Beleg: Erst ein Testbetrag, dann der Rest an die falsche Adresse. 50 Millionen Dollar in USDT. Die fremde Adresse stand im Verlauf, Anfang und Ende stimmten mit der echten überein. Quelle: BTC-ECHO, 20.12.2025; The Block',
+          'Die Wahrheit: Bestätigt heißt endgültig. Zwischen dir und dem Empfänger sitzt keine Bank, keiner kann die Überweisung stoppen oder zurückbuchen. Zurück kommt das Geld nur, wenn der Empfänger es freiwillig zurückschickt. Quelle: cryptoticker',
+          'Mein Fall: Ich hab einem Betrüger eine Gebühr geschickt. Ein Instagram-Kontakt wollte vor meiner Auszahlung eine Netzwerkgebühr, ich hab gezahlt. Die Auszahlung kam nie, die Gebühr kam nie zurück',
+          'Die zweite Falle: Wer verspricht, es zurückzuholen, will zuerst Geld. Nach einem Verlust melden sich Helfer, Kanzleien oder angebliche Behörden und wollen Vorkasse. Recovery Scam heißt das. Quelle: Verbraucherzentrale Hessen, 19.08.2026; cryptoticker',
+          'Dein Test: Schützen kannst du dich nur vor dem Senden. Adresse nie aus dem Verlauf kopieren, aus der Quelle holen, dann Anfang, Mitte und Ende vergleichen. Ein Testbetrag hilft nur, wenn du danach dieselbe Adresse prüfst',
+          'Merkzettel vor jeder Krypto-Überweisung: bestätigt ist endgültig, eine Rückbuchung gibt es nie; Adresse nie aus dem Verlauf kopieren; Anfang, Mitte und Ende vergleichen; Rückholung gegen Vorkasse ist Betrug. Speichere dir das, bevor du das nächste Mal Krypto sendest'],
+    caption='''Bei der Bank gibt es manchmal einen Rückweg. Bei Krypto sitzt keine Bank dazwischen.
+
+Der Mythos: Geht eine Krypto-Überweisung schief, hole ich sie zurück.
+
+Der Fall: Im Dezember 2025 schickte ein Nutzer zuerst einen Testbetrag an die richtige Adresse. Danach fast 50 Mio. $ in USDT an eine fremde. Die fremde Adresse hatte ihm der Angreifer vorher mit einer Kleinstzahlung in den Verlauf gelegt. Anfang und Ende sahen aus wie bei der echten. Beim Kopieren erwischte er die falsche (Quelle: BTC-ECHO, 20.12.2025; The Block).
+
+Die Wahrheit:
+– Eine bestätigte Krypto-Überweisung kann keiner stoppen oder zurückbuchen.
+– Zurück kommt das Geld nur, wenn der Empfänger es freiwillig zurückschickt (Quelle: cryptoticker, „Krypto an die falsche Adresse gesendet“).
+
+Mein Fall: Ein Instagram-Kontakt wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie. Die Gebühr kam nie zurück.
+
+Die zweite Falle: Nach einem Verlust melden sich „Helfer“, Kanzleien oder angebliche Behörden. Erst Vorkasse, dann sei das Geld wieder da. Das heißt Recovery Scam (Quelle: Verbraucherzentrale Hessen, 19.08.2026). Ein Dienst, der gegen Vorkasse verspricht, gesendete Coins zurückzuholen, ist Betrug (Quelle: cryptoticker).
+
+Dein Merkzettel:
+– Bestätigt ist endgültig. Eine Rückbuchung gibt es nie.
+– Adresse nie aus dem Verlauf kopieren.
+– Anfang, Mitte und Ende vergleichen.
+– Rückholung gegen Vorkasse? Betrug.
+
+Keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin oder andere Coins von der Börse in die eigene Wallet schickt und sich vor Betrug schützen will.
+
+Wie viele Zeichen einer Adresse vergleichst du vor dem Senden? Schreib die Zahl in die Kommentare.
+
+Speichere dir das, bevor du das nächste Mal Krypto sendest.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
