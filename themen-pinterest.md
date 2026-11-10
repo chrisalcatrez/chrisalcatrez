@@ -80,3 +80,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 68 | 12.11.2026 20:41 | Krypto-Betrug erkennen | Balken (schwarz) | Krypto Betrug erkennen ab 60: 83.000 $ verliert ein Opfer im Schnitt (FBI), 3 Regeln für Eltern | pinterest/p-68.png | eingeplant
 - 69 | 13.11.2026 11:19 | Krypto für Anfänger | Kurve (hell) | Bitcoin Sparplan oder Einmalkauf? 3 Regeln, warum ich in Teilen kaufe (5.000 $ an einem Tag weg) | pinterest/p-69.png | eingeplant
 - 70 | 13.11.2026 20:27 | Krypto für Anfänger | Zahl (schwarz) | Kryptowährung erklärt: Warum es nie mehr als 21 Millionen Bitcoin gibt, 3 Fakten für Anfänger | pinterest/p-70.png | eingeplant
+- 71 | 14.11.2026 11:12 | Bitcoin sicher aufbewahren | Stempel (hell) | Krypto Wallet leer nach „Gratis-Coins“: 3 Warnsignale beim Airdrop (494 Mio. $ in einem Jahr weg) | pinterest/p-71.png | eingeplant
+- 72 | 14.11.2026 20:34 | Krypto-Betrug erkennen | Entscheidungsbaum (akzent) | Phishing Krypto: Mail droht mit Kontosperre? 3 Fragen, bevor du klickst (die Frist ist die Masche) | pinterest/p-72.png | eingeplant
+- 73 | 15.11.2026 11:43 | Bitcoin sicher aufbewahren | Echt gegen Fake (schwarz) | Hardware-Wallet kaufen: Echt oder manipuliert? 3 Unterschiede (1,33 Bitcoin aus dem Safe weg) | pinterest/p-73.png | eingeplant
+- 74 | 15.11.2026 20:17 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (hell) | Krypto Betrug erkennen an Bewertungen: Nur 5 Sterne? 3 Warnsignale für gekaufte Bewertungen | pinterest/p-74.png | eingeplant

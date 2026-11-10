@@ -760,6 +760,47 @@ PINS = [
           visual=vz_num('<span style="font-size:170px">21 Mio.</span>', 'Mehr Bitcoin wird es nie geben. Ich lebe in einem Land, das sein Geld nachdruckt.'),
           points=['Niemand druckt nach', 'Die Grenze kennt jeder vorher', 'Knapp heißt nie: steigt'],
           cta='Speichern für die Frage, was Bitcoin eigentlich ist', size='sm')])),
+
+ # 14. und 15.11.2026 (Wochenende, Winterzeit): Fall der Woche lief am 09.11. in p-61, darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-70 (Zahl): Stempel -> Entscheidungsbaum -> Echt gegen Fake -> Beispielsatz. Foto (p-63 am 10.11.) und Karussell (p-66 am 11.11.)
+ # liefen in derselben Woche schon, darum in dieser Woche übersprungen. Farben nach p-70 (schwarz): hell -> akzent -> schwarz -> hell.
+ # Neue Themen: Gratis-Coins und Wallet-Drainer (Scam Sniffer), Sperr-Mail mit Frist (Phishing-Radar), manipulierte Hardware-Wallet (Kaspersky), gekaufte Bewertungen.
+ dict(d='2026-11-14', t='11:12', board=B_SIC, f='Stempel', farbe='hell', bild='p-71',
+      titel='Krypto Wallet leer nach „Gratis-Coins“: 3 Warnsignale beim Airdrop (494 Mio. $ in einem Jahr weg)',
+      text="""Krypto Wallet leer nach einem Klick auf „Gratis-Coins“: 2024 holten Wallet-Drainer 494 Mio. $ aus über 300.000 Wallets. Der Köder ist oft ein erfundener Airdrop, die Seite sieht aus wie das Projekt. Du verbindest die Wallet und bestätigst eine Unterschrift, die deine Coins freigibt. Gestohlen wird kein Passwort (Quelle: Scam Sniffer laut BleepingComputer, 05.01.2025). Meine 70.000 $ gingen an eine App, die echt aussah. Echt aussehen ist die Masche. Kostenloses Training über den Link.""",
+      alt='Krypto Wallet: Stempel Geschenk schräg im Rahmen, darunter drei Warnsignale beim Airdrop mit Warnzeichen.',
+      build=lambda: build_pin('p-71', [pin2('light', 'Gratis-Coins? <em>494&nbsp;Mio.&nbsp;$</em> weg durch eine Unterschrift',
+          visual=vz_stamp('Geschenk', 'Gratis-Coins per Link. Verbinden, bestätigen, Wallet leer. Ein Jahr: 494 Mio. $.', small=True),
+          points=['Geschenk kommt ungefragt', 'Seite will Wallet verbinden', 'Bestätigen ohne Betrag'],
+          marks='warn', cta='Speichern, bevor du die Wallet verbindest', size='sm', center=True)])),
+
+ dict(d='2026-11-14', t='20:34', board=B_BET, f='Entscheidungsbaum', farbe='akzent', bild='p-72',
+      titel='Phishing Krypto: Mail droht mit Kontosperre? 3 Fragen, bevor du klickst (die Frist ist die Masche)',
+      text="""Phishing Krypto erkennen: Die Mail sagt, dein Zugang laufe heute ab, Sperrung um 23:59, ein Knopf soll ihn „sofort entsperren“. So warnte die Verbraucherzentrale am 03.11.2026 vor einer Mail im Namen einer Bank, drei Tage später dieselbe Masche mit 14 Tagen Frist und Ausweiskopie (Quelle: Phishing-Radar). Bei Börse und Wallet läuft es gleich, nur gibt es dort keine Rückbuchung. Eine Sperre siehst du in deiner App, nie in einer Mail. Kostenloses Training über den Link.""",
+      alt='Phishing Krypto: Entscheidungsbaum mit drei Fragen zur Sperr-Mail, Ja heißt Phishing, Nein führt zur nächsten Frage.',
+      build=lambda: build_pin('p-72', [pin2('acc', 'Mail droht mit Sperre? <em>3&nbsp;Fragen</em>, bevor du klickst',
+          visual=vz_flow(['Frist: heute oder 14 Tage?', 'Knopf „Entsperren“ in der Mail?', 'Will Login oder 12 Wörter?'],
+                         'Kein Warnsignal. Trotzdem: Login nur über die App.', ja='Phishing'),
+          cta='Speichern für die nächste Sperr-Mail', size='xs')])),
+
+ dict(d='2026-11-15', t='11:43', board=B_SIC, f='Echt gegen Fake', farbe='schwarz', bild='p-73',
+      titel='Hardware-Wallet kaufen: Echt oder manipuliert? 3 Unterschiede (1,33 Bitcoin aus dem Safe weg)',
+      text="""Hardware-Wallet kaufen und 1,33 Bitcoin verlieren, ohne eine einzige Überweisung: Das Gerät lag im Safe. Kaspersky zerlegte es 2023. Gehäuse geklebt statt verschweißt, die Wörter kamen aus einer Liste von 20 festen Sätzen, die der Verkäufer kannte (Quelle: Kaspersky, 10.05.2023). Meine 70.000 $ gingen an eine Wallet-App, die echt aussah. Bei Hardware gilt für mich dasselbe. Nur vom Hersteller selbst, und die Wörter erzeugt das Gerät vor meinen Augen. Kostenloses Training über den Link.""",
+      alt='Hardware-Wallet: links echtes Gerät mit drei Haken, rechts manipuliertes Gerät mit drei Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-73', [pin2('', 'Hardware-Wallet echt oder manipuliert? <em>3&nbsp;Unterschiede</em>',
+          visual=vz_vs2('Echt', ['Vom Hersteller', 'Neue Wörter', 'Verschweißt'],
+                        'Fake', ['Vom Marktplatz', 'Feste Wörter', 'Geklebt'],
+                        note='Nachgestellt. 1,33 Bitcoin weg, Gerät lag im Safe.'),
+          cta='Speichern, bevor du eine Hardware-Wallet bestellst', size='xs')])),
+
+ dict(d='2026-11-15', t='20:17', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='hell', bild='p-74',
+      titel='Krypto Betrug erkennen an Bewertungen: Nur 5 Sterne? 3 Warnsignale für gekaufte Bewertungen',
+      text="""Krypto Betrug erkennen fängt bei den Bewertungen an. Gefälschte Bewertungen erkennst du an vielen positiven Stimmen in kurzer Zeit, an gleichen Formulierungen und daran, dass Kritik ganz fehlt. Auch „verifizierte Käufe“ lassen sich kaufen (Quelle: Verbraucherzentrale, Stand 16.12.2025). Meine 70.000 $ gingen an eine Wallet-App, die echt aussah. Den Anbieter gab es als Handy-App nie. Sterne prüfe ich seitdem zuletzt, Anbieter und Impressum zuerst. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: nachgestellte 5-Sterne-Bewertung in einer Sprechblase, darunter drei Warnsignale mit Warnzeichen.',
+      build=lambda: build_pin('p-74', [pin2('light', 'Nur 5 Sterne? <em>3&nbsp;Warnsignale</em> für gekaufte Bewertungen',
+          visual=vz_bubble('„Seriöser Anbieter, Auszahlung nach 2 Tagen auf dem Konto. 5 Sterne!“', 'Nachgestellt. Bewertungen gibt es zu kaufen.'),
+          points=['Viele Sterne in kurzer Zeit', 'Gleiche Sätze, kein Detail', 'Kein einziger Kritikpunkt'],
+          marks='warn', cta='Speichern, bevor du nach Sternen entscheidest', size='xs')])),
 ]
 
 if __name__ == '__main__':
