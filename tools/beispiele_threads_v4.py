@@ -346,7 +346,7 @@ Dein Geld schrumpft leise, der Kontostand bleibt höflich.
 
 Bei welchem Preis ist dir die Inflation zum ersten Mal aufgefallen?"""),
 
- dict(thema='Mythos: Auf dem Konto ist mein Geld sicher (Kaufkraft seit 2020)', feld='Geldentwertung', var='Story', frei_ab='2026-10-27', verwendet=None,
+ dict(thema='Mythos: Auf dem Konto ist mein Geld sicher (Kaufkraft seit 2020)', feld='Geldentwertung', var='Story', frei_ab='2026-10-27', verwendet='17.11.2026',
       text="""Ich lebe in Venezuela. Preise stehen hier in Dollar.
 
 Die Landeswährung rechnet kaum einer um. Jeder Einkauf zeigt mir, was Inflation mit Erspartem macht. Krypto ist hier Alltag. Ich bezahle damit digital über das Internet.
@@ -984,4 +984,24 @@ Heute tauscht eine KI die Stimme eines Politikers gegen Werbung für eine Tradin
 Ein Gesicht ist Werbung, kein Beleg.
 
 Welchem Gesicht hättest du Geld anvertraut?"""),
+ dict(thema='Wallet-Drainer und Fake-Airdrop (494 Mio. $ 2024, über 300.000 Wallet-Adressen, 56,7 % per Permit-Unterschrift, Quelle Scam Sniffer laut BleepingComputer 05.01.2025)', feld='Sicherheit', var='These', frei_ab='2026-12-01', verwendet=None,
+      text="""Gratis-Coins kosten mehr als jeder Kauf.
+
+Wallet-Drainer holten 2024 rund 494 Mio. $ von über 300.000 Wallet-Adressen (Quelle: Scam Sniffer laut BleepingComputer, 05.01.2025). Der Köder war fast immer ein Geschenk: ein Airdrop mit Frist.
+
+Gestohlen wurde kein Passwort. Jeder hat auf „Bestätigen“ gedrückt und der Seite den Zugriff erlaubt.
+
+Wer dir Coins schenkt, will deine Unterschrift.
+
+Hast du schon mal eine Wallet mit einer Seite verbunden, weil es dort etwas gratis gab?"""),
+ dict(thema='Wallet-Drainer und Fake-Airdrop (494 Mio. $ 2024, über 300.000 Wallet-Adressen, 56,7 % per Permit-Unterschrift, Quelle Scam Sniffer laut BleepingComputer 05.01.2025)', feld='Sicherheit', var='Story', frei_ab='2026-12-01', verwendet=None,
+      text="""Eine App, die echt aussah, kostete mich 70.000 $. Heute reicht eine Seite.
+
+Die Wallet-App hab ich geladen, weil sie echt aussah. Den Anbieter gab es als App nie.
+
+Heute verspricht eine Seite einen Airdrop, du verbindest die Wallet und drückst „Bestätigen“. So gingen 2024 rund 494 Mio. $ weg (Quelle: Scam Sniffer laut BleepingComputer, 05.01.2025).
+
+Echt aussehen ist die ganze Arbeit des Betrügers.
+
+Liest du, was du in der Wallet bestätigst, oder drückst du durch?"""),
 ]
