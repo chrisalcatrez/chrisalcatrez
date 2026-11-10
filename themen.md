@@ -52,3 +52,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 47 | 13.11.2026 | Statement-Karussell | Ein Coin für 0,0001 $ ist nie billig (Bitcoin gegen Altcoins und Memecoins, eigener Memecoin-Verlust, 3,7 Mio. tote Coins seit 2021 laut CoinGecko)
 - 48 | 14.11.2026 | Gegenüberstellung | Sparplan statt Timing, früher ich vs. heute ich (Ende 2024 alle Bitcoin in Panik verkauft, im Oktober 2025 über 126.000 $ laut Börse Express)
 - 49 | 15.11.2026 | Nischenmythos entlarven | Mythos: „Eine Krypto-Überweisung kann ich zurückholen“ (Address Poisoning, fast 50 Mio. $ laut BTC-ECHO; eigene Netzwerkgebühr; Rückholung gegen Vorkasse)
+- 50 | 16.11.2026 | Erfolgsgeschichte | Damals eine „Netzwerkgebühr“ für die eigene Auszahlung gezahlt, ausgezahlt wurde 0; heute über 250 Kunden und die Regel: Gebühr vor der Auszahlung ist Betrug
+- 51 | 17.11.2026 | Visueller Post | Raster: 2 Wege, mit Bitcoin im Alltag zu bezahlen, und nur bei einem bekommt der Laden Bitcoin (BTC Map gegen Krypto-Karte, Alltag in Venezuela)

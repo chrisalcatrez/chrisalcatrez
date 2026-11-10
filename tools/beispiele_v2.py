@@ -1684,6 +1684,124 @@ Wie viele Zeichen einer Adresse vergleichst du vor dem Senden? Schreib die Zahl 
 
 Speichere dir das, bevor du das nächste Mal Krypto sendest.''')
 
+# ---------- Beitrag 50: Erfolgsgeschichte (Gebuehr vor der Auszahlung, Instagram-Kontakt) ----------
+POSTS['beitrag-50'] = dict(
+    date='2026-11-16', fmt='Erfolgsgeschichte', topic='Damals eine „Netzwerkgebühr“ für die eigene Auszahlung gezahlt, ausgezahlt wurde 0; heute über 250 Kunden und die Regel: Gebühr vor der Auszahlung ist Betrug',
+    slides=[
+        s_hook('ERFOLGSGESCHICHTE', 'Eine Gebühr, damit ich mein Geld bekomme. Ich hab gezahlt. Ausgezahlt: %s' % A('0.'),
+               sub='Damals und heute. Wie aus diesem Moment meine wichtigste Regel wurde.', cue='Wie die Nachricht damals lautete &#8594;', size=''),
+        s_proof('DAMALS', 'Ein Kontakt auf Instagram. Vor der Auszahlung %s' % A('eine Gebühr.'),
+                quote='„Vor der Auszahlung fällt eine Netzwerkgebühr an.“', quote_from='Instagram-Kontakt · Nachgestellt, so lief es',
+                ps=[D('Ich hab gezahlt. Die Auszahlung kam nie.')], cue='Was die Gebühr in Wahrheit war &#8594;'),
+        s_point('DIE ERKENNTNIS', 'Die Gebühr vor der Auszahlung %s' % A('ist die Auszahlung. Für ihn.'),
+                ['Echte Gebühren zieht eine Börse vom Betrag ab. Vorkasse auf die eigene Auszahlung gibt es bei keiner echten Börse.',
+                 D('Wer sie verlangt, hat nie vor zu zahlen. Egal, wie das Wort heißt.')],
+                size='m', cue='Der Moment, an dem sich alles drehte &#8594;'),
+        s_point('DER WENDEPUNKT', 'Ich hab angefangen, %s' % A('selbst zu verstehen.'),
+                ['Was kaufe ich? Wem schicke ich Geld, und warum?',
+                 D('Schritt für Schritt. Daraus wurde ein einfaches, langfristiges System.')],
+                size='m', cue='Wie es heute aussieht &#8594;'),
+        s_point('HEUTE', 'Jedes Jahr fünfstellig. %s' % A('Über 250 Kunden.'),
+                ['Laut meiner eigenen Rechnung ein fünfstelliger Krypto-Gewinn pro Jahr.',
+                 D('Meine Zahl, kein Versprechen für dich.')],
+                cue='Was das für dich heißt &#8594;'),
+        s_point('FÜR DICH', 'Ich bin kein Genie.',
+                ['Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.',
+                 D('Und eine Gebühr für deine eigene Auszahlung zahlst du ab heute nie.')],
+                cue='Dein Merkzettel vor jeder Auszahlung &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Vor jeder Auszahlung, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Gebühr vor der Auszahlung? Betrug.',
+            'Echte Gebühren gehen vom Betrag ab.',
+            'Wer dich zuerst anschreibt, will zuerst etwas.',
+            'Kontakt aus Instagram will Geld? Blockieren.',
+        ], 'Speichere dir das, bevor jemand eine Gebühr für deine Auszahlung will.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Erfolgsgeschichte: Eine Gebühr, damit ich mein Geld bekomme. Ich hab gezahlt, ausgezahlt wurde 0. Damals und heute, wie aus diesem Moment meine wichtigste Regel wurde',
+          'Damals, nachgestellt: Ein Kontakt auf Instagram schreibt, vor der Auszahlung falle eine Netzwerkgebühr an. Ich hab gezahlt, die Auszahlung kam nie',
+          'Die Erkenntnis: Die Gebühr vor der Auszahlung ist die Auszahlung, für ihn. Echte Gebühren zieht eine Börse vom Betrag ab, Vorkasse auf die eigene Auszahlung gibt es bei keiner echten Börse',
+          'Der Wendepunkt: Ich hab angefangen, selbst zu verstehen. Was kaufe ich, wem schicke ich Geld und warum. Daraus wurde ein einfaches, langfristiges System',
+          'Heute: jedes Jahr fünfstellig, über 250 Kunden. Laut meiner eigenen Rechnung ein fünfstelliger Krypto-Gewinn pro Jahr. Meine Zahl, kein Versprechen für dich',
+          'Für dich: Ich bin kein Genie. Wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch. Eine Gebühr für deine eigene Auszahlung zahlst du ab heute nie',
+          'Merkzettel vor jeder Auszahlung: Gebühr vor der Auszahlung ist Betrug; echte Gebühren gehen vom Betrag ab; wer dich zuerst anschreibt, will zuerst etwas; Kontakt aus Instagram will Geld, blockieren. Speichere dir das, bevor jemand eine Gebühr für deine Auszahlung will',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Ich hab einmal Geld bezahlt, um mein Geld zu bekommen. Bekommen hab ich 0.
+
+Damals:
+– Ein Kontakt auf Instagram. Vor der Auszahlung wollte er eine „Netzwerkgebühr“.
+– Ich hab gezahlt.
+– Die Auszahlung kam nie.
+
+Die Erkenntnis:
+– Die Gebühr vor der Auszahlung ist die Auszahlung. Für den Betrüger.
+– Echte Gebühren zieht eine Börse vom Betrag ab. Vorkasse auf die eigene Auszahlung gibt es bei keiner echten Börse.
+– Wer sie verlangt, hat nie vor zu zahlen. Egal, wie das Wort heißt.
+
+Der Wendepunkt:
+– Ich hab angefangen, Schritt für Schritt selbst zu verstehen, was ich kaufe.
+– Und wem ich Geld schicke, und warum.
+– Daraus wurde ein einfaches, langfristiges System.
+
+Heute mache ich laut meiner eigenen Rechnung jedes Jahr einen fünfstelligen Krypto-Gewinn. Dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Dein Merkzettel:
+– Gebühr vor der Auszahlung? Betrug.
+– Echte Gebühren gehen vom Betrag ab.
+– Wer dich zuerst anschreibt, will zuerst etwas.
+– Kontakt aus Instagram will Geld? Blockieren.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin an der Börse oder in der eigenen Wallet hat und sich vor Betrug schützen will.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 51: Visueller Post (Raster: 2 Wege, mit Bitcoin zu bezahlen) ----------
+Q_CARD = 'Quelle Krypto-Karte: BTC-ECHO zur OKX Card, 2026'
+POSTS['beitrag-51'] = dict(
+    date='2026-11-17', fmt='Visueller Post', topic='Raster: 2 Wege, mit Bitcoin im Alltag zu bezahlen, und nur bei einem bekommt der Laden Bitcoin (BTC Map gegen Krypto-Karte, Alltag in Venezuela)',
+    slides=[
+        s_raster('BITCOIN IM ALLTAG', '2 Wege, mit Bitcoin zu bezahlen. Nur bei einem bekommt der Laden %s' % A('Bitcoin.'), [
+            ('Weg 1: Bitcoin aus der Wallet', [
+                ('Wo', 'Nur Läden, die Bitcoin annehmen. Zu finden auf BTC Map.'),
+                ('Wie', 'QR-Code scannen, mit deiner Wallet zahlen.'),
+                ('Laden', 'bekommt Bitcoin.'),
+                ('Kosten', 'Netzwerkgebühr für jede Zahlung.'),
+            ]),
+            ('Weg 2: Krypto-Karte', [
+                ('Wo', 'Überall, wo Kartenzahlung geht.'),
+                ('Wie', 'Karte hinhalten wie jede Bankkarte.'),
+                ('Laden', 'bekommt Euro, getauscht im Bezahlmoment.'),
+                ('Kosten', 'Tauschgebühr, je nach Anbieter.'),
+            ]),
+        ], 'Speichere dir das für deinen ersten Einkauf mit Bitcoin.',
+            sub='Ich lebe in Venezuela. Hier ist Krypto Alltag.', src=Q_CARD, hi=1),
+    ],
+    alts=['Raster, Bitcoin im Alltag: 2 Wege, mit Bitcoin zu bezahlen, nur bei einem bekommt der Laden Bitcoin. Ich lebe in Venezuela, hier ist Krypto Alltag. Weg 1, Bitcoin aus der Wallet: nur Läden, die Bitcoin annehmen, zu finden auf BTC Map; QR-Code scannen und mit deiner Wallet zahlen; der Laden bekommt Bitcoin; Kosten: Netzwerkgebühr für jede Zahlung. Weg 2, Krypto-Karte: überall, wo Kartenzahlung geht; Karte hinhalten wie jede Bankkarte; der Laden bekommt Euro, getauscht im Bezahlmoment; Kosten: Tauschgebühr, je nach Anbieter. Quelle Krypto-Karte: BTC-ECHO. Speichere dir das für deinen ersten Einkauf mit Bitcoin'],
+    caption='''Mit Bitcoin bezahlen heißt nur auf einem Weg, dass der Laden Bitcoin bekommt.
+
+Ich lebe in Venezuela. Hier ist Krypto Alltag. In Deutschland höre ich oft: Bezahlen mit Bitcoin, wie soll das gehen? Es gibt zwei Wege.
+
+Weg 1: Bitcoin aus der Wallet
+– Wo: nur in Läden, die Bitcoin annehmen. BTC Map ist eine kostenlose Karte, die sie dir zeigt.
+– Wie: QR-Code an der Kasse scannen, aus deiner Wallet zahlen.
+– Der Laden bekommt Bitcoin.
+– Kosten: eine Netzwerkgebühr für jede Zahlung.
+
+Weg 2: Krypto-Karte
+– Wo: überall, wo Kartenzahlung geht.
+– Wie: Karte hinhalten wie jede Bankkarte.
+– Der Laden bekommt Euro. Dein Krypto-Guthaben wird im Bezahlmoment getauscht (Quelle: BTC-ECHO zur OKX Card, 2026).
+– Kosten: eine Tauschgebühr, je nach Anbieter verschieden. Vorher nachlesen.
+
+Für beide gilt: Zuerst weißt du, wo deine Coins liegen und wer den Schlüssel hält. Erst dann bezahlst du damit.
+
+Keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der Bitcoin hat oder an der Börse kaufen will und wissen möchte, was er damit im Alltag anfangen kann.
+
+Hast du schon mal mit Bitcoin bezahlt? Schreib Ja oder Nein in die Kommentare.
+
+Speichere dir das für deinen ersten Einkauf mit Bitcoin.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
