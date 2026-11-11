@@ -1802,6 +1802,34 @@ Hast du schon mal mit Bitcoin bezahlt? Schreib Ja oder Nein in die Kommentare.
 
 Speichere dir das für deinen ersten Einkauf mit Bitcoin.''')
 
+# ---------- Beitrag 52: Frage an die Zielgruppe (Börse oder eigene Wallet, Binance-Hack 29.10.2026 laut BTC-ECHO) ----------
+Q_BNB = 'Quelle: BTC-ECHO zum Binance-Hack, 29.10.2026'
+POSTS['beitrag-52'] = dict(
+    date='2026-11-18', fmt='Frage an die Zielgruppe', topic='Hand aufs Herz: Liegen deine Coins auf einer Börse oder in deiner eigenen Wallet? (Binance-Hack, über 6,3 Mrd. $ laut BTC-ECHO; wer hält den Schlüssel)',
+    slides=[
+        s_question('FRAGE AN DICH', 'Hand aufs Herz', 'Liegen deine Coins auf einer Börse oder in deiner %s?' % A('eigenen Wallet'),
+                   'Ich fange an: Lange wusste ich es selbst kaum. Ich hab gekauft, ohne zu verstehen, was.',
+                   'Schick das jemandem, dessen Coins nur auf einer Börse liegen.',
+                   pre='29.10.2026: Über 6,3 Mrd. $ weg, bei einer der größten Krypto-Börsen.', src=Q_BNB),
+    ],
+    alts=['Hand aufs Herz: Am 29.10.2026 waren über 6,3 Milliarden Dollar weg, bei einer der größten Krypto-Börsen. Liegen deine Coins auf einer Börse oder in deiner eigenen Wallet? Ich fange an: Lange wusste ich es selbst kaum, ich hab gekauft, ohne zu verstehen, was. Quelle: BTC-ECHO. Schick das jemandem, dessen Coins nur auf einer Börse liegen'],
+    caption='''Ein Login ist kein Schlüssel. Auf einer Börse hast du meistens nur den Login.
+
+Am 29.10.2026 erbeuteten Angreifer bei Binance, einer der größten Krypto-Börsen, über 6,3 Mrd. $. In der Nacht setzte die Börse Ein- und Auszahlungen aus (Quelle: BTC-ECHO, „Binance-Hack: Angreifer erbeuten 6,3 Milliarden US-Dollar“). Laut Binance trägt die Firma den Schaden selbst.
+
+Mich beschäftigt daran eine Frage: Wer hält den Schlüssel?
+– Auf der Börse hält ihn die Börse. Du hast ein Login und ein Guthaben, das sie dir anzeigt.
+– In der eigenen Wallet hältst du ihn selbst. Dafür trägst du die Verantwortung für deine 12 Wörter.
+– Beides hat Fallen. Auf der Börse entscheidet die Firma, wann du auszahlen kannst. In der Wallet entscheidest du, wem du die Wörter zeigst. Die Antwort heißt: nie jemandem.
+
+Ich fange an: Lange wusste ich es selbst kaum. Ich hab gekauft, ohne zu verstehen, was. Erst Schritt für Schritt hab ich verstanden, was ich kaufe und wo es liegt.
+
+Keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der Bitcoin an der Börse gekauft hat und sich vor Betrug schützen will.
+
+Ich will wissen, wie es bei dir aussieht. Wo liegen deine Coins? Schreib Börse oder Wallet in die Kommentare.
+
+Schick das jemandem, dessen Coins nur auf einer Börse liegen.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
