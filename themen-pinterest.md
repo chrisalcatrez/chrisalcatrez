@@ -84,3 +84,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 72 | 14.11.2026 20:34 | Krypto-Betrug erkennen | Entscheidungsbaum (akzent) | Phishing Krypto: Mail droht mit Kontosperre? 3 Fragen, bevor du klickst (die Frist ist die Masche) | pinterest/p-72.png | eingeplant
 - 73 | 15.11.2026 11:43 | Bitcoin sicher aufbewahren | Echt gegen Fake (schwarz) | Hardware-Wallet kaufen: Echt oder manipuliert? 3 Unterschiede (1,33 Bitcoin aus dem Safe weg) | pinterest/p-73.png | eingeplant
 - 74 | 15.11.2026 20:17 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (hell) | Krypto Betrug erkennen an Bewertungen: Nur 5 Sterne? 3 Warnsignale für gekaufte Bewertungen | pinterest/p-74.png | eingeplant
+- 75 | 16.11.2026 10:43 | Krypto für Anfänger | Balken (schwarz) | Bitcoin oder Altcoins? 3,7 Mio. Coins sind seit 2021 tot (CoinGecko), 3 Regeln vor dem Coin-Kauf | pinterest/p-75.png | eingeplant
+- 76 | 16.11.2026 20:19 | Krypto für Anfänger | Kurve (hell) | Bitcoin kaufen für Anfänger: Der Plan für rote Tage steht vor dem Kauf, 3 Regeln (in Panik verkauft) | pinterest/p-76.png | eingeplant
+- 77 | 17.11.2026 11:31 | Geld anlegen und Inflation | Zahl (akzent) | Inflation Erspartes: 100 € von 2020 kaufen heute Ware für 82 € (Destatis), 3 Regeln für dein Geld | pinterest/p-77.png | eingeplant
+- 78 | 17.11.2026 20:48 | Krypto-Betrug erkennen | Stempel (schwarz) | Krypto Betrug erkennen am „Sicherheitskonto“: 3 Warnsignale, bevor du Geld verschiebst (62.000 €) | pinterest/p-78.png | eingeplant

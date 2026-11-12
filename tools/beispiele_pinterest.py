@@ -801,6 +801,43 @@ PINS = [
           visual=vz_bubble('„Seriöser Anbieter, Auszahlung nach 2 Tagen auf dem Konto. 5 Sterne!“', 'Nachgestellt. Bewertungen gibt es zu kaufen.'),
           points=['Viele Sterne in kurzer Zeit', 'Gleiche Sätze, kein Detail', 'Kein einziger Kritikpunkt'],
           marks='warn', cta='Speichern, bevor du nach Sternen entscheidest', size='xs')])),
+
+ dict(d='2026-11-16', t='10:43', board=B_ANF, f='Balken', farbe='schwarz', bild='p-75',
+      titel='Bitcoin oder Altcoins? 3,7 Mio. Coins sind seit 2021 tot (CoinGecko), 3 Regeln vor dem Coin-Kauf',
+      text="""Bitcoin oder Altcoins, die Frage kommt bei Anfängern fast immer. Seit 2021 wurden knapp 7 Millionen Coins gelistet, 3,7 Millionen davon haben keinen Handel mehr. 1,8 Millionen starben allein im ersten Quartal 2025 (Quelle: CoinGecko, 30.04.2025). Mein Memecoin kam aus einem Chat. Die Gruppe feierte ihn, ich hab gekauft und konnte keinem erklären, was er macht. Heute kaufe ich nur, was ich in zwei Sätzen erklären kann. Keine Coin-Empfehlung, keine Kursprognose. Kostenloses Training über den Link.""",
+      alt='Bitcoin oder Altcoins: drei Balken, 7 Mio. neue Coins, 3,7 Mio. davon tot, 1,8 Mio. in drei Monaten, darunter drei Regeln.',
+      build=lambda: build_pin('p-75', [pin2('', 'Bitcoin oder Altcoins? <em>3,7&nbsp;Mio.</em> Coins sind tot',
+          visual=vz_bars([('Neue Coins in 4 Jahren', '7 Mio.', 100), ('Davon ohne Handel', '3,7 Mio.', 53), ('Davon in 3 Monaten', '1,8 Mio.', 26)],
+                         'Ohne Handel heißt tot, laut CoinGecko. Mein Memecoin: einer davon.'),
+          points=['In zwei Sätzen erklärbar', 'Stückzahl mal Preis rechnen', 'Preis pro Stück sagt null'],
+          cta='Speichern, bevor du den nächsten Coin kaufst', size='xs')])),
+
+ dict(d='2026-11-16', t='20:19', board=B_ANF, f='Kurve', farbe='hell', bild='p-76',
+      titel='Bitcoin kaufen für Anfänger: Der Plan für rote Tage steht vor dem Kauf, 3 Regeln (in Panik verkauft)',
+      text="""Bitcoin kaufen für Anfänger heißt auch: einen Plan für rote Tage haben, bevor der erste kommt. Ende 2024 hab ich alle Bitcoin in Panik verkauft. Der Kurs fiel, ich hatte keinen Plan dafür, und zwei Klicks fühlten sich nach Handeln an. Heute kaufe ich an einem festen Tag mit fester Summe, schaue einmal im Monat auf den Kurs, und Verkaufen steht in keinem meiner vier Schritte. Die Kurve im Bild ist kein echter Kurs. Keine Kursprognose, keine Gewinnzusage. Kostenloses Training über den Link.""",
+      alt='Bitcoin kaufen für Anfänger: Kurve mit einem Kreuz am Tiefpunkt für den Panikverkauf, darunter drei Regeln.',
+      build=lambda: build_pin('p-76', [pin2('light', 'Roter Tag bei Bitcoin? <em>3&nbsp;Regeln</em>, die vorher stehen',
+          visual=vz_curve('Mein Verkauf: am Tiefpunkt, in Panik, ohne Plan.', marks='x'),
+          points=['Roter Tag ist eingeplant', 'Kurs einmal im Monat', 'Verkaufen ist kein Schritt'],
+          cta='Speichern für den nächsten roten Tag', size='sm')])),
+
+ dict(d='2026-11-17', t='11:31', board=B_INF, f='Zahl', farbe='akzent', bild='p-77',
+      titel='Inflation Erspartes: 100 € von 2020 kaufen heute Ware für 82 € (Destatis), 3 Regeln für dein Geld',
+      text="""Inflation frisst Erspartes leise. Die Verbraucherpreise lagen 2025 im Schnitt 21,9 % über 2020 (Quelle: Destatis, 16.01.2026). Auf dem Konto steht dieselbe Zahl wie vor fünf Jahren, kaufen kann sie weniger. Ich lebe in Venezuela, hier stehen die Preise in Dollar, weil das eigene Geld seine Kaufkraft verlor. In Deutschland läuft das in Zeitlupe. Mein erster Schritt hieß verstehen, kaufen kam später. Keine Anlageempfehlung, keine Kursprognose. Kostenloses Training über den Link.""",
+      alt='Inflation Erspartes: große Zahl 82 €, so viel kaufen 100 € von 2020 heute, darunter drei Regeln für dein Geld.',
+      build=lambda: build_pin('p-77', [pin2('acc', 'Inflation: <em>100&nbsp;€</em> auf dem Konto kaufen heute für 82&nbsp;€',
+          visual=vz_num('<span style="font-size:170px">82&nbsp;€</span>', 'So viel Ware kaufen 100 € von vor fünf Jahren. Preise plus 21,9 % laut Destatis.'),
+          points=['Kontostand ist keine Kaufkraft', 'Preise jedes Jahr nachrechnen', 'Erst verstehen, dann anlegen'],
+          cta='Speichern, bevor du Erspartes liegen lässt', size='xs')])),
+
+ dict(d='2026-11-17', t='20:48', board=B_BET, f='Stempel', farbe='schwarz', bild='p-78',
+      titel='Krypto Betrug erkennen am „Sicherheitskonto“: 3 Warnsignale, bevor du Geld verschiebst (62.000 €)',
+      text="""Krypto Betrug erkennen am Wort „Sicherheitskonto“: Ein Anrufer meldet Gefahr, dein Geld soll zum Schein auf ein sicheres Konto. So beschreibt die Polizei Berlin die Masche (Quelle: Polizei Berlin, Prävention). Peter (Name geändert) erlebte sie mit Krypto: Statt seiner Auszahlung kam fremdes Geld auf sein Girokonto, das er über eine Krypto-Börse ans „Sicherheitskonto“ schicken sollte. Schaden laut Anzeige rund 62.000 €. Dieses Konto gibt es bei keiner Bank. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: Stempel Sicherheitskonto schräg im Rahmen, darunter drei Warnsignale mit Warnzeichen.',
+      build=lambda: build_pin('p-78', [pin2('', 'Geld aufs „Sicherheitskonto“? <em>3&nbsp;Warnsignale</em>',
+          visual=vz_stamp('<span style="font-size:56px;letter-spacing:3px">Sicherheitskonto</span>', 'Das Konto gehört dem Betrüger. Peter sollte fremdes Geld über eine Krypto-Börse dorthin schicken. Name geändert.', small=True),
+          points=['Anruf kommt ungefragt', 'Fremdes Geld auf dem Konto', 'Frist und Druck am Telefon'],
+          marks='warn', cta='Speichern für den nächsten „Bank“-Anruf', size='xs', center=True)])),
 ]
 
 if __name__ == '__main__':
