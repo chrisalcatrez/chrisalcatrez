@@ -473,7 +473,7 @@ Eigene Wallet heißt eigene Prüfung, vor dem ersten Cent.
 
 Wie prüfst du eine App, bevor du ihr Geld anvertraust?"""),
 
- dict(thema='BaFin-Erhebung zum Krypto-Wissen (Besitzer 57 % richtig)', feld='Einstieg', var='These', frei_ab='2026-10-30', verwendet=None,
+ dict(thema='BaFin-Erhebung zum Krypto-Wissen (Besitzer 57 % richtig)', feld='Einstieg', var='These', frei_ab='2026-10-30', verwendet='19.11.2026',
       text="""57 % richtige Antworten. Mit so viel Wissen besitzen Deutsche Krypto.
 
 Die BaFin stellte 1.000 Leuten 16 Wissensfragen zu Kryptowerten. Wer selbst welche besitzt, beantwortete 57 % richtig (Quelle: BaFin, 25.08.2026).
@@ -653,7 +653,7 @@ Ein Anfänger, der versteht, schlägt jeden Fortgeschrittenen, der rät.
 
 Was war dein erster Krypto-Moment, in dem du dich dumm gefühlt hast?"""),
 
- dict(thema='Fake-Account mit meinem Namen in der Telegram-Gruppe (Damals–Heute)', feld='Betrug', var='Fall', frei_ab='2026-11-03', verwendet=None,
+ dict(thema='Fake-Account mit meinem Namen in der Telegram-Gruppe (Damals–Heute)', feld='Betrug', var='Fall', frei_ab='2026-11-03', verwendet='18.11.2026',
       text="""Zwei Accounts mit meinem Namen. Einer davon räumte Wallets leer.
 
 In der Telegram-Gruppe eines Coin-Projekts war ich Admin. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an. Danach fehlten geschätzt 4.000 bis 5.000 €. Entwicklerteam: keine Antwort.
@@ -767,7 +767,7 @@ Ein Währungsschnitt repariert die Scheine, nie das Geld.
 
 Glaubst du, dem Euro kann so etwas nie passieren?"""),
 
- dict(thema='Hardware-Wallet (Briefe mit Hologramm und QR-Code an Trezor- und Ledger-Nutzer, Februar 2026)', feld='Sicherheit', var='Fall', frei_ab='2026-11-19', verwendet=None,
+ dict(thema='Hardware-Wallet (Briefe mit Hologramm und QR-Code an Trezor- und Ledger-Nutzer, Februar 2026)', feld='Sicherheit', var='Fall', frei_ab='2026-11-19', verwendet='19.11.2026',
       text="""Zwei Hersteller, ein Brief, eine Frist: 15. Februar 2026.
 
 Trezor- und Ledger-Kunden fanden Post im Briefkasten. Hologramm, QR-Code, „Authentication Check“ bis zum 15. Februar, sonst werde das Gerät eingeschränkt. Der Code führte auf eine nachgebaute Einrichtungsseite, dort sollte man die Wiederherstellungswörter eingeben (Quelle: Cointelegraph, 17.02.2026).
@@ -1004,4 +1004,24 @@ Heute verspricht eine Seite einen Airdrop, du verbindest die Wallet und drückst
 Echt aussehen ist die ganze Arbeit des Betrügers.
 
 Liest du, was du in der Wallet bestätigst, oder drückst du durch?"""),
+ dict(thema='Love Scam mit Krypto-Plattform (rund 14 Mio. € in zwölf Monaten, fast tausend Fälle in Baden-Württemberg, Quelle Stuttgarter Zeitung nach dpa 20.02.2026)', feld='Betrug', var='These', frei_ab='2026-12-02', verwendet=None,
+      text="""Wer dich liebt, schickt dir keine Wallet-Adresse.
+
+Love Scam, Baden-Württemberg: rund 14 Mio. € in zwölf Monaten, fast tausend Fälle (Quelle: Stuttgarter Zeitung nach dpa, 20.02.2026). Erst Zuneigung, dann „meine Plattform“, dann die Gebühr vor der Auszahlung.
+
+Die Gebühr kenne ich. Meine „Netzwerkgebühr“ hab ich zwei-, dreimal gezahlt, ausgezahlt wurde nie.
+
+Zuneigung mit Einzahlung ist ein Verkaufsgespräch.
+
+Würdest du Geld auf eine Plattform legen, die dir dein Chat-Partner empfiehlt?"""),
+ dict(thema='Love Scam mit Krypto-Plattform (rund 14 Mio. € in zwölf Monaten, fast tausend Fälle in Baden-Württemberg, Quelle Stuttgarter Zeitung nach dpa 20.02.2026)', feld='Betrug', var='Story', frei_ab='2026-12-02', verwendet=None,
+      text="""Mein Betrüger brauchte keinen Schatz. Ein bekannter Name reichte.
+
+Auf Instagram schrieb mir der Account eines Traders. Gewinn auf dem Bildschirm, dann die „Netzwerkgebühr“ vor der Auszahlung. Zwei-, dreimal gezahlt, ausgezahlt nie.
+
+Beim Love Scam läuft dasselbe mit Herz statt Name: rund 14 Mio. € in zwölf Monaten in Baden-Württemberg (Quelle: Stuttgarter Zeitung nach dpa, 20.02.2026).
+
+Der Köder wechselt, die Gebühr bleibt.
+
+Welcher Köder hätte bei dir gezogen: Name oder Herz?"""),
 ]
