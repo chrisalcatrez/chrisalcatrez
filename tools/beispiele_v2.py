@@ -1830,6 +1830,65 @@ Ich will wissen, wie es bei dir aussieht. Wo liegen deine Coins? Schreib Börse 
 
 Schick das jemandem, dessen Coins nur auf einer Börse liegen.''')
 
+# ---------- Beitrag 53: Schritt-fuer-Schritt (Hardware-Wallet: 3 Schritte vor dem ersten Euro, Kaspersky-Fall 1,33 BTC) ----------
+Q_KASP = 'Quelle: Kaspersky, 2023'
+POSTS['beitrag-53'] = dict(
+    date='2026-11-19', fmt='Schritt-für-Schritt-Anleitung', topic='Hardware-Wallet: 1,33 Bitcoin weg, der Fehlgriff passierte schon beim Kauf; meine 3 Schritte, bevor Geld aufs Gerät geht (Kaspersky, gefälschte App 70.000 $)',
+    slides=[
+        s_hook('SCHRITT FÜR SCHRITT', '1,33 Bitcoin weg. Der Fehlgriff passierte schon %s' % A('beim Kauf.'),
+               sub='Meine 3 Schritte bei einer Hardware-Wallet. Grob, die Tiefe im Training.', cue='Was in dem Gerät steckte &#8594;', size=''),
+        s_proof('DER BELEG', 'Das Gerät sah echt aus. Die Wörter kannte der Fälscher.', big='1,33 BTC',
+                big_sub='gestohlen über eine gefälschte Hardware-Wallet',
+                ps=['Gekauft bei einem Händler im Netz, statt beim Hersteller. Das Gehäuse war geklebt.',
+                    D('Die Wörter kamen aus einer Liste von 20 festen Sätzen, die der Fälscher kannte.')],
+                src=Q_KASP, cue='Warum mich das an meine 70.000 $ erinnert &#8594;'),
+        s_point('MEIN FALL', 'Ich hab 70.000 $ an eine App verloren, die %s' % A('echt aussah.'),
+                ['Geladen hab ich sie, weil sie echt aussah.', D('Aussehen beweist null. Bei einer App nie, bei einem Gerät genauso wenig.')],
+                cue='Schritt 1 setzt vor dem Kauf an &#8594;'),
+        s_point('SCHRITT 1 VON 3', 'Ich kaufe nur beim %s selbst.' % A('Hersteller'),
+                ['Kein Marktplatz, kein Gebrauchtgerät, kein „Schnäppchen“.', D('Ein Gerät, das vorher ein Fremder in der Hand hatte, kann alles enthalten.')],
+                cue='Schritt 2 machst du beim Auspacken &#8594;'),
+        s_point('SCHRITT 2 VON 3', 'Liegen Wörter in der Packung, geht das Gerät %s' % A('zurück.'),
+                ['Die Wörter erzeugt das Gerät beim Einrichten, vor meinen Augen.', D('Ein Zettel mit fertigen Wörtern heißt: Jemand kennt sie schon.')],
+                cue='Schritt 3 hält die Wörter geheim &#8594;'),
+        s_point('SCHRITT 3 VON 3', 'Die Wörter gehören auf %s' % A('Papier.'),
+                ['Nie ins Handy, nie in ein Foto, nie in eine Nachricht.', D('Und keiner bekommt sie. Kein Support, kein Freund, keine App.')],
+                cue='Dein Merkzettel vor dem Kauf &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Drei Schritte, %s' % A('bevor Geld aufs Gerät geht.'), 'Dein Merkzettel', [
+            'Nur beim Hersteller selbst kaufen.',
+            'Wörter in der Packung? Zurück damit.',
+            'Die Wörter erzeugt das Gerät vor deinen Augen.',
+            'Wörter auf Papier, nie ins Handy.',
+        ], 'Speichere dir das, bevor du eine Hardware-Wallet kaufst.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Schritt für Schritt: 1,33 Bitcoin weg, der Fehlgriff passierte schon beim Kauf. Meine 3 Schritte bei einer Hardware-Wallet, grob, die Tiefe im Training',
+          'Der Beleg: 1,33 BTC gestohlen über eine gefälschte Hardware-Wallet. Gekauft bei einem Händler im Netz statt beim Hersteller, das Gehäuse war geklebt. Die Wörter kamen aus einer Liste von 20 festen Sätzen, die der Fälscher kannte. Quelle: Kaspersky, 2023',
+          'Mein Fall: Ich hab 70.000 Dollar an eine App verloren, die echt aussah. Geladen hab ich sie, weil sie echt aussah. Aussehen beweist null, bei einer App nie, bei einem Gerät genauso wenig',
+          'Schritt 1 von 3: Ich kaufe nur beim Hersteller selbst. Kein Marktplatz, kein Gebrauchtgerät, kein Schnäppchen',
+          'Schritt 2 von 3: Liegen Wörter in der Packung, geht das Gerät zurück. Die Wörter erzeugt das Gerät beim Einrichten, vor meinen Augen',
+          'Schritt 3 von 3: Die Wörter gehören auf Papier. Nie ins Handy, nie in ein Foto, nie in eine Nachricht, und keiner bekommt sie',
+          'Merkzettel, drei Schritte, bevor Geld aufs Gerät geht: nur beim Hersteller selbst kaufen; Wörter in der Packung, zurück damit; die Wörter erzeugt das Gerät vor deinen Augen; Wörter auf Papier, nie ins Handy. Speichere dir das, bevor du eine Hardware-Wallet kaufst',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Eine Hardware-Wallet schützt dich. Außer, jemand hat sie vor dir in der Hand gehabt.
+
+Der Fall: Jemand kaufte eine Hardware-Wallet bei einem Händler im Netz, statt beim Hersteller. Das Gerät sah aus wie das bekannte Modell. Das Gehäuse war geklebt. Die Wörter, die das Gerät beim Einrichten zeigte, kamen aus einer Liste von 20 festen Sätzen, die der Fälscher kannte. Am Ende waren 1,33 Bitcoin weg (Quelle: Kaspersky, 2023).
+
+Der Fall ist von 2023. Das Thema ist aktuell: Im Oktober 2026 hat MediaMarktSaturn den Verkauf von Ledger-Wallets vorsorglich gestoppt, nach Berichten über manipulierte Geräte (Quelle: PC Games Hardware, Oktober 2026).
+
+Mein Fall: Ich hab 70.000 $ an eine gefälschte Wallet-App verloren. Geladen hab ich sie, weil sie echt aussah. Seitdem weiß ich: Aussehen beweist null.
+
+Meine 3 Schritte, grob:
+1. Ich kaufe nur beim Hersteller selbst. Kein Marktplatz, kein Gebrauchtgerät, kein Schnäppchen.
+2. Liegen Wörter in der Packung, geht das Gerät zurück. Die Wörter erzeugt das Gerät beim Einrichten, vor meinen Augen.
+3. Die Wörter gehören auf Papier. Nie ins Handy, nie in ein Foto, nie in eine Nachricht. Und keiner bekommt sie.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der seine Bitcoin von der Börse in die eigene Wallet holen will und sich vor Betrug schützen möchte.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}

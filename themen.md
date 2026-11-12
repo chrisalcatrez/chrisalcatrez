@@ -55,3 +55,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 50 | 16.11.2026 | Erfolgsgeschichte | Damals eine „Netzwerkgebühr“ für die eigene Auszahlung gezahlt, ausgezahlt wurde 0; heute über 250 Kunden und die Regel: Gebühr vor der Auszahlung ist Betrug
 - 51 | 17.11.2026 | Visueller Post | Raster: 2 Wege, mit Bitcoin im Alltag zu bezahlen, und nur bei einem bekommt der Laden Bitcoin (BTC Map gegen Krypto-Karte, Alltag in Venezuela)
 - 52 | 18.11.2026 | Frage an die Zielgruppe | Hand aufs Herz: Liegen deine Coins auf einer Börse oder in deiner eigenen Wallet? (Binance-Hack, über 6,3 Mrd. $ laut BTC-ECHO; wer hält den Schlüssel)
+- 53 | 19.11.2026 | Schritt-für-Schritt-Anleitung | Hardware-Wallet: 1,33 Bitcoin weg, der Fehlgriff passierte schon beim Kauf; meine 3 Schritte, bevor Geld aufs Gerät geht (Kaspersky, gefälschte App 70.000 $)
