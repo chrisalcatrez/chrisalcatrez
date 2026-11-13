@@ -1024,4 +1024,26 @@ Beim Love Scam läuft dasselbe mit Herz statt Name: rund 14 Mio. € in zwölf M
 Der Köder wechselt, die Gebühr bleibt.
 
 Welcher Köder hätte bei dir gezogen: Name oder Herz?"""),
+ dict(thema='Gefälschte AML-Verifizierung der Wallet (Fall Elena, Markus, Leon, Sabine, Namen geändert; Travel Rule seit 30.12.2024, Verordnung (EU) 2023/1113; gefälschte AML-Check-Seiten, Quelle Malwarebytes 19.08.2026)', feld='Sicherheit', var='These', frei_ab='2026-12-04', verwendet=None,
+      text="""Eine Prüfung, die deine 12 Wörter braucht, prüft nur dein Guthaben.
+
+Vier aus meiner Community, Elena, Markus, Leon und Sabine (Namen geändert), bekamen vom „AML-Supporter“ dieselbe Nachricht: Wallet verifizieren, neue Geldwäscheregeln. Alle vier gaben die Seed-Phrase heraus. Danach war das Geld weg.
+
+Echte Regeln gibt es seit dem 30.12.2024, sie treffen die Börse (Verordnung (EU) 2023/1113).
+
+Behördenwort plus Wörter-Abfrage ergibt eine leere Wallet.
+
+Welches Wort hätte dich stutzig gemacht?"""),
+ dict(thema='Gefälschte AML-Verifizierung der Wallet (Fall Elena, Markus, Leon, Sabine, Namen geändert; Travel Rule seit 30.12.2024, Verordnung (EU) 2023/1113; gefälschte AML-Check-Seiten, Quelle Malwarebytes 19.08.2026)', feld='Sicherheit', var='Story', frei_ab='2026-12-04', verwendet=None,
+      text="""Ein Anrufer wollte meine 12 Wörter. Ich gab ihm zwölf erfundene.
+
+Er sprach von „synchronisieren“. Bei vier Leuten aus meiner Community, Elena, Markus, Leon und Sabine (Namen geändert), hieß es „verifizieren“ wegen Geldwäscheregeln. Sie gaben die echten heraus. Danach war das Geld weg.
+
+Mein Anrufer ist ausgerastet, als er es merkte.
+
+Das Wort wechselt. Die Forderung bleibt dieselbe.
+
+Zwölf Wörter, die ein Fremder hört, sind keine Wallet mehr.
+
+Wie hättest du auf „verifizieren“ reagiert?"""),
 ]
