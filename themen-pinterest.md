@@ -88,3 +88,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 76 | 16.11.2026 20:19 | Krypto für Anfänger | Kurve (hell) | Bitcoin kaufen für Anfänger: Der Plan für rote Tage steht vor dem Kauf, 3 Regeln (in Panik verkauft) | pinterest/p-76.png | eingeplant
 - 77 | 17.11.2026 11:31 | Geld anlegen und Inflation | Zahl (akzent) | Inflation Erspartes: 100 € von 2020 kaufen heute Ware für 82 € (Destatis), 3 Regeln für dein Geld | pinterest/p-77.png | eingeplant
 - 78 | 17.11.2026 20:48 | Krypto-Betrug erkennen | Stempel (schwarz) | Krypto Betrug erkennen am „Sicherheitskonto“: 3 Warnsignale, bevor du Geld verschiebst (62.000 €) | pinterest/p-78.png | eingeplant
+- 79 | 18.11.2026 11:06 | Krypto-Betrug erkennen | Foto (schwarz) | Cloud-Mining Betrug: Feste Rendite, Rechner nie gesehen? 4 Regeln, bevor dein Geld ins Mining geht | pinterest/p-79.png | eingeplant
+- 80 | 18.11.2026 20:22 | Krypto für Anfänger | Entscheidungsbaum (hell) | Bitcoin kaufen für Anfänger: Jetzt oder warten? 3 Fragen an dein Geld, ein einziges Ja heißt warten | pinterest/p-80.png | eingeplant
+- 81 | 19.11.2026 10:37 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Krypto Betrug erkennen in Telegram: Echter Admin oder Fake? 3 Unterschiede (Fake trug meinen Namen) | pinterest/p-81.png | eingeplant
+- 82 | 19.11.2026 20:56 | Krypto für Anfänger | Karussell (4 Folien) (hell) | Krypto für Anfänger: 75.000 $ Lehrgeld aus 2 Käufen und 1 Verkauf, je eine Regel pro Folie | pinterest/p-82-1.png bis p-82-4.png | eingeplant

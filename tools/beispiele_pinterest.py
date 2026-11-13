@@ -838,6 +838,63 @@ PINS = [
           visual=vz_stamp('<span style="font-size:56px;letter-spacing:3px">Sicherheitskonto</span>', 'Das Konto gehört dem Betrüger. Peter sollte fremdes Geld über eine Krypto-Börse dorthin schicken. Name geändert.', small=True),
           points=['Anruf kommt ungefragt', 'Fremdes Geld auf dem Konto', 'Frist und Druck am Telefon'],
           marks='warn', cta='Speichern für den nächsten „Bank“-Anruf', size='xs', center=True)])),
+ # 18. und 19.11.2026 (Winterzeit): Fall der Woche (Peter, Sicherheitskonto) lief am 17.11. in p-78, darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-78 (Stempel): Foto -> Entscheidungsbaum -> Echt gegen Fake -> Karussell (je eines pro Woche, Woche 16. bis 22.11.).
+ # Farben nach p-78 (schwarz): Foto zählt als schwarz, danach hell -> schwarz -> hell.
+ # Neue Themen: Cloud-Mining nach 32 Tagen neu (EU-Aufsichten als Quelle), erster Kauf jetzt oder warten (p-22 nach 31 Tagen), Fake-Admin mit Chris' Namen (p-25 nach 30 Tagen), 75.000 $ Lehrgeld in drei Entscheidungen.
+
+ dict(d='2026-11-18', t='11:06', board=B_BET, f='Foto', farbe='schwarz', bild='p-79',
+      titel='Cloud-Mining Betrug: Feste Rendite, Rechner nie gesehen? 4 Regeln, bevor dein Geld ins Mining geht',
+      text="""Cloud-Mining Betrug erkennst du am Versprechen. Mir wurde eine feste Rendite pro Monat zugesagt, für Rechner, die ich nie gesehen hab. 4.000 bis 5.000 $ hab ich eingezahlt, das Geld war weg. Eine garantierte schnelle und hohe Rendite steht bei den EU-Finanzaufsichten EBA, EIOPA und ESMA ganz oben auf der Liste der Warnzeichen für Krypto-Betrug (Quelle: Factsheet Crypto-Betrug, 2025). Heute gilt für mich: Was ich nie sehen kann, bekommt kein Geld. Kostenloses Training über den Link.""",
+      alt='Cloud-Mining Betrug: vier Regeln vor der Einzahlung ins Mining, darunter Chris Alcatrez im blauen Hemd.',
+      build=lambda: build_pin('p-79', [pin2('', 'Cloud-Mining Betrug: <em>4&nbsp;Regeln</em> aus 4.000&nbsp;$ Verlust',
+          points=['Feste Rendite heißt Betrug', 'Kein Rechner, kein Geld', 'Impressum fehlt: kein Cent', 'Gebühr vorab: Betrug'],
+          cta='Kostenloses Training: chrisalcatrez.de', size='sm', photo=True)])),
+
+ dict(d='2026-11-18', t='20:22', board=B_ANF, f='Entscheidungsbaum', farbe='hell', bild='p-80',
+      titel='Bitcoin kaufen für Anfänger: Jetzt oder warten? 3 Fragen an dein Geld, ein einziges Ja heißt warten',
+      text="""Bitcoin kaufen für Anfänger beginnt vor dem Klick, bei drei Fragen an das Geld selbst. Mein erster großer Kauf kam auf Zuruf: 5.000 $ in einen Coin, weil ein bekanntes Gesicht dafür warb. Verstanden hab ich den Coin nie, das Geld war weg. Heute fließt nur Geld, das fünf Jahre liegen darf, das mir gehört und dessen Kauf ich selbst angestoßen hab. Fester Tag, feste Summe, klein. Keine Kursprognose, keine Coin-Empfehlung. Kostenloses Training über den Link.""",
+      alt='Bitcoin kaufen für Anfänger: Entscheidungsbaum mit drei Fragen an dein Geld, Ja heißt warten, Nein führt zur nächsten Frage.',
+      build=lambda: build_pin('p-80', [pin2('light', 'Bitcoin jetzt kaufen? <em>3&nbsp;Fragen</em>, ein Ja heißt warten',
+          visual=vz_flow(['Brauchst du das Geld in 5 Jahren?', 'Ist das Geld geliehen?', 'Kam der Anstoß von Fremden?'],
+                         'Kein Grund zu warten. Trotzdem klein anfangen.', ja='Warten'),
+          cta='Speichern, bevor der erste Euro fließt', size='xs')])),
+
+ dict(d='2026-11-19', t='10:37', board=B_BET, f='Echt gegen Fake', farbe='schwarz', bild='p-81',
+      titel='Krypto Betrug erkennen in Telegram: Echter Admin oder Fake? 3 Unterschiede (Fake trug meinen Namen)',
+      text="""Krypto Betrug erkennen in Telegram-Gruppen: Der Admin, der dir privat schreibt, ist selten der Admin. Ich war Admin in der Gruppe eines Coin-Projekts. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an und räumte Wallets leer, geschätzt 4.000 bis 5.000 €. Auf meine Fragen nach dem Entwicklerteam kam keine Antwort. Der echte Admin schreibt in der Gruppe und will kein Geld und keine 12 Wörter von dir. Prüf den Nutzernamen, nie den Anzeigenamen. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: links echter Admin mit drei Haken, rechts Fake-Admin mit drei Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-81', [pin2('', 'Admin schreibt dir privat? <em>3&nbsp;Unterschiede</em> echt gegen Fake',
+          visual=vz_vs2('Echter Admin', ['In der Gruppe', 'Alter Account', 'Will nie Geld'],
+                        'Fake', ['Privat zuerst', 'Neuer Account', 'Will Geld'],
+                        note='Nachgestellt. Der Fake trug meinen Namen.'),
+          cta='Speichern für den nächsten „Admin“-Chat', size='xs')])),
+
+ dict(d='2026-11-19', t='20:56', board=B_ANF, f='Karussell (4 Folien)', farbe='hell', bild='p-82', folien=4,
+      titel='Krypto für Anfänger: 75.000 $ Lehrgeld aus 2 Käufen und 1 Verkauf, je eine Regel pro Folie',
+      text="""Krypto für Anfänger, aus meinen drei teuersten Entscheidungen. 70.000 $ gingen an eine Wallet-App, die echt aussah, den Anbieter gab es als Handy-App nie. 5.000 $ steckte ich in einen Coin, weil ein bekanntes Gesicht dafür warb. Und Ende 2024 verkaufte ich alle Bitcoin in Panik. Aus jedem Mal blieb eine Regel, eine pro Folie. Wenn ich nach diesem Lehrgeld den sicheren Einstieg geschafft hab, schaffst du ihn auch. Keine Kursprognose, keine Coin-Empfehlung. Kostenloses Training über den Link.""",
+      alt='Karussell Krypto für Anfänger: Stempel Lehrgeld, 75.000 $, dann drei Folien mit je einer Entscheidung und zwei Regeln.',
+      alts=['Krypto für Anfänger: Stempel Lehrgeld, 75.000 $ aus zwei Käufen und einem Verkauf, eine Regel pro Folie.',
+            'Kauf 1: 70.000 $ in eine falsche Wallet-App, Stempel Fake, zwei Regeln mit Haken.',
+            'Kauf 2: 5.000 $ in einen Influencer-Coin, Karte Gesicht, zwei Regeln mit Haken.',
+            'Verkauf: alle Bitcoin in Panik, Kurve mit Kreuz am Tiefpunkt, zwei Regeln mit Haken.'],
+      build=lambda: build_pin('p-82', [
+          pin2('light', 'Zwei Käufe, ein Verkauf: <em>75.000&nbsp;$</em> Lehrgeld',
+               visual=vz_stamp('Lehrgeld', 'Eine falsche App, ein Coin mit Gesicht, ein Panikverkauf. Eine Regel pro Folie.', small=True),
+               cta='Speichern. Eine Regel pro Folie', size='sm', center=True),
+          pin2('light', 'Kauf 1: <em>70.000&nbsp;$</em> in eine falsche App',
+               visual=vz_stamp('Fake', 'Sie sah echt aus. Den Anbieter gab es als Handy-App nie.', small=True),
+               points=['Erst Anbieter-Seite, dann App', 'Aussehen beweist null'], marks='check',
+               cta='Speichern, bevor du die nächste App lädst', size='sm', center=True),
+          pin2('light', 'Kauf 2: <em>5.000&nbsp;$</em> in einen Influencer-Coin',
+               visual=vz_card('Gesicht', 'Ein bekannter Name warb dafür. Verstanden hab ich den Coin nie.'),
+               points=['Werbung ist kein Beleg', 'Nur kaufen, was du erklärst'], marks='check',
+               cta='Speichern, bevor ein Gesicht dich überzeugt', size='sm'),
+          pin2('light', 'Verkauf: <em>alle Bitcoin</em>, in Panik',
+               visual=vz_curve('Ende 2024, ohne Plan für rote Tage.', marks='x'),
+               points=['Plan steht vor dem Kauf', 'Rot ist kein Verkaufssignal'], marks='check',
+               cta='Speichern, bevor der Kurs das nächste Mal fällt', size='sm'),
+      ])),
 ]
 
 if __name__ == '__main__':
