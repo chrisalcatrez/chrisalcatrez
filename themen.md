@@ -56,3 +56,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 51 | 17.11.2026 | Visueller Post | Raster: 2 Wege, mit Bitcoin im Alltag zu bezahlen, und nur bei einem bekommt der Laden Bitcoin (BTC Map gegen Krypto-Karte, Alltag in Venezuela)
 - 52 | 18.11.2026 | Frage an die Zielgruppe | Hand aufs Herz: Liegen deine Coins auf einer Börse oder in deiner eigenen Wallet? (Binance-Hack, über 6,3 Mrd. $ laut BTC-ECHO; wer hält den Schlüssel)
 - 53 | 19.11.2026 | Schritt-für-Schritt-Anleitung | Hardware-Wallet: 1,33 Bitcoin weg, der Fehlgriff passierte schon beim Kauf; meine 3 Schritte, bevor Geld aufs Gerät geht (Kaspersky, gefälschte App 70.000 $)
+- 54 | 20.11.2026 | FAQ beantworten | FAQ: „Woran erkenne ich, ob eine Plattform echt ist?“ (Fall Peter: 83.000 € angezeigt, 5 € ausgezahlt; 4 Prüfungen vor der ersten Einzahlung, BaFin-Unternehmensdatenbank, Verbraucherzentrale)

@@ -1889,6 +1889,70 @@ Keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der 
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 54: FAQ (Ist die Plattform echt? Fall Peter, 4 Pruefungen vor der ersten Einzahlung) ----------
+Q_BAFIN_HP = 'Quelle: BaFin, „Betrügerische Handelsplattformen“'
+Q_BAFIN_ID = 'Quelle: BaFin-Warnung zu investtrading(.)co, 02.06.2026'
+Q_VZ_OT = 'Quelle: Verbraucherzentrale, „Vorsicht: Betrügerisches Online-Trading“'
+POSTS['beitrag-54'] = dict(
+    date='2026-11-20', fmt='FAQ beantworten', topic='FAQ: „Woran erkenne ich, ob eine Plattform echt ist?“ (Fall Peter: 83.000 € angezeigt, 5 € ausgezahlt; 4 Prüfungen vor der ersten Einzahlung, BaFin-Unternehmensdatenbank, Verbraucherzentrale)',
+    slides=[
+        s_hook('FAQ', '„Ist die Plattform echt?“ Peters Konto zeigte 83.000 €. Ausgezahlt wurden %s' % A('5 €.'),
+               sub='4 Prüfungen, bevor du den ersten Euro einzahlst.', cue='Wie Peter dort gelandet ist &#8594;', size=''),
+        s_proof('DER BELEG', 'Der Kontostand war eine Zahl auf einer Webseite.', big='62.000 €',
+                big_sub='Schaden laut Peters Anzeige. Angefangen hat es mit gut 250 €.',
+                ps=['Peter (Name geändert) kam über eine Werbung auf Instagram. Gute Gewinne, Nebeneinkommen.',
+                    D('Sein Handelskonto zeigte 83.000 €. Ausgezahlt wurden 5 €.')],
+                src='Fall aus meiner Community, Name geändert', cue='Prüfung 1 dauert 2 Minuten &#8594;'),
+        s_point('PRÜFUNG 1 VON 4', 'Steht der Anbieter bei der %s' % A('BaFin?'),
+                ['Such in ihrer Unternehmensdatenbank nach dem genauen Firmennamen aus dem Impressum.', D('Kein Treffer? Dann fließt kein Euro.')],
+                src=Q_BAFIN_HP, size='m', cue='Prüfung 2 entlarvt eine geliehene Firma &#8594;'),
+        s_point('PRÜFUNG 2 VON 4', 'Passt die %s zur Firma in der Datenbank?' % A('Webadresse'),
+                ['Betrüger schmücken sich mit Namen und Registerdaten echter Firmen.', D('Steht die Firma dort mit einer anderen Adresse, ist die Seite ein Klon.')],
+                src=Q_BAFIN_ID, size='m', cue='Prüfung 3 fragt, wer zuerst kam &#8594;'),
+        s_point('PRÜFUNG 3 VON 4', 'Wer hat %s' % A('zuerst geschrieben?'),
+                ['Peter kam über Werbung. Danach rief „Laura“ mehrmals täglich an und handelte für ihn.', D('Wer dich findet und für dich handeln will, will dein Geld bewegen.')],
+                size='m', cue='Prüfung 4 beendet jedes Gespräch &#8594;'),
+        s_point('PRÜFUNG 4 VON 4', 'Will jemand deinen %s sehen?' % A('Bildschirm'),
+                ['Vor jeder Überweisung gab es bei Peter einen Videoanruf mit geteiltem Bildschirm.', D('Fernzugriff über Programme wie AnyDesk ist ein Warnsignal der Verbraucherzentrale.')],
+                src=Q_VZ_OT, size='m', cue='Alle 4 Prüfungen zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Vier Prüfungen, %s' % A('vor dem ersten Euro.'), 'Dein Merkzettel', [
+            'Firma in der Unternehmensdatenbank der BaFin?',
+            'Webadresse passt zur Firma dort?',
+            'Kam die Werbung oder der Anruf zuerst zu dir? Stopp.',
+            'Bildschirm teilen oder Fernzugriff? Auflegen.',
+        ], 'Speichere dir das, bevor du auf einer neuen Plattform einzahlst.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['FAQ: Ist die Plattform echt? Peters Konto zeigte 83.000 Euro, ausgezahlt wurden 5 Euro. 4 Prüfungen, bevor du den ersten Euro einzahlst',
+          'Der Beleg: 62.000 Euro Schaden laut Peters Anzeige, angefangen hat es mit gut 250 Euro. Peter, Name geändert, kam über eine Werbung auf Instagram. Sein Handelskonto zeigte 83.000 Euro, ausgezahlt wurden 5 Euro. Fall aus meiner Community',
+          'Prüfung 1 von 4: Steht der Anbieter bei der BaFin? Such in ihrer Unternehmensdatenbank nach dem genauen Firmennamen aus dem Impressum. Kein Treffer, dann fließt kein Euro. Quelle: BaFin, Betrügerische Handelsplattformen',
+          'Prüfung 2 von 4: Passt die Webadresse zur Firma in der Datenbank? Betrüger schmücken sich mit Namen und Registerdaten echter Firmen. Steht die Firma dort mit einer anderen Adresse, ist die Seite ein Klon. Quelle: BaFin-Warnung, 02.06.2026',
+          'Prüfung 3 von 4: Wer hat zuerst geschrieben? Peter kam über Werbung, danach rief Laura mehrmals täglich an und handelte für ihn. Wer dich findet und für dich handeln will, will dein Geld bewegen',
+          'Prüfung 4 von 4: Will jemand deinen Bildschirm sehen? Vor jeder Überweisung gab es bei Peter einen Videoanruf mit geteiltem Bildschirm. Fernzugriff über Programme wie AnyDesk ist ein Warnsignal der Verbraucherzentrale',
+          'Merkzettel, vier Prüfungen vor dem ersten Euro: Firma in der Unternehmensdatenbank der BaFin; Webadresse passt zur Firma dort; kam die Werbung oder der Anruf zuerst zu dir, stopp; Bildschirm teilen oder Fernzugriff, auflegen. Speichere dir das, bevor du auf einer neuen Plattform einzahlst',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''83.000 € auf dem Bildschirm sind keine 83.000 € auf deinem Konto.
+
+„Woran erkenne ich, ob eine Plattform echt ist?“ Diese Frage bekomme ich von Krypto-Anfängern fast jede Woche.
+
+Ich weiß, wie es dir geht. Die Seite sieht seriös aus, der Kontostand wächst, der Berater ist freundlich.
+
+Der Fall: Peter (Name geändert) aus meiner Community kam über eine Werbung auf Instagram. Gute Gewinne, Nebeneinkommen. Für gut 250 € wurde sein Handelskonto „aktiviert“. „Laura“ rief mehrmals täglich an und handelte für ihn. Vor jeder Überweisung gab es einen Videoanruf mit geteiltem Bildschirm. Sein Konto zeigte 83.000 €. Ausgezahlt wurden 5 €. Schaden laut seiner Anzeige: rund 62.000 €.
+
+Mir ging es ähnlich. Ein Kontakt auf Instagram wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie.
+
+Meine 4 Prüfungen, bevor der erste Euro fließt:
+1. Steht der Anbieter in der Unternehmensdatenbank der BaFin? Such nach dem genauen Firmennamen aus dem Impressum. Kein Treffer, kein Euro (Quelle: BaFin, „Betrügerische Handelsplattformen“).
+2. Passt die Webadresse zur Firma in der Datenbank? Betrüger schmücken sich mit Namen und Registerdaten echter Firmen (Quelle: BaFin-Warnung zu investtrading(.)co, 02.06.2026).
+3. Wer hat zuerst geschrieben? Kam die Werbung oder der Anruf zu dir, stopp.
+4. Will jemand deinen Bildschirm sehen oder Fernzugriff über Programme wie AnyDesk? Auflegen (Quelle: Verbraucherzentrale, „Vorsicht: Betrügerisches Online-Trading“).
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der Bitcoin an einer Börse kaufen will und sich vor Betrug schützen möchte.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
