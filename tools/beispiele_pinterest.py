@@ -929,7 +929,7 @@ PINS = [
 
  dict(d='2026-11-21', t='19:58', board=B_SIC, f='Zahl', farbe='schwarz', bild='p-86',
       titel='Krypto Sicherheit: 70 Überfälle auf Krypto-Besitzer in einem Jahr, 3 Regeln, wer davon wissen darf',
-      text="""Krypto Sicherheit beginnt vor dem Passwort, bei der Frage, wer von deinem Bitcoin weiß. 2025 gab es rund 70 Überfälle auf Krypto-Besitzer gemeldet, 2024 waren es 41. Täter finden ihre Opfer über Prahlerei in Gruppenchats und sozialen Medien (Quelle: The Block, 01.01.2026, Daten von Jameson Lopp). Ich lebe in Venezuela, Krypto ist hier Alltag. Ich bezahle digital über das Internet, sichtbar im Geschäft bezahle ich damit nie. Was keiner sieht, will keiner holen. Kostenloses Training über den Link.""",
+      text="""Krypto Sicherheit beginnt vor dem Passwort, bei der Frage, wer von deinem Bitcoin weiß. 2025 wurden rund 70 Überfälle auf Krypto-Besitzer gemeldet, 2024 waren es 41. Täter finden ihre Opfer über Prahlerei in Gruppenchats und sozialen Medien (Quelle: The Block, 01.01.2026, Daten von Jameson Lopp). Ich lebe in Venezuela, Krypto ist hier Alltag. Ich bezahle digital über das Internet, sichtbar im Geschäft bezahle ich damit nie. Was keiner sieht, will keiner holen. Kostenloses Training über den Link.""",
       alt='Krypto Sicherheit: große Zahl 70, gemeldete Überfälle auf Krypto-Besitzer in einem Jahr, darunter drei Regeln.',
       build=lambda: build_pin('p-86', [pin2('', 'Wer weiß, dass du Bitcoin hast? <em>3&nbsp;Regeln</em>',
           visual=vz_num('<span style="font-size:190px">70</span>', 'Gemeldete Überfälle auf Krypto-Besitzer in einem Jahr, laut Sicherheitsforscher. Die Täter wussten vorher, wer Krypto hat.'),
