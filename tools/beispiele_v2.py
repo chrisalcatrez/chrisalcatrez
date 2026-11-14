@@ -1953,6 +1953,75 @@ Keine Anbieter-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der 
 
 Das kostenlose Training findest du im Link in meiner Bio.''')
 
+# ---------- Beitrag 55: Aufzaehlung (5 Zeichen eines falschen Admins; Fake-Account mit meinem Namen in der Telegram-Gruppe) ----------
+Q_CMC = 'Quelle: CoinMarketCap Academy, „Avoiding Common Crypto Scams on Telegram“'
+POSTS['beitrag-55'] = dict(
+    date='2026-11-21', fmt='Aufzählung', topic='Falscher Admin in Krypto-Gruppen: 5 Zeichen, an denen du ihn erkennst (Fake-Account mit meinem Namen in der Telegram-Gruppe, geschätzt 4.000 bis 5.000 €; Nutzername prüfen laut CoinMarketCap Academy)',
+    slides=[
+        s_hook('AUFZÄHLUNG', 'Ein Fake mit meinem Namen. Geschätzt <span style="white-space:nowrap">4.000–5.000 €</span> weg. %s' % A('5&nbsp;Zeichen, an denen du ihn erkennst.'),
+               sub='Ich war der echte Admin der Gruppe.', cue='Was in meiner Gruppe passierte &#8594;', size=''),
+        s_proof('MEIN FALL', 'Ein zweiter Account, %s' % A('mein Name.'), big='4.000–5.000 €',
+                big_sub='geschätzt, aus den Wallets von Mitgliedern.',
+                ps=['Ich war Admin in der Telegram-Gruppe eines Coin-Projekts. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an.',
+                    D('Auf meine Fragen nach dem Entwicklerteam kam keine Antwort.')],
+                cue='Zeichen 1 ist die erste Nachricht &#8594;'),
+        s_point('ZEICHEN 1', 'Er schreibt dir %s' % A('zuerst und privat.'),
+                ['Der echte Admin schreibt in der Gruppe, für alle sichtbar.', D('Oft kommt die Nachricht kurz nachdem du dort eine Frage gestellt hast.')],
+                src=Q_CMC, size='m', cue='Zeichen 2 steckt im Namen &#8594;'),
+        s_point('ZEICHEN 2', 'Der Anzeigename stimmt. %s' % A('Der Nutzername weicht ab.'),
+                ['Den Anzeigenamen kann sich jeder geben. Den Nutzernamen mit @ prüfst du Zeichen für Zeichen.', D('Typisch: eine Null statt eines O. Oder das @ steht nur in der Bio.')],
+                src=Q_CMC, size='m', cue='Zeichen 3 prüfst du in 5 Sekunden &#8594;'),
+        s_point('ZEICHEN 3', 'In der Gruppe hat er %s' % A('nie etwas geschrieben.'),
+                ['Kopier seinen Nutzernamen und such ihn in der Gruppe. Kein Treffer, kein Admin.', D('Der echte trägt dort das Admin-Zeichen neben dem Namen.')],
+                src=Q_CMC, size='m', cue='Zeichen 4 klingt nach Hilfe &#8594;'),
+        s_point('ZEICHEN 4', 'Er hilft dir %s' % A('über einen Link.'),
+                ['Eine Seite, auf der du dich anmelden sollst. Sie sieht aus wie das Projekt.', D('Was du dort eingibst, landet beim Fake.')],
+                src=Q_CMC, size='m', cue='Zeichen 5 kostet dich alles &#8594;'),
+        s_point('ZEICHEN 5', 'Am Ende will er %s' % A('deine 12 Wörter.'),
+                ['Seed-Phrase oder privater Schlüssel. Die Frage kommt meist zum Schluss, nach viel Freundlichkeit.', D('Wer danach fragt, will dein Geld. Ohne Ausnahme.')],
+                src=Q_CMC, size='m', cue='Alle 5 Zeichen zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Der Admin, der dir privat schreibt, %s' % A('ist selten der Admin.'), 'Dein Merkzettel', [
+            'Admin schreibt zuerst und privat? Stopp.',
+            'Nutzernamen prüfen, nie den Anzeigenamen.',
+            'Nutzernamen in der Gruppe suchen. Kein Treffer, kein Admin.',
+            'Link zum Anmelden aus dem Privatchat? Nie öffnen.',
+            'Frage nach den 12 Wörtern? Blockieren und melden.',
+        ], 'Schick das jemandem, der in Krypto-Gruppen unterwegs ist.'),
+    ],
+    alts=['Aufzählung: Ein Fake mit meinem Namen, geschätzt 4.000 bis 5.000 Euro weg. 5 Zeichen, an denen du ihn erkennst. Ich war der echte Admin der Gruppe',
+          'Mein Fall: geschätzt 4.000 bis 5.000 Euro aus den Wallets von Mitgliedern. Ich war Admin in der Telegram-Gruppe eines Coin-Projekts, ein zweiter Account mit meinem Namen schrieb Mitglieder privat an. Auf meine Fragen nach dem Entwicklerteam kam keine Antwort',
+          'Zeichen 1: Er schreibt dir zuerst und privat. Der echte Admin schreibt in der Gruppe, für alle sichtbar. Oft kommt die Nachricht kurz nachdem du dort eine Frage gestellt hast. Quelle: CoinMarketCap Academy',
+          'Zeichen 2: Der Anzeigename stimmt, der Nutzername weicht ab. Den Anzeigenamen kann sich jeder geben, den Nutzernamen mit @ prüfst du Zeichen für Zeichen. Typisch: eine Null statt eines O, oder das @ steht nur in der Bio. Quelle: CoinMarketCap Academy',
+          'Zeichen 3: In der Gruppe hat er nie etwas geschrieben. Kopier seinen Nutzernamen und such ihn in der Gruppe, kein Treffer, kein Admin. Der echte trägt dort das Admin-Zeichen neben dem Namen. Quelle: CoinMarketCap Academy',
+          'Zeichen 4: Er hilft dir über einen Link, eine Seite zum Anmelden, die aussieht wie das Projekt. Was du dort eingibst, landet beim Fake. Quelle: CoinMarketCap Academy',
+          'Zeichen 5: Am Ende will er deine 12 Wörter, Seed-Phrase oder privaten Schlüssel. Wer danach fragt, will dein Geld, ohne Ausnahme. Quelle: CoinMarketCap Academy',
+          'Merkzettel, der Admin, der dir privat schreibt, ist selten der Admin: Admin schreibt zuerst und privat, stopp; Nutzernamen prüfen, nie den Anzeigenamen; Nutzernamen in der Gruppe suchen, kein Treffer, kein Admin; Link zum Anmelden aus dem Privatchat nie öffnen; Frage nach den 12 Wörtern, blockieren und melden. Schick das jemandem, der in Krypto-Gruppen unterwegs ist'],
+    caption='''Plötzlich gab es mich zweimal in meiner eigenen Gruppe. Der zweite wollte nur Geld.
+
+Ich war Admin in der Telegram-Gruppe eines Coin-Projekts. Ein zweiter Account mit meinem Namen schrieb Mitglieder privat an. Danach fehlten in ihren Wallets geschätzt 4.000 bis 5.000 €. Auf meine Fragen nach dem Entwicklerteam kam keine Antwort.
+
+Keiner hatte nachgesehen, ob ich das wirklich bin. Der Name hat gereicht. An diesen 5 Zeichen erkennst du einen falschen Admin in Krypto-Gruppen:
+
+1. Er schreibt dir zuerst und privat. Der echte Admin schreibt in der Gruppe, für alle sichtbar. Oft meldet sich der Fake kurz nachdem du dort eine Frage gestellt hast.
+2. Der Anzeigename stimmt, der Nutzername weicht ab. Den Anzeigenamen kann sich jeder geben. Typisch beim Nutzernamen: eine Null statt eines O, oder das @ steht nur in der Bio.
+3. In der Gruppe hat er nie etwas geschrieben. Kopier seinen Nutzernamen und such ihn in der Gruppe. Kein Treffer, kein Admin. Der echte trägt dort das Admin-Zeichen neben dem Namen.
+4. Er hilft dir über einen Link. Eine Seite zum Anmelden, die aussieht wie das Projekt. Was du dort eingibst, landet beim Fake.
+5. Am Ende will er deine 12 Wörter oder deinen privaten Schlüssel. Wer danach fragt, will dein Geld.
+(Quelle für 1 bis 5: CoinMarketCap Academy, „3 Minute Tips: Avoiding Common Crypto Scams on Telegram“)
+
+Dein Merkzettel:
+– Admin schreibt zuerst und privat? Stopp.
+– Nutzernamen prüfen, nie den Anzeigenamen.
+– Nutzernamen in der Gruppe suchen. Kein Treffer, kein Admin.
+– Link zum Anmelden aus dem Privatchat? Nie öffnen.
+– Frage nach den 12 Wörtern? Blockieren und melden.
+
+Keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der in Telegram- oder WhatsApp-Gruppen zu Bitcoin und Krypto unterwegs ist und sich vor Betrug schützen will.
+
+Hat dich in einer Krypto-Gruppe schon mal ein „Admin“ privat angeschrieben? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der in Krypto-Gruppen unterwegs ist.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
