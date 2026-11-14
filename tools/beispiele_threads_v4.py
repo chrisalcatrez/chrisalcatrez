@@ -392,7 +392,7 @@ Die ersten Käufe sind Übung. Übung bezahlt man klein.
 
 Welcher Betrag wäre dir für einen Übungskauf zu viel?"""),
 
- dict(thema='FAQ: Wie viel Geld für den Anfang (kleine Beträge)', feld='Einstieg', var='Story', frei_ab='2026-10-28', verwendet=None,
+ dict(thema='FAQ: Wie viel Geld für den Anfang (kleine Beträge)', feld='Einstieg', var='Story', frei_ab='2026-10-28', verwendet='21.11.2026',
       text="""5.000 $ in einem Coin. Gewusst hab ich über ihn fast null.
 
 Ein bekanntes Gesicht stand dahinter, das hat mir gereicht. Dann verkauften die Macher ihre Coins auf einmal. Der Kurs fiel senkrecht.
@@ -675,7 +675,7 @@ Vertrauen in einen Namen ist Vertrauen in jeden, der ihn benutzt.
 
 Hast du schon mal einem Account geglaubt, nur weil der Name vertraut war?"""),
 
- dict(thema='Gefälschte Wallet-App (26 Apps im App Store laut Kaspersky, April 2026; meine 70.000 $)', feld='Betrug', var='These', frei_ab='2026-11-06', verwendet=None,
+ dict(thema='Gefälschte Wallet-App (26 Apps im App Store laut Kaspersky, April 2026; meine 70.000 $)', feld='Betrug', var='These', frei_ab='2026-11-06', verwendet='21.11.2026',
       text="""Eine App, die echt aussieht, ist kein Beleg. Sie ist die Masche.
 
 Kaspersky fand im April 2026 bei Apple 26 gefälschte Wallet-Apps, mit Namen und Logos bekannter Wallets. Meine sah genauso aus. Geld rein, Geld weg, 70.000 $. Den Anbieter gab es als Handy-App nie.
