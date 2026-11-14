@@ -895,6 +895,46 @@ PINS = [
                points=['Plan steht vor dem Kauf', 'Rot ist kein Verkaufssignal'], marks='check',
                cta='Speichern, bevor der Kurs das nächste Mal fällt', size='sm'),
       ])),
+
+ # 20. und 21.11.2026 (Winterzeit): Fall der Woche (Peter, Sicherheitskonto) lief am 17.11. in p-78, darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-82 (Karussell): Beispielsatz -> Balken -> Kurve -> Zahl. Farben nach p-82 (hell): akzent -> schwarz -> hell -> schwarz.
+ # Neue Themen: Anrufer schickt zum Bitcoin-Automaten (FBI-Zahlen laut ESET), Hebel (ESMA-Obergrenzen), Bitcoin vererben (Chainalysis), wer von deinem Bitcoin weiß (Überfälle laut The Block).
+ dict(d='2026-11-20', t='11:23', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-83',
+      titel='Krypto Betrug erkennen am Bitcoin-Automaten: 3 Warnsignale, bevor du Bargeld einzahlst (389 Mio. $)',
+      text="""Krypto Betrug erkennen am Bitcoin-Automaten: Ein Anrufer gibt sich als Polizei oder Bank aus, dein Geld sei in Gefahr. Du sollst Bargeld abheben, es am Automaten einzahlen und einen QR-Code aus einer SMS scannen. Der Code führt in seine Wallet. 2025 zählte das FBI 13.460 solche Fälle, 389 Mio. $ Schaden, zwei Drittel bei Menschen über 60 (Quelle: ESET, 24.09.2026). Mein Anrufer wollte meine 12 Wörter zum „Synchronisieren“. Ich gab ihm erfundene. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: nachgestellter Satz eines Anrufers, der zum Bitcoin-Automaten schickt, dazu drei Warnsignale.',
+      build=lambda: build_pin('p-83', [pin2('acc', '„Zum Bitcoin-Automaten“, sagt der Anrufer? <em>3&nbsp;Warnsignale</em>',
+          visual=vz_bubble('„Ihr Konto ist in Gefahr. Heben Sie das Geld ab und zahlen Sie es am Bitcoin-Automaten ein. Ich bleibe am Telefon.“', 'Nachgestellt. In einem Jahr 389 Mio. $ weg (FBI).'),
+          points=['Anruf meldet Gefahr fürs Geld', 'Bargeld an den Automaten', 'QR-Code kommt per SMS'],
+          marks='warn', cta='Speichern, bevor du Bargeld abhebst', size='xs')])),
+
+ dict(d='2026-11-20', t='20:17', board=B_ANF, f='Balken', farbe='schwarz', bild='p-84',
+      titel='Krypto für Anfänger: Mit Hebel verlieren 74 bis 89 % der Konten Geld (ESMA), 3 Regeln ohne Hebel',
+      text="""Krypto für Anfänger heißt auch, das Wort Hebel zu kennen. Hebel ist geliehenes Geld. Ein roter Tag kann das Konto leeren, weil der Anbieter die Position zwangsweise schließt. Die EU-Aufsicht ESMA erlaubt Kleinanlegern bei Krypto nur Hebel 2:1, bei Währungen 30:1. 74 bis 89 % der Konten mit Hebelprodukten machen Verlust (Quelle: ESMA, 27.03.2018). Ende 2024 hab ich alle Bitcoin in Panik verkauft. Mein Entschluss, mein Lehrgeld. Mit Hebel entscheidet der Kurs. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: drei Balken mit den Hebel-Obergrenzen der EU, Währungen 30, Aktien 5, Krypto 2, darunter drei Regeln.',
+      build=lambda: build_pin('p-84', [pin2('', 'Krypto mit Hebel? <em>74 bis 89&nbsp;%</em> verlieren',
+          visual=vz_bars([('Währungen', 'Hebel 30', 100), ('Aktien', 'Hebel 5', 17), ('Krypto', 'Hebel 2', 7)],
+                         'Erlaubter Hebel für Kleinanleger in der EU laut ESMA. Je wilder der Kurs, desto kleiner der Hebel.'),
+          points=['Hebel ist geliehenes Geld', 'Ein roter Tag, Konto leer', 'Ohne Hebel kannst du warten'],
+          cta='Speichern, bevor dir eine App Hebel anbietet', size='sm')])),
+
+ dict(d='2026-11-21', t='11:47', board=B_SIC, f='Kurve', farbe='hell', bild='p-85',
+      titel='Bitcoin vererben: 3,7 Mio. Bitcoin gelten als verloren (Chainalysis), 3 Prüfungen, einmal im Jahr',
+      text="""Bitcoin vererben fängt mit einer Frage an: Wer kommt an deine Coins, wenn du es selbst nie mehr kannst? Rund 3,7 Mio. Bitcoin gelten laut Chainalysis als für immer verloren, durch verlorene Schlüssel, verschwundene Festplatten und Besitzer, die den Zugang nie weitergaben (Quelle: BTC-ECHO, 21.11.2020). Meine 70.000 $ gingen an eine Wallet-App, die echt aussah. Keine Hotline holte etwas zurück. Für Erben gilt dasselbe, ohne die 12 Wörter hilft keine Bank. Kostenloses Training über den Link.""",
+      alt='Bitcoin vererben: Kurve mit Punkten in festem Abstand, jeder Punkt eine Prüfung im Jahr, darunter drei Prüfpunkte für Erben.',
+      build=lambda: build_pin('p-85', [pin2('light', 'Wer erbt deine Bitcoin? <em>3&nbsp;Prüfungen</em>',
+          visual=vz_curve('Jeder Punkt eine Prüfung, einmal im Jahr. 3,7 Mio. Bitcoin gelten als verloren, auch durch Erben ohne Zugang.'),
+          points=['Wörter auf Papier, lesbar', 'Ein Mensch kennt den Ort', 'Anleitung ohne die Wörter'],
+          cta='Speichern für die Prüfung einmal im Jahr', size='sm')])),
+
+ dict(d='2026-11-21', t='19:58', board=B_SIC, f='Zahl', farbe='schwarz', bild='p-86',
+      titel='Krypto Sicherheit: 70 Überfälle auf Krypto-Besitzer in einem Jahr, 3 Regeln, wer davon wissen darf',
+      text="""Krypto Sicherheit beginnt vor dem Passwort, bei der Frage, wer von deinem Bitcoin weiß. 2025 gab es rund 70 Überfälle auf Krypto-Besitzer gemeldet, 2024 waren es 41. Täter finden ihre Opfer über Prahlerei in Gruppenchats und sozialen Medien (Quelle: The Block, 01.01.2026, Daten von Jameson Lopp). Ich lebe in Venezuela, Krypto ist hier Alltag. Ich bezahle digital über das Internet, sichtbar im Geschäft bezahle ich damit nie. Was keiner sieht, will keiner holen. Kostenloses Training über den Link.""",
+      alt='Krypto Sicherheit: große Zahl 70, gemeldete Überfälle auf Krypto-Besitzer in einem Jahr, darunter drei Regeln.',
+      build=lambda: build_pin('p-86', [pin2('', 'Wer weiß, dass du Bitcoin hast? <em>3&nbsp;Regeln</em>',
+          visual=vz_num('<span style="font-size:190px">70</span>', 'Gemeldete Überfälle auf Krypto-Besitzer in einem Jahr, laut Sicherheitsforscher. Die Täter wussten vorher, wer Krypto hat.'),
+          points=['Kontostand zeigst du keinem', 'Beträge nie in Chats', 'Im Laden nie sichtbar zahlen'],
+          cta='Speichern, bevor du über Beträge redest', size='sm')])),
 ]
 
 if __name__ == '__main__':

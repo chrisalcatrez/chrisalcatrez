@@ -92,3 +92,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 80 | 18.11.2026 20:22 | Krypto für Anfänger | Entscheidungsbaum (hell) | Bitcoin kaufen für Anfänger: Jetzt oder warten? 3 Fragen an dein Geld, ein einziges Ja heißt warten | pinterest/p-80.png | eingeplant
 - 81 | 19.11.2026 10:37 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Krypto Betrug erkennen in Telegram: Echter Admin oder Fake? 3 Unterschiede (Fake trug meinen Namen) | pinterest/p-81.png | eingeplant
 - 82 | 19.11.2026 20:56 | Krypto für Anfänger | Karussell (4 Folien) (hell) | Krypto für Anfänger: 75.000 $ Lehrgeld aus 2 Käufen und 1 Verkauf, je eine Regel pro Folie | pinterest/p-82-1.png bis p-82-4.png | eingeplant
+- 83 | 20.11.2026 11:23 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Krypto Betrug erkennen am Bitcoin-Automaten: 3 Warnsignale, bevor du Bargeld einzahlst (389 Mio. $) | pinterest/p-83.png | eingeplant
+- 84 | 20.11.2026 20:17 | Krypto für Anfänger | Balken (schwarz) | Krypto für Anfänger: Mit Hebel verlieren 74 bis 89 % der Konten Geld (ESMA), 3 Regeln ohne Hebel | pinterest/p-84.png | eingeplant
+- 85 | 21.11.2026 11:47 | Bitcoin sicher aufbewahren | Kurve (hell) | Bitcoin vererben: 3,7 Mio. Bitcoin gelten als verloren (Chainalysis), 3 Prüfungen, einmal im Jahr | pinterest/p-85.png | eingeplant
+- 86 | 21.11.2026 19:58 | Bitcoin sicher aufbewahren | Zahl (schwarz) | Krypto Sicherheit: 70 Überfälle auf Krypto-Besitzer in einem Jahr, 3 Regeln, wer davon wissen darf | pinterest/p-86.png | eingeplant
