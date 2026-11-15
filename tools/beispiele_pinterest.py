@@ -935,6 +935,27 @@ PINS = [
           visual=vz_num('<span style="font-size:190px">70</span>', 'Gemeldete Überfälle auf Krypto-Besitzer in einem Jahr, laut Sicherheitsforscher. Die Täter wussten vorher, wer Krypto hat.'),
           points=['Kontostand zeigst du keinem', 'Beträge nie in Chats', 'Im Laden nie sichtbar zahlen'],
           cta='Speichern, bevor du über Beträge redest', size='sm')])),
+
+ # 22.11.2026 (Sonntag, Winterzeit): Fall der Woche lief am 17.11. in p-78, darum nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-86 (Zahl): Karte -> Foto; der Foto-Pin p-79 lief am 18.11. in derselben Woche (höchstens einer pro Woche), darum weiter zum Entscheidungsbaum.
+ # Farben nach p-86 (schwarz): hell -> akzent. Neue Themen: Gebühren beim Kauf (Verbraucherzentrale), Plattform auf Empfehlung aus dem Freundeskreis (Schneeballsystem, Sparkasse.de).
+ dict(d='2026-11-22', t='11:28', board=B_ANF, f='Karte', farbe='hell', bild='p-87',
+      titel='Bitcoin kaufen für Anfänger: 3 echte Gebühren und die eine, die Betrug ist (ich hab sie gezahlt)',
+      text="""Bitcoin kaufen für Anfänger heißt auch, die Gebühren zu kennen, bevor der erste Euro fließt. Bei Kauf und Umtausch fallen Gebühren an, manche Börsen rechnen sie in den Kurs ein, beim Senden in die eigene Wallet kommt eine Netzwerkgebühr dazu (Quelle: Verbraucherzentrale, Stand 06.08.2026). Alle drei gehen vom Betrag ab. Die vierte kenne ich: Ein Kontakt auf Instagram wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt, die Auszahlung kam nie. Kostenloses Training über den Link.""",
+      alt='Bitcoin kaufen für Anfänger: Karte mit dem Wort Gebühr, darunter drei echte Gebühren und die eine, die Betrug ist.',
+      build=lambda: build_pin('p-87', [pin2('light', 'Bitcoin kaufen: <em>3&nbsp;echte Gebühren</em>, eine falsche',
+          visual=vz_card('Gebühr', 'Echte Gebühren gehen vom Betrag ab. Vorkasse auf die Auszahlung verlangt nur der Betrüger.'),
+          points=['Kaufgebühr der Börse', 'Gebühr im Umtauschkurs', 'Netzwerkgebühr beim Senden', 'Vorkasse auf Auszahlung: Betrug'],
+          cta='Speichern, bevor du das erste Mal kaufst', size='xs', dense=True)])),
+
+ dict(d='2026-11-22', t='20:06', board=B_BET, f='Entscheidungsbaum', farbe='akzent', bild='p-88',
+      titel='Krypto Betrug erkennen: Freund wirbt für eine Plattform? 3 Fragen vor der Einzahlung (Cloud-Mining)',
+      text="""Krypto Betrug erkennen fällt am schwersten, wenn ein Freund die Plattform empfiehlt. Mein Cloud-Mining versprach eine feste Rendite. 4.000 bis 5.000 $ eingezahlt, die Rechner nie gesehen. Wer drin war, bestätigte gern. Schneeballsysteme leben vom Werben neuer Leute, die Ersten werden aus den Einzahlungen der Nächsten bezahlt (Quelle: Sparkasse.de, Ratgeber Schneeballsystem). Dein Freund meint es gut. Das Geld ist trotzdem weg. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: Entscheidungsbaum mit drei Fragen zur Plattform, die ein Freund empfiehlt, Ja heißt Stopp.',
+      build=lambda: build_pin('p-88', [pin2('acc', 'Freund wirbt für eine Krypto-Plattform? <em>3&nbsp;Fragen</em>',
+          visual=vz_flow(['Verdienst du am Werben anderer?', 'Ist die Rendite fest versprochen?', 'Sollst du schnell einsteigen?'],
+                         'Kein Warnsignal. Trotzdem erst selbst verstehen.', ja='Stopp'),
+          cta='Speichern, bevor du auf Empfehlung einzahlst', size='xs')])),
 ]
 
 if __name__ == '__main__':

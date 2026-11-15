@@ -96,3 +96,5 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 84 | 20.11.2026 20:17 | Krypto für Anfänger | Balken (schwarz) | Krypto für Anfänger: Mit Hebel verlieren 74 bis 89 % der Konten Geld (ESMA), 3 Regeln ohne Hebel | pinterest/p-84.png | eingeplant
 - 85 | 21.11.2026 11:47 | Bitcoin sicher aufbewahren | Kurve (hell) | Bitcoin vererben: 3,7 Mio. Bitcoin gelten als verloren (Chainalysis), 3 Prüfungen, einmal im Jahr | pinterest/p-85.png | eingeplant
 - 86 | 21.11.2026 19:58 | Bitcoin sicher aufbewahren | Zahl (schwarz) | Krypto Sicherheit: 70 Überfälle auf Krypto-Besitzer in einem Jahr, 3 Regeln, wer davon wissen darf | pinterest/p-86.png | eingeplant
+- 87 | 22.11.2026 11:28 | Krypto für Anfänger | Karte (hell) | Bitcoin kaufen für Anfänger: 3 echte Gebühren und die eine, die Betrug ist (ich hab sie gezahlt) | pinterest/p-87.png | eingeplant
+- 88 | 22.11.2026 20:06 | Krypto-Betrug erkennen | Entscheidungsbaum (akzent) | Krypto Betrug erkennen: Freund wirbt für eine Plattform? 3 Fragen vor der Einzahlung (Cloud-Mining) | pinterest/p-88.png | eingeplant
