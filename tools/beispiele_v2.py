@@ -2022,6 +2022,74 @@ Hat dich in einer Krypto-Gruppe schon mal ein „Admin“ privat angeschrieben? 
 
 Schick das jemandem, der in Krypto-Gruppen unterwegs ist.''')
 
+# ---------- Beitrag 56: Statement-Karussell (erster Kauf peinlich klein, 70.000 $ in einer falschen Wallet-App) ----------
+POSTS['beitrag-56'] = dict(
+    date='2026-11-22', fmt='Statement-Karussell', topic='Dein erster Krypto-Kauf sollte dir peinlich klein sein (wie viel Geld für den Einstieg; 70.000 $ in einer Wallet-App, die echt aussah; 3 Dinge, die 20 € genauso zeigen)',
+    slides=[
+        s_hook('STATEMENT', '70.000 $ weg. Darum sollte dein erster Kauf dir %s' % A('peinlich klein sein.'),
+               sub='Viele warten, bis sie genug Geld für den Einstieg haben. Ich sage: Fang mit so wenig an, dass du es keinem erzählen willst.',
+               cue='Wie meine 70.000 $ verschwanden &#8594;', size=''),
+        s_proof('MEIN LEHRGELD', 'Eine Wallet-App, die echt aussah.',
+                big='70.000 $', big_sub='weg. Geladen hab ich die App, weil sie echt aussah.',
+                cue='Warum die Summe dabei keine Rolle spielt &#8594;'),
+        s_point('PUNKT 1', 'Eine Fälschung nimmt %s' % A('alles, was du hineinlegst.'),
+                ['Bei 70.000 $ sind es 70.000 $. Bei 20 € sind es 20 €.',
+                 D('Ein großer Betrag macht eine App nie echter. Er macht nur den Schaden größer.')],
+                cue='Was dir 20 € genauso zeigen &#8594;'),
+        s_point('PUNKT 2', 'Jeder Handgriff ist bei 20 € %s' % A('derselbe wie bei 20.000 €.'),
+                ['Kaufen. Die Gebühr sehen. In die eigene Wallet schicken. Wieder auszahlen.',
+                 D('Jeden Schritt übst du einmal mit Geld, das dir kaum weh tut.')],
+                cue='Punkt 3 betrifft deine Nerven &#8594;'),
+        s_point('PUNKT 3', 'Mit 20 € siehst du, %s' % A('wie du bei Rot reagierst.'),
+                ['Schaust du zehnmal am Tag auf den Kurs? Willst du verkaufen?',
+                 D('Diese Antwort kostet dich bei 20 € kaum etwas. Bei deinem Ersparten kostet sie viel.')],
+                cue='Und wann darf es mehr werden? &#8594;'),
+        s_point('FAIR BLEIBEN', 'Klein heißt %s' % A('nie für immer.'),
+                ['Mehr Geld kommt dazu, sobald du jeden Schritt selbst erklären kannst.',
+                 D('Bei mir wurde daraus Schritt für Schritt ein einfaches, langfristiges System.')],
+                cue='Dein Merkzettel für den ersten Kauf &#8594;', size='m'),
+        s_memo('ZUM SPEICHERN', 'Bevor dein erstes Geld fließt, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Erster Kauf: so klein, dass er dir peinlich ist.',
+            'Jeden Schritt einmal üben: kaufen, senden, auszahlen.',
+            'Neue App oder Plattform? Erst ein kleiner Betrag, dann die Auszahlung testen.',
+            'Mehr Geld erst, wenn du jeden Schritt erklären kannst.',
+        ], 'Speichere dir das für deinen ersten Kauf.'),
+    ],
+    alts=['Statement: 70.000 Dollar weg. Darum sollte dein erster Kauf dir peinlich klein sein. Viele warten, bis sie genug Geld für den Einstieg haben. Fang mit so wenig an, dass du es keinem erzählen willst',
+          'Mein Lehrgeld: Eine Wallet-App, die echt aussah. 70.000 Dollar weg, geladen hab ich die App, weil sie echt aussah',
+          'Punkt 1: Eine Fälschung nimmt alles, was du hineinlegst. Bei 70.000 Dollar sind es 70.000 Dollar, bei 20 Euro sind es 20 Euro. Ein großer Betrag macht eine App nie echter, nur den Schaden größer',
+          'Punkt 2: Jeder Handgriff ist bei 20 Euro derselbe wie bei 20.000 Euro. Kaufen, die Gebühr sehen, in die eigene Wallet schicken, wieder auszahlen. Jeden Schritt übst du einmal mit Geld, das dir kaum weh tut',
+          'Punkt 3: Mit 20 Euro siehst du, wie du bei Rot reagierst. Schaust du zehnmal am Tag auf den Kurs, willst du verkaufen? Diese Antwort kostet bei 20 Euro kaum etwas, bei deinem Ersparten viel',
+          'Fair bleiben: Klein heißt nie für immer. Mehr Geld kommt dazu, sobald du jeden Schritt selbst erklären kannst. Bei mir wurde daraus Schritt für Schritt ein einfaches, langfristiges System',
+          'Merkzettel, bevor dein erstes Geld fließt: erster Kauf so klein, dass er dir peinlich ist; jeden Schritt einmal üben, kaufen, senden, auszahlen; neue App oder Plattform, erst ein kleiner Betrag, dann die Auszahlung testen; mehr Geld erst, wenn du jeden Schritt erklären kannst. Speichere dir das für deinen ersten Kauf'],
+    caption='''Ab wie viel Geld lohnt sich der Einstieg in Krypto? Ich drehe die Frage um.
+
+Viele Anfänger warten, bis sie genug Geld zusammenhaben. Dann kaufen sie Bitcoin mit einer Summe, die weh tut, und machen jeden Handgriff zum ersten Mal.
+
+Mein Lehrgeld:
+– 70.000 $ lagen bei mir in einer Wallet-App, die echt aussah. Geladen hab ich sie genau deshalb.
+– Das Geld war weg.
+
+Darum sage ich: Dein erster Kauf sollte dir peinlich klein sein.
+
+1. Eine Fälschung nimmt alles, was du hineinlegst. Bei 70.000 $ sind es 70.000 $, bei 20 € sind es 20 €. Ein großer Betrag macht eine App nie echter.
+2. Jeder Handgriff ist bei 20 € derselbe wie bei 20.000 €. Kaufen, die Gebühr sehen, in die eigene Wallet schicken, wieder auszahlen. Du übst ihn einmal mit Geld, das dir kaum weh tut.
+3. Mit 20 € siehst du, wie du bei Rot reagierst. Schaust du zehnmal am Tag auf den Kurs? Willst du verkaufen? Die Antwort kostet dich kaum etwas.
+
+Klein heißt nie für immer. Mehr Geld kommt dazu, sobald du jeden Schritt selbst erklären kannst. Bei mir wurde daraus Schritt für Schritt ein einfaches, langfristiges System.
+
+Dein Merkzettel:
+– Erster Kauf: so klein, dass er dir peinlich ist.
+– Jeden Schritt einmal üben: kaufen, senden, auszahlen.
+– Neue App oder Plattform? Erst ein kleiner Betrag, dann die Auszahlung testen.
+– Mehr Geld erst, wenn du jeden Schritt erklären kannst.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Die 20 € sind ein Beispiel. Für jeden Krypto-Anfänger, der seinen ersten Bitcoin an der Börse kaufen will und sich vor Betrug schützen möchte.
+
+Wie viel war dein erster Krypto-Kauf? Schreib die Zahl in die Kommentare.
+
+Speichere dir das für deinen ersten Kauf.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
