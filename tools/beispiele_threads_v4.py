@@ -743,7 +743,7 @@ Verstehen kostet Zeit, Raten kostet Geld.
 
 Welchen Coin hast du gekauft, ohne ihn erklären zu können?"""),
 
- dict(thema='Venezuela: 14 Nullen seit 2008, drei Währungsschnitte (Preise in Dollar)', feld='Geldentwertung', var='Fall', frei_ab='2026-11-16', verwendet=None,
+ dict(thema='Venezuela: 14 Nullen seit 2008, drei Währungsschnitte (Preise in Dollar)', feld='Geldentwertung', var='Fall', frei_ab='2026-11-16', verwendet='22.11.2026',
       text="""Aus einer Million Bolívar wurde ein Bolívar. Über Nacht.
 
 Oktober 2021, der dritte Währungsschnitt in Venezuela seit 2008. Sechs Nullen weg, zusammen 14 (Quelle: AFP, 01.10.2021; BTC-ECHO, 18.08.2021).
