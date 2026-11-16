@@ -59,3 +59,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 54 | 20.11.2026 | FAQ beantworten | FAQ: „Woran erkenne ich, ob eine Plattform echt ist?“ (Fall Peter: 83.000 € angezeigt, 5 € ausgezahlt; 4 Prüfungen vor der ersten Einzahlung, BaFin-Unternehmensdatenbank, Verbraucherzentrale)
 - 55 | 21.11.2026 | Aufzählung | Falscher Admin in Krypto-Gruppen: 5 Zeichen, an denen du ihn erkennst (Fake-Account mit meinem Namen in der Telegram-Gruppe, geschätzt 4.000 bis 5.000 €; Nutzername prüfen laut CoinMarketCap Academy)
 - 56 | 22.11.2026 | Statement-Karussell | Dein erster Krypto-Kauf sollte dir peinlich klein sein (wie viel Geld für den Einstieg; 70.000 $ in einer Wallet-App, die echt aussah; 3 Dinge, die 20 € genauso zeigen)
+- 57 | 23.11.2026 | Gegenüberstellung | Phishing-Seiten für Wallets: was du siehst vs. dein Schutz (106.106 Opfer, 83,85 Mio. $ laut Scam Sniffer 2025; Unterschrift statt Passwort)

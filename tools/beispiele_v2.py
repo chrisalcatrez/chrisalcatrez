@@ -2090,6 +2090,43 @@ Wie viel war dein erster Krypto-Kauf? Schreib die Zahl in die Kommentare.
 
 Speichere dir das für deinen ersten Kauf.''')
 
+# ---------- Beitrag 57: Gegenueberstellung (Wallet-Drainer: was du siehst vs. dein Schutz; Scam Sniffer 2025) ----------
+Q_DRAIN = 'Quelle: Scam Sniffer, Jahresbericht 2025, laut Decrypt'
+POSTS['beitrag-57'] = dict(
+    date='2026-11-23', fmt='Gegenüberstellung', topic='Phishing-Seiten für Wallets: was du siehst vs. dein Schutz (106.106 Opfer, 83,85 Mio. $ laut Scam Sniffer 2025; Unterschrift statt Passwort)',
+    slides=[
+        s_vs('DIE FALLE · DEIN SCHUTZ', '106.106 Wallets leer. Der letzte Klick hieß %s' % A('„Bestätigen“.'),
+             'WAS DU SIEHST', ['„Gratis-Coins für dich“ per Link', 'Eine Seite wie vom Projekt', 'Ein Knopf: „Wallet verbinden“', '„Bestätigen“, ohne Betrag'],
+             'DEIN SCHUTZ', ['Gratis aus einem Link? Fenster zu', 'Adressen gibst du selbst ein', 'Nur selbst geöffnete Seiten verbinden', 'Kein Betrag zu sehen? Abbrechen'],
+             'Speichere dir das, bevor der nächste Gratis-Link kommt.', src='Quelle: Scam Sniffer 2025, laut Decrypt (Ethereum und verwandte Netze)'),
+    ],
+    alts=['Gegenüberstellung, die Falle und dein Schutz: 106.106 Wallets leer, der letzte Klick hieß Bestätigen. Was du siehst: Gratis-Coins für dich per Link; eine Seite wie vom Projekt; ein Knopf Wallet verbinden; Bestätigen, ohne Betrag. Dein Schutz: Gratis aus einem Link, Fenster zu; Adressen gibst du selbst ein; nur selbst geöffnete Seiten verbinden; kein Betrag zu sehen, abbrechen. Quelle: Scam Sniffer, Jahresbericht 2025, laut Decrypt, nur Ethereum und verwandte Netzwerke. Speichere dir das, bevor der nächste Gratis-Link kommt'],
+    caption='''Gratis-Coins kosten im Schnitt rund 790 $.
+
+So viel verlor 2025 jedes Opfer einer Phishing-Seite für Wallets, rechnerisch. Scam Sniffer zählte 106.106 Opfer und 83,85 Mio. $ Schaden, nur auf Ethereum und verwandten Netzwerken (Quelle: Scam Sniffer, Jahresbericht 2025, laut Decrypt).
+
+Ein Passwort braucht diese Masche selten. Laut Bericht liefen die meisten Diebstähle über eine Unterschrift in der eigenen Wallet, eine sogenannte Permit- oder Approve-Freigabe.
+
+So läuft die Falle:
+– Ein Link verspricht Gratis-Coins, oft als „Airdrop“.
+– Die Seite sieht aus wie vom Projekt.
+– Ein Knopf: „Wallet verbinden“.
+– Ein Fenster: „Bestätigen“. Kein Betrag zu sehen. Die Freigabe gibt der Seite deine Coins.
+
+Dein Schutz:
+– Gratis aus einem Link? Fenster zu.
+– Adressen gibst du selbst ein.
+– Nur selbst geöffnete Seiten verbinden.
+– Kein Betrag zu sehen? Abbrechen.
+
+Ich hab 70.000 $ an eine Wallet-App verloren, die echt aussah. Seitdem gilt für mich: Aussehen beweist null.
+
+Keine Anbieter-Empfehlung, keine Coin-Empfehlung. Für jeden Krypto-Anfänger, der eine eigene Wallet nutzt oder seine Bitcoin von der Börse holen will und sich vor Betrug schützen möchte.
+
+Hast du in deiner Wallet schon mal etwas bestätigt, das du kaum lesen konntest? Schreib Ja oder Nein in die Kommentare.
+
+Speichere dir das, bevor der nächste Gratis-Link kommt.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
