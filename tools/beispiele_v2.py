@@ -2127,6 +2127,75 @@ Hast du in deiner Wallet schon mal etwas bestätigt, das du kaum lesen konntest?
 
 Speichere dir das, bevor der nächste Gratis-Link kommt.''')
 
+# ---------- Beitrag 58: Nischenmythos (Fuer Bitcoin ist es zu spaet; 100 Mio. Satoshi, Panikverkauf Ende 2024, Zeitdruck als Warnzeichen der ESAs) ----------
+Q_SAT = 'Quelle: BTC-ECHO Academy, „Satoshi“'
+Q_ESA = 'Quelle: EBA, ESMA, EIOPA, Factsheet zu Krypto-Betrug, Dezember 2025'
+POSTS['beitrag-58'] = dict(
+    date='2026-11-24', fmt='Nischenmythos entlarven', topic='Mythos: „Für Bitcoin ist es zu spät“ (100 Mio. Satoshi pro Bitcoin laut BTC-ECHO; Panikverkauf Ende 2024; „Jetzt oder nie“ als Warnzeichen der EU-Aufsicht)',
+    slides=[
+        s_hook('MYTHOS', '„Für Bitcoin ist es %s“' % A('zu spät.'),
+               sub='Ein Bitcoin hat 100.000.000 Teile. Warum der Satz Anfänger trotzdem Geld kostet.',
+               cue='Zuerst, wie groß ein Bitcoin wirklich ist &#8594;', size=''),
+        s_proof('DER BELEG', 'Du brauchst %s' % A('keinen ganzen Bitcoin.'),
+                big='100.000.000', big_sub='Satoshi stecken in einem Bitcoin. Du kaufst Teile davon, auch mit kleinen Beträgen.',
+                src=Q_SAT, cue='Annahme 2 hat mich alle Bitcoin gekostet &#8594;'),
+        s_point('MEIN FALL', 'Den richtigen Moment kennt keiner. %s' % A('Ich auch nie.'),
+                ['Ende 2024 hab ich alle Bitcoin in Panik verkauft.',
+                 D('Entschieden hat mein Gefühl für den Moment. Einen Plan gab es keinen.')],
+                cue='Und wer dir den Moment verkaufen will &#8594;'),
+        s_point('DIE FALLE', '„Jetzt oder nie“ ist %s' % A('ein Satz von Betrügern.'),
+                ['Angebote, die dich zu sofortigem Handeln drängen, nennt die EU-Finanzaufsicht als Warnzeichen für Krypto-Betrug.',
+                 D('Wer dir einredet, du kommst zu spät, will, dass du zahlst, bevor du prüfst.')],
+                src=Q_ESA, size='m', cue='Wann du wirklich zu spät bist &#8594;'),
+        s_point('DIE WAHRHEIT', 'Zu spät bist du nur, wenn du %s' % A('nach dem Kauf verstehst.'),
+                ['Ich hab lange gekauft, ohne zu verstehen, was. Meine Verluste kamen daher, nie vom Datum.',
+                 D('Erst verstehen, dann kaufen. Die Reihenfolge entscheidet.')],
+                size='m', cue='Dein Merkzettel zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Bevor du „zu spät“ denkst, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Ein Bitcoin hat 100 Mio. Teile. Du brauchst keinen ganzen.',
+            'Den perfekten Tag kennt keiner.',
+            '„Jetzt oder nie“? Stopp. Das ist Druck.',
+            'Erst verstehen, dann kaufen.',
+        ], 'Schick das jemandem, der glaubt, er ist für Bitcoin zu spät dran.'),
+    ],
+    alts=['Mythos: Für Bitcoin ist es zu spät. Ein Bitcoin hat 100.000.000 Teile. Warum der Satz Anfänger trotzdem Geld kostet',
+          'Der Beleg: Du brauchst keinen ganzen Bitcoin. 100.000.000 Satoshi stecken in einem Bitcoin, du kaufst Teile davon, auch mit kleinen Beträgen. Quelle: BTC-ECHO Academy',
+          'Mein Fall: Den richtigen Moment kennt keiner, ich auch nie. Ende 2024 hab ich alle Bitcoin in Panik verkauft. Entschieden hat mein Gefühl für den Moment, einen Plan gab es keinen',
+          'Die Falle: Jetzt oder nie ist ein Satz von Betrügern. Angebote, die zu sofortigem Handeln drängen, nennt die EU-Finanzaufsicht als Warnzeichen für Krypto-Betrug. Wer dir einredet, du kommst zu spät, will, dass du zahlst, bevor du prüfst. Quelle: EBA, ESMA, EIOPA, Factsheet zu Krypto-Betrug, Dezember 2025',
+          'Die Wahrheit: Zu spät bist du nur, wenn du nach dem Kauf verstehst. Ich hab lange gekauft, ohne zu verstehen, was. Meine Verluste kamen daher, nie vom Datum. Erst verstehen, dann kaufen',
+          'Merkzettel, bevor du zu spät denkst: Ein Bitcoin hat 100 Millionen Teile, du brauchst keinen ganzen; den perfekten Tag kennt keiner; jetzt oder nie, stopp, das ist Druck; erst verstehen, dann kaufen. Schick das jemandem, der glaubt, er ist für Bitcoin zu spät dran'],
+    caption='''„Den Zug hab ich verpasst.“ Diesen Satz höre ich von Krypto-Anfängern jede Woche.
+
+Der Mythos: Für Bitcoin ist es zu spät.
+
+Hinter dem Satz stecken zwei Annahmen. Du brauchst einen ganzen Bitcoin. Und es gibt den einen richtigen Tag zum Einstieg. Beide halten nie.
+
+Annahme 1, der ganze Bitcoin:
+– Ein Bitcoin besteht aus 100.000.000 Satoshi. Ein Satoshi ist 0,00000001 Bitcoin (Quelle: BTC-ECHO Academy, „Satoshi“).
+– Du kaufst Teile davon, auch mit kleinen Beträgen.
+
+Annahme 2, der richtige Tag:
+– Ende 2024 hab ich alle Bitcoin in Panik verkauft. Entschieden hat mein Gefühl für den Moment, einen Plan gab es keinen.
+– Den perfekten Tag kennt keiner. Ich auch nie.
+
+Die Falle dahinter:
+– „Jetzt oder nie“ ist ein Satz von Betrügern. Zeitlich begrenzte Angebote, die zu sofortigem Handeln drängen, nennen die EU-Finanzaufsichten EBA, ESMA und EIOPA als Warnzeichen für Krypto-Betrug (Quelle: Factsheet zu Krypto-Betrug, Dezember 2025).
+– Wer dir einredet, du kommst zu spät, will, dass du zahlst, bevor du prüfst.
+
+Die Wahrheit: Ich hab lange gekauft, ohne zu verstehen, was. Meine Verluste kamen daher, nie vom Datum. Zu spät bist du nur, wenn du erst nach dem Kauf verstehst.
+
+Dein Merkzettel:
+– Ein Bitcoin hat 100 Mio. Teile. Du brauchst keinen ganzen.
+– Den perfekten Tag kennt keiner.
+– „Jetzt oder nie“? Stopp. Das ist Druck.
+– Erst verstehen, dann kaufen.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der seinen ersten Bitcoin an der Börse kaufen will und sich vor Betrug schützen möchte.
+
+Hast du schon mal gedacht, du bist für Bitcoin zu spät dran? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der glaubt, er ist für Bitcoin zu spät dran.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
