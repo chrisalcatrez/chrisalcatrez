@@ -61,3 +61,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 56 | 22.11.2026 | Statement-Karussell | Dein erster Krypto-Kauf sollte dir peinlich klein sein (wie viel Geld für den Einstieg; 70.000 $ in einer Wallet-App, die echt aussah; 3 Dinge, die 20 € genauso zeigen)
 - 57 | 23.11.2026 | Gegenüberstellung | Phishing-Seiten für Wallets: was du siehst vs. dein Schutz (106.106 Opfer, 83,85 Mio. $ laut Scam Sniffer 2025; Unterschrift statt Passwort)
 - 58 | 24.11.2026 | Nischenmythos entlarven | Mythos: „Für Bitcoin ist es zu spät“ (100 Mio. Satoshi pro Bitcoin laut BTC-ECHO; Panikverkauf Ende 2024; „Jetzt oder nie“ als Warnzeichen der EU-Aufsicht)
+- 59 | 25.11.2026 | Erfolgsgeschichte | Seed-Phrase am Telefon zum „Synchronisieren“ verlangt, ausgedachte Wörter gegeben; damals Bestätigung bei anderen gesucht, heute über 250 Kunden und 4 Zeilen für den nächsten Anruf
+- 60 | 26.11.2026 | Visueller Post | Ablauf mit Pfeilen: Rückhol-Betrug in 5 Stufen, vom ersten Verlust bis zur Stille (Fall Thomas, 40.000 $, 2,08 BTC „ausgesetzt“; Verbraucherzentrale Hessen; eigene Gebühr vor der Auszahlung)

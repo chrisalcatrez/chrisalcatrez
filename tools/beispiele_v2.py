@@ -2196,6 +2196,120 @@ Hast du schon mal gedacht, du bist für Bitcoin zu spät dran? Schreib Ja oder N
 
 Schick das jemandem, der glaubt, er ist für Bitcoin zu spät dran.''')
 
+# ---------- Beitrag 59: Erfolgsgeschichte (Seed-Phrase am Telefon, ausgedachte Wörter gegeben) ----------
+POSTS['beitrag-59'] = dict(
+    date='2026-11-25', fmt='Erfolgsgeschichte', topic='Seed-Phrase am Telefon zum „Synchronisieren“ verlangt, ausgedachte Wörter gegeben; damals Bestätigung bei anderen gesucht, heute über 250 Kunden und 4 Zeilen für den nächsten Anruf',
+    slides=[
+        s_hook('ERFOLGSGESCHICHTE', '12 Wörter hätten meine Wallet geleert. Ich gab ihm %s' % A('12 ausgedachte.'),
+               sub='Damals und heute. Was zwischen diesen zwei Versionen von mir lag.', cue='Der Satz, mit dem er sie wollte &#8594;', size=''),
+        s_proof('DER ANRUF', 'Er wollte meine Seed-Phrase. %s' % A('Zum „Synchronisieren“.'),
+                quote='„Zum Synchronisieren brauche ich kurz Ihre Seed-Phrase.“', quote_from='Anrufer aus der Community eines Mining-Anbieters · Nachgestellt, so lief es',
+                ps=[D('Ich gab ihm eine ausgedachte. Er rastete aus.')], cue='Warum ich früher anders reagiert hätte &#8594;'),
+        s_point('DAMALS', 'Früher hätte ich %s' % A('gehorcht.'),
+                ['Lange hab ich bei anderen nach Bestätigung gesucht. Was ich tun soll, sollten andere sagen.',
+                 D('Eine ruhige, sichere Stimme am Telefon hätte mich damals überzeugt.')],
+                size='m', cue='Was sich dazwischen verändert hat &#8594;'),
+        s_point('DER WENDEPUNKT', 'Ich hab verstanden, %s' % A('was die 12 Wörter sind.'),
+                ['Sie sind die Wallet. Wer sie hat, braucht kein Passwort und kein Handy.',
+                 D('Kein echter Support fragt danach. Schritt für Schritt wurde aus diesem Verstehen ein einfaches, langfristiges System.')],
+                size='m', cue='Wie es heute aussieht &#8594;'),
+        s_point('HEUTE', 'Jedes Jahr fünfstellig. %s' % A('Über 250 Kunden.'),
+                ['Laut meiner eigenen Rechnung ein fünfstelliger Krypto-Gewinn pro Jahr.',
+                 D('Meine Zahl, kein Versprechen für dich.')],
+                cue='Was das für dich heißt &#8594;'),
+        s_point('FÜR DICH', 'Ich bin kein Genie.',
+                ['Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.',
+                 D('Und deine 12 Wörter sagst du ab heute keinem Menschen.')],
+                cue='Dein Merkzettel für den nächsten Anruf &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Wenn jemand deine Wörter will, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Seed-Phrase am Telefon verlangt? Auflegen.',
+            '„Synchronisieren“, „verifizieren“, „aktualisieren“: dieselbe Falle.',
+            'Kein echter Support fragt nach deinen Wörtern.',
+            'Die Wörter gehören auf Papier, nie in ein Gespräch.',
+        ], 'Speichere dir das, bevor der nächste Anruf kommt.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Erfolgsgeschichte: 12 Wörter hätten meine Wallet geleert. Ich gab ihm 12 ausgedachte. Damals und heute, was zwischen diesen zwei Versionen von mir lag',
+          'Der Anruf, nachgestellt: Ein Anrufer aus der Community eines Mining-Anbieters will zum Synchronisieren kurz meine Seed-Phrase. Ich gab ihm eine ausgedachte, er rastete aus',
+          'Damals: Früher hätte ich gehorcht. Lange hab ich bei anderen nach Bestätigung gesucht, eine ruhige, sichere Stimme am Telefon hätte mich damals überzeugt',
+          'Der Wendepunkt: Ich hab verstanden, was die 12 Wörter sind. Sie sind die Wallet, wer sie hat, braucht kein Passwort und kein Handy. Kein echter Support fragt danach. Daraus wurde ein einfaches, langfristiges System',
+          'Heute: jedes Jahr fünfstellig, über 250 Kunden. Laut meiner eigenen Rechnung ein fünfstelliger Krypto-Gewinn pro Jahr. Meine Zahl, kein Versprechen für dich',
+          'Für dich: Ich bin kein Genie. Wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch. Deine 12 Wörter sagst du ab heute keinem Menschen',
+          'Merkzettel, wenn jemand deine Wörter will: Seed-Phrase am Telefon verlangt, auflegen; synchronisieren, verifizieren, aktualisieren ist dieselbe Falle; kein echter Support fragt nach deinen Wörtern; die Wörter gehören auf Papier, nie in ein Gespräch. Speichere dir das, bevor der nächste Anruf kommt',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Ein Betrüger hat sich am Telefon über mich aufgeregt. Das war einer meiner besten Tage mit Krypto.
+
+Ich weiß, wie es dir geht. Eine Stimme klingt freundlich und sicher. Sie hat eine Lösung für etwas, das du kaum verstehst. Mitmachen fühlt sich leichter an als nachfragen.
+
+Der Anruf:
+– In der Community eines Mining-Anbieters meldete sich jemand am Telefon.
+– Er wollte meine Seed-Phrase, die 12 Wörter meiner Wallet. Zum „Synchronisieren“.
+– Ich gab ihm eine ausgedachte.
+– Er rastete aus.
+
+Damals:
+– Lange hab ich bei anderen nach Bestätigung gesucht. Was ich tun soll, sollten andere sagen.
+– Eine ruhige, sichere Stimme am Telefon hätte mich damals überzeugt.
+
+Der Wendepunkt:
+– Ich hab Schritt für Schritt verstanden, was ich kaufe und was eine Wallet ist.
+– Die 12 Wörter sind die Wallet. Wer sie hat, braucht kein Passwort und kein Handy.
+– Kein echter Support fragt danach.
+– Daraus wurde ein einfaches, langfristiges System.
+
+Heute mache ich laut meiner eigenen Rechnung jedes Jahr einen fünfstelligen Krypto-Gewinn. Dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Dein Merkzettel:
+– Seed-Phrase am Telefon verlangt? Auflegen.
+– „Synchronisieren“, „verifizieren“, „aktualisieren“: dieselbe Falle.
+– Kein echter Support fragt nach deinen Wörtern.
+– Die Wörter gehören auf Papier, nie in ein Gespräch.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin in einer eigenen Wallet hat oder von der Börse holen will und sich vor Betrug schützen möchte.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 60: Visueller Post (Ablauf mit Pfeilen: Rückhol-Betrug in 5 Stufen, Fall Thomas) ----------
+Q_VZH = 'Quelle Stufen 3 bis 5: Verbraucherzentrale Hessen, laut dpa, 07.05.2026'
+POSTS['beitrag-60'] = dict(
+    date='2026-11-26', fmt='Visueller Post', topic='Ablauf mit Pfeilen: Rückhol-Betrug in 5 Stufen, vom ersten Verlust bis zur Stille (Fall Thomas, 40.000 $, 2,08 BTC „ausgesetzt“; Verbraucherzentrale Hessen; eigene Gebühr vor der Auszahlung)',
+    slides=[
+        s_flow('ECHTER FALL · NAME GEÄNDERT', '40.000 $ verloren. Dann kommt der Retter. %s' % A('5 Stufen bis zur Stille.'), [
+            ('Der erste Verlust', 'Thomas verlor beim Online-Trading nach eigener Aussage rund 40.000 $.'),
+            ('Der Retter schreibt zuerst', 'Bei Thomas: eine Kanzlei „im Auftrag der britischen Finanzaufsicht“, ein „BaFin Team“.'),
+            ('Die gute Nachricht', 'Dein Geld sei „entdeckt oder sichergestellt“. Bei Thomas: 2,08 BTC „ausgesetzt“.'),
+            ('Erst zahlen, dann Auszahlung', 'Steuern, Gebühren, Bearbeitungskosten. Oder Ausweis und Stromrechnung.'),
+            ('Stille', 'Nach der Überweisung ist der Kontakt weg. Das Geld auch.'),
+        ], 'Schick das jemandem, der schon Geld an Betrüger verloren hat.',
+            sub='Der zweite Betrug kommt nach dem ersten. So läuft er, Stufe für Stufe.', src=Q_VZH, hi=3),
+    ],
+    alts=['Ablauf mit Pfeilen, echter Fall, Name geändert: 40.000 Dollar verloren, dann kommt der Retter, 5 Stufen bis zur Stille. Der zweite Betrug kommt nach dem ersten. 1 Der erste Verlust: Thomas verlor beim Online-Trading nach eigener Aussage rund 40.000 Dollar. 2 Der Retter schreibt zuerst: bei Thomas eine Kanzlei, angeblich im Auftrag der britischen Finanzaufsicht und ein BaFin Team. 3 Die gute Nachricht: Dein Geld sei entdeckt oder sichergestellt, bei Thomas 2,08 BTC ausgesetzt. 4 Erst zahlen, dann Auszahlung: Steuern, Gebühren, Bearbeitungskosten, oder Ausweis und Stromrechnung. 5 Stille: Nach der Überweisung ist der Kontakt weg, das Geld auch. Quelle Stufen 3 bis 5: Verbraucherzentrale Hessen, laut dpa. Schick das jemandem, der schon Geld an Betrüger verloren hat'],
+    caption='''Wer einmal Geld verloren hat, steht auf einer Liste. Auf dieser Liste stehen die Retter.
+
+Echter Fall aus meiner Community, Name geändert, veröffentlicht mit Zustimmung. Thomas hat beim Online-Trading nach eigener Aussage rund 40.000 $ verloren. Seitdem bekommt er Mails, die ihm helfen wollen. Jede leitet er mir weiter und fragt: echt?
+
+Die 5 Stufen des Rückhol-Betrugs:
+1. Der erste Verlust. Bei Thomas rund 40.000 $.
+2. Der Retter schreibt zuerst. Bei Thomas eine angebliche Londoner Kanzlei „im Auftrag der britischen Finanzaufsicht“ und ein „BaFin Team“, das die echte BaFin-Seite verlinkt.
+3. Die gute Nachricht. Das Geld sei „entdeckt oder sichergestellt“. Bei Thomas meldete ein „Blockchain Support“ 2,08 BTC, die angeblich ausgesetzt sind.
+4. Erst zahlen, dann Auszahlung. Vorher werden Steuern, Gebühren oder Bearbeitungskosten fällig. Bei Thomas wollte der „Blockchain Support“ Ausweis und Stromrechnung.
+5. Stille. Nach der Überweisung verschwindet der Kontakt (Quelle für 3 bis 5: Verbraucherzentrale Hessen, laut dpa, 07.05.2026).
+
+Stufe 4 kenne ich selbst. Ein Kontakt auf Instagram wollte vor meiner Auszahlung eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie.
+
+Was ich daraus mitnehme:
+– Wer nach einem Verlust zuerst schreibt, will etwas von dir.
+– Wer Geld zurückholt, verlangt vorher keins.
+– Ausweis und Stromrechnung schickst du auf keine Mail hin.
+
+Keine Anbieter-Empfehlung, keine Rückhol-Versprechen. Für jeden Krypto-Anfänger, der schon Geld mit Bitcoin, an einer Börse oder in einer Wallet verloren hat und sich vor dem zweiten Betrug schützen will.
+
+An welcher Stufe hättest du gemerkt, dass es Betrug ist? Schreib die Zahl in die Kommentare.
+
+Schick das jemandem, der schon Geld an Betrüger verloren hat.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
