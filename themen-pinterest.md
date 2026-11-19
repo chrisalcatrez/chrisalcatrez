@@ -98,3 +98,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 86 | 21.11.2026 19:58 | Bitcoin sicher aufbewahren | Zahl (schwarz) | Krypto Sicherheit: 70 Überfälle auf Krypto-Besitzer in einem Jahr, 3 Regeln, wer davon wissen darf | pinterest/p-86.png | eingeplant
 - 87 | 22.11.2026 11:28 | Krypto für Anfänger | Karte (hell) | Bitcoin kaufen für Anfänger: 3 echte Gebühren und die eine, die Betrug ist (ich hab sie gezahlt) | pinterest/p-87.png | eingeplant
 - 88 | 22.11.2026 20:06 | Krypto-Betrug erkennen | Entscheidungsbaum (akzent) | Krypto Betrug erkennen: Freund wirbt für eine Plattform? 3 Fragen vor der Einzahlung (Cloud-Mining) | pinterest/p-88.png | eingeplant
+- 89 | 23.11.2026 11:09 | Krypto-Betrug erkennen | Echt gegen Fake (schwarz) | Krypto Betrug erkennen: KI-Trading-Bot oder echte Börse? 3 Unterschiede (87 % Gewinn „garantiert“) | pinterest/p-89.png | eingeplant
+- 90 | 23.11.2026 20:38 | Bitcoin sicher aufbewahren | Karussell (4 Folien) (hell) | Krypto Sicherheit im Videoanruf: Bekanntes Gesicht, fremde Hand, 3 Stufen der Masche (400 Mio. $) | pinterest/p-90-1.png bis p-90-4.png | eingeplant
+- 91 | 24.11.2026 11:36 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (schwarz) | Krypto Betrug erkennen beim „Nebenjob“ per WhatsApp: 3 Warnsignale vor der Anzahlung (30.000 € weg) | pinterest/p-91.png | eingeplant
+- 92 | 24.11.2026 20:14 | Bitcoin sicher aufbewahren | Balken (hell) | Krypto Wallet schützen: 713 Mio. $ aus privaten Wallets gestohlen (Chainalysis), 3 Regeln für dich | pinterest/p-92.png | eingeplant
