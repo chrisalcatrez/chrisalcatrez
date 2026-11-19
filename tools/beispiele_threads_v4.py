@@ -302,7 +302,7 @@ Wer einen Coin laut empfiehlt, trägt dein Minus nie mit.
 
 Zählt für dich, was eine Gruppe schreibt, oder was du selbst prüfen kannst?"""),
 
- dict(thema='Memecoin-Verlust (Chat gegen Konto, kleine Coins)', feld='Einstieg', var='Fall', frei_ab='2026-10-26', verwendet=None,
+ dict(thema='Memecoin-Verlust (Chat gegen Konto, kleine Coins)', feld='Einstieg', var='Fall', frei_ab='2026-10-26', verwendet='24.11.2026',
       text="""Ein Memecoin im Depot. Erklären konnte ich ihn keinem. Ergebnis: Minus.
 
 Was der Coin kann und wer ihn gemacht hat, wusste ich kaum. In der Wallet stand trotzdem eine schöne Zahl.
@@ -313,7 +313,7 @@ Was du keinem erklären kannst, gehört dir nur auf dem Papier.
 
 Könntest du deinen letzten Kauf in zwei Sätzen erklären?"""),
 
- dict(thema='Bestätigungssuche (Fremde entscheiden über mein Geld)', feld='Psychologie', var='These', frei_ab='2026-10-27', verwendet=None,
+ dict(thema='Bestätigungssuche (Fremde entscheiden über mein Geld)', feld='Psychologie', var='These', frei_ab='2026-10-27', verwendet='24.11.2026',
       text="""Wer fragt, was er kaufen soll, sucht einen Schuldigen für später.
 
 Ich hab das lange gemacht. Vor einem Kauf brauchte ich einen, der nickt. Genickt haben vor allem Leute, die mein Geld haben wollten. Gezahlt hab ich jedes Minus allein.
@@ -708,7 +708,7 @@ Je fester die Zahl, desto sicherer ist nur der Verkäufer.
 
 Welche Rendite hat dir zuletzt jemand fest versprochen?"""),
 
- dict(thema='Cloud-Mining mit fester Rendite (4.000 bis 5.000 $)', feld='Psychologie', var='Story', frei_ab='2026-11-07', verwendet=None,
+ dict(thema='Cloud-Mining mit fester Rendite (4.000 bis 5.000 $)', feld='Psychologie', var='Story', frei_ab='2026-11-07', verwendet='23.11.2026',
       text="""Ich wollte ein Mal keine Schwankung. Das kostete 4.000 bis 5.000 $.
 
 Cloud-Mining versprach einen festen Betrag im Monat. Keine roten Tage, kein Chart. Ich hab eingezahlt, weil ich Ruhe kaufen wollte. Bekommen hab ich keine Ruhe und keinen Cent zurück.
@@ -1046,4 +1046,26 @@ Das Wort wechselt. Die Forderung bleibt dieselbe.
 Zwölf Wörter, die ein Fremder hört, sind keine Wallet mehr.
 
 Wie hättest du auf „verifizieren“ reagiert?"""),
+
+ dict(thema='Bitcoin-Automat: Anruf von „Polizei“ oder „Behörde“, Bargeld abheben, QR-Code (FBI: über 388 Mio. $ 2025)', feld='Betrug', var='These', frei_ab='2026-12-07', verwendet=None,
+      text="""Wer dein Geld „in Sicherheit bringen“ will, bringt es zu sich.
+
+2025 meldeten Opfer in den USA über 388 Mio. $, verschwunden über Bitcoin-Automaten. Über 13.400 Meldungen, mehr als die Hälfte von Menschen über 50 (Quelle: FBI, 15.05.2026). Der Ablauf ist immer gleich: Anruf, Bargeld abheben, Automat, QR-Code.
+
+Die Rettung kommt vom Anrufer. Das Geld landet beim Anrufer.
+
+Eine Behörde mit QR-Code ist ein Anrufer mit Wallet.
+
+Würdest du Bargeld abheben, weil ein Anrufer dein Konto retten will?"""),
+
+ dict(thema='Bitcoin-Automat: Anruf von „Polizei“ oder „Behörde“, Bargeld abheben, QR-Code (FBI: über 388 Mio. $ 2025)', feld='Betrug', var='Story', frei_ab='2026-12-07', verwendet=None,
+      text="""Mein Anrufer wollte 12 Wörter. Andere schicken dich zum Bitcoin-Automaten.
+
+Aus der Community eines Mining-Anbieters rief einer an: Wallet „synchronisieren“, dafür die 12 Wörter. Ich las zwölf erfundene vor. Er rastete aus.
+
+Die Variante ohne Wallet: Bargeld abheben, zum Bitcoin-Automaten, QR-Code scannen. 2025 in den USA über 388 Mio. $ (Quelle: FBI, 15.05.2026).
+
+Wer am Telefon einen Weg zu deinem Geld sucht, hat ihn schon.
+
+Welchen Satz hat ein Anrufer bei dir zuletzt versucht?"""),
 ]
