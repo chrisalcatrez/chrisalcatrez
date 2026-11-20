@@ -63,3 +63,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 58 | 24.11.2026 | Nischenmythos entlarven | Mythos: „Für Bitcoin ist es zu spät“ (100 Mio. Satoshi pro Bitcoin laut BTC-ECHO; Panikverkauf Ende 2024; „Jetzt oder nie“ als Warnzeichen der EU-Aufsicht)
 - 59 | 25.11.2026 | Erfolgsgeschichte | Seed-Phrase am Telefon zum „Synchronisieren“ verlangt, ausgedachte Wörter gegeben; damals Bestätigung bei anderen gesucht, heute über 250 Kunden und 4 Zeilen für den nächsten Anruf
 - 60 | 26.11.2026 | Visueller Post | Ablauf mit Pfeilen: Rückhol-Betrug in 5 Stufen, vom ersten Verlust bis zur Stille (Fall Thomas, 40.000 $, 2,08 BTC „ausgesetzt“; Verbraucherzentrale Hessen; eigene Gebühr vor der Auszahlung)
+- 61 | 27.11.2026 | Frage an die Zielgruppe | Hand aufs Herz: Schon mal einen Coin gekauft, weil ein bekanntes Gesicht dafür warb? (Influencer-Coin 5.000 $, LIBRA: 86 % der Käufer mit Verlust laut Nansen)

@@ -2310,6 +2310,37 @@ An welcher Stufe hättest du gemerkt, dass es Betrug ist? Schreib die Zahl in di
 
 Schick das jemandem, der schon Geld an Betrüger verloren hat.''')
 
+# ---------- Beitrag 61: Frage an die Zielgruppe (Coin wegen eines bekannten Gesichts gekauft? Influencer-Coin 5.000 $, LIBRA laut Nansen) ----------
+POSTS['beitrag-61'] = dict(
+    date='2026-11-27', fmt='Frage an die Zielgruppe', topic='Hand aufs Herz: Schon mal einen Coin gekauft, weil ein bekanntes Gesicht dafür warb? (Influencer-Coin 5.000 $, LIBRA: 86 % der Käufer mit Verlust laut Nansen)',
+    slides=[
+        s_question('FRAGE AN DICH', 'Hand aufs Herz', 'Hast du schon mal einen Coin gekauft, weil ein %s dafür geworben hat?' % A('bekanntes Gesicht'),
+                   'Ich fange an: Ja. Seitdem schaue ich auf den Coin, nie auf das Gesicht.',
+                   'Schick das jemandem, der Coins aus dem Feed kauft.',
+                   pre='5.000 $ weg. Geworben hatte ein Influencer.'),
+    ],
+    alts=['Hand aufs Herz: 5.000 Dollar weg, geworben hatte ein Influencer. Hast du schon mal einen Coin gekauft, weil ein bekanntes Gesicht dafür geworben hat? Ich fange an: Ja. Seitdem schaue ich auf den Coin, nie auf das Gesicht. Schick das jemandem, der Coins aus dem Feed kauft'],
+    caption='''Ein Gesicht im Feed leiht dir Vertrauen. Wissen über den Coin leiht es dir nie.
+
+Ich fange an: Ich hab 5.000 $ in einen Influencer-Coin gesteckt. Das Gesicht kannte ich. Den Coin kannte ich kaum. Das Geld ist weg.
+
+Kein Einzelfall:
+– LIBRA wurde durch einen Post des Präsidenten von Argentinien bekannt.
+– 86 % der Käufer verkauften mit Verlust, zusammen rund 251 Mio. $ (Quelle: Nansen Research, Februar 2025; gezählt wurden Wallets mit über 1.000 $ Gewinn oder Verlust).
+
+Was ein Gesicht dir nie zeigt:
+– Wer den Coin gebaut hat.
+– Wer wie viel davon hält.
+– Ob du ihn in zwei Sätzen erklären kannst.
+
+Heute schaue ich auf den Coin, nie auf das Gesicht. Fehlt eine Antwort, bleibt mein Geld, wo es ist.
+
+Keine Coin-Empfehlung, keine Kursprognose. Für jeden Krypto-Anfänger, der im Feed auf Bitcoin, Memecoins und Promi-Coins stößt und sich vor Betrug schützen will.
+
+Ich will wissen, wie es bei dir war. Hast du schon mal wegen eines bekannten Gesichts gekauft? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der Coins aus dem Feed kauft.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
