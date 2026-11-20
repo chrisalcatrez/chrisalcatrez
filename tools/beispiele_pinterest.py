@@ -1014,6 +1014,43 @@ PINS = [
                          'Laut Chainalysis, Untergrenze. 158.000 Vorfälle, mindestens 80.000 Betroffene.'),
           points=['Wörter nur auf Papier', 'Kein Link aus dem Chat', 'Bestätigen nur mit Betrag'],
           cta='Speichern, bevor du Coins in die Wallet holst', size='sm')])),
+ # 25. und 26.11.2026 (Winterzeit): Fall der Woche Thomas (Rückhol-Mails) in p-96, sonst eigene Fakten und belegte Quellen.
+ # Rotation nach p-92 (Balken): Kurve -> Zahl -> Karte -> Foto (letzter Foto-Pin p-79 am 18.11., Vorwoche). Farben nach p-92 (hell): akzent -> schwarz -> hell -> schwarz.
+ # Neue Themen: Börsen-Guthaben gegen eigene Wallet (FTX laut BTC-ECHO), 26 gefälschte Wallet-Apps (Kaspersky), Blockchain als Kassenbuch (Finanztip), Ausweis bei der Börse gegen Ausweis per Mail (KYC laut CryptoTicker).
+ dict(d='2026-11-25', t='11:14', board=B_SIC, f='Kurve', farbe='akzent', bild='p-93',
+      titel='Krypto Wallet statt Börse: FTX-Kunden verloren über 8 Mrd. $, 3 Regeln, wann deine Coins umziehen',
+      text="""Krypto Wallet oder Börse: Ein Guthaben auf der Börse ist ein Versprechen des Anbieters. Bei FTX hielt die Firma die Schlüssel. Im Herbst 2022 brach sie zusammen, die Kunden sollen über 8 Mrd. $ verloren haben, der Gründer bekam 25 Jahre Haft (Quelle: BTC-ECHO, 28.03.2024). Meine 70.000 $ nahm eine Wallet-App, die echt aussah. Seitdem gilt bei mir: Wer den Schlüssel hält, hat das Geld. Auf der Börse ist das die Börse. Kostenloses Training über den Link.""",
+      alt='Krypto Wallet statt Börse: Kurve mit Punkten in festem Abstand, jeder Punkt ein Umzug in die eigene Wallet, drei Regeln.',
+      build=lambda: build_pin('p-93', [pin2('acc', 'Bitcoin auf der Börse? <em>3&nbsp;Regeln</em>, wann sie umziehen',
+          visual=vz_curve('Jeder Punkt ein Umzug: Coins von der Börse in deine Wallet, fester Takt. Bei FTX verloren Kunden über 8 Mrd. $.'),
+          points=['Umzug am festen Tag', 'Erst ein Testbetrag senden', 'Schlüssel liegt bei dir'],
+          cta='Speichern, bevor dein Börsen-Guthaben wächst', size='sm')])),
+
+ dict(d='2026-11-25', t='20:29', board=B_BET, f='Zahl', farbe='schwarz', bild='p-94',
+      titel='Krypto Betrug erkennen: 26 falsche Wallet-Apps im App Store (Kaspersky), 3 Prüfungen vorm Download',
+      text="""Krypto Betrug erkennen beginnt vor dem Download. Kaspersky fand im April 2026 26 gefälschte Wallet-Apps in Apples App Store. Sie trugen Logos und Namen bekannter Wallets und griffen die 12 Wörter ab, sobald jemand sie eingab (Quelle: Kaspersky, Pressemitteilung vom 20.04.2026). Meine Fälschung kostete 70.000 $. Geladen hab ich sie, weil sie echt aussah. Den Anbieter gab es als Handy-App nie. Den Download-Link gibt nur der Anbieter selbst. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: große Zahl 26, gefälschte Wallet-Apps in einem App Store, darunter drei Prüfungen vor dem Download.',
+      build=lambda: build_pin('p-94', [pin2('', '<em>26</em> falsche Wallet-Apps in einem App Store',
+          visual=vz_num('<span style="font-size:190px">26</span>', 'Gefälschte Krypto-Wallet-Apps fand Kaspersky 2026 in Apples App Store. Logos wie bei den echten. Sie griffen die 12 Wörter ab.'),
+          points=['Link vom Anbieter selbst', 'Entwickler-Name prüfen', 'Erst ein kleiner Testbetrag'],
+          cta='Speichern vor dem nächsten App-Download', size='sm')])),
+
+ dict(d='2026-11-26', t='10:51', board=B_ANF, f='Karte', farbe='hell', bild='p-95',
+      titel='Kryptowährung erklärt: Blockchain ist ein Kassenbuch, das keiner ändern kann, 4 Fakten für Anfänger',
+      text="""Kryptowährung erklärt ohne Fachwörter: Die Blockchain ist eine öffentliche Datenbank, ein Kassenbuch. Jede Zahlung steht drin, jeder Teilnehmer hält eine vollständige Kopie, einmal eingetragene Daten lassen sich nie mehr ändern, und eine Bank in der Mitte braucht es dafür keine (Quelle: Finanztip, Stand 30.08.2022). Ich hab lange gekauft, ohne zu verstehen, was. Das hat mich weit über 70.000 $ gekostet. Heute verstehe ich zuerst, dann kaufe ich. Kostenloses Training über den Link.""",
+      alt='Kryptowährung erklärt: Karte mit dem Wort Kassenbuch, darunter vier Fakten zur Blockchain für Anfänger.',
+      build=lambda: build_pin('p-95', [pin2('light', 'Was ist eine Blockchain? <em>Ein Kassenbuch</em> für alle',
+          visual=vz_card('Kassenbuch', 'Eine Datenbank, von der jeder Teilnehmer eine vollständige Kopie hält. Einmal eingetragen, bleibt ein Eintrag für immer.'),
+          points=['Jede Zahlung steht drin', 'Jeder Teilnehmer hat eine Kopie', 'Einträge lassen sich nie ändern', 'Keine Bank in der Mitte'],
+          cta='Speichern fürs nächste Krypto-Gespräch', size='xs', dense=True)])),
+
+ dict(d='2026-11-26', t='20:33', board=B_ANF, f='Foto', farbe='schwarz', bild='p-96',
+      titel='Krypto Börse EU: Ausweis und Video sind Pflicht (Geldwäschegesetz), 4 Regeln, wer den Ausweis sieht',
+      text="""Krypto Börse EU: Bei der Anmeldung will sie Ausweis, Adresse und Video oder Online-Ausweisfunktion. Pflicht nach dem Geldwäschegesetz, bei jeder zugelassenen Börse (Quelle: CryptoTicker, Stand 05.11.2026). Thomas (Name geändert) aus meiner Community verlor rund 40.000 $ beim Online-Trading. Seitdem will ein „Blockchain Support“ per Mail Ausweis und Stromrechnung. Die echte Börse fragt einmal, beim Einstieg. Wer per Mail fragt, plant den nächsten Betrug. Kostenloses Training über den Link.""",
+      alt='Krypto Börse EU: Porträt von Chris Alcatrez, darüber vier Regeln, wer deinen Ausweis sehen darf und wer nie.',
+      build=lambda: build_pin('p-96', [pin2('', 'Ausweis an die Börse? <em>4&nbsp;Regeln</em>, wer ihn sieht',
+          points=['Börse bei Anmeldung: Pflicht', '„Support“ per Mail: nie', '12 Wörter fragt keiner', 'Vorab zahlen: Betrug'],
+          photo=True, cta='Kostenloses Training: chrisalcatrez.de', size='sm')])),
 ]
 
 if __name__ == '__main__':

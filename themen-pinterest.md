@@ -102,3 +102,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 90 | 23.11.2026 20:38 | Bitcoin sicher aufbewahren | Karussell (4 Folien) (hell) | Krypto Sicherheit im Videoanruf: Bekanntes Gesicht, fremde Hand, 3 Stufen der Masche (400 Mio. $) | pinterest/p-90-1.png bis p-90-4.png | eingeplant
 - 91 | 24.11.2026 11:36 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (schwarz) | Krypto Betrug erkennen beim „Nebenjob“ per WhatsApp: 3 Warnsignale vor der Anzahlung (30.000 € weg) | pinterest/p-91.png | eingeplant
 - 92 | 24.11.2026 20:14 | Bitcoin sicher aufbewahren | Balken (hell) | Krypto Wallet schützen: 713 Mio. $ aus privaten Wallets gestohlen (Chainalysis), 3 Regeln für dich | pinterest/p-92.png | eingeplant
+- 93 | 25.11.2026 11:14 | Bitcoin sicher aufbewahren | Kurve (akzent) | Krypto Wallet statt Börse: FTX-Kunden verloren über 8 Mrd. $, 3 Regeln, wann deine Coins umziehen | pinterest/p-93.png | eingeplant
+- 94 | 25.11.2026 20:29 | Krypto-Betrug erkennen | Zahl (schwarz) | Krypto Betrug erkennen: 26 falsche Wallet-Apps im App Store (Kaspersky), 3 Prüfungen vorm Download | pinterest/p-94.png | eingeplant
+- 95 | 26.11.2026 10:51 | Krypto für Anfänger | Karte (hell) | Kryptowährung erklärt: Blockchain ist ein Kassenbuch, das keiner ändern kann, 4 Fakten für Anfänger | pinterest/p-95.png | eingeplant
+- 96 | 26.11.2026 20:33 | Krypto für Anfänger | Foto (schwarz) | Krypto Börse EU: Ausweis und Video sind Pflicht (Geldwäschegesetz), 4 Regeln, wer den Ausweis sieht | pinterest/p-96.png | eingeplant
