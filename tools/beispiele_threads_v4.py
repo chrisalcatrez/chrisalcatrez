@@ -113,7 +113,7 @@ Hand aufs Herz: Hast du schon mal einen Coin gekauft, ohne zu wissen, wer ihn ge
 ]
 
 RESERVE = [
- dict(thema='Köder-Wallet (öffentliche Seed-Phrase)', feld='Betrug', var='These', frei_ab='2026-10-22', verwendet=None,
+ dict(thema='Köder-Wallet (öffentliche Seed-Phrase)', feld='Betrug', var='These', frei_ab='2026-10-22', verwendet='25.11.2026',
       text="""Wer seine 12 Wörter öffentlich postet, verschenkt kein Geld. Er sammelt welches.
 
 Unter meinen alten Videos stand das ständig: „Wallet gefunden, hier die Seed-Phrase.“ Dahinter fünfstellige Guthaben in USDT auf Tron. Zweimal hab ich 10 $ Gebühr eingezahlt, zweimal war sie nach Minuten weg.
@@ -506,7 +506,7 @@ Ein Netzwerk macht keine Versprechen. Versprechen machen Menschen.
 
 Was hat dich bisher mehr Geld gekostet, ein Mensch oder eine Technik?"""),
 
- dict(thema='„Krypto ist doch alles Betrug“ (vier Menschen, null Netzwerk)', feld='Betrug', var='Story', frei_ab='2026-10-31', verwendet=None,
+ dict(thema='„Krypto ist doch alles Betrug“ (vier Menschen, null Netzwerk)', feld='Betrug', var='Story', frei_ab='2026-10-31', verwendet='26.11.2026',
       text="""Der Mann, der mich betrog, hatte einen Namen. Den eines anderen.
 
 Auf Instagram schrieb mir der Account eines bekannten Traders. Vor der Auszahlung seines „Trading-Bots“ kam eine „Netzwerkgebühr“ an eine Solana-Adresse. Zwei-, dreimal hab ich gezahlt. Ausgezahlt wurde nie.
@@ -1068,4 +1068,28 @@ Die Variante ohne Wallet: Bargeld abheben, zum Bitcoin-Automaten, QR-Code scanne
 Wer am Telefon einen Weg zu deinem Geld sucht, hat ihn schon.
 
 Welchen Satz hat ein Anrufer bei dir zuletzt versucht?"""),
+
+ dict(thema='Mt. Gox: größte Börse, rund 850.000 Bitcoin weg 2014, Rückzahlungen ab 5. Juli 2024 (Quelle The Block, 18.07.2024)', feld='Sicherheit', var='These', frei_ab='2026-12-10', verwendet=None,
+      text="""Die größte Börse der Welt war zehn Jahre lang eine Warteschlange.
+
+Mt. Gox, Anfang 2013 über 70 % aller Bitcoin-Transaktionen. Februar 2014 Insolvenz, rund 850.000 Bitcoin fehlten. Erste Rückzahlung am 5. Juli 2024 (Quelle: The Block, 18.07.2024).
+
+Größe zeigt, wie viele mitwarten. Sicherheit zeigt sie nie.
+
+Wer den Schlüssel hält, braucht keine Warteschlange.
+
+Welche Börse hältst du heute für zu groß zum Scheitern?"""),
+
+ dict(thema='Mt. Gox: größte Börse, rund 850.000 Bitcoin weg 2014, Rückzahlungen ab 5. Juli 2024 (Quelle The Block, 18.07.2024)', feld='Psychologie', var='Story', frei_ab='2026-12-10', verwendet=None,
+      text="""Mt.-Gox-Kunden warteten zehn Jahre auf Bitcoin. Meine hab ich freiwillig hergegeben.
+
+Februar 2014: Insolvenz, rund 850.000 Bitcoin fehlten. Erste Rückzahlung am 5. Juli 2024 (Quelle: The Block, 18.07.2024).
+
+Ende 2024 hatte ich Zugriff, jederzeit. Ich hab alle Bitcoin in Panik verkauft.
+
+Denen nahm die Börse den Zugriff. Mir nahm ihn mein Puls.
+
+Der Schlüssel in der Hand schützt vor fremden Fehlgriffen, nie vor eigenen.
+
+Hast du schon mal verkauft, nur weil du es konntest?"""),
 ]
