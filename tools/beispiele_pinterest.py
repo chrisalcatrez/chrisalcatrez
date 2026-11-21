@@ -1051,6 +1051,46 @@ PINS = [
       build=lambda: build_pin('p-96', [pin2('', 'Ausweis an die Börse? <em>4&nbsp;Regeln</em>, wer ihn sieht',
           points=['Börse bei Anmeldung: Pflicht', '„Support“ per Mail: nie', '12 Wörter fragt keiner', 'Vorab zahlen: Betrug'],
           photo=True, cta='Kostenloses Training: chrisalcatrez.de', size='sm')])),
+ # 27. und 28.11.2026 (Winterzeit): kein Fall aus der Community (Thomas lief am 26.11. in p-96), nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-96 (Foto): Entscheidungsbaum -> Echt gegen Fake -> (Karussell entfällt, p-90 am 23.11. in derselben Woche) -> Beispielsatz -> Balken. Farben nach p-96 (schwarz): hell -> akzent -> schwarz -> hell.
+ # Neue Themen: Pump-and-Dump-Signalgruppen (UCL laut TechRadar), Address Poisoning (The Block), Werbeanzeigen mit Promi-Deepfake (BACS laut Blick), Gründe gegen den Krypto-Kauf (Bitkom).
+ dict(d='2026-11-27', t='11:17', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-97',
+      titel='Krypto Betrug erkennen in Signal-Gruppen: Uhrzeit zum Kaufen? 3 Fragen vor dem Klick (Pump and Dump)',
+      text="""Krypto Betrug erkennen in Signal-Gruppen: Der Kanal nennt Uhrzeit und Börse, der Coin kommt Sekunden vor dem Start. Wer zuerst verkauft, kassiert vom Nächsten. Forscher des University College London zählten 438 Drahtzieher hinter den meisten dieser Pump-and-Dump-Runden, rund 250 Mio. $ im Jahr, meist über Telegram (Quelle: TechRadar, 02.04.2025). Mein Memecoin hat mich Geld gekostet. Als er fiel, fehlte mir jeder Grund zum Halten. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: Entscheidungsbaum mit drei Fragen zum Kauf-Signal aus der Gruppe, Ja heißt Stopp.',
+      build=lambda: build_pin('p-97', [pin2('light', 'Kauf-Signal aus der Gruppe? <em>3&nbsp;Fragen</em> vor dem Klick',
+          visual=vz_flow(['Gibt es eine Uhrzeit zum Kaufen?', 'Wird ein Kursziel versprochen?', 'Kennst du den Coin erst jetzt?'],
+                         'Kein Warnsignal. Trotzdem klein anfangen.', ja='Stopp'),
+          cta='Speichern, bevor du im Chat mitkaufst', size='xs')])),
+
+ dict(d='2026-11-27', t='20:43', board=B_SIC, f='Echt gegen Fake', farbe='akzent', bild='p-98',
+      titel='Krypto Wallet: Adresse aus dem Verlauf kopiert? 3 Unterschiede zur echten (50 Mio. $ an den Fake)',
+      text="""Krypto Wallet und der Verlauf: Ein Trader schickte 50 USDT als Test an die richtige Adresse. 26 Minuten später kopierte er die Adresse aus dem Verlauf und sendete 49.999.950 USDT an einen Dieb. Vorn fünf Zeichen gleich, hinten vier, die Mitte fremd. Der Dieb hatte sie vorher mit einem Kleinstbetrag in den Verlauf geschleust (Quelle: The Block, 20.12.2025). Meine 70.000 $ nahm eine Wallet-App, die echt aussah. Aussehen beweist null, bei Apps wie bei Adressen. Kostenloses Training über den Link.""",
+      alt='Krypto Wallet: links echte Adresse mit Haken, rechts Fake-Adresse aus dem Verlauf mit Kreuzen und Stempel Fake.',
+      build=lambda: build_pin('p-98', [pin2('acc', 'Adresse aus dem Verlauf? <em>50&nbsp;Mio.&nbsp;$</em> an den Fake',
+          visual=vz_vs2('Echte Adresse', ['Adressbuch', 'Alle Zeichen', 'Test kam an'],
+                        'Fake-Adresse', ['Vom Verlauf', 'Mitte fremd', 'Kein Test'],
+                        note='Nachgestellt. 50 Mio. $ weg, 26 Minuten nach dem Test (The Block).'),
+          cta='Speichern, bevor du das nächste Mal sendest', size='xs')])),
+
+ dict(d='2026-11-28', t='11:52', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='schwarz', bild='p-99',
+      titel='Krypto Betrug erkennen in der Werbung: 3 Warnsignale, bevor du „mit 250 € startest“ (3.485 Fälle)',
+      text="""Krypto Betrug erkennen fängt bei der Anzeige an. Der erste Kontakt läuft fast immer über Werbung bei Google oder Meta: Promi im Deepfake-Video, kopierte Nachrichtenseite, Einstieg ab 250. Das Schweizer Bundesamt für Cybersicherheit zählte im ersten Halbjahr 2025 3.485 solche Fälle, im Vorjahr 729 (Quelle: Blick, 18.11.2025). Bei mir reichte damals ein bekanntes Gesicht: 5.000 $ in einen Influencer-Coin, weg. Wer mich zuerst anspricht, hat mich ausgesucht. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen: nachgestellter Werbesatz mit 250 € Einstieg in einer Sprechblase, darunter drei Warnsignale.',
+      build=lambda: build_pin('p-99', [pin2('', 'Krypto-Werbung mit Promi? <em>3&nbsp;Warnsignale</em> vor dem Klick',
+          visual=vz_bubble('„Mit nur 250 € zur finanziellen Freiheit. Dieser TV-Star hat es vorgemacht.“', 'Nachgestellt. 3.485 solche Anzeigen in einem Halbjahr gemeldet (Schweiz).'),
+          points=['Promi-Video als Köder', 'Nachrichtenseite nur kopiert', 'Einstieg mit 250 €'],
+          marks='warn', cta='Speichern, bevor du die nächste Anzeige klickst', size='xs')])),
+
+ dict(d='2026-11-28', t='19:36', board=B_ANF, f='Balken', farbe='hell', bild='p-100',
+      titel='Krypto für Anfänger: Angst vor Wertverlust, Diebstahl, Betrug? 3 Zahlen (Bitkom), 3 Regeln zum Start',
+      text="""Krypto für Anfänger: 71 % der Deutschen schließen einen Kauf derzeit aus. 76 % davon fürchten den Wertverlust, 50 % den verlorenen Zugang, etwa durch vergessene Passwörter, 27 % Betrug beim Kauf (Quelle: Bitkom, 1.004 Befragte, 20.05.2025). Zwei davon kenne ich: Ende 2024 verkaufte ich alle Bitcoin in Panik, 70.000 $ nahm mir eine Wallet-App, die echt aussah. Heute kaufe ich an einem festen Tag, nur mit Geld, das liegen darf. Die 12 Wörter liegen auf Papier. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: drei Balken, 76 % Angst vor Wertverlust, 50 % um den Zugang, 27 % vor Betrug, dazu drei Regeln.',
+      build=lambda: build_pin('p-100', [pin2('light', 'Angst vor Krypto? <em>3&nbsp;Zahlen</em>, 3 Regeln',
+          visual=vz_bars([('Angst vor Wertverlust', '76 %', 76), ('Angst um den Zugang', '50 %', 50), ('Angst vor Betrug', '27 %', 27)],
+                         'Gründe gegen den Kauf, laut Bitkom 2025.'),
+          points=['Nur Geld, das liegen darf', '12 Wörter auf Papier', 'Erst verstehen, dann kaufen'],
+          cta='Speichern, bevor du den ersten Kauf planst', size='xs')])),
 ]
 
 if __name__ == '__main__':
