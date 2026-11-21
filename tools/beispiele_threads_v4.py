@@ -884,7 +884,7 @@ Geld, das nur durch dein Konto läuft, kommt als Anzeige zurück.
 
 Würdest du fremdes Geld über dein Konto laufen lassen?"""),
 
- dict(thema='Panikverkauf Ende 2024 (Damals–Heute, fester Tag statt Panikknopf)', feld='Psychologie', var='These', frei_ab='2026-11-27', verwendet='27.11.2026',
+ dict(thema='Panikverkauf Ende 2024 (Damals–Heute, fester Tag statt Panikknopf)', feld='Psychologie', var='These', frei_ab='2026-11-27', verwendet=None,
       text="""Wer ohne Plan kauft, verkauft mit Panik.
 
 Ende 2024 hab ich alle Bitcoin verkauft. Der Kurs fiel, und ich hatte für diesen Tag keine Regel. Am 07.10.2025 stand ein Bitcoin über 126.000 $ (Quelle: Börse Express).
@@ -914,7 +914,7 @@ Je kürzer die Frist, desto kleiner die Prüfung. Bei Krypto gibt es danach kein
 Wer dir eine Frist setzt, will deine Prüfung abkürzen.
 
 Welche Frist hat dich zuletzt zum Klicken gebracht?"""),
- dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet='28.11.2026',
+ dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet=None,
       text="""Zwei Mails, eine Woche, zwei Fristen. Heute 23:59 Uhr und 14 Tage.
 
 Phishing-Radar der Verbraucherzentrale, 03.11.2026: „Zugang läuft heute ab“, Sperre um 23:59 Uhr. 06.11.2026: „Dokumentenprüfung zur Geldwäscheverordnung“, Ausweiskopie hochladen, Sperre ab Tag 15.
@@ -1092,26 +1092,4 @@ Denen nahm die Börse den Zugriff. Mir nahm ihn mein Puls.
 Der Schlüssel in der Hand schützt vor fremden Fehlgriffen, nie vor eigenen.
 
 Hast du schon mal verkauft, nur weil du es konntest?"""),
-
- dict(thema='Anlagebetrug über Telegram-Kanal, „Steuern und Gebühren“ vor der Auszahlung (über 15.000 € weg, Fall der Polizei Ansbach, Quelle fraenkischer.de 21.11.2026)', feld='Betrug', var='These', frei_ab='2026-12-11', verwendet=None,
-      text="""Wer vor der Auszahlung kassiert, zahlt danach nie aus.
-
-Fall der Polizei Ansbach (Quelle: fraenkischer.de, 21.11.2026): Telegram-Kanal im Mai, „Anlageberater“ im August, Gewinne auf dem Bildschirm. Beim Auszahlen sollte die Frau erst mehr Krypto kaufen, für „Steuern und Gebühren“. Über 15.000 € weg.
-
-Eine Rechnung vor der Auszahlung schreibt nur, wer die Auszahlung streicht.
-
-Die Rechnung vor der Auszahlung ist die Auszahlung.
-
-Welchen Betrag hättest du für „Steuern“ nachgeschossen?"""),
-
- dict(thema='Anlagebetrug über Telegram-Kanal, „Steuern und Gebühren“ vor der Auszahlung (über 15.000 € weg, Fall der Polizei Ansbach, Quelle fraenkischer.de 21.11.2026)', feld='Betrug', var='Story', frei_ab='2026-12-11', verwendet=None,
-      text="""Mai bis November, ein Kanal, ein Berater, über 15.000 € weg.
-
-So erging es einer Frau laut Polizei Ansbach (Quelle: fraenkischer.de, 21.11.2026). Beim Auszahlen hieß es: erst mehr Krypto kaufen, für „Steuern und Gebühren“.
-
-Ich kenne den Satz. Bei mir hieß die Rechnung „Netzwerkgebühr“, zwei-, dreimal gezahlt, jedes Mal mit neuer Begründung. Ausgezahlt wurde nie.
-
-Wer nachschießt, kauft den nächsten Grund, nie die Auszahlung.
-
-Bei welcher Begründung hättest du aufgehört zu zahlen?"""),
 ]
