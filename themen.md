@@ -64,3 +64,4 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 59 | 25.11.2026 | Erfolgsgeschichte | Seed-Phrase am Telefon zum „Synchronisieren“ verlangt, ausgedachte Wörter gegeben; damals Bestätigung bei anderen gesucht, heute über 250 Kunden und 4 Zeilen für den nächsten Anruf
 - 60 | 26.11.2026 | Visueller Post | Ablauf mit Pfeilen: Rückhol-Betrug in 5 Stufen, vom ersten Verlust bis zur Stille (Fall Thomas, 40.000 $, 2,08 BTC „ausgesetzt“; Verbraucherzentrale Hessen; eigene Gebühr vor der Auszahlung)
 - 61 | 27.11.2026 | Frage an die Zielgruppe | Hand aufs Herz: Schon mal einen Coin gekauft, weil ein bekanntes Gesicht dafür warb? (Influencer-Coin 5.000 $, LIBRA: 86 % der Käufer mit Verlust laut Nansen)
+- 62 | 28.11.2026 | Schritt-für-Schritt-Anleitung | Geldentwertung: Von 100 € aus 2020 sind 82 € Kaufkraft übrig, in Venezuela 14 Nullen; mein System grob in 3 Schritten (Destatis VPI 2025, ORF, 70.000 $, Panikverkauf Ende 2024)

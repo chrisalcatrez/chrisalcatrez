@@ -2341,6 +2341,77 @@ Ich will wissen, wie es bei dir war. Hast du schon mal wegen eines bekannten Ges
 
 Schick das jemandem, der Coins aus dem Feed kauft.''')
 
+# ---------- Beitrag 62: Schritt-fuer-Schritt (Geldentwertung: 100 € aus 2020 sind 82 €; 14 Nullen in Venezuela; mein System grob in 3 Schritten) ----------
+Q_DESTATIS = 'Quelle: Statistisches Bundesamt, Verbraucherpreisindex 2025 (2020 = 100: 121,9). Eigene Rechnung.'
+POSTS['beitrag-62'] = dict(
+    date='2026-11-28', fmt='Schritt-für-Schritt-Anleitung', topic='Geldentwertung: Von 100 € aus 2020 sind 82 € Kaufkraft übrig, in Venezuela 14 Nullen; mein System grob in 3 Schritten (Destatis, ORF, 70.000 $, Panikverkauf Ende 2024)',
+    slides=[
+        s_hook('SCHRITT FÜR SCHRITT', 'Von 100 € aus 2020 sind 82 € übrig. Ohne Crash. Mein Erspartes folgt heute %s' % A('3 Schritten.'),
+               sub='Mein System, grob. Die Tiefe im Training.', cue='Woher die 82 € kommen &#8594;', size=''),
+        s_proof('DER BELEG', 'Gleiches Geld, weniger Einkauf.', big='82 €',
+                big_sub='kaufen heute so viel wie 100 € im Jahr 2020.',
+                ps=['Die Verbraucherpreise lagen 2025 im Schnitt 21,9 % über 2020.',
+                    D('Der Kontostand bleibt gleich. Der Einkaufswagen wird leerer.')],
+                src=Q_DESTATIS, cue='Wo ich lebe, ging es schneller &#8594;'),
+        s_point('WO ICH LEBE', 'Venezuela hat seit 2008 %s gestrichen.' % A('14 Nullen'),
+                ['2008 drei, 2018 fünf, 2021 sechs. Preise stehen hier in Dollar, Krypto ist Alltag.',
+                 D('Trotzdem hat mich Krypto zuerst viel Geld gekostet. Weil ich ohne Plan gekauft hab.')],
+                src=Q_ORF, cue='Schritt 1 kostet kein Geld &#8594;'),
+        s_point('SCHRITT 1 VON 3', 'Verstehen, %s' % A('bevor ich kaufe.'),
+                ['Ich kaufe nur, was ich in zwei Sätzen erklären kann.',
+                 D('Ohne diesen Schritt hab ich 70.000 $ an eine Wallet-App verloren, die echt aussah.')],
+                cue='Schritt 2 nimmt dem Puls die Entscheidung ab &#8594;'),
+        s_point('SCHRITT 2 VON 3', 'Fester Tag, %s' % A('feste Summe.'),
+                ['Ich rate keinen besten Tag. Der Kalender entscheidet, nie der Puls.',
+                 D('Ende 2024 hab ich ohne Plan alle Bitcoin in Panik verkauft. Seitdem steht der Plan vorher fest.')],
+                cue='Schritt 3 entscheidet, wem das Geld gehört &#8594;'),
+        s_point('SCHRITT 3 VON 3', 'Der Schlüssel liegt %s' % A('bei mir.'),
+                ['Was lange bleiben soll, ziehe ich von der Börse in meine eigene Wallet.',
+                 D('Wer den Schlüssel hält, hat das Geld. Auf der Börse ist das die Börse.')],
+                cue='Dein Merkzettel in 4 Zeilen &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Drei Schritte, %s' % A('bevor dein Erspartes umzieht.'), 'Dein Merkzettel', [
+            'Nur kaufen, was du in zwei Sätzen erklären kannst.',
+            'Fester Tag, feste Summe. Kein Raten.',
+            'Was lange bleibt, liegt in deiner eigenen Wallet.',
+            'Krypto schwankt stark. Nie das Geld für die Miete.',
+        ], 'Speichere dir das für deinen ersten Kauf.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Schritt für Schritt: Von 100 Euro aus 2020 sind 82 Euro übrig, ohne Crash. Mein Erspartes folgt heute 3 Schritten. Mein System, grob, die Tiefe im Training',
+          'Der Beleg: 82 Euro kaufen heute so viel wie 100 Euro im Jahr 2020. Die Verbraucherpreise lagen 2025 im Schnitt 21,9 Prozent über 2020. Der Kontostand bleibt gleich, der Einkaufswagen wird leerer. Quelle: Statistisches Bundesamt, Verbraucherpreisindex 2025, eigene Rechnung',
+          'Wo ich lebe: Venezuela hat seit 2008 14 Nullen gestrichen, 2008 drei, 2018 fünf, 2021 sechs. Preise stehen hier in Dollar, Krypto ist Alltag. Trotzdem hat mich Krypto zuerst viel Geld gekostet, weil ich ohne Plan gekauft hab. Quelle: ORF',
+          'Schritt 1 von 3: Verstehen, bevor ich kaufe. Ich kaufe nur, was ich in zwei Sätzen erklären kann. Ohne diesen Schritt hab ich 70.000 Dollar an eine Wallet-App verloren, die echt aussah',
+          'Schritt 2 von 3: Fester Tag, feste Summe. Ich rate keinen besten Tag, der Kalender entscheidet, nie der Puls. Ende 2024 hab ich ohne Plan alle Bitcoin in Panik verkauft',
+          'Schritt 3 von 3: Der Schlüssel liegt bei mir. Was lange bleiben soll, ziehe ich von der Börse in meine eigene Wallet. Wer den Schlüssel hält, hat das Geld',
+          'Merkzettel, drei Schritte, bevor dein Erspartes umzieht: nur kaufen, was du in zwei Sätzen erklären kannst; fester Tag, feste Summe, kein Raten; was lange bleibt, liegt in deiner eigenen Wallet; Krypto schwankt stark, nie das Geld für die Miete. Speichere dir das für deinen ersten Kauf',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Dein Kontostand ist seit 2020 gleich geblieben. Dein Einkauf ist kleiner geworden.
+
+Die Zahl dazu: Die Verbraucherpreise in Deutschland lagen 2025 im Schnitt 21,9 % über 2020. Von 100 € aus 2020 sind damit rund 82 € Kaufkraft übrig (Quelle: Statistisches Bundesamt, Verbraucherpreisindex 2025, Basis 2020 = 100: 121,9; eigene Rechnung). Ohne Crash, ohne Krise.
+
+Ich lebe in Venezuela. Hier ging es schneller: Seit 2008 wurden vom Bolívar 14 Nullen gestrichen, 2008 drei, 2018 fünf, 2021 sechs (Quelle: ORF, „Venezuela streicht sechs Nullen aus seiner Währung“, 2021). Preise stehen hier in Dollar, Krypto ist Alltag.
+
+Trotzdem hat mich Krypto zuerst viel Geld gekostet. Ich hab gekauft, ohne zu verstehen, was. Erst danach wurde daraus Schritt für Schritt ein einfaches, langfristiges System.
+
+Mein System, grob in 3 Schritten:
+1. Verstehen, bevor ich kaufe. Ich kaufe nur, was ich in zwei Sätzen erklären kann. Ohne diesen Schritt hab ich 70.000 $ an eine Wallet-App verloren, die echt aussah.
+2. Fester Tag, feste Summe. Ich rate keinen besten Tag. Ende 2024 hab ich ohne Plan alle Bitcoin in Panik verkauft. Seitdem steht der Plan vorher fest.
+3. Der Schlüssel liegt bei mir. Was lange bleiben soll, ziehe ich von der Börse in meine eigene Wallet. Wer den Schlüssel hält, hat das Geld.
+
+Dein Merkzettel:
+– Nur kaufen, was du in zwei Sätzen erklären kannst.
+– Fester Tag, feste Summe. Kein Raten.
+– Was lange bleibt, liegt in deiner eigenen Wallet.
+– Krypto schwankt stark. Nie das Geld für die Miete.
+
+Bitcoin ersetzt bei mir kein Konto. Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der sich um sein Erspartes sorgt, seinen ersten Bitcoin an der Börse kaufen will und sich vor Betrug schützen möchte.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Das kostenlose Training findest du im Link in meiner Bio.
+
+''' + TAGS)
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
