@@ -810,7 +810,7 @@ PINS = [
           visual=vz_bars([('Neue Coins in 4 Jahren', '7 Mio.', 100), ('Davon ohne Handel', '3,7 Mio.', 53), ('Davon in 3 Monaten', '1,8 Mio.', 26)],
                          'Ohne Handel heißt tot, laut CoinGecko. Mein Memecoin: einer davon.'),
           points=['In zwei Sätzen erklärbar', 'Stückzahl mal Preis rechnen', 'Preis pro Stück sagt null'],
-          cta='Speichern, bevor du den nächsten Coin kaufst', size='xs')])),
+          cta='Speichern, bevor du den nächsten Coin kaufst', size='sm')])),
 
  dict(d='2026-11-16', t='20:19', board=B_ANF, f='Kurve', farbe='hell', bild='p-76',
       titel='Bitcoin kaufen für Anfänger: Der Plan für rote Tage steht vor dem Kauf, 3 Regeln (in Panik verkauft)',
@@ -1091,6 +1091,26 @@ PINS = [
                          'Gründe gegen den Kauf, laut Bitkom 2025.'),
           points=['Nur Geld, das liegen darf', '12 Wörter auf Papier', 'Erst verstehen, dann kaufen'],
           cta='Speichern, bevor du den ersten Kauf planst', size='xs')])),
+ # 29.11.2026 (Sonntag, Winterzeit): kein Fall aus der Community (Thomas lief am 26.11. in p-96), nur eigene Fakten und belegte Quellen.
+ # Rotation nach p-100 (Balken): Kurve -> Zahl. Farben nach p-100 (hell): schwarz -> hell.
+ # Neue Themen: Blick ins Depot, wie oft (Sutor Bank laut Cash.), Memecoins auf einer Startplattform (Solidus Labs laut CoinDesk).
+ dict(d='2026-11-29', t='11:34', board=B_ANF, f='Kurve', farbe='schwarz', bild='p-101',
+      titel='Krypto für Anfänger: Kurs täglich prüfen? 3 Regeln für den Blick ins Depot (Panikverkauf Ende 2024)',
+      text="""Krypto für Anfänger: Wie oft du auf den Kurs schaust, entscheidet mit, wie du dich fühlst. Die Sutor Bank hat das am DAX durchgerechnet: Im Monatsblick waren rund 40 % der Felder rot, im Jahresblick rund 5 % (Quelle: Cash., 17.08.2021). Ende 2024 hab ich alle Bitcoin in Panik verkauft. Das Gefühl war schneller als der Plan. Heute hab ich einen festen Tag im Monat. An dem kaufe ich, an dem schaue ich. Der Rest ist Rauschen. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: Kurve mit Punkten in festem Abstand, ein Blick ins Depot im Monat, darunter drei Regeln.',
+      build=lambda: build_pin('p-101', [pin2('', 'Kurs täglich prüfen? <em>3&nbsp;Regeln</em> fürs Depot',
+          visual=vz_curve('Ein Blick im Monat, fester Tag. DAX-Monatsblick: 40 % rote Felder, Jahresblick: 5 % (Sutor Bank).'),
+          points=['Ein Depot-Tag im Monat', 'Rote Monate gehören dazu', 'Kaufen nach Plan, nie Gefühl'],
+          cta='Speichern, bevor du das Depot wieder öffnest', size='xs')])),
+
+ dict(d='2026-11-29', t='19:52', board=B_ANF, f='Zahl', farbe='hell', bild='p-102',
+      titel='Memecoin kaufen? 98,6 % der Coins einer Startplattform waren Pump and Dump (Solidus Labs), 3 Regeln',
+      text="""Memecoin kaufen klingt nach schnellem Geld. Solidus Labs prüfte die Coins, die seit Januar 2024 auf der Startplattform Pump.fun erschienen: 98,6 % waren Rug Pull oder Pump and Dump. Von über 7 Mio. Coins hielten 97.000 wenigstens 1.000 $ an Liquidität (Quelle: Solidus Labs, laut CoinDesk, 07.05.2025). Mein Memecoin hat mich Geld gekostet. Was er kann und wer ihn gebaut hat, wusste ich kaum. In der Wallet stand trotzdem eine schöne Zahl, bis sie weg war. Kostenloses Training über den Link.""",
+      alt='Memecoin kaufen: große Zahl 98,6 %, Anteil Pump and Dump auf einer Startplattform, darunter drei Regeln vor dem Kauf.',
+      build=lambda: build_pin('p-102', [pin2('light', 'Memecoin kaufen? <em>98,6&nbsp;%</em> waren Betrug',
+          visual=vz_num('<span style="font-size:170px">98,6&nbsp;%</span>', 'So viele Memecoins einer Startplattform waren Rug Pull oder Pump and Dump (Solidus Labs).'),
+          points=['Nur Geld, das fehlen darf', 'Wer hält die meisten Coins?', 'Team ohne Namen? Kein Kauf'],
+          cta='Speichern, bevor du den nächsten Coin kaufst', size='sm')])),
 ]
 
 if __name__ == '__main__':
