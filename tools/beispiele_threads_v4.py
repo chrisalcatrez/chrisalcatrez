@@ -914,7 +914,7 @@ Je kürzer die Frist, desto kleiner die Prüfung. Bei Krypto gibt es danach kein
 Wer dir eine Frist setzt, will deine Prüfung abkürzen.
 
 Welche Frist hat dich zuletzt zum Klicken gebracht?"""),
- dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet='28.11.2026',
+ dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet=None,
       text="""Zwei Mails, eine Woche, zwei Fristen. Heute 23:59 Uhr und 14 Tage.
 
 Phishing-Radar der Verbraucherzentrale, 03.11.2026: „Zugang läuft heute ab“, Sperre um 23:59 Uhr. 06.11.2026: „Dokumentenprüfung zur Geldwäscheverordnung“, Ausweiskopie hochladen, Sperre ab Tag 15.
