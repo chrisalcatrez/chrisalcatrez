@@ -1111,6 +1111,25 @@ PINS = [
           visual=vz_num('<span style="font-size:170px">98,6&nbsp;%</span>', 'So viele Memecoins einer Startplattform waren Rug Pull oder Pump and Dump (Solidus Labs).'),
           points=['Nur Geld, das fehlen darf', 'Wer hält die meisten Coins?', 'Team ohne Namen? Kein Kauf'],
           cta='Speichern, bevor du den nächsten Coin kaufst', size='sm')])),
+ # 30.11.2026 (Montag, Winterzeit): kein Fall aus der Community, nur eigene Fakten. Keine Fremdzahlen, darum keine Quellen nötig.
+ # Rotation nach p-102 (Zahl): Karte -> Foto (letzter Foto-Pin p-96 am 26.11., Vorwoche). Farben nach p-102 (hell): akzent -> schwarz (Foto).
+ # Neue Themen: Bestätigungssuche vor dem Kauf (Psychologie, zuletzt p-44 am 31.10.), Instagram-Nachricht mit Netzwerkgebühr (zuletzt p-34 am 26.10.).
+ dict(d='2026-11-30', t='10:56', board=B_ANF, f='Karte', farbe='akzent', bild='p-103',
+      titel='Krypto für Anfänger: „Soll ich kaufen?“ Andere fragen kostete mich 5.000 $, 3 Fragen an dich selbst',
+      text="""Krypto für Anfänger: Vor jedem Kauf hab ich früher andere gefragt. Soll ich? Genickt haben die, die mir etwas verkauften. Beim Influencer-Coin reichte mir ein bekanntes Gesicht als Ja, 5.000 $ weg. Ruhig wurde es, als ich die Frage umgedreht hab. Verstehe ich, was ich kaufe? Fehlt die Antwort, bleibt mein Geld liegen. Aus dieser einen Frage ist Schritt für Schritt ein einfaches System mit vier Schritten geworden. Kostenloses Training über den Link.""",
+      alt='Krypto für Anfänger: Karte mit der Frage „Verstehe ich es?“, darunter drei Fragen an dich selbst vor jedem Krypto-Kauf.',
+      build=lambda: build_pin('p-103', [pin2('acc', 'Andere fragen vor dem Kauf? <em>3&nbsp;Fragen</em> an dich',
+          visual=vz_card('Verstehe ich es?', 'Früher fragte ich andere „Soll ich?“. Genickt haben die, die mir etwas verkauften.'),
+          points=['Kann ich es erklären?', 'Wer verdient am Kauf?', 'Darf das Geld liegen?'],
+          cta='Speichern, bevor du das nächste Mal fragst', size='xs')])),
+
+ dict(d='2026-11-30', t='20:21', board=B_BET, f='Foto', farbe='schwarz', bild='p-104',
+      titel='Krypto Betrug erkennen auf Instagram: Anlage-Angebot per Nachricht? 4 Regeln, bevor du antwortest',
+      text="""Krypto Betrug erkennen auf Instagram: Die erste Nachricht kommt vom Betrüger, nie von dir. Mir schrieb einer, der mein Geld für mich anlegen wollte. Vor der Auszahlung verlangte er eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie. Heute gilt bei mir eine Regel. Wer mich zuerst anschreibt, bekommt kein Geld. Kaufen tue ich selbst, und vor einer Auszahlung zahle ich keinen Cent. Kostenloses Training über den Link.""",
+      alt='Krypto Betrug erkennen auf Instagram: Porträt von Chris Alcatrez, darüber vier Regeln für Nachrichten von Fremden.',
+      build=lambda: build_pin('p-104', [pin2('', 'Krypto-Angebot auf Instagram? <em>4&nbsp;Regeln</em>, bevor du antwortest',
+          points=['Wer zuerst schreibt, will etwas', 'Niemand handelt für dich', 'Vorab-Gebühr = Betrug', 'Bekannter Name beweist null'],
+          photo=True, cta='Kostenloses Training: chrisalcatrez.de', size='xs')])),
 ]
 
 if __name__ == '__main__':

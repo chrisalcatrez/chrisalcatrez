@@ -112,3 +112,5 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 100 | 28.11.2026 19:36 | Krypto für Anfänger | Balken (hell) | Krypto für Anfänger: Angst vor Wertverlust, Diebstahl, Betrug? 3 Zahlen (Bitkom), 3 Regeln zum Start | pinterest/p-100.png | offen
 - 101 | 29.11.2026 11:34 | Krypto für Anfänger | Kurve (schwarz) | Krypto für Anfänger: Kurs täglich prüfen? 3 Regeln für den Blick ins Depot (Panikverkauf Ende 2024) | pinterest/p-101.png | offen
 - 102 | 29.11.2026 19:52 | Krypto für Anfänger | Zahl (hell) | Memecoin kaufen? 98,6 % der Coins einer Startplattform waren Pump and Dump (Solidus Labs), 3 Regeln | pinterest/p-102.png | offen
+- 103 | 30.11.2026 10:56 | Krypto für Anfänger | Karte (akzent) | Krypto für Anfänger: „Soll ich kaufen?“ Andere fragen kostete mich 5.000 $, 3 Fragen an dich selbst | pinterest/p-103.png | offen
+- 104 | 30.11.2026 20:21 | Krypto-Betrug erkennen | Foto (schwarz) | Krypto Betrug erkennen auf Instagram: Anlage-Angebot per Nachricht? 4 Regeln, bevor du antwortest | pinterest/p-104.png | offen
