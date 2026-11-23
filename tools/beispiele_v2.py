@@ -2412,6 +2412,142 @@ Das kostenlose Training findest du im Link in meiner Bio.
 
 ''' + TAGS)
 
+# ---------- Beitrag 63: FAQ (Kann man Bitcoin hacken? 3 Tueren: Boerse, App, Mensch; Chainalysis 2025) ----------
+Q_CHA = 'Quelle: Chainalysis, laut The Block, 18.12.2025'
+POSTS['beitrag-63'] = dict(
+    date='2026-11-29', fmt='FAQ beantworten', topic='FAQ: „Kann man Bitcoin hacken?“ 3,4 Mrd. $ Krypto 2025 gestohlen, die Diebe kamen durch 3 Türen: Börse, App, Mensch (Chainalysis laut The Block; gefälschte Wallet-App 70.000 $; Seed-Phrase am Telefon)',
+    slides=[
+        s_hook('FAQ', '„Kann man Bitcoin hacken?“ 3,4 Mrd. $ wurden 2025 gestohlen. Die Diebe kamen durch %s' % A('3 Türen.'),
+               sub='Meine 70.000 $ gingen durch Tür 2.', cue='Woher die 3,4 Mrd. $ kommen &#8594;', size=''),
+        s_proof('DER BELEG', 'Den größten Teil holten Diebe %s' % A('aus einer Börse.'), big='3,4 Mrd. $',
+                big_sub='Krypto wurden 2025 gestohlen. Ein einziger Hack bei einer Börse brachte rund 1,4 Mrd. $.',
+                ps=[D('Dazu rund 158.000 Fälle bei privaten Wallets, mindestens 80.000 Menschen.')],
+                src=Q_CHA, cue='Tür 1 liegt außerhalb deiner Hand &#8594;'),
+        s_point('TÜR 1 VON 3', 'Die %s' % A('Börse.'),
+                ['Liegt dein Bitcoin auf der Börse, hält sie den Schlüssel.',
+                 D('Wird sie gehackt, steckst du mit drin. Was dort liegt, ist ein Versprechen des Anbieters.')],
+                size='m', cue='Tür 2 hat mich 70.000 $ gekostet &#8594;'),
+        s_point('TÜR 2 VON 3', 'Die %s' % A('App.'),
+                ['Ich hab eine Wallet-App geladen, weil sie echt aussah. 70.000 $ weg.',
+                 D('Gehackt wurde dabei keine Blockchain. Die Tür hab ich selbst aufgemacht.')],
+                size='m', cue='Tür 3 klingt freundlich &#8594;'),
+        s_point('TÜR 3 VON 3', 'Der %s' % A('Mensch.'),
+                ['Am Telefon wollte einer meine 12 Wörter. Zum „Synchronisieren“. Ich gab ihm ausgedachte.',
+                 D('Wer deine Wörter hat, braucht keinen Hack. Er gibt sie einfach ein.')],
+                size='m', cue='Die Frage, die wirklich zählt &#8594;'),
+        s_point('DIE ANTWORT', 'Frag statt „Ist Bitcoin sicher?“ lieber: %s' % A('Wer hält meinen Schlüssel?'),
+                ['Bei meinen 70.000 $ lief alles über die App, nie über die Blockchain.',
+                 D('Wer seine drei Türen kennt, schützt sein Geld. Schritt für Schritt wurde daraus mein einfaches, langfristiges System.')],
+                size='m', cue='Deine 3 Türen zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Drei Türen, %s' % A('drei Fragen.'), 'Dein Merkzettel', [
+            'Börse: Liegt dort nur, was ich gerade brauche?',
+            'App: Kommt der Download-Link vom Anbieter selbst?',
+            'Mensch: Will jemand meine 12 Wörter? Auflegen.',
+        ], 'Speichere dir das für deinen ersten Kauf.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['FAQ: Kann man Bitcoin hacken? 3,4 Milliarden Dollar wurden 2025 gestohlen. Die Diebe kamen durch 3 Türen. Meine 70.000 Dollar gingen durch Tür 2',
+          'Der Beleg: 3,4 Milliarden Dollar Krypto wurden 2025 gestohlen, ein einziger Hack bei einer Börse brachte rund 1,4 Milliarden Dollar. Dazu rund 158.000 Fälle bei privaten Wallets, mindestens 80.000 Menschen. Quelle: Chainalysis, laut The Block, 18.12.2025',
+          'Tür 1 von 3: Die Börse. Liegt dein Bitcoin auf der Börse, hält sie den Schlüssel. Wird sie gehackt, steckst du mit drin. Was dort liegt, ist ein Versprechen des Anbieters',
+          'Tür 2 von 3: Die App. Ich hab eine Wallet-App geladen, weil sie echt aussah, 70.000 Dollar weg. Gehackt wurde dabei keine Blockchain, die Tür hab ich selbst aufgemacht',
+          'Tür 3 von 3: Der Mensch. Am Telefon wollte einer meine 12 Wörter zum Synchronisieren, ich gab ihm ausgedachte. Wer deine Wörter hat, braucht keinen Hack, er gibt sie einfach ein',
+          'Die Antwort: Frag statt ist Bitcoin sicher lieber, wer hält meinen Schlüssel. Bei meinen 70.000 Dollar lief alles über die App, nie über die Blockchain. Wer seine drei Türen kennt, schützt sein Geld',
+          'Merkzettel, drei Türen, drei Fragen: Börse, liegt dort nur, was ich gerade brauche; App, kommt der Download-Link vom Anbieter selbst; Mensch, will jemand meine 12 Wörter, auflegen. Speichere dir das für deinen ersten Kauf',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''Meine 70.000 $ hat kein Hacker geholt. Ich hab sie selbst rausgetragen.
+
+„Kann man Bitcoin hacken?“ Diese Frage stellen mir Krypto-Anfänger immer wieder. Dahinter steckt die Angst: Ich kaufe, und morgen ist alles weg.
+
+Ich weiß, wie es dir geht. Mir ging es genauso. Ich hab auf die Technik geschaut. Gestohlen wurde mein Geld an einer ganz anderen Stelle.
+
+Die Zahl dazu: 2025 wurden rund 3,4 Mrd. $ Krypto gestohlen. Ein einziger Hack bei einer Börse brachte rund 1,4 Mrd. $. Dazu kamen rund 158.000 Fälle bei privaten Wallets mit mindestens 80.000 Betroffenen (Quelle: Chainalysis, laut The Block, 18.12.2025).
+
+Die 3 Türen, durch die die Diebe kommen:
+1. Die Börse. Liegt dein Bitcoin dort, hält sie den Schlüssel. Wird sie gehackt, steckst du mit drin.
+2. Die App. Ich hab eine Wallet-App geladen, weil sie echt aussah. 70.000 $ weg. Gehackt wurde dabei keine Blockchain.
+3. Der Mensch. Am Telefon wollte einer meine 12 Wörter, zum „Synchronisieren“. Ich gab ihm ausgedachte. Wer deine Wörter hat, braucht keinen Hack.
+
+Die bessere Frage lautet darum: Wer hält meinen Schlüssel?
+
+Dein Merkzettel:
+– Börse: Liegt dort nur, was ich gerade brauche?
+– App: Kommt der Download-Link vom Anbieter selbst?
+– Mensch: Will jemand meine 12 Wörter? Auflegen.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin an einer Börse kaufen oder in einer eigenen Wallet halten will und sich vor Betrug schützen möchte.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 64: Aufzaehlung (Die 5 Phasen, die ich als Krypto-Anfaenger durchlebt hab, je ein Satz zum Erkennen) ----------
+POSTS['beitrag-64'] = dict(
+    date='2026-11-30', fmt='Aufzählung', topic='Die 5 Phasen, die ich als Krypto-Anfänger durchlebt hab, und der Satz, an dem du jede erkennst (Influencer-Coin 5.000 $, Cloud-Mining 4.000 bis 5.000 $, Bestätigungssuche, Panikverkauf Ende 2024, Verstehen)',
+    slides=[
+        s_hook('AUFZÄHLUNG', '5.000 $ weg in Phase 1. Alle Bitcoin verkauft in Phase 4. %s' % A('Die 5 Phasen, die ich als Anfänger durchlebt hab.'),
+               sub='Und der Satz, an dem du jede Phase erkennst.', cue='Phase 1 beginnt mit einem Gesicht &#8594;', size=''),
+        s_point('PHASE 1 VON 5', 'Der %s' % A('Hype.'),
+                ['Ich hab 5.000 $ in einen Influencer-Coin gesteckt. Das Gesicht kannte ich, den Coin kaum.',
+                 D('Der Satz dazu: „Den kennt doch jeder.“')],
+                size='m', cue='Phase 2 verspricht dir Ruhe &#8594;'),
+        s_point('PHASE 2 VON 5', 'Die %s' % A('feste Zahl.'),
+                ['4.000 bis 5.000 $ in ein Cloud-Mining mit festen Renditen.',
+                 D('Der Satz dazu: „Jeden Monat fest, egal was der Kurs macht.“')],
+                size='m', cue='Phase 3 hat bei mir am längsten gedauert &#8594;'),
+        s_point('PHASE 3 VON 5', 'Die Suche nach %s' % A('einem Ja.'),
+                ['Lange hab ich bei anderen nach Bestätigung gesucht. Entscheiden sollten die.',
+                 D('Der Satz dazu: „Was meint ihr, soll ich?“')],
+                size='m', cue='Phase 4 hat mich alle Bitcoin gekostet &#8594;'),
+        s_point('PHASE 4 VON 5', 'Die %s' % A('Panik.'),
+                ['Ende 2024 hab ich alle Bitcoin in Panik verkauft. Einen Plan für rote Tage gab es keinen.',
+                 D('Der Satz dazu: „Morgen wird es schlimmer.“')],
+                size='m', cue='Phase 5 hat alles gedreht &#8594;'),
+        s_point('PHASE 5 VON 5', 'Das %s' % A('Verstehen.'),
+                ['Schritt für Schritt hab ich selbst verstanden, was ich kaufe. Daraus wurde ein einfaches, langfristiges System.',
+                 D('Der Satz dazu: „Was genau kaufe ich hier?“')],
+                size='m', cue='Alle 5 Sätze zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'An diesen Sätzen erkennst du %s' % A('deine Phase.'), 'Dein Merkzettel', [
+            '„Den kennt doch jeder.“ Phase 1.',
+            '„Jeden Monat fest.“ Phase 2.',
+            '„Was meint ihr, soll ich?“ Phase 3.',
+            '„Morgen wird es schlimmer.“ Phase 4.',
+            '„Was genau kaufe ich hier?“ Phase 5.',
+        ], 'Speichere dir das und schau nach, in welcher Phase du gerade steckst.'),
+    ],
+    alts=['Aufzählung: 5.000 Dollar weg in Phase 1, alle Bitcoin verkauft in Phase 4. Die 5 Phasen, die ich als Anfänger durchlebt hab, und der Satz, an dem du jede Phase erkennst',
+          'Phase 1 von 5: Der Hype. Ich hab 5.000 Dollar in einen Influencer-Coin gesteckt, das Gesicht kannte ich, den Coin kaum. Der Satz dazu: Den kennt doch jeder',
+          'Phase 2 von 5: Die feste Zahl. 4.000 bis 5.000 Dollar in ein Cloud-Mining mit festen Renditen. Der Satz dazu: Jeden Monat fest, egal was der Kurs macht',
+          'Phase 3 von 5: Die Suche nach einem Ja. Lange hab ich bei anderen nach Bestätigung gesucht, entscheiden sollten die. Der Satz dazu: Was meint ihr, soll ich',
+          'Phase 4 von 5: Die Panik. Ende 2024 hab ich alle Bitcoin in Panik verkauft, einen Plan für rote Tage gab es keinen. Der Satz dazu: Morgen wird es schlimmer',
+          'Phase 5 von 5: Das Verstehen. Schritt für Schritt hab ich selbst verstanden, was ich kaufe, daraus wurde ein einfaches, langfristiges System. Der Satz dazu: Was genau kaufe ich hier',
+          'Merkzettel, an diesen Sätzen erkennst du deine Phase: Den kennt doch jeder, Phase 1; jeden Monat fest, Phase 2; was meint ihr, soll ich, Phase 3; morgen wird es schlimmer, Phase 4; was genau kaufe ich hier, Phase 5. Speichere dir das und schau nach, in welcher Phase du gerade steckst'],
+    caption='''Vier Phasen haben mich Geld gekostet. Erst die fünfte hat alles gedreht.
+
+Ich weiß, wie es dir geht. Am Anfang fühlt sich jeder Schritt richtig an. Was schiefging, siehst du erst im Rückblick.
+
+Mir ging es genauso. Als Krypto-Anfänger bin ich durch diese 5 Phasen gegangen. Jede hat einen Satz, an dem du sie erkennst:
+
+1. Der Hype. Ich hab 5.000 $ in einen Influencer-Coin gesteckt. Das Gesicht kannte ich, den Coin kaum. Der Satz: „Den kennt doch jeder.“
+2. Die feste Zahl. 4.000 bis 5.000 $ in ein Cloud-Mining mit festen Renditen. Der Satz: „Jeden Monat fest, egal was der Kurs macht.“
+3. Die Suche nach einem Ja. Lange hab ich bei anderen nach Bestätigung gesucht. Der Satz: „Was meint ihr, soll ich?“
+4. Die Panik. Ende 2024 hab ich alle Bitcoin in Panik verkauft. Einen Plan für rote Tage gab es keinen. Der Satz: „Morgen wird es schlimmer.“
+5. Das Verstehen. Schritt für Schritt hab ich selbst verstanden, was ich kaufe. Daraus wurde ein einfaches, langfristiges System. Der Satz: „Was genau kaufe ich hier?“
+
+Das habe ich herausgefunden: Phase 1 bis 4 musst du nie selbst bezahlen. Du kannst mit der Frage aus Phase 5 anfangen.
+
+Dein Merkzettel:
+– „Den kennt doch jeder.“ Phase 1.
+– „Jeden Monat fest.“ Phase 2.
+– „Was meint ihr, soll ich?“ Phase 3.
+– „Morgen wird es schlimmer.“ Phase 4.
+– „Was genau kaufe ich hier?“ Phase 5.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin kaufen will, sich vor Betrug schützen möchte und Gier, Panik und die Informationsflut kennt.
+
+In welcher Phase steckst du gerade? Schreib die Zahl in die Kommentare.
+
+Speichere dir das und schau nach, in welcher Phase du gerade steckst.''')
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
