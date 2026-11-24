@@ -1054,7 +1054,7 @@ PINS = [
  # 27. und 28.11.2026 (Winterzeit): kein Fall aus der Community (Thomas lief am 26.11. in p-96), nur eigene Fakten und belegte Quellen.
  # Rotation nach p-96 (Foto): Entscheidungsbaum -> Echt gegen Fake -> (Karussell entfällt, p-90 am 23.11. in derselben Woche) -> Beispielsatz -> Balken. Farben nach p-96 (schwarz): hell -> akzent -> schwarz -> hell.
  # Neue Themen: Pump-and-Dump-Signalgruppen (UCL laut TechRadar), Address Poisoning (The Block), Werbeanzeigen mit Promi-Deepfake (BACS laut Blick), Gründe gegen den Krypto-Kauf (Bitkom).
- dict(d='2026-11-27', t='11:17', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-97',
+ dict(d='2026-12-01', t='11:17', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-97',
       titel='Krypto Betrug erkennen in Signal-Gruppen: Uhrzeit zum Kaufen? 3 Fragen vor dem Klick (Pump and Dump)',
       text="""Krypto Betrug erkennen in Signal-Gruppen: Der Kanal nennt Uhrzeit und Börse, der Coin kommt Sekunden vor dem Start. Wer zuerst verkauft, kassiert vom Nächsten. Forscher des University College London zählten 438 Drahtzieher hinter den meisten dieser Pump-and-Dump-Runden, rund 250 Mio. $ im Jahr, meist über Telegram (Quelle: TechRadar, 02.04.2025). Mein Memecoin hat mich Geld gekostet. Als er fiel, fehlte mir jeder Grund zum Halten. Kostenloses Training über den Link.""",
       alt='Krypto Betrug erkennen: Entscheidungsbaum mit drei Fragen zum Kauf-Signal aus der Gruppe, Ja heißt Stopp.',
@@ -1063,7 +1063,7 @@ PINS = [
                          'Kein Warnsignal. Trotzdem klein anfangen.', ja='Stopp'),
           cta='Speichern, bevor du im Chat mitkaufst', size='xs')])),
 
- dict(d='2026-11-27', t='20:43', board=B_SIC, f='Echt gegen Fake', farbe='akzent', bild='p-98',
+ dict(d='2026-12-01', t='20:43', board=B_SIC, f='Echt gegen Fake', farbe='akzent', bild='p-98',
       titel='Krypto Wallet: Adresse aus dem Verlauf kopiert? 3 Unterschiede zur echten (50 Mio. $ an den Fake)',
       text="""Krypto Wallet und der Verlauf: Ein Trader schickte 50 USDT als Test an die richtige Adresse. 26 Minuten später kopierte er die Adresse aus dem Verlauf und sendete 49.999.950 USDT an einen Dieb. Vorn fünf Zeichen gleich, hinten vier, die Mitte fremd. Der Dieb hatte sie vorher mit einem Kleinstbetrag in den Verlauf geschleust (Quelle: The Block, 20.12.2025). Meine 70.000 $ nahm eine Wallet-App, die echt aussah. Aussehen beweist null, bei Apps wie bei Adressen. Kostenloses Training über den Link.""",
       alt='Krypto Wallet: links echte Adresse mit Haken, rechts Fake-Adresse aus dem Verlauf mit Kreuzen und Stempel Fake.',
@@ -1073,7 +1073,7 @@ PINS = [
                         note='Nachgestellt. 50 Mio. $ weg, 26 Minuten nach dem Test (The Block).'),
           cta='Speichern, bevor du das nächste Mal sendest', size='xs')])),
 
- dict(d='2026-11-28', t='11:52', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='schwarz', bild='p-99',
+ dict(d='2026-12-02', t='11:52', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='schwarz', bild='p-99',
       titel='Krypto Betrug erkennen in der Werbung: 3 Warnsignale, bevor du „mit 250 € startest“ (3.485 Fälle)',
       text="""Krypto Betrug erkennen fängt bei der Anzeige an. Der erste Kontakt läuft fast immer über Werbung bei Google oder Meta: Promi im Deepfake-Video, kopierte Nachrichtenseite, Einstieg ab 250. Das Schweizer Bundesamt für Cybersicherheit zählte im ersten Halbjahr 2025 3.485 solche Fälle, im Vorjahr 729 (Quelle: Blick, 18.11.2025). Bei mir reichte damals ein bekanntes Gesicht: 5.000 $ in einen Influencer-Coin, weg. Wer mich zuerst anspricht, hat mich ausgesucht. Kostenloses Training über den Link.""",
       alt='Krypto Betrug erkennen: nachgestellter Werbesatz mit 250 € Einstieg in einer Sprechblase, darunter drei Warnsignale.',
@@ -1082,7 +1082,7 @@ PINS = [
           points=['Promi-Video als Köder', 'Nachrichtenseite nur kopiert', 'Einstieg mit 250 €'],
           marks='warn', cta='Speichern, bevor du die nächste Anzeige klickst', size='xs')])),
 
- dict(d='2026-11-28', t='19:36', board=B_ANF, f='Balken', farbe='hell', bild='p-100',
+ dict(d='2026-12-02', t='19:36', board=B_ANF, f='Balken', farbe='hell', bild='p-100',
       titel='Krypto für Anfänger: Angst vor Wertverlust, Diebstahl, Betrug? 3 Zahlen (Bitkom), 3 Regeln zum Start',
       text="""Krypto für Anfänger: 71 % der Deutschen schließen einen Kauf derzeit aus. 76 % davon fürchten den Wertverlust, 50 % den verlorenen Zugang, etwa durch vergessene Passwörter, 27 % Betrug beim Kauf (Quelle: Bitkom, 1.004 Befragte, 20.05.2025). Zwei davon kenne ich: Ende 2024 verkaufte ich alle Bitcoin in Panik, 70.000 $ nahm mir eine Wallet-App, die echt aussah. Heute kaufe ich an einem festen Tag, nur mit Geld, das liegen darf. Die 12 Wörter liegen auf Papier. Kostenloses Training über den Link.""",
       alt='Krypto für Anfänger: drei Balken, 76 % Angst vor Wertverlust, 50 % um den Zugang, 27 % vor Betrug, dazu drei Regeln.',
@@ -1094,7 +1094,7 @@ PINS = [
  # 29.11.2026 (Sonntag, Winterzeit): kein Fall aus der Community (Thomas lief am 26.11. in p-96), nur eigene Fakten und belegte Quellen.
  # Rotation nach p-100 (Balken): Kurve -> Zahl. Farben nach p-100 (hell): schwarz -> hell.
  # Neue Themen: Blick ins Depot, wie oft (Sutor Bank laut Cash.), Memecoins auf einer Startplattform (Solidus Labs laut CoinDesk).
- dict(d='2026-11-29', t='11:34', board=B_ANF, f='Kurve', farbe='schwarz', bild='p-101',
+ dict(d='2026-12-03', t='11:34', board=B_ANF, f='Kurve', farbe='schwarz', bild='p-101',
       titel='Krypto für Anfänger: Kurs täglich prüfen? 3 Regeln für den Blick ins Depot (Panikverkauf Ende 2024)',
       text="""Krypto für Anfänger: Wie oft du auf den Kurs schaust, entscheidet mit, wie du dich fühlst. Die Sutor Bank hat das am DAX durchgerechnet: Im Monatsblick waren rund 40 % der Felder rot, im Jahresblick rund 5 % (Quelle: Cash., 17.08.2021). Ende 2024 hab ich alle Bitcoin in Panik verkauft. Das Gefühl war schneller als der Plan. Heute hab ich einen festen Tag im Monat. An dem kaufe ich, an dem schaue ich. Der Rest ist Rauschen. Kostenloses Training über den Link.""",
       alt='Krypto für Anfänger: Kurve mit Punkten in festem Abstand, ein Blick ins Depot im Monat, darunter drei Regeln.',
@@ -1103,7 +1103,7 @@ PINS = [
           points=['Ein Depot-Tag im Monat', 'Rote Monate gehören dazu', 'Kaufen nach Plan, nie Gefühl'],
           cta='Speichern, bevor du das Depot wieder öffnest', size='xs')])),
 
- dict(d='2026-11-29', t='19:52', board=B_ANF, f='Zahl', farbe='hell', bild='p-102',
+ dict(d='2026-12-03', t='19:52', board=B_ANF, f='Zahl', farbe='hell', bild='p-102',
       titel='Memecoin kaufen? 98,6 % der Coins einer Startplattform waren Pump and Dump (Solidus Labs), 3 Regeln',
       text="""Memecoin kaufen klingt nach schnellem Geld. Solidus Labs prüfte die Coins, die seit Januar 2024 auf der Startplattform Pump.fun erschienen: 98,6 % waren Rug Pull oder Pump and Dump. Von über 7 Mio. Coins hielten 97.000 wenigstens 1.000 $ an Liquidität (Quelle: Solidus Labs, laut CoinDesk, 07.05.2025). Mein Memecoin hat mich Geld gekostet. Was er kann und wer ihn gebaut hat, wusste ich kaum. In der Wallet stand trotzdem eine schöne Zahl, bis sie weg war. Kostenloses Training über den Link.""",
       alt='Memecoin kaufen: große Zahl 98,6 %, Anteil Pump and Dump auf einer Startplattform, darunter drei Regeln vor dem Kauf.',
@@ -1114,7 +1114,7 @@ PINS = [
  # 30.11.2026 (Montag, Winterzeit): kein Fall aus der Community, nur eigene Fakten. Keine Fremdzahlen, darum keine Quellen nötig.
  # Rotation nach p-102 (Zahl): Karte -> Foto (letzter Foto-Pin p-96 am 26.11., Vorwoche). Farben nach p-102 (hell): akzent -> schwarz (Foto).
  # Neue Themen: Bestätigungssuche vor dem Kauf (Psychologie, zuletzt p-44 am 31.10.), Instagram-Nachricht mit Netzwerkgebühr (zuletzt p-34 am 26.10.).
- dict(d='2026-11-30', t='10:56', board=B_ANF, f='Karte', farbe='akzent', bild='p-103',
+ dict(d='2026-12-04', t='10:56', board=B_ANF, f='Karte', farbe='akzent', bild='p-103',
       titel='Krypto für Anfänger: „Soll ich kaufen?“ Andere fragen kostete mich 5.000 $, 3 Fragen an dich selbst',
       text="""Krypto für Anfänger: Vor jedem Kauf hab ich früher andere gefragt. Soll ich? Genickt haben die, die mir etwas verkauften. Beim Influencer-Coin reichte mir ein bekanntes Gesicht als Ja, 5.000 $ weg. Ruhig wurde es, als ich die Frage umgedreht hab. Verstehe ich, was ich kaufe? Fehlt die Antwort, bleibt mein Geld liegen. Aus dieser einen Frage ist Schritt für Schritt ein einfaches System mit vier Schritten geworden. Kostenloses Training über den Link.""",
       alt='Krypto für Anfänger: Karte mit der Frage „Verstehe ich es?“, darunter drei Fragen an dich selbst vor jedem Krypto-Kauf.',
@@ -1123,7 +1123,7 @@ PINS = [
           points=['Kann ich es erklären?', 'Wer verdient am Kauf?', 'Darf das Geld liegen?'],
           cta='Speichern, bevor du das nächste Mal fragst', size='xs')])),
 
- dict(d='2026-11-30', t='20:21', board=B_BET, f='Foto', farbe='schwarz', bild='p-104',
+ dict(d='2026-12-04', t='20:21', board=B_BET, f='Foto', farbe='schwarz', bild='p-104',
       titel='Krypto Betrug erkennen auf Instagram: Anlage-Angebot per Nachricht? 4 Regeln, bevor du antwortest',
       text="""Krypto Betrug erkennen auf Instagram: Die erste Nachricht kommt vom Betrüger, nie von dir. Mir schrieb einer, der mein Geld für mich anlegen wollte. Vor der Auszahlung verlangte er eine „Netzwerkgebühr“. Ich hab gezahlt. Die Auszahlung kam nie. Heute gilt bei mir eine Regel. Wer mich zuerst anschreibt, bekommt kein Geld. Kaufen tue ich selbst, und vor einer Auszahlung zahle ich keinen Cent. Kostenloses Training über den Link.""",
       alt='Krypto Betrug erkennen auf Instagram: Porträt von Chris Alcatrez, darüber vier Regeln für Nachrichten von Fremden.',

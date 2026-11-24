@@ -106,11 +106,11 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 94 | 25.11.2026 20:29 | Krypto-Betrug erkennen | Zahl (schwarz) | Krypto Betrug erkennen: 26 falsche Wallet-Apps im App Store (Kaspersky), 3 Prüfungen vorm Download | pinterest/p-94.png | eingeplant
 - 95 | 26.11.2026 10:51 | Krypto für Anfänger | Karte (hell) | Kryptowährung erklärt: Blockchain ist ein Kassenbuch, das keiner ändern kann, 4 Fakten für Anfänger | pinterest/p-95.png | eingeplant
 - 96 | 26.11.2026 20:33 | Krypto für Anfänger | Foto (schwarz) | Krypto Börse EU: Ausweis und Video sind Pflicht (Geldwäschegesetz), 4 Regeln, wer den Ausweis sieht | pinterest/p-96.png | eingeplant
-- 97 | 27.11.2026 11:17 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Betrug erkennen in Signal-Gruppen: Uhrzeit zum Kaufen? 3 Fragen vor dem Klick (Pump and Dump) | pinterest/p-97.png | offen
-- 98 | 27.11.2026 20:43 | Bitcoin sicher aufbewahren | Echt gegen Fake (akzent) | Krypto Wallet: Adresse aus dem Verlauf kopiert? 3 Unterschiede zur echten (50 Mio. $ an den Fake) | pinterest/p-98.png | offen
-- 99 | 28.11.2026 11:52 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (schwarz) | Krypto Betrug erkennen in der Werbung: 3 Warnsignale, bevor du „mit 250 € startest“ (3.485 Fälle) | pinterest/p-99.png | offen
-- 100 | 28.11.2026 19:36 | Krypto für Anfänger | Balken (hell) | Krypto für Anfänger: Angst vor Wertverlust, Diebstahl, Betrug? 3 Zahlen (Bitkom), 3 Regeln zum Start | pinterest/p-100.png | offen
-- 101 | 29.11.2026 11:34 | Krypto für Anfänger | Kurve (schwarz) | Krypto für Anfänger: Kurs täglich prüfen? 3 Regeln für den Blick ins Depot (Panikverkauf Ende 2024) | pinterest/p-101.png | offen
-- 102 | 29.11.2026 19:52 | Krypto für Anfänger | Zahl (hell) | Memecoin kaufen? 98,6 % der Coins einer Startplattform waren Pump and Dump (Solidus Labs), 3 Regeln | pinterest/p-102.png | offen
-- 103 | 30.11.2026 10:56 | Krypto für Anfänger | Karte (akzent) | Krypto für Anfänger: „Soll ich kaufen?“ Andere fragen kostete mich 5.000 $, 3 Fragen an dich selbst | pinterest/p-103.png | offen
-- 104 | 30.11.2026 20:21 | Krypto-Betrug erkennen | Foto (schwarz) | Krypto Betrug erkennen auf Instagram: Anlage-Angebot per Nachricht? 4 Regeln, bevor du antwortest | pinterest/p-104.png | offen
+- 97 | 01.12.2026 11:17 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Krypto Betrug erkennen in Signal-Gruppen: Uhrzeit zum Kaufen? 3 Fragen vor dem Klick (Pump and Dump) | pinterest/p-97.png | eingeplant
+- 98 | 01.12.2026 20:43 | Bitcoin sicher aufbewahren | Echt gegen Fake (akzent) | Krypto Wallet: Adresse aus dem Verlauf kopiert? 3 Unterschiede zur echten (50 Mio. $ an den Fake) | pinterest/p-98.png | eingeplant
+- 99 | 02.12.2026 11:52 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (schwarz) | Krypto Betrug erkennen in der Werbung: 3 Warnsignale, bevor du „mit 250 € startest“ (3.485 Fälle) | pinterest/p-99.png | eingeplant
+- 100 | 02.12.2026 19:36 | Krypto für Anfänger | Balken (hell) | Krypto für Anfänger: Angst vor Wertverlust, Diebstahl, Betrug? 3 Zahlen (Bitkom), 3 Regeln zum Start | pinterest/p-100.png | eingeplant
+- 101 | 03.12.2026 11:34 | Krypto für Anfänger | Kurve (schwarz) | Krypto für Anfänger: Kurs täglich prüfen? 3 Regeln für den Blick ins Depot (Panikverkauf Ende 2024) | pinterest/p-101.png | eingeplant
+- 102 | 03.12.2026 19:52 | Krypto für Anfänger | Zahl (hell) | Memecoin kaufen? 98,6 % der Coins einer Startplattform waren Pump and Dump (Solidus Labs), 3 Regeln | pinterest/p-102.png | eingeplant
+- 103 | 04.12.2026 10:56 | Krypto für Anfänger | Karte (akzent) | Krypto für Anfänger: „Soll ich kaufen?“ Andere fragen kostete mich 5.000 $, 3 Fragen an dich selbst | pinterest/p-103.png | eingeplant
+- 104 | 04.12.2026 20:21 | Krypto-Betrug erkennen | Foto (schwarz) | Krypto Betrug erkennen auf Instagram: Anlage-Angebot per Nachricht? 4 Regeln, bevor du antwortest | pinterest/p-104.png | eingeplant
