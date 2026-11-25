@@ -576,7 +576,7 @@ Die Stückzahl in der Wallet sagt null über den Wert.
 
 Zählst du beim Kauf Stücke oder Euro?"""),
 
- dict(thema='Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi)', feld='Einstieg', var='Story', frei_ab='2026-11-01', verwendet=None,
+ dict(thema='Mythos: Bitcoin ist mir zu teuer (100 Millionen Satoshi)', feld='Einstieg', var='Story', frei_ab='2026-11-01', verwendet='02.12.2026',
       text="""Memecoin pro Stück fast null. Mein Verlust: echt.
 
 Die Stückzahl in der Wallet sah nach viel aus. Bitcoin kam mir damals zu teuer vor, ein ganzer war außer Reichweite.
@@ -818,7 +818,7 @@ Wer dir fremdes Geld aufs Konto legt, macht dich zum Kurier.
 
 Hättest du das fremde Geld weitergeschickt oder die Bank angerufen?"""),
 
- dict(thema='Address Poisoning (fast 50 Mio. $ in USDT an eine ähnliche Adresse aus dem eigenen Verlauf, Quelle BTC-ECHO 20.12.2025)', feld='Sicherheit', var='These', frei_ab='2026-11-25', verwendet=None,
+ dict(thema='Address Poisoning (fast 50 Mio. $ in USDT an eine ähnliche Adresse aus dem eigenen Verlauf, Quelle BTC-ECHO 20.12.2025)', feld='Sicherheit', var='These', frei_ab='2026-11-25', verwendet='01.12.2026',
       text="""Eine Adresse liest man in der Mitte. Den Rand kopiert der Betrüger.
 
 Dezember 2025: fast 50 Mio. $ in USDT an eine falsche Adresse. Vorn drei und hinten vier Zeichen stimmten, der Rest war fremd (Quelle: BTC-ECHO, 20.12.2025).
@@ -914,7 +914,7 @@ Je kürzer die Frist, desto kleiner die Prüfung. Bei Krypto gibt es danach kein
 Wer dir eine Frist setzt, will deine Prüfung abkürzen.
 
 Welche Frist hat dich zuletzt zum Klicken gebracht?"""),
- dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet=None,
+ dict(thema='Phishing mit Frist (Phishing-Radar der Verbraucherzentrale, 03.11. und 06.11.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-28', verwendet='02.12.2026',
       text="""Zwei Mails, eine Woche, zwei Fristen. Heute 23:59 Uhr und 14 Tage.
 
 Phishing-Radar der Verbraucherzentrale, 03.11.2026: „Zugang läuft heute ab“, Sperre um 23:59 Uhr. 06.11.2026: „Dokumentenprüfung zur Geldwäscheverordnung“, Ausweiskopie hochladen, Sperre ab Tag 15.
@@ -1093,7 +1093,7 @@ Der Schlüssel in der Hand schützt vor fremden Fehlgriffen, nie vor eigenen.
 
 Hast du schon mal verkauft, nur weil du es konntest?"""),
 
- dict(thema='Betrug als Mietprodukt: Eurojust-Aktion vom 03.11.2026 (17 Orte, über 100 Server, sieben Festnahmen, Schaden über 4 Mio. €; Firma in Zypern und Israel lieferte Plattformen an Callcenter in Albanien, Kosovo und Nordmazedonien; Anzeige eines Ehepaars aus Deutschland 2022)', feld='Betrug', var='These', frei_ab='2026-12-11', verwendet=None,
+ dict(thema='Betrug als Mietprodukt: Eurojust-Aktion vom 03.11.2026 (17 Orte, über 100 Server, sieben Festnahmen, Schaden über 4 Mio. €; Firma in Zypern und Israel lieferte Plattformen an Callcenter in Albanien, Kosovo und Nordmazedonien; Anzeige eines Ehepaars aus Deutschland 2022)', feld='Betrug', var='These', frei_ab='2026-12-15', verwendet=None,
       text="""Betrug braucht keinen Betrüger mehr. Nur einen Mietvertrag.
 
 Eurojust, 03.11.2026: Eine Firma in Zypern und Israel lieferte Plattformen an Callcenter in Albanien, Kosovo und Nordmazedonien. Über 100 Server, sieben Festnahmen, Schaden über 4 Mio. €.
@@ -1106,7 +1106,7 @@ Eine Handelsplattform aus dem Katalog handelt nur mit dir.
 
 Erkennst du eine Plattform, die es hundertfach gibt?"""),
 
- dict(thema='Betrug als Mietprodukt: Eurojust-Aktion vom 03.11.2026 (17 Orte, über 100 Server, sieben Festnahmen, Schaden über 4 Mio. €; Firma in Zypern und Israel lieferte Plattformen an Callcenter in Albanien, Kosovo und Nordmazedonien; Anzeige eines Ehepaars aus Deutschland 2022)', feld='Betrug', var='Story', frei_ab='2026-12-11', verwendet=None,
+ dict(thema='Betrug als Mietprodukt: Eurojust-Aktion vom 03.11.2026 (17 Orte, über 100 Server, sieben Festnahmen, Schaden über 4 Mio. €; Firma in Zypern und Israel lieferte Plattformen an Callcenter in Albanien, Kosovo und Nordmazedonien; Anzeige eines Ehepaars aus Deutschland 2022)', feld='Betrug', var='Story', frei_ab='2026-12-15', verwendet=None,
       text="""Ein Ehepaar zeigte 2022 an. Vier Jahre später fielen über 100 Server.
 
 Ihr Erspartes lag auf einer Handelsplattform, der Gewinn kam nie raus. Ihre Anzeige führte zu 17 Durchsuchungen und sieben Festnahmen, Schaden insgesamt über 4 Mio. € (Quelle: Eurojust, 03.11.2026).
