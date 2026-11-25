@@ -2344,7 +2344,7 @@ Schick das jemandem, der Coins aus dem Feed kauft.''')
 # ---------- Beitrag 62: Schritt-fuer-Schritt (Geldentwertung: 100 € aus 2020 sind 82 €; 14 Nullen in Venezuela; mein System grob in 3 Schritten) ----------
 Q_DESTATIS = 'Quelle: Statistisches Bundesamt, Verbraucherpreisindex 2025 (2020 = 100: 121,9). Eigene Rechnung.'
 POSTS['beitrag-62'] = dict(
-    date='2026-11-28', fmt='Schritt-für-Schritt-Anleitung', topic='Geldentwertung: Von 100 € aus 2020 sind 82 € Kaufkraft übrig, in Venezuela 14 Nullen; mein System grob in 3 Schritten (Destatis, ORF, 70.000 $, Panikverkauf Ende 2024)',
+    date='2026-12-01', fmt='Schritt-für-Schritt-Anleitung', topic='Geldentwertung: Von 100 € aus 2020 sind 82 € Kaufkraft übrig, in Venezuela 14 Nullen; mein System grob in 3 Schritten (Destatis, ORF, 70.000 $, Panikverkauf Ende 2024)',
     slides=[
         s_hook('SCHRITT FÜR SCHRITT', 'Von 100 € aus 2020 sind 82 € übrig. Ohne Crash. Mein Erspartes folgt heute %s' % A('3 Schritten.'),
                sub='Mein System, grob. Die Tiefe im Training.', cue='Woher die 82 € kommen &#8594;', size=''),
@@ -2415,7 +2415,7 @@ Das kostenlose Training findest du im Link in meiner Bio.
 # ---------- Beitrag 63: FAQ (Kann man Bitcoin hacken? 3 Tueren: Boerse, App, Mensch; Chainalysis 2025) ----------
 Q_CHA = 'Quelle: Chainalysis, laut The Block, 18.12.2025'
 POSTS['beitrag-63'] = dict(
-    date='2026-11-29', fmt='FAQ beantworten', topic='FAQ: „Kann man Bitcoin hacken?“ 3,4 Mrd. $ Krypto 2025 gestohlen, die Diebe kamen durch 3 Türen: Börse, App, Mensch (Chainalysis laut The Block; gefälschte Wallet-App 70.000 $; Seed-Phrase am Telefon)',
+    date='2026-12-02', fmt='FAQ beantworten', topic='FAQ: „Kann man Bitcoin hacken?“ 3,4 Mrd. $ Krypto 2025 gestohlen, die Diebe kamen durch 3 Türen: Börse, App, Mensch (Chainalysis laut The Block; gefälschte Wallet-App 70.000 $; Seed-Phrase am Telefon)',
     slides=[
         s_hook('FAQ', '„Kann man Bitcoin hacken?“ 3,4 Mrd. $ wurden 2025 gestohlen. Die Diebe kamen durch %s' % A('3 Türen.'),
                sub='Meine 70.000 $ gingen durch Tür 2.', cue='Woher die 3,4 Mrd. $ kommen &#8594;', size=''),
@@ -2482,7 +2482,7 @@ Das kostenlose Training findest du im Link in meiner Bio.''')
 
 # ---------- Beitrag 64: Aufzaehlung (Die 5 Phasen, die ich als Krypto-Anfaenger durchlebt hab, je ein Satz zum Erkennen) ----------
 POSTS['beitrag-64'] = dict(
-    date='2026-11-30', fmt='Aufzählung', topic='Die 5 Phasen, die ich als Krypto-Anfänger durchlebt hab, und der Satz, an dem du jede erkennst (Influencer-Coin 5.000 $, Cloud-Mining 4.000 bis 5.000 $, Bestätigungssuche, Panikverkauf Ende 2024, Verstehen)',
+    date='2026-12-03', fmt='Aufzählung', topic='Die 5 Phasen, die ich als Krypto-Anfänger durchlebt hab, und der Satz, an dem du jede erkennst (Influencer-Coin 5.000 $, Cloud-Mining 4.000 bis 5.000 $, Bestätigungssuche, Panikverkauf Ende 2024, Verstehen)',
     slides=[
         s_hook('AUFZÄHLUNG', '5.000 $ weg in Phase 1. Alle Bitcoin verkauft in Phase 4. %s' % A('Die 5 Phasen, die ich als Anfänger durchlebt hab.'),
                sub='Und der Satz, an dem du jede Phase erkennst.', cue='Phase 1 beginnt mit einem Gesicht &#8594;', size=''),
