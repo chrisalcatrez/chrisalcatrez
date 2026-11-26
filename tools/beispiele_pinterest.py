@@ -1130,10 +1130,10 @@ PINS = [
       build=lambda: build_pin('p-104', [pin2('', 'Krypto-Angebot auf Instagram? <em>4&nbsp;Regeln</em>, bevor du antwortest',
           points=['Wer zuerst schreibt, will etwas', 'Niemand handelt für dich', 'Vorab-Gebühr = Betrug', 'Bekannter Name beweist null'],
           photo=True, cta='Kostenloses Training: chrisalcatrez.de', size='xs')])),
- # 27. und 28.11.2026 (Winterzeit): Fall der Woche Lena (falscher Community Support) in p-108, sonst eigene Fakten und belegte Quellen.
+ # 05. und 06.12.2026 (Winterzeit, Wochenende; 27. bis 30.11. wegen Metricool-Limit von 200 Beiträgen im November leer): Fall der Woche Lena (falscher Community Support) in p-108, sonst eigene Fakten und belegte Quellen.
  # Rotation nach p-104 (Foto): Entscheidungsbaum -> Echt gegen Fake -> Karussell (letztes p-90 am 23.11., Vorwoche) -> Beispielsatz. Farben nach p-104 (schwarz): hell -> schwarz -> hell -> akzent.
  # Neue Themen: Rückhol-Betrug mit Gebühr vorab (Verbraucherzentrale NRW), Klon-Seiten zugelassener Börsen (BaFin-Warnungen laut Cash.), drei Orte für die 12 Wörter (eigene Fakten), falscher Support nach Hilferuf in der Gruppe (Lena).
- dict(d='2026-11-27', t='11:26', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-105',
+ dict(d='2026-12-05', t='11:26', board=B_BET, f='Entscheidungsbaum', farbe='hell', bild='p-105',
       titel='Rückhol-Betrug: „Wir holen Ihr Geld zurück“? 3 Fragen, bevor du antwortest (Gebühr vorab = Betrug)',
       text="""Rückhol-Betrug trifft die, die schon einmal verloren haben. Eine „Kanzlei“ oder eine falsche Verbraucherzentrale meldet sich und holt deinen Verlust angeblich zurück. Vorher soll eine Gebühr fließen. Die Verbraucherzentrale NRW warnt: Sie ruft nie von sich aus an und zahlt kein Geld aus (Quelle: Verbraucherzentrale NRW, 13.07.2023). Die Gebühr vorab kenne ich. Vor der Auszahlung sollte ich eine „Netzwerkgebühr“ zahlen. Ich hab gezahlt, die Auszahlung kam nie. Kostenloses Training über den Link.""",
       alt='Rückhol-Betrug: Entscheidungsbaum mit drei Fragen zum Angebot, verlorenes Krypto-Geld zurückzuholen, Ja heißt Betrug.',
@@ -1142,7 +1142,7 @@ PINS = [
                          'Kein Warnsignal. Trotzdem zuerst zur Polizei.'),
           cta='Speichern, bevor du auf „Geld zurück“ antwortest', size='xs')])),
 
- dict(d='2026-11-27', t='20:04', board=B_ANF, f='Echt gegen Fake', farbe='schwarz', bild='p-106',
+ dict(d='2026-12-05', t='20:04', board=B_ANF, f='Echt gegen Fake', farbe='schwarz', bild='p-106',
       titel='Krypto Börse EU: Echte Börse oder Klon-Seite? 3 Unterschiede vor der Anmeldung (639 BaFin-Warnungen)',
       text="""Krypto Börse EU oder Klon-Seite: Betrüger kopieren Namen, Logos und Webseiten zugelassener Anbieter. Die BaFin veröffentlichte für 2025 639 Warnungen vor unerlaubten Finanz- und Krypto-Anbietern, nach 505 im Jahr davor (Quelle: Cash., 14.10.2026, nach dem BaFin-Jahresbericht). Die Zulassung zeigt die BaFin-Unternehmensdatenbank. Meine 70.000 $ nahm eine Wallet-App, die echt aussah. Den Anbieter gab es als Handy-App nie. Kostenloses Training über den Link.""",
       alt='Krypto Börse EU: links echte Börse mit Haken, rechts Klon-Seite mit Kreuzen und Stempel Fake, drei Unterschiede.',
@@ -1152,7 +1152,7 @@ PINS = [
                         note='639 Warnungen vor unerlaubten Finanz- und Krypto-Anbietern veröffentlichte die BaFin in einem Jahr.'),
           cta='Speichern, bevor du dich bei einer Börse anmeldest', size='sm')])),
 
- dict(d='2026-11-28', t='10:47', board=B_SIC, f='Karussell (4 Folien)', farbe='hell', bild='p-107', folien=4,
+ dict(d='2026-12-06', t='10:47', board=B_SIC, f='Karussell (4 Folien)', farbe='hell', bild='p-107', folien=4,
       titel='Seed-Phrase: 3 Orte, an die deine 12 Wörter nie gehören, ein Ort pro Folie (Anrufer wollte meine)',
       text="""Seed-Phrase heißt: 12 Wörter, mit denen sich jede Wallet neu aufbauen lässt, auch auf einem fremden Handy. Wer sie hat, hat das Geld. Bei mir wollte sie einer am Telefon, zum „Synchronisieren“. Ich gab ihm zwölf ausgedachte Wörter. Er rastete aus. Seitdem liegen meine Wörter auf Papier, an keinem Ort mit Internet. Drei Orte, an die sie nie gehören: das Telefon, das Handy-Foto, die Webseite, die „verifizieren“ will. Kostenloses Training über den Link.""",
       alt='Karussell Seed-Phrase: 12 Wörter sind dein Krypto-Geld, Stempel Nie teilen, dann je ein Ort pro Folie, wohin sie nie gehören.',
@@ -1177,7 +1177,7 @@ PINS = [
                points=['Nur beim Wiederherstellen', 'Eingabe auf Seite: Betrug'], marks='warn',
                cta='Speichern, bevor du die Wörter eingibst', size='sm', center=True)])),
 
- dict(d='2026-11-28', t='19:39', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-108',
+ dict(d='2026-12-06', t='19:39', board=B_BET, f='Beispielsatz (Sprechblase)', farbe='akzent', bild='p-108',
       titel='Falscher Support Krypto: „Schicken Sie mir einen Screenshot“, 3 Warnsignale im Chat (1.000 € weg)',
       text="""Falscher Support Krypto: Lena (Name geändert) bat in einer Krypto-Gruppe um Hilfe. Ein „Community Support“ meldete sich von selbst. Sie folgte seinen Anweisungen, währenddessen wurde ihre Wallet leergeräumt. In wenigen Wochen rund 1.000 € aus zwei Wallets. Der echte Support einer Börse schreibt dich nie zuerst an. Ich kenne das Muster: In der Gruppe eines Coin-Projekts schrieb ein Fake-Account mit meinem Namen die Mitglieder an und räumte Wallets leer. Kostenloses Training über den Link.""",
       alt='Falscher Support Krypto: Satz eines falschen Community Supports in einer Sprechblase, Name geändert, dazu drei Warnsignale.',
