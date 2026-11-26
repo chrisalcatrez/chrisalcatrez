@@ -2548,6 +2548,174 @@ In welcher Phase steckst du gerade? Schreib die Zahl in die Kommentare.
 
 Speichere dir das und schau nach, in welcher Phase du gerade steckst.''')
 
+# ---------- Beitrag 65: Statement-Karussell (Bitcoin fiel 2022 um 65 %; Schwankungen aushalten, Panikverkauf Ende 2024) ----------
+Q_BTC22 = 'Quelle: The Block, 28.12.2022; 2018: Arcane Research, laut CryptoSlate'
+POSTS['beitrag-65'] = dict(
+    date='2026-11-28', fmt='Statement-Karussell', topic='Bitcoin fiel 2022 um 65 %: Haut dich das um, kauf keinen, oder nur so wenig, dass minus die Hälfte dich kalt lässt (The Block; Panikverkauf Ende 2024; Schwankungen aushalten)',
+    slides=[
+        s_hook('STATEMENT', 'Bitcoin fiel 2022 um 65 %%. Haut dich das um, %s' % A('kauf keinen.'),
+               sub='Klingt hart. Warum ich das trotzdem sage und was du stattdessen tun kannst.',
+               cue='Zuerst die Zahl, die jeder vergisst &#8594;', size=''),
+        s_proof('DER BELEG', 'Ein Jahr, %s' % A('zwei Drittel weg.'),
+                big='&minus;65 %', big_sub='Bitcoin im Jahr 2022. Im Jahr 2018 waren es sogar &minus;73 %.',
+                src=Q_BTC22, cue='Was so ein Minus mit mir gemacht hat &#8594;'),
+        s_point('MEIN FALL', 'Ende 2024 hab ich %s' % A('alle Bitcoin in Panik verkauft.'),
+                ['Einen Plan für rote Tage hatte ich keinen.',
+                 D('Das Minus auf dem Bildschirm war schneller als jeder Gedanke.')],
+                size='m', cue='Darum stelle ich dir vor dem Kauf diese Frage &#8594;'),
+        s_point('DIE FRAGE', 'Was tust du, wenn dein Geld %s' % A('um die Hälfte fällt?'),
+                ['Verkaufen, nachkaufen oder liegen lassen. Entscheide es heute, bevor es passiert.',
+                 D('Wer erst bei Rot entscheidet, entscheidet mit Angst.')],
+                size='m', cue='Und wenn deine Antwort „verkaufen“ ist &#8594;'),
+        s_point('FAIR BLEIBEN', 'Dann kauf %s' % A('kleiner, nie größer.'),
+                ['Nimm nur so viel, dass dich minus die Hälfte kalt lässt.',
+                 D('Krypto schwankt stark. Das Geld für die Miete gehört nie hinein.')],
+                size='m', cue='Dein Merkzettel für rote Tage &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Bevor du kaufst, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            'Bitcoin fiel 2022 um 65 %. Rechne damit.',
+            'Deine Antwort für rote Tage steht vor dem Kauf fest.',
+            'Nur so viel, dass minus die Hälfte dich kalt lässt.',
+            'Nie das Geld für die Miete.',
+        ], 'Speichere dir das, bevor der nächste rote Tag kommt.'),
+    ],
+    alts=['Statement: Bitcoin fiel 2022 um 65 Prozent. Haut dich das um, kauf keinen. Klingt hart, warum ich das trotzdem sage und was du stattdessen tun kannst',
+          'Der Beleg: Ein Jahr, zwei Drittel weg. Minus 65 Prozent bei Bitcoin im Jahr 2022, im Jahr 2018 sogar minus 73 Prozent. Quelle: The Block, 28.12.2022; Arcane Research, laut CryptoSlate',
+          'Mein Fall: Ende 2024 hab ich alle Bitcoin in Panik verkauft. Einen Plan für rote Tage hatte ich keinen. Das Minus auf dem Bildschirm war schneller als jeder Gedanke',
+          'Die Frage: Was tust du, wenn dein Geld um die Hälfte fällt? Verkaufen, nachkaufen oder liegen lassen, entscheide es heute, bevor es passiert. Wer erst bei Rot entscheidet, entscheidet mit Angst',
+          'Fair bleiben: Dann kauf kleiner, nie größer. Nimm nur so viel, dass dich minus die Hälfte kalt lässt. Krypto schwankt stark, das Geld für die Miete gehört nie hinein',
+          'Merkzettel, bevor du kaufst: Bitcoin fiel 2022 um 65 Prozent, rechne damit; deine Antwort für rote Tage steht vor dem Kauf fest; nur so viel, dass minus die Hälfte dich kalt lässt; nie das Geld für die Miete. Speichere dir das, bevor der nächste rote Tag kommt'],
+    caption='''Wer bei minus 50 % verkauft, hat zu viel gekauft. So war es bei mir.
+
+Mein Statement: Haut dich ein Minus von 65 % um, kauf keinen Bitcoin. Oder kauf so wenig, dass es dich kalt lässt.
+
+Die Zahl dazu:
+– Bitcoin fiel im Jahr 2022 um rund 65 % (Quelle: The Block, 28.12.2022).
+– Im Jahr 2018 waren es rund 73 % (Quelle: Arcane Research, laut CryptoSlate).
+
+Mein Fall:
+– Ende 2024 hab ich alle Bitcoin in Panik verkauft.
+– Einen Plan für rote Tage hatte ich keinen. Das Minus auf dem Bildschirm war schneller als jeder Gedanke.
+
+Die Frage, bevor du kaufst:
+– Was tust du, wenn dein Geld um die Hälfte fällt? Verkaufen, nachkaufen oder liegen lassen?
+– Entscheide es heute. Wer erst bei Rot entscheidet, entscheidet mit Angst.
+
+Fair bleiben: Lautet deine Antwort „verkaufen“, dann kauf kleiner, nie größer. Nimm nur so viel, dass dich minus die Hälfte kalt lässt.
+
+Dein Merkzettel:
+– Bitcoin fiel 2022 um 65 %. Rechne damit.
+– Deine Antwort für rote Tage steht vor dem Kauf fest.
+– Nur so viel, dass minus die Hälfte dich kalt lässt.
+– Nie das Geld für die Miete.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Vergangene Kurse sind kein Versprechen für künftige. Für jeden Krypto-Anfänger, der Bitcoin an der Börse kaufen will und Angst vor dem Minus hat.
+
+Hast du schon mal bei Rot verkauft? Schreib Ja oder Nein in die Kommentare.
+
+Speichere dir das, bevor der nächste rote Tag kommt.''')
+
+# ---------- Beitrag 66: Gegenueberstellung (Fall Elena, Markus, Leon, Sabine: falscher AML-Supporter; ESAs) ----------
+POSTS['beitrag-66'] = dict(
+    date='2026-11-29', fmt='Gegenüberstellung', topic='Falscher „AML-Supporter“: was er schreibt vs. was ich tue (Elena, Markus, Leon, Sabine: 4 von 4 gaben die Seed-Phrase, das Geld war weg; Factsheet der EU-Aufsicht)',
+    slides=[
+        s_vs('WAS ER SCHREIBT · WAS ICH TUE', '4 von 4 gaben ihm ihre Wörter. %s' % A('Danach war das Geld weg.'),
+             'DER „AML-SUPPORTER“', ['„Neue Geldwäscheregeln“', '„Wallet aktualisieren“', '„Jetzt verifizieren“', '„Schick die Seed-Phrase“'],
+             'WAS ICH TUE', ['Ich frage die Börse selbst, in ihrer App', 'Updates nur aus dem App-Store', 'Wer drängt, bekommt keine Antwort', 'Meine Wörter bekommt keiner'],
+             'Schick das jemandem, der gerade mit Krypto anfängt.',
+             src='Fall Elena, Markus, Leon, Sabine (Namen geändert), Sätze nachgestellt. Quelle: EBA, ESMA, EIOPA, Factsheet zu Krypto-Betrug, 12/2025'),
+    ],
+    alts=['Gegenüberstellung, was er schreibt und was ich tue: 4 von 4 gaben ihm ihre Wörter, danach war das Geld weg. Der falsche AML-Supporter schreibt: neue Geldwäscheregeln; Wallet aktualisieren; jetzt verifizieren; schick die Seed-Phrase. Was ich tue: Ich frage die Börse selbst, in ihrer App; Updates nur aus dem App-Store; wer drängt, bekommt keine Antwort; meine Wörter bekommt keiner. Fall Elena, Markus, Leon, Sabine, Namen geändert, Sätze nachgestellt. Quelle: EBA, ESMA, EIOPA, Factsheet zu Krypto-Betrug, Dezember 2025. Schick das jemandem, der gerade mit Krypto anfängt'],
+    caption='''„Wegen neuer Geldwäscheregeln müssen Sie Ihre Wallet verifizieren.“ Klingt nach Behörde. Ist Betrug.
+
+Vier Menschen aus meiner Community haben diese Nachricht bekommen: Elena, Markus, Leon und Sabine (Namen geändert, sie haben der anonymen Veröffentlichung zugestimmt).
+
+So lief es:
+– Ein angeblicher „AML-Supporter“ schrieb, wegen neuer Geldwäscheregeln müssten sie ihre Wallet aktualisieren und verifizieren.
+– Er verlangte ihre Seed-Phrase, die Wörter ihrer Wallet.
+– Alle vier gaben sie heraus. Danach war das Geld weg.
+
+Was er schreibt, was ich tue:
+– „Neue Geldwäscheregeln“: Ich frage die Börse selbst, in ihrer App, die ich selbst öffne.
+– „Wallet aktualisieren“: Updates kommen bei mir nur aus dem offiziellen App-Store.
+– „Jetzt verifizieren“: Wer drängt, bekommt keine Antwort.
+– „Schick die Seed-Phrase“: Meine Wörter bekommt keiner. Nie.
+
+Die EU-Finanzaufsichten EBA, ESMA und EIOPA sagen dasselbe: Teile nie Passwörter, private Schlüssel oder Seed-Phrasen (Quelle: Factsheet zu Krypto-Betrug, Dezember 2025). Wer deine Wörter hat, hat dein Geld.
+
+Am Telefon wollte einer auch meine 12 Wörter, zum „Synchronisieren“. Ich gab ihm ausgedachte. Er rastete aus.
+
+Keine Anbieter-Empfehlung. Die Sätze im Bild sind nachgestellt. Für jeden Krypto-Anfänger, der eine Börse oder eine eigene Wallet nutzt und sich vor Betrug schützen will.
+
+Hat dir schon mal jemand geschrieben, du müsstest deine Wallet verifizieren? Schreib Ja oder Nein in die Kommentare.
+
+Schick das jemandem, der gerade mit Krypto anfängt.''')
+
+# ---------- Beitrag 67: Nischenmythos (Feste Rendite heisst sicheres Geld; Cloud-Mining 4.000 bis 5.000 $, HashFlare 577 Mio. $ laut US-Justizministerium) ----------
+Q_HF = 'Quelle: US-Justizministerium, 14.02.2025 (Schuldbekenntnis der Betreiber von HashFlare)'
+POSTS['beitrag-67'] = dict(
+    date='2026-11-30', fmt='Nischenmythos entlarven', topic='Mythos: „Feste Rendite heißt sicheres Geld“ (Cloud-Mining mit festen Renditen 4.000 bis 5.000 $; HashFlare über 577 Mio. $, Rechenleistung fehlte zum Großteil, laut US-Justizministerium)',
+    slides=[
+        s_hook('MYTHOS', '„Feste Rendite heißt %s' % A('sicheres Geld.“'),
+               sub='Über 577 Mio. $ flossen in Mining-Verträge, für die zum Großteil die Rechner fehlten. Ich selbst hab 4.000 bis 5.000 $ einer festen Zahl geglaubt.',
+               cue='Zuerst mein eigenes Lehrgeld &#8594;', size=''),
+        s_proof('MEIN LEHRGELD', 'Fest klang für mich %s' % A('nach sicher.'),
+                big='4.000&ndash;5.000 $', big_sub='hab ich in ein Cloud-Mining mit festen Renditen gesteckt.',
+                cue='Wie groß diese Masche werden kann &#8594;'),
+        s_proof('DER BELEG', 'Verkauft wurde Mining, %s' % A('das es kaum gab.'),
+                big='577 Mio. $', big_sub='zahlten Hunderttausende für Cloud-Mining-Verträge. Für den Großteil fehlte die Rechenleistung.',
+                src=Q_HF, cue='Warum „fest“ dich blind macht &#8594;'),
+        s_point('DIE LOGIK', 'Mining schwankt. %s' % A('Eine feste Zahl schwankt nie.'),
+                ['Was Mining bringt, hängt am Kurs, am Strom und an den Rechnern. Alles davon ändert sich.',
+                 D('Bleibt die Zahl trotzdem jeden Monat gleich, frag dich, woher sie kommt.')],
+                size='m', cue='Die Frage, die ich heute stelle &#8594;'),
+        s_point('DIE WAHRHEIT', 'Fest heißt nur: %s' % A('Jemand hat dir eine Zahl versprochen.'),
+                ['Ein Versprechen ist kein Beleg. Ich frage heute: Womit wird das Geld verdient, und kann ich es sehen?',
+                 D('Bekomme ich keine Antwort, bleibt mein Geld, wo es ist.')],
+                size='m', cue='Dein Merkzettel zum Speichern &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Bevor du einer festen Zahl glaubst, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            '„Jeden Monat fest“ ist ein Versprechen, kein Beleg.',
+            'Mining hängt an Kurs, Strom und Rechnern. Alles schwankt.',
+            'Frag: Womit wird das Geld verdient? Kann ich es sehen?',
+            'Keine Antwort? Kein Geld.',
+        ], 'Schick das jemandem, dem gerade jemand eine feste Rendite verspricht.'),
+    ],
+    alts=['Mythos: Feste Rendite heißt sicheres Geld. Über 577 Millionen Dollar flossen in Mining-Verträge, für die zum Großteil die Rechner fehlten. Ich selbst hab 4.000 bis 5.000 Dollar einer festen Zahl geglaubt',
+          'Mein Lehrgeld: Fest klang für mich nach sicher. 4.000 bis 5.000 Dollar hab ich in ein Cloud-Mining mit festen Renditen gesteckt',
+          'Der Beleg: Verkauft wurde Mining, das es kaum gab. 577 Millionen Dollar zahlten Hunderttausende für Cloud-Mining-Verträge, für den Großteil fehlte die Rechenleistung. Quelle: US-Justizministerium, 14.02.2025, Schuldbekenntnis der Betreiber von HashFlare',
+          'Die Logik: Mining schwankt, eine feste Zahl schwankt nie. Was Mining bringt, hängt am Kurs, am Strom und an den Rechnern, alles davon ändert sich. Bleibt die Zahl trotzdem jeden Monat gleich, frag dich, woher sie kommt',
+          'Die Wahrheit: Fest heißt nur, jemand hat dir eine Zahl versprochen. Ein Versprechen ist kein Beleg. Ich frage heute: Womit wird das Geld verdient, und kann ich es sehen? Bekomme ich keine Antwort, bleibt mein Geld, wo es ist',
+          'Merkzettel, bevor du einer festen Zahl glaubst: Jeden Monat fest ist ein Versprechen, kein Beleg; Mining hängt an Kurs, Strom und Rechnern, alles schwankt; frag, womit wird das Geld verdient, kann ich es sehen; keine Antwort, kein Geld. Schick das jemandem, dem gerade jemand eine feste Rendite verspricht'],
+    caption='''„Jeden Monat fest, egal was der Kurs macht.“ Genau dieser Satz hat mich Geld gekostet.
+
+Der Mythos: Eine feste Rendite heißt sicheres Geld.
+
+Mein Lehrgeld:
+– 4.000 bis 5.000 $ hab ich in ein Cloud-Mining mit festen Renditen gesteckt.
+– Fest klang für mich nach sicher. Geprüft hab ich nie, womit das Geld verdient wird.
+
+Wie groß diese Masche werden kann:
+– Die Betreiber von HashFlare haben sich in den USA schuldig bekannt. Von 2015 bis 2019 verkauften sie Cloud-Mining-Verträge für über 577 Mio. $ an Hunderttausende Kunden.
+– Für den Großteil des verkauften Minings fehlte laut US-Justizministerium die Rechenleistung (Quelle: US-Justizministerium, 14.02.2025).
+
+Die Logik dahinter:
+– Was Mining bringt, hängt am Bitcoin-Kurs, am Strom und an den Rechnern. Alles davon ändert sich.
+– Bleibt die Zahl trotzdem jeden Monat gleich, frag dich, woher sie kommt.
+
+Die Wahrheit: Fest heißt nur, dass dir jemand eine Zahl versprochen hat. Ein Versprechen ist kein Beleg.
+
+Dein Merkzettel:
+– „Jeden Monat fest“ ist ein Versprechen, kein Beleg.
+– Mining hängt an Kurs, Strom und Rechnern. Alles schwankt.
+– Frag: Womit wird das Geld verdient? Kann ich es sehen?
+– Keine Antwort? Kein Geld.
+
+Keine Anbieter-Empfehlung, keine Kursprognose, keine Coin-Empfehlung. Für jeden Krypto-Anfänger, dem Bitcoin-Mining oder feste Renditen angeboten werden und der sich vor Betrug schützen will.
+
+Wie viel Prozent im Monat wurden dir schon versprochen? Schreib die Zahl in die Kommentare.
+
+Schick das jemandem, dem gerade jemand eine feste Rendite verspricht.''')
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)
     allpng = {}
