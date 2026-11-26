@@ -114,3 +114,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 102 | 03.12.2026 19:52 | Krypto für Anfänger | Zahl (hell) | Memecoin kaufen? 98,6 % der Coins einer Startplattform waren Pump and Dump (Solidus Labs), 3 Regeln | pinterest/p-102.png | eingeplant
 - 103 | 04.12.2026 10:56 | Krypto für Anfänger | Karte (akzent) | Krypto für Anfänger: „Soll ich kaufen?“ Andere fragen kostete mich 5.000 $, 3 Fragen an dich selbst | pinterest/p-103.png | eingeplant
 - 104 | 04.12.2026 20:21 | Krypto-Betrug erkennen | Foto (schwarz) | Krypto Betrug erkennen auf Instagram: Anlage-Angebot per Nachricht? 4 Regeln, bevor du antwortest | pinterest/p-104.png | eingeplant
+- 105 | 27.11.2026 11:26 | Krypto-Betrug erkennen | Entscheidungsbaum (hell) | Rückhol-Betrug: „Wir holen Ihr Geld zurück“? 3 Fragen, bevor du antwortest (Gebühr vorab = Betrug) | pinterest/p-105.png | eingeplant
+- 106 | 27.11.2026 20:04 | Krypto für Anfänger | Echt gegen Fake (schwarz) | Krypto Börse EU: Echte Börse oder Klon-Seite? 3 Unterschiede vor der Anmeldung (639 BaFin-Warnungen) | pinterest/p-106.png | eingeplant
+- 107 | 28.11.2026 10:47 | Bitcoin sicher aufbewahren | Karussell (4 Folien) (hell) | Seed-Phrase: 3 Orte, an die deine 12 Wörter nie gehören, ein Ort pro Folie (Anrufer wollte meine) | pinterest/p-107-1.png bis p-107-4.png | eingeplant
+- 108 | 28.11.2026 19:39 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Falscher Support Krypto: „Schicken Sie mir einen Screenshot“, 3 Warnsignale im Chat (1.000 € weg) | pinterest/p-108.png | eingeplant
