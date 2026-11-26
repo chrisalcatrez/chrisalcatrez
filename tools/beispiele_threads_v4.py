@@ -609,7 +609,7 @@ Eine Nachfrage bei der Aufsicht kostet Minuten, ein Anbieter ohne Erlaubnis alle
 
 Wen fragst du, bevor du irgendwo Geld einzahlst?"""),
 
- dict(thema='Falscher „Community Support“ nach Hilferuf in einer Gruppe (Fall Lena, Name geändert)', feld='Betrug', var='These', frei_ab='2026-11-03', verwendet='27.11.2026',
+ dict(thema='Falscher „Community Support“ nach Hilferuf in einer Gruppe (Fall Lena, Name geändert)', feld='Betrug', var='These', frei_ab='2026-11-03', verwendet='03.12.2026',
       text="""Wer in einer Krypto-Gruppe um Hilfe bittet, ruft zuerst die Betrüger.
 
 Lena (Name geändert) hat es so erlebt. Nach ihrem Hilferuf meldete sich ein „Community Support“. Sie folgte seinen Anweisungen, währenddessen wurde ihre Wallet leergeräumt. Rund 1.000 € aus zwei Wallets.
@@ -862,7 +862,7 @@ Wer nach dem Verlust hilft und vorher kassiert, ist der Verlust.
 
 Was würdest du zahlen, um dein Geld zurückzubekommen?"""),
 
- dict(thema='Nebenjob als „Finanzagent“ oder „Crypto-Assistent“ (fremdes Geld auf dem eigenen Konto, Bitcoin kaufen und weiterleiten; Quelle Verbraucherzentrale 07.08.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-26', verwendet='28.11.2026',
+ dict(thema='Nebenjob als „Finanzagent“ oder „Crypto-Assistent“ (fremdes Geld auf dem eigenen Konto, Bitcoin kaufen und weiterleiten; Quelle Verbraucherzentrale 07.08.2026)', feld='Betrug', var='Fall', frei_ab='2026-11-26', verwendet=None,
       text="""Drei Girokonten geschlossen. Das Geld darauf war nie seins.
 
 Peter (Name geändert): Statt Auszahlung kam Geld von Fremden auf sein Girokonto, weiter an ein „Sicherheitskonto“. Drei Konten zu, Schaden laut Anzeige rund 62.000 €.
@@ -894,7 +894,7 @@ Ein Sparplan mit festem Tag und fester Summe kennt keinen Panikknopf.
 Die Regel für rote Tage schreibt man an einem grünen.
 
 Hast du eine Regel für den Tag, an dem dein Depot 30 % im Minus steht?"""),
- dict(thema='Panikverkauf Ende 2024 (Damals–Heute, fester Tag statt Panikknopf)', feld='Psychologie', var='Fall', frei_ab='2026-11-27', verwendet='27.11.2026',
+ dict(thema='Panikverkauf Ende 2024 (Damals–Heute, fester Tag statt Panikknopf)', feld='Psychologie', var='Fall', frei_ab='2026-11-27', verwendet='03.12.2026',
       text="""Ende 2024 alles verkauft. Oktober 2025 ein Rekord über 126.000 $.
 
 Mein Fall, mit Zahlen. Verkauft in Panik, an einem Tag, an dem der Kurs fiel. Zehn Monate später meldete Börse Express am 07.10.2025 ein Allzeithoch über 126.000 $.
@@ -1138,4 +1138,15 @@ Weißt du, wer gerade den Schlüssel zu deinem Krypto hält?"""),
 Die Tür zur Wallet öffnet meistens der Besitzer selbst.
 
 Woher kam der Download-Link deiner Wallet-App?"""),
+
+ dict(thema='FAQ: Kann man Bitcoin hacken? (2025 rund 3,4 Mrd. $ gestohlen, rund 158.000 Fälle bei privaten Wallets, Quelle Chainalysis laut The Block 18.12.2025; gestohlen wird an Börse, App und Mensch)', feld='Sicherheit', var='Fall', frei_ab='2026-11-28', verwendet=None,
+      text="""3,4 Mrd. $ Krypto gestohlen 2025. Gehackt wurde Bitcoin dabei nie.
+
+FAQ: „Kann man Bitcoin hacken?“ Rund 3,4 Mrd. $ weg, rund 158.000 Fälle trafen private Wallets (Quelle: Chainalysis, laut The Block, 18.12.2025).
+
+Bei mir: Ein Anrufer wollte meine 12 Wörter, zum „Synchronisieren“. Ich las ihm zwölf erfundene vor. Er rastete aus. Gehackt hätte er null, eingegeben alles.
+
+Wer deine 12 Wörter hat, braucht keinen Hack.
+
+Wer hat deine 12 Wörter schon mal gesehen, außer dir?"""),
 ]
