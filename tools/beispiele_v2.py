@@ -2551,7 +2551,7 @@ Speichere dir das und schau nach, in welcher Phase du gerade steckst.''')
 # ---------- Beitrag 65: Statement-Karussell (Bitcoin fiel 2022 um 65 %; Schwankungen aushalten, Panikverkauf Ende 2024) ----------
 Q_BTC22 = 'Quelle: The Block, 28.12.2022; 2018: Arcane Research, laut CryptoSlate'
 POSTS['beitrag-65'] = dict(
-    date='2026-11-28', fmt='Statement-Karussell', topic='Bitcoin fiel 2022 um 65 %: Haut dich das um, kauf keinen, oder nur so wenig, dass minus die Hälfte dich kalt lässt (The Block; Panikverkauf Ende 2024; Schwankungen aushalten)',
+    date='2026-12-04', fmt='Statement-Karussell', topic='Bitcoin fiel 2022 um 65 %: Haut dich das um, kauf keinen, oder nur so wenig, dass minus die Hälfte dich kalt lässt (The Block; Panikverkauf Ende 2024; Schwankungen aushalten)',
     slides=[
         s_hook('STATEMENT', 'Bitcoin fiel 2022 um 65 %%. Haut dich das um, %s' % A('kauf keinen.'),
                sub='Klingt hart. Warum ich das trotzdem sage und was du stattdessen tun kannst.',
@@ -2616,7 +2616,7 @@ Speichere dir das, bevor der nächste rote Tag kommt.''')
 
 # ---------- Beitrag 66: Gegenueberstellung (Fall Elena, Markus, Leon, Sabine: falscher AML-Supporter; ESAs) ----------
 POSTS['beitrag-66'] = dict(
-    date='2026-11-29', fmt='Gegenüberstellung', topic='Falscher „AML-Supporter“: was er schreibt vs. was ich tue (Elena, Markus, Leon, Sabine: 4 von 4 gaben die Seed-Phrase, das Geld war weg; Factsheet der EU-Aufsicht)',
+    date='2026-12-05', fmt='Gegenüberstellung', topic='Falscher „AML-Supporter“: was er schreibt vs. was ich tue (Elena, Markus, Leon, Sabine: 4 von 4 gaben die Seed-Phrase, das Geld war weg; Factsheet der EU-Aufsicht)',
     slides=[
         s_vs('WAS ER SCHREIBT · WAS ICH TUE', '4 von 4 gaben ihm ihre Wörter. %s' % A('Danach war das Geld weg.'),
              'DER „AML-SUPPORTER“', ['„Neue Geldwäscheregeln“', '„Wallet aktualisieren“', '„Jetzt verifizieren“', '„Schick die Seed-Phrase“'],
@@ -2653,7 +2653,7 @@ Schick das jemandem, der gerade mit Krypto anfängt.''')
 # ---------- Beitrag 67: Nischenmythos (Feste Rendite heisst sicheres Geld; Cloud-Mining 4.000 bis 5.000 $, HashFlare 577 Mio. $ laut US-Justizministerium) ----------
 Q_HF = 'Quelle: US-Justizministerium, 14.02.2025 (Schuldbekenntnis der Betreiber von HashFlare)'
 POSTS['beitrag-67'] = dict(
-    date='2026-11-30', fmt='Nischenmythos entlarven', topic='Mythos: „Feste Rendite heißt sicheres Geld“ (Cloud-Mining mit festen Renditen 4.000 bis 5.000 $; HashFlare über 577 Mio. $, Rechenleistung fehlte zum Großteil, laut US-Justizministerium)',
+    date='2026-12-06', fmt='Nischenmythos entlarven', topic='Mythos: „Feste Rendite heißt sicheres Geld“ (Cloud-Mining mit festen Renditen 4.000 bis 5.000 $; HashFlare über 577 Mio. $, Rechenleistung fehlte zum Großteil, laut US-Justizministerium)',
     slides=[
         s_hook('MYTHOS', '„Feste Rendite heißt %s' % A('sicheres Geld.“'),
                sub='Über 577 Mio. $ flossen in Mining-Verträge, für die zum Großteil die Rechner fehlten. Ich selbst hab 4.000 bis 5.000 $ einer festen Zahl geglaubt.',
