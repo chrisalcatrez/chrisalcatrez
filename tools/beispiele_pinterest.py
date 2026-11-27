@@ -1185,10 +1185,10 @@ PINS = [
           visual=vz_bubble('„Schicken Sie mir einen Screenshot … damit ich sehen kann. Sie werden sicherlich Ihr gesamtes Geld zurückbekommen.“', 'Name geändert. Lena verlor so rund 1.000 € aus zwei Wallets.'),
           points=['Support meldet sich zuerst', 'Will Screenshots sehen', 'Verspricht alles zurück'],
           marks='warn', cta='Speichern für den nächsten Support-Chat', size='xs')])),
- # 28. und 29.11.2026 (Wochenende, Winterzeit; bei Metricool-Limit im November auf 07. und 08.12. verschoben): kein Fall aus der Community (Lena läuft am 06.12. in p-108), nur eigene Fakten und belegte Quellen.
+ # 07. und 08.12.2026 (Montag und Dienstag, Winterzeit; ursprünglich 28. und 29.11., wegen Metricool-Limit von 200 Beiträgen im November verschoben): kein Fall aus der Community (Lena läuft am 06.12. in p-108), nur eigene Fakten und belegte Quellen.
  # Rotation nach p-108 (Beispielsatz): Balken -> Kurve -> Zahl -> Karte. Farben nach p-108 (akzent): schwarz -> hell -> schwarz -> hell.
  # Neue Themen: Zins gegen Teuerung (Destatis, EZB-Zinsstatistik), Kursprognosen gegen festen Kauftag (eigene Fakten), Halving (Bitpanda Academy), Wallet-Adresse gegen 12 Wörter (eigene Fakten).
- dict(d='2026-11-28', t='11:38', board=B_INF, f='Balken', farbe='schwarz', bild='p-109',
+ dict(d='2026-12-07', t='11:38', board=B_INF, f='Balken', farbe='schwarz', bild='p-109',
       titel='Inflation Erspartes: 2,8 % Teuerung, 0,28 % Zins auf dem Konto (EZB), 3 Regeln für dein Geld',
       text="""Inflation Erspartes: Im Oktober 2026 lagen die Verbraucherpreise in Deutschland 2,8 % über dem Vorjahr (Quelle: Destatis, 11.11.2026). Auf täglich fällige Einlagen zahlten Banken im Euroraum im Schnitt 0,28 % Zins im Jahr, auf Spareinlagen mit drei Monaten Frist 1,18 % (Quelle: EZB-Zinsstatistik, 02.09.2026). Ich lebe in Venezuela, hier stehen Preise in Dollar. Mein Notgroschen bleibt auf dem Konto. Der Rest arbeitet in festem Takt, mit Geld, das liegen darf. Kostenloses Training über den Link.""",
       alt='Inflation Erspartes: drei Balken, 2,8 % Teuerung, 1,18 % Sparbuch, 0,28 % Girokonto, darunter drei Regeln fürs Geld.',
@@ -1198,7 +1198,7 @@ PINS = [
           points=['Notgroschen bleibt im Konto', 'Rest anlegen, fester Takt', 'Kein Kauf ohne Verstehen'],
           cta='Speichern, bevor du Erspartes liegen lässt', size='xs')])),
 
- dict(d='2026-11-28', t='20:12', board=B_ANF, f='Kurve', farbe='hell', bild='p-110',
+ dict(d='2026-12-07', t='20:12', board=B_ANF, f='Kurve', farbe='hell', bild='p-110',
       titel='Bitcoin Prognose lesen? 3 Regeln, warum mein Kauftag keine braucht (Ende 2024 in Panik verkauft)',
       text="""Bitcoin Prognose: Jeden Tag steht irgendwo, wohin der Kurs geht. Nach oben, nach unten, zur selben Zeit. Ich hab lange gelesen und andere gefragt, ob ich kaufen soll. Gekauft hab ich dann nach Gefühl, verkauft Ende 2024 in Panik, alle Bitcoin. Heute steht mein Kauftag im Kalender, mit fester Summe. Den Kurs von morgen kennt keiner. Mein Plan braucht ihn auch nie. Keine Kursprognose von mir, keine Coin-Empfehlung. Kostenloses Training über den Link.""",
       alt='Bitcoin Prognose: Kurve mit Punkten in festem Abstand, ein Kauf pro Monat ohne Vorhersage, darunter drei Regeln.',
@@ -1207,7 +1207,7 @@ PINS = [
           points=['Prognose ist Meinung', 'Kauftag steht im Kalender', 'Kein Kauf nach Schlagzeile'],
           cta='Speichern, bevor du die nächste Prognose liest', size='xs')])),
 
- dict(d='2026-11-29', t='10:29', board=B_ANF, f='Zahl', farbe='schwarz', bild='p-111',
+ dict(d='2026-12-08', t='10:29', board=B_ANF, f='Zahl', farbe='schwarz', bild='p-111',
       titel='Bitcoin für Anfänger: Alle 4 Jahre halbiert sich der Nachschub (Halving), 3 Fakten statt Kaufsignal',
       text="""Bitcoin für Anfänger, das Wort Halving: Nach je 210.000 Blöcken, im Schnitt alle vier Jahre, halbiert sich die Zahl neuer Bitcoin, die pro Block entstehen. Zuletzt im April 2024 von 6,25 auf 3,125. Mehr als 21 Millionen wird es nie geben (Quelle: Bitpanda Academy, 25.11.2025). Rund um jedes Halving kursieren Kursziele. Ich hab lange nach solcher Bestätigung gesucht, 5.000 $ gingen so in einen Influencer-Coin. Heute zählt mein Kauftag, keine Prognose. Kostenloses Training über den Link.""",
       alt='Bitcoin für Anfänger: große Zahl 4 Jahre, Abstand zwischen zwei Halvings, darunter drei Fakten ohne Kaufsignal.',
@@ -1216,7 +1216,7 @@ PINS = [
           points=['Nachschub halbiert sich', '21 Millionen, nie mehr', 'Halving ist kein Kaufsignal'],
           cta='Speichern fürs nächste Halving-Gespräch', size='sm')])),
 
- dict(d='2026-11-29', t='19:47', board=B_SIC, f='Karte', farbe='hell', bild='p-112',
+ dict(d='2026-12-08', t='19:47', board=B_SIC, f='Karte', farbe='hell', bild='p-112',
       titel='Krypto Wallet erklärt: Adresse ist wie die IBAN, 12 Wörter sind der Schlüssel, 4 Regeln für Anfänger',
       text="""Krypto Wallet erklärt in zwei Sätzen: Die Adresse ist wie eine IBAN. Jeder darf sie sehen, jeder darf dir damit senden. Die 12 Wörter sind der Schlüssel zum Safe. Wer sie hat, hat das Geld. Am Telefon wollte einer meine 12 Wörter zum „Synchronisieren“. Ich gab ihm ausgedachte, er rastete aus. Seitdem liegen die Wörter auf Papier, und eine Adresse prüfe ich vor dem Senden Zeichen für Zeichen. Kostenloses Training über den Link.""",
       alt='Krypto Wallet erklärt: Karte mit dem Satz Wie eine IBAN, Adresse gegen 12 Wörter, darunter vier Regeln.',
