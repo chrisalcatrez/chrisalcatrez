@@ -873,7 +873,7 @@ Wer fremdes Geld weiterschickt, wird vom Opfer zum Verdächtigen.
 
 Was hätte dich gestoppt?"""),
 
- dict(thema='Nebenjob als „Finanzagent“ oder „Crypto-Assistent“ (fremdes Geld auf dem eigenen Konto, Bitcoin kaufen und weiterleiten; Quelle Verbraucherzentrale 07.08.2026)', feld='Betrug', var='Story', frei_ab='2026-11-26', verwendet=None,
+ dict(thema='Nebenjob als „Finanzagent“ oder „Crypto-Assistent“ (fremdes Geld auf dem eigenen Konto, Bitcoin kaufen und weiterleiten; Quelle Verbraucherzentrale 07.08.2026)', feld='Betrug', var='Story', frei_ab='2026-11-26', verwendet='04.12.2026',
       text="""Meine Gebühr: dreimal gezahlt, null bekommen. Beim „Nebenjob“ zahlst du anders.
 
 Ich hab Geld geschickt, um Geld zu bekommen. Beim Job als „Finanzagent“ läuft es umgekehrt: Fremdes Geld landet auf deinem Konto, du kaufst Bitcoin und leitest ihn weiter (Verbraucherzentrale, 07.08.2026).
@@ -984,7 +984,7 @@ Heute tauscht eine KI die Stimme eines Politikers gegen Werbung für eine Tradin
 Ein Gesicht ist Werbung, kein Beleg.
 
 Welchem Gesicht hättest du Geld anvertraut?"""),
- dict(thema='Wallet-Drainer und Fake-Airdrop (494 Mio. $ 2024, über 300.000 Wallet-Adressen, 56,7 % per Permit-Unterschrift, Quelle Scam Sniffer laut BleepingComputer 05.01.2025)', feld='Sicherheit', var='These', frei_ab='2026-12-01', verwendet=None,
+ dict(thema='Wallet-Drainer und Fake-Airdrop (494 Mio. $ 2024, über 300.000 Wallet-Adressen, 56,7 % per Permit-Unterschrift, Quelle Scam Sniffer laut BleepingComputer 05.01.2025)', feld='Sicherheit', var='These', frei_ab='2026-12-01', verwendet='04.12.2026',
       text="""Gratis-Coins kosten mehr als jeder Kauf.
 
 Wallet-Drainer holten 2024 rund 494 Mio. $ von über 300.000 Wallet-Adressen (Quelle: Scam Sniffer laut BleepingComputer, 05.01.2025). Der Köder war fast immer ein Geschenk: ein Airdrop mit Frist.
