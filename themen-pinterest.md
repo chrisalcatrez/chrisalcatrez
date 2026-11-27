@@ -118,3 +118,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 106 | 05.12.2026 20:04 | Krypto für Anfänger | Echt gegen Fake (schwarz) | Krypto Börse EU: Echte Börse oder Klon-Seite? 3 Unterschiede vor der Anmeldung (639 BaFin-Warnungen) | pinterest/p-106.png | eingeplant
 - 107 | 06.12.2026 10:47 | Bitcoin sicher aufbewahren | Karussell (4 Folien) (hell) | Seed-Phrase: 3 Orte, an die deine 12 Wörter nie gehören, ein Ort pro Folie (Anrufer wollte meine) | pinterest/p-107-1.png bis p-107-4.png | eingeplant
 - 108 | 06.12.2026 19:39 | Krypto-Betrug erkennen | Beispielsatz (Sprechblase) (akzent) | Falscher Support Krypto: „Schicken Sie mir einen Screenshot“, 3 Warnsignale im Chat (1.000 € weg) | pinterest/p-108.png | eingeplant
+- 109 | 28.11.2026 11:38 | Geld anlegen und Inflation | Balken (schwarz) | Inflation Erspartes: 2,8 % Teuerung, 0,28 % Zins auf dem Konto (EZB), 3 Regeln für dein Geld | pinterest/p-109.png | eingeplant
+- 110 | 28.11.2026 20:12 | Krypto für Anfänger | Kurve (hell) | Bitcoin Prognose lesen? 3 Regeln, warum mein Kauftag keine braucht (Ende 2024 in Panik verkauft) | pinterest/p-110.png | eingeplant
+- 111 | 29.11.2026 10:29 | Krypto für Anfänger | Zahl (schwarz) | Bitcoin für Anfänger: Alle 4 Jahre halbiert sich der Nachschub (Halving), 3 Fakten statt Kaufsignal | pinterest/p-111.png | eingeplant
+- 112 | 29.11.2026 19:47 | Bitcoin sicher aufbewahren | Karte (hell) | Krypto Wallet erklärt: Adresse ist wie die IBAN, 12 Wörter sind der Schlüssel, 4 Regeln für Anfänger | pinterest/p-112.png | eingeplant
