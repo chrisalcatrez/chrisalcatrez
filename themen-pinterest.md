@@ -122,3 +122,7 @@ Die vier Themen-Pinnwände sind seit 30.09.2026 angelegt. Pinterest-IDs (als boa
 - 110 | 07.12.2026 20:12 | Krypto für Anfänger | Kurve (hell) | Bitcoin Prognose lesen? 3 Regeln, warum mein Kauftag keine braucht (Ende 2024 in Panik verkauft) | pinterest/p-110.png | eingeplant
 - 111 | 08.12.2026 10:29 | Krypto für Anfänger | Zahl (schwarz) | Bitcoin für Anfänger: Alle 4 Jahre halbiert sich der Nachschub (Halving), 3 Fakten statt Kaufsignal | pinterest/p-111.png | eingeplant
 - 112 | 08.12.2026 19:47 | Bitcoin sicher aufbewahren | Karte (hell) | Krypto Wallet erklärt: Adresse ist wie die IBAN, 12 Wörter sind der Schlüssel, 4 Regeln für Anfänger | pinterest/p-112.png | eingeplant
+- 113 | 09.12.2026 11:09 | Geld anlegen und Inflation | Foto (schwarz) | Geldentwertung: Was ich in Venezuela täglich sehe (14 Nullen weg), 4 Regeln für dein Erspartes | pinterest/p-113.png | eingeplant
+- 114 | 09.12.2026 19:44 | Krypto-Betrug erkennen | Entscheidungsbaum (akzent) | Krypto Betrug erkennen beim Online-Flirt: Erst Nähe, dann Krypto-Anlage? 3 Fragen, bevor Geld fließt | pinterest/p-114.png | eingeplant
+- 115 | 10.12.2026 10:41 | Bitcoin sicher aufbewahren | Echt gegen Fake (schwarz) | Krypto Sicherheit am Telefon: Echte Börse oder Fake-Anruf? 3 Unterschiede (Code und 12 Wörter) | pinterest/p-115.png | eingeplant
+- 116 | 10.12.2026 20:27 | Krypto-Betrug erkennen | Karussell (4 Folien) (hell) | Krypto Betrug erkennen: 3 Sätze, bei denen ich heute auflege, ein Satz pro Folie (2 kosteten Geld) | pinterest/p-116-1.png bis p-116-4.png | eingeplant
