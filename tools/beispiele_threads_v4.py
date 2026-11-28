@@ -414,7 +414,7 @@ Lauter Gewinner in einem Chat sind ein Warnsignal.
 
 Würdest du einer Gruppe trauen, in der nie jemand verliert?"""),
 
- dict(thema='Anlagebetrug in WhatsApp-Gruppen (ungefragt hinzugefügt, Chatbots als Mitglieder)', feld='Betrug', var='Story', frei_ab='2026-10-29', verwendet=None,
+ dict(thema='Anlagebetrug in WhatsApp-Gruppen (ungefragt hinzugefügt, Chatbots als Mitglieder)', feld='Betrug', var='Story', frei_ab='2026-10-29', verwendet='29.11.2026',
       text="""Aus der Gruppe ans Telefon. Dort wollte er meine 12 Wörter.
 
 Ich war in der Community eines Mining-Anbieters. Einer von dort rief mich an, meine Wallet müsse „synchronisiert“ werden. Er bekam zwölf ausgedachte. Dann ist er ausgerastet.
@@ -1149,4 +1149,69 @@ Bei mir: Ein Anrufer wollte meine 12 Wörter, zum „Synchronisieren“. Ich las
 Wer deine 12 Wörter hat, braucht keinen Hack.
 
 Wer hat deine 12 Wörter schon mal gesehen, außer dir?"""),
+
+ dict(thema='Operation Herakles: 843 potenzielle Opfer in zwei Wochen, Ehepaar kurz vor 50.000 € (Quelle LKA Baden-Württemberg, 19.11.2026)', feld='Betrug', var='These', frei_ab='2026-12-13', verwendet=None,
+      text="""843 Namen auf einer Liste der Polizei, alle mitten im Betrug.
+
+These: Eine Frist am Telefon ist ein Werkzeug, kein Angebot.
+
+Das LKA Baden-Württemberg fand in zwei Wochen 843 Menschen mitten im Anlagebetrug. Ein Ehepaar stand kurz vor 50.000 € (Quelle: LKA BW, 19.11.2026).
+
+Meine „Netzwerkgebühr“ kam auch mit Frist. Zwei-, dreimal gezahlt, Auszahlung nie.
+
+Wer heute zahlen muss, zahlt für den Druck.
+
+Welche Frist hat dich zuletzt zu einer Zahlung gedrängt?"""),
+ dict(thema='Operation Herakles: 843 potenzielle Opfer in zwei Wochen, Ehepaar kurz vor 50.000 € (Quelle LKA Baden-Württemberg, 19.11.2026)', feld='Betrug', var='Story', frei_ab='2026-12-13', verwendet=None,
+      text="""843 Namen in zwei Wochen. Die Polizei rief vor der Überweisung an.
+
+Bei mir rief keiner an. Ein Instagram-Kontakt handelte angeblich per Bot für mich. Vor der Auszahlung fehlte eine „Netzwerkgebühr“. Ich zahlte, dann wieder. Die Auszahlung kam nie.
+
+Das LKA Baden-Württemberg fand 843 Menschen mitten im Anlagebetrug. Ein Ehepaar kurz vor 50.000 € behielt sein Geld (Quelle: LKA BW, 19.11.2026).
+
+Wer vor der Überweisung einen fragt, braucht danach keine Polizei.
+
+Wen fragst du, bevor du überweist?"""),
+ dict(thema='OneCoin: Kurs von der Firma festgelegt, keine öffentliche Blockchain, über 4 Mrd. $ von 3,5 Millionen Menschen, Mitgründer 20 Jahre Haft (Quelle US-Justizministerium, 12.09.2023)', feld='Betrug', var='Fall', frei_ab='2026-12-14', verwendet=None,
+      text="""3,5 Millionen Käufer, 4 Mrd. $, Blockchain nie öffentlich.
+
+OneCoin nannte seinen Kurs Angebot und Nachfrage. Festgelegt hat ihn die Firma. Mitgründer Greenwood: 20 Jahre Haft, über 300 Mio. $ für sich (Quelle: US-Justizministerium, 12.09.2023).
+
+Mein Influencer-Coin war kleiner, das Prinzip gleich. 5.000 $ weg, als die Macher auf einmal verkauften.
+
+Wer den Kurs stellt, stellt auch den Ausgang.
+
+Woher weißt du, dass fremde Käufer den Kurs deines Coins machen?"""),
+ dict(thema='OneCoin: Kurs von der Firma festgelegt, keine öffentliche Blockchain, über 4 Mrd. $ von 3,5 Millionen Menschen, Mitgründer 20 Jahre Haft (Quelle US-Justizministerium, 12.09.2023)', feld='Psychologie', var='Story', frei_ab='2026-12-14', verwendet=None,
+      text="""4 Mrd. $ Jubel, null Antwort auf die Frage nach dem Team.
+
+Als Admin einer Coin-Gruppe fragte ich nach dem Entwicklerteam. Keine Antwort, nur Kurs-Jubel. Ein Fake mit meinem Namen räumte derweil Wallets leer, geschätzt 4.000 bis 5.000 €.
+
+OneCoin war die große Version: Kurs von der Firma, über 4 Mrd. $ von 3,5 Millionen Menschen (Quelle: US-Justizministerium, 12.09.2023).
+
+Ein steigender Kurs beantwortet keine Frage.
+
+Wer antwortet in deiner Gruppe, wenn du nach den Machern fragst?"""),
+ dict(thema='FaceStealer: Videocall mit abgespieltem Video eines Bekannten, Befehl einfügen, Wallet Monate später leer, über 400 Mio. $ in 18 Monaten (Quelle cryptoticker.io, 13.11.2026, nach FBI und US-Justizministerium)', feld='Sicherheit', var='These', frei_ab='2026-12-14', verwendet=None,
+      text="""Über 400 Mio. $ weg, ohne eine Frage nach den 12 Wörtern.
+
+These: Der Videocall ist die neue Seed-Abfrage.
+
+FaceStealer, laut FBI aus Nordkorea: gekapertes Konto eines Bekannten, Zoom-Kopie, Video eines früheren Opfers, dann „Dein Ton ist aus, füg den Befehl ein“ (Quelle: cryptoticker.io, 13.11.2026).
+
+Mein Anrufer fragte mich nach den 12 Wörtern. Der Befehl fragt nie.
+
+Ein Befehl im Call ist eine Seed-Phrase-Abfrage ohne Frage.
+
+Würdest du im Call einen Befehl einfügen, wenn alle drängen?"""),
+ dict(thema='FaceStealer: Videocall mit abgespieltem Video eines Bekannten, Befehl einfügen, Wallet Monate später leer, über 400 Mio. $ in 18 Monaten (Quelle cryptoticker.io, 13.11.2026, nach FBI und US-Justizministerium)', feld='Sicherheit', var='Story', frei_ab='2026-12-14', verwendet=None,
+      text="""Ein Fake mit meinem Namen räumte Wallets leer. Heute reicht ein Video.
+
+In einer Coin-Gruppe schrieb ein Account mit meinem Namen Mitglieder an. Geschätzt 4.000 bis 5.000 € weg.
+
+FaceStealer: Im gefälschten Videocall läuft ein Video des echten Bekannten. Deins wird dabei aufgenommen und lädt danach deine Kontakte ein. Über 400 Mio. $ in 18 Monaten (Quelle: cryptoticker.io, 13.11.2026).
+
+Ein Gesicht im Call ist ein Video, kein Mensch.
+
+Woran erkennst du im Call, dass der andere live ist?"""),
 ]
