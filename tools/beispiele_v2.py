@@ -2715,6 +2715,121 @@ Wie viel Prozent im Monat wurden dir schon versprochen? Schreib die Zahl in die 
 
 Schick das jemandem, dem gerade jemand eine feste Rendite verspricht.''')
 
+# ---------- Beitrag 68: Erfolgsgeschichte (Bestaetigungssuche: damals ein fremdes Ja, heute ueber 250 Kunden) ----------
+POSTS['beitrag-68'] = dict(
+    date='2026-11-29', fmt='Erfolgsgeschichte', topic='Informationsflut und Bestätigungssuche: damals 5.000 $ für ein fremdes Ja (Influencer-Coin), heute über 250 Kunden; die Frage umgedreht: „Verstehe ich, was ich kaufe?“',
+    slides=[
+        s_hook('ERFOLGSGESCHICHTE', '5.000 $ für ein fremdes Ja. Heute fragen mich %s' % A('über 250 Kunden.'),
+               sub='Damals und heute. Dazwischen lag eine einzige Frage.', cue='Wie mich das Fragen damals Geld gekostet hat &#8594;', size=''),
+        s_proof('DAMALS', 'Ich hab lange %s' % A('nach einem Ja gesucht.'),
+                big='5.000 $', big_sub='in einen Influencer-Coin. Ein bekanntes Gesicht war mir Bestätigung genug.',
+                cue='Warum ein fremdes Ja nie reicht &#8594;'),
+        s_point('DAS MUSTER', 'Wer mir ein Ja gab, %s' % A('verlor nie etwas.'),
+                ['Das Risiko lag immer bei mir. Die Entscheidung bei anderen.',
+                 D('Je mehr Stimmen ich gehört hab, desto lauter wurde es. Ruhiger wurde ich davon nie.')],
+                size='m', cue='Die Frage, die alles gedreht hat &#8594;'),
+        s_point('DER WENDEPUNKT', 'Ich hab die Frage %s' % A('umgedreht.'),
+                ['Statt „Soll ich?“ frage ich heute: Verstehe ich, was ich kaufe?',
+                 D('Schritt für Schritt hab ich selbst verstanden, was ich kaufe. Daraus wurde ein einfaches, langfristiges System.')],
+                size='m', cue='Wie es heute aussieht &#8594;'),
+        s_point('HEUTE', 'Jedes Jahr fünfstellig. %s' % A('Über 250 Kunden.'),
+                ['Laut meiner eigenen Rechnung ein fünfstelliger Krypto-Gewinn pro Jahr.',
+                 D('Meine Zahl, kein Versprechen für dich.')],
+                cue='Was das für dich heißt &#8594;'),
+        s_point('FÜR DICH', 'Ich bin kein Genie.',
+                ['Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.',
+                 D('Die Antwort auf „Soll ich?“ liegt ab heute bei dir.')],
+                cue='Dein Merkzettel für den nächsten Kauf &#8594;'),
+        s_memo('ZUM SPEICHERN', 'Bevor du andere fragst, %s' % A('in 4 Zeilen.'), 'Dein Merkzettel', [
+            '„Soll ich?“ fragt nach Mut. „Verstehe ich es?“ fragt nach Wissen.',
+            'Ein bekanntes Gesicht ist kein Beleg.',
+            'Wer dir ein Ja gibt, trägt dein Risiko nie.',
+            'Kannst du es in zwei Sätzen erklären? Erst dann kaufen.',
+        ], 'Speichere dir das für deinen nächsten Kauf.'),
+        s_point('KOSTENLOSES TRAINING', 'Das kostenlose Training findest du %s' % A('im Link in meiner Bio.'), meta=True, size='m'),
+    ],
+    alts=['Erfolgsgeschichte: 5.000 Dollar für ein fremdes Ja. Heute fragen mich über 250 Kunden. Damals und heute, dazwischen lag eine einzige Frage',
+          'Damals: Ich hab lange nach einem Ja gesucht. 5.000 Dollar in einen Influencer-Coin, ein bekanntes Gesicht war mir Bestätigung genug',
+          'Das Muster: Wer mir ein Ja gab, verlor nie etwas. Das Risiko lag immer bei mir, die Entscheidung bei anderen. Je mehr Stimmen ich gehört hab, desto lauter wurde es, ruhiger wurde ich davon nie',
+          'Der Wendepunkt: Ich hab die Frage umgedreht. Statt soll ich frage ich heute: Verstehe ich, was ich kaufe? Schritt für Schritt hab ich selbst verstanden, was ich kaufe, daraus wurde ein einfaches, langfristiges System',
+          'Heute: jedes Jahr fünfstellig, über 250 Kunden. Laut meiner eigenen Rechnung ein fünfstelliger Krypto-Gewinn pro Jahr. Meine Zahl, kein Versprechen für dich',
+          'Für dich: Ich bin kein Genie. Wenn ich das nach 70.000 Dollar Verlust geschafft habe, schaffst du den sicheren Einstieg auch. Die Antwort auf soll ich liegt ab heute bei dir',
+          'Merkzettel, bevor du andere fragst: Soll ich fragt nach Mut, verstehe ich es fragt nach Wissen; ein bekanntes Gesicht ist kein Beleg; wer dir ein Ja gibt, trägt dein Risiko nie; kannst du es in zwei Sätzen erklären, erst dann kaufen. Speichere dir das für deinen nächsten Kauf',
+          'Das kostenlose Training findest du im Link in meiner Bio'],
+    caption='''„Soll ich kaufen?“ Diese Frage hat mich 5.000 $ gekostet. Heute stellen sie mir über 250 Kunden.
+
+Ich weiß, wie es dir geht. Im Feed sagt jeder etwas anderes. Einer ruft „kaufen“, der nächste „Betrug“. Du suchst jemanden, der dir sagt, was richtig ist.
+
+Mir ging es genauso.
+
+Damals:
+– Lange hab ich bei anderen nach Bestätigung gesucht.
+– 5.000 $ in einen Influencer-Coin. Ein bekanntes Gesicht war mir Bestätigung genug.
+– Das Geld war weg.
+
+Das Muster:
+– Wer mir ein Ja gab, verlor nie etwas, wenn es schiefging.
+– Das Risiko lag immer bei mir. Die Entscheidung bei anderen.
+– Je mehr Stimmen ich gehört hab, desto lauter wurde es. Ruhiger wurde ich davon nie.
+
+Der Wendepunkt:
+– Ich hab die Frage umgedreht. Statt „Soll ich?“ frage ich: Verstehe ich, was ich kaufe?
+– Schritt für Schritt hab ich selbst verstanden, was ich kaufe.
+– Daraus wurde ein einfaches, langfristiges System.
+
+Heute mache ich laut meiner eigenen Rechnung jedes Jahr einen fünfstelligen Krypto-Gewinn. Dazu über 250 Kunden. Meine Zahl, kein Versprechen für dich.
+
+Ich bin kein Genie. Wenn ich das nach 70.000 $ Verlust geschafft habe, schaffst du den sicheren Einstieg auch.
+
+Dein Merkzettel:
+– „Soll ich?“ fragt nach Mut. „Verstehe ich es?“ fragt nach Wissen.
+– Ein bekanntes Gesicht ist kein Beleg.
+– Wer dir ein Ja gibt, trägt dein Risiko nie.
+– Kannst du es in zwei Sätzen erklären? Erst dann kaufen.
+
+Keine Kursprognose, keine Coin-Empfehlung, keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin kaufen will, in der Informationsflut nach einem Ja sucht und sich vor Betrug schützen möchte.
+
+Das kostenlose Training findest du im Link in meiner Bio.''')
+
+# ---------- Beitrag 69: Visueller Post (Venn-Diagramm: Kontakt, Forderung, Druck; Seed-Phrase am Telefon) ----------
+Q_ESA_VENN = 'Quelle: EBA, ESMA, EIOPA, Factsheet zu Krypto-Betrug, Dezember 2025'
+POSTS['beitrag-69'] = dict(
+    date='2026-11-30', fmt='Visueller Post', topic='Venn-Diagramm: 3 Kreise bei Krypto-Betrug, Kontakt, Forderung nach den 12 Wörtern, Druck (Factsheet der EU-Aufsicht; Seed-Phrase am Telefon zum „Synchronisieren“)',
+    slides=[
+        s_venn('VISUELL · ZUM SPEICHERN', '3 Kreise. In der Mitte %s' % A('ist dein Geld weg.'), [
+            ('1 Kontakt', ['Er meldet sich', 'zuerst']),
+            ('2 Forderung', ['deine 12 Wörter,', 'dein Passwort']),
+            ('3 Druck', ['Frist, „jetzt', 'oder nie“']),
+        ], 'BETRUG', 'Speichere dir das, bevor die nächste Nachricht kommt.',
+            sub='Ein Kreis reicht zum Stoppen. Alle drei: Betrug.',
+            note='Mein Anruf lag in Kreis 2: Er wollte meine 12 Wörter zum „Synchronisieren“. Ich gab ihm ausgedachte.',
+            src=Q_ESA_VENN),
+    ],
+    alts=['Venn-Diagramm: 3 Kreise, in der Mitte ist dein Geld weg. Kreis 1 Kontakt: Er meldet sich zuerst. Kreis 2 Forderung: deine 12 Wörter, dein Passwort. Kreis 3 Druck: Frist, jetzt oder nie. In der Mitte steht Betrug. Ein Kreis reicht zum Stoppen, alle drei sind Betrug. Mein Anruf lag in Kreis 2, er wollte meine 12 Wörter zum Synchronisieren, ich gab ihm ausgedachte. Quelle: EBA, ESMA, EIOPA, Factsheet zu Krypto-Betrug, Dezember 2025. Speichere dir das, bevor die nächste Nachricht kommt'],
+    caption='''Am Telefon wollte einer meine 12 Wörter. Ich hab ihm ausgedachte gegeben. Er ist ausgerastet.
+
+Krypto-Betrug sieht jedes Mal anders aus. Mal ist es ein „Support“, mal eine Börse, mal ein Freund. Die Kreise darunter bleiben gleich.
+
+Die 3 Kreise:
+1. Kontakt. Er meldet sich zuerst. Eine Nachricht, ein Anruf, ein Hallo in der Gruppe. Oft im Namen einer Börse, eines Wallet-Anbieters oder eines Bekannten.
+2. Forderung. Er will deine 12 Wörter, deine Seed-Phrase, dein Passwort oder deinen privaten Schlüssel. Wer die hat, hat deine Wallet.
+3. Druck. Eine Frist, ein Angebot, das nur heute gilt. „Jetzt oder nie.“
+
+Die EU-Finanzaufsichten EBA, ESMA und EIOPA nennen genau diese Zeichen: unerwartete Nachrichten im Namen vertrauter Stellen, Angebote, die zu sofortigem Handeln drängen, und die Frage nach Seed-Phrase, Passwort oder privatem Schlüssel. Ihr Rat: diese Daten nie teilen (Quelle: Factsheet zu Krypto-Betrug, Dezember 2025).
+
+Mein Anruf lag in Kreis 2. In der Community eines Mining-Anbieters wollte jemand meine Seed-Phrase zum „Synchronisieren“. Ein Kreis reichte, um zu wissen, was los ist.
+
+So lese ich das Bild:
+– Ein Kreis: Stopp. Ich prüfe selbst, über die App oder Seite, die ich selbst öffne.
+– Zwei Kreise: Ich antworte nie mehr.
+– Alle drei: Betrug. Blockieren.
+
+Keine Anbieter-Empfehlung. Für jeden Krypto-Anfänger, der Bitcoin an einer Börse oder in einer eigenen Wallet hat und sich vor Betrug schützen will.
+
+In welchem Kreis lag die letzte fremde Nachricht an dich? Schreib die Zahl in die Kommentare.
+
+Speichere dir das, bevor die nächste Nachricht kommt.''')
+
 
 if __name__ == '__main__':
     which = sys.argv[1:] or list(POSTS)

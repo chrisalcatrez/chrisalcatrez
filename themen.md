@@ -70,3 +70,5 @@ Wird von der täglichen Aufgabe gepflegt. Eine Zeile pro Beitrag: Nummer | Datum
 - 65 | 04.12.2026 | Statement-Karussell | Bitcoin fiel 2022 um 65 %: Haut dich das um, kauf keinen, oder nur so wenig, dass minus die Hälfte dich kalt lässt (The Block; Panikverkauf Ende 2024; Schwankungen aushalten)
 - 66 | 05.12.2026 | Gegenüberstellung | Falscher „AML-Supporter“: was er schreibt vs. was ich tue (Elena, Markus, Leon, Sabine: 4 von 4 gaben die Seed-Phrase, das Geld war weg; Factsheet der EU-Aufsicht)
 - 67 | 06.12.2026 | Nischenmythos entlarven | Mythos: „Feste Rendite heißt sicheres Geld“ (Cloud-Mining mit festen Renditen 4.000 bis 5.000 $; HashFlare über 577 Mio. $, Rechenleistung fehlte zum Großteil, laut US-Justizministerium)
+- 68 | 29.11.2026 | Erfolgsgeschichte | Informationsflut und Bestätigungssuche: damals 5.000 $ für ein fremdes Ja (Influencer-Coin), heute über 250 Kunden; die Frage umgedreht: „Verstehe ich, was ich kaufe?“
+- 69 | 30.11.2026 | Visueller Post | Venn-Diagramm: 3 Kreise bei Krypto-Betrug, Kontakt, Forderung nach den 12 Wörtern, Druck (Factsheet der EU-Aufsicht; Seed-Phrase am Telefon zum „Synchronisieren“)

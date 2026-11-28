@@ -1,6 +1,6 @@
 # Generator fuer Instagram-Beitraege im Design System "chrisalcatrez"
 # Vorlagen: s_hook, s_point, s_proof (Beleg: Zahl, Screenshot, Zitat), s_memo (Merkzettel zum Speichern), s_vs, s_bingo,
-# s_question, s_story, s_mail, s_chat, s_list, s_raster, s_flow (Ablauf mit Pfeilen). Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
+# s_question, s_story, s_mail, s_chat, s_list, s_raster, s_flow (Ablauf mit Pfeilen), s_venn (Venn-Diagramm). Jede Inhaltsfolie nimmt cue=... als Sog-Zeile zur naechsten Folie.
 # Nutzung: im Arbeitsordner 'npm i @fontsource/montserrat @fontsource/libre-baskerville playwright',
 # dann in Python: sys.path.insert(0, '<repo>/tools'); from gen import *; build('beitrag-N', [s_hook(...), s_point(...), ...])
 # Schriften: Montserrat (Ueberschriften, Labels) + Libre Baskerville (Fliesstext) nach Anchus Schriftarten-1x1
@@ -116,6 +116,9 @@ h1.sm{font-size:60px;line-height:1.12}
 .fh{font-weight:700;font-size:29px;line-height:1.25;color:var(--fg)}
 .fs.hi .fh{color:var(--acc)}
 .fd{font-family:'Libre Baskerville',serif;font-size:24px;line-height:1.36;color:var(--fg2)}
+/* Venn-Diagramm (Visueller Post) */
+.venn{display:block;margin:0 auto}
+.venn text{font-family:'Montserrat',sans-serif}
 /* Merkzettel: Checkliste zum Speichern */
 .memo{border:2px solid var(--acc);border-radius:20px;padding:30px 34px;display:flex;flex-direction:column;gap:20px}
 .memo .mh{font-weight:800;font-size:26px;letter-spacing:3px;text-transform:uppercase;color:var(--acc)}
@@ -222,6 +225,29 @@ def s_flow(label, title, steps, cta, sub=None, src=None, hi=None, end=None):
     srch = '<div class="src">%s</div>' % src if src else ''
     return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:24px"><h2>%s</h2>%s<div class="flow">%s</div>%s%s</div><div style="display:flex;flex-direction:column;gap:30px"><div class="cta">%s</div>%s</div></section>'
                          % (label, title, subh, fs, endh, srch, cta, foot()))
+
+def s_venn(label, title, circles, center, cta, sub=None, note=None, src=None):
+    # Venn-Diagramm fuer Visuelle Posts: drei Kreise (Kopf, [Zeilen]) und die Mitte (Wort in Akzentfarbe).
+    # note: Zeile unter dem Diagramm (z. B. eigener Fall), src: Quellenzeile klein
+    W, H, r = 888, 562, 182
+    cs = [(324, 186), (564, 186), (444, 376)]
+    pos = [(240, 150), (636, 150), (444, 482)]
+    svg = ['<svg class="venn" width="%d" height="%d" viewBox="0 0 %d %d">' % (W, H, W, H)]
+    for (cx, cy) in cs:
+        svg.append('<circle cx="%d" cy="%d" r="%d" fill="rgba(245,245,240,0.05)" stroke="#9C9C96" stroke-width="3"/>' % (cx, cy, r))
+    for (x, y), (head, lines) in zip(pos, circles):
+        y0 = y - 16 * len(lines)
+        svg.append('<text x="%d" y="%d" text-anchor="middle" font-weight="800" font-size="26" fill="#F5F5F0">%s</text>' % (x, y0, head))
+        for k, ln in enumerate(lines):
+            svg.append('<text x="%d" y="%d" text-anchor="middle" font-weight="500" font-size="22" fill="#C9C9C2">%s</text>' % (x, y0 + 36 + 30 * k, ln))
+    svg.append('<circle cx="444" cy="250" r="60" fill="#ffab00"/>')
+    svg.append('<text x="444" y="258" text-anchor="middle" font-weight="800" font-size="21" letter-spacing="1" fill="#000">%s</text>' % center)
+    svg.append('</svg>')
+    subh = '<p class="sub">%s</p>' % sub if sub else ''
+    noteh = '<div class="tnote">%s</div>' % note if note else ''
+    srch = '<div class="src">%s</div>' % src if src else ''
+    return lambda n, N: ('<section class="s"><div class="hd meta">%s</div><div style="display:flex;flex-direction:column;gap:22px"><h2>%s</h2>%s%s%s%s</div><div style="display:flex;flex-direction:column;gap:30px"><div class="cta">%s</div>%s</div></section>'
+                         % (label, title, subh, ''.join(svg), noteh, srch, cta, foot()))
 
 def s_story(label, title, ps, cta):
     return lambda n, N: ('<section class="s story"><div class="hd">%s</div><div class="mid"><h1>%s</h1>%s</div><div class="pcta">%s &#8594;</div></section>'
